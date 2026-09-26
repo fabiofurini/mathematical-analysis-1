@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite it as below."
+title: "Mathematical Analysis 1: online lecture notes with interactive graphs"
+abstract: >-
+  The lecture notes of the Mathematical Analysis 1 course — numbers and logic,
+  functions, limits of sequences and functions, derivatives, series — with
+  definitions, theorems and proofs, worked examples, exercises and interactive graphs.
+authors:
+  - family-names: Furini
+    given-names: Fabio
+    email: fabio.furini@uniroma1.it
+    affiliation: "DIAG, Sapienza University of Rome"
+url: "https://fabiofurini.github.io/mathematical-analysis-1/"
+repository-code: "https://github.com/fabiofurini/mathematical-analysis-1"
+license:
+  - CC-BY-4.0
+  - MIT
+date-released: 2026-09-26
+keywords:
+  - mathematical analysis
+  - calculus
+  - limits
+  - derivatives
+  - series
+  - teaching material
