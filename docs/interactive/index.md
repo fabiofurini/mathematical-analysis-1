@@ -19,6 +19,7 @@ to reproduce.
 -   :material-chart-bell-curve: **[Limits](#limits)** — limit of a sequence, Heron, bisection
 -   :material-chart-line: **[Derivatives](#derivatives)** — tangent, Lagrange, concavity, Taylor, Newton
 -   :material-sigma: **[Series](#series)** — geometric series, generalized harmonic series
+-   :material-chart-areaspline: **[Integrals](#integrals)** — Riemann sums
 
 </div>
 
@@ -91,3 +92,9 @@ The chapter: [Numerical series](../series/01-numerical-series.md).
 <div class="gi" data-grafico="seriep"></div>
 
 The chapter: [Series with non-negative terms](../series/02-nonnegative-terms.md).
+
+## Integrals
+
+<div class="gi" data-grafico="riemann"></div>
+
+The exercises: [Antiderivatives](../exercises/es-integrals-01-antiderivatives.md) · [Integrals](../exercises/es-integrals-02-integrals.md).
