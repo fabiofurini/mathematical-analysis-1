@@ -174,6 +174,43 @@ nav:
       - "2. Series with non-negative terms": series/02-nonnegative-terms.md
       - "3. Series with terms of variable sign": series/03-alternating-series.md
       - "4. Series of functions": series/04-series-of-functions.md
+  - Exercises:
+      - exercises/index.md
+      - Numbers and logic:
+          - "Maxima, minima, suprema and infima": exercises/es-numbers-01-max-min-suprema.md
+          - "Equations and inequalities in one real variable": exercises/es-numbers-02-equations-inequalities.md
+          - "Summations": exercises/es-numbers-03-summations.md
+          - "Principle of mathematical induction": exercises/es-numbers-04-induction.md
+          - "Complex numbers": exercises/es-numbers-05-complex-numbers.md
+      - Functions:
+          - "Domains of functions": exercises/es-functions-01-domains.md
+          - "Inverse functions": exercises/es-functions-02-inverse-functions.md
+      - Limits of sequences:
+          - "Properties of sequences": exercises/es-sequences-01-properties.md
+          - "Verifying limits of sequences": exercises/es-sequences-02-verifying-limits.md
+          - "Computing limits of sequences": exercises/es-sequences-03-computing-limits.md
+          - "Additional exercises": exercises/es-sequences-04-additional.md
+      - Limits of functions:
+          - "Limits of real functions of a real variable": exercises/es-limits-01-limits-of-functions.md
+      - Derivatives:
+          - "Cusps, inflection points and tangents": exercises/es-derivatives-01-cusps-inflections-tangents.md
+          - "Computing derivative functions": exercises/es-derivatives-02-computing-derivatives.md
+          - "Tangent lines": exercises/es-derivatives-03-tangent-lines.md
+          - "Asymptotes": exercises/es-derivatives-04-asymptotes.md
+          - "Continuous extensions": exercises/es-derivatives-05-continuous-extensions.md
+          - "Differentiability": exercises/es-derivatives-06-differentiability.md
+          - "Parametric equations": exercises/es-derivatives-07-parametric-equations.md
+          - "Curve sketching": exercises/es-derivatives-08-curve-sketching.md
+          - "Maclaurin expansions": exercises/es-derivatives-09-maclaurin.md
+          - "Limits via asymptotic expansions": exercises/es-derivatives-10-limits-with-expansions.md
+          - "Newton's method": exercises/es-derivatives-11-newton.md
+          - "Bisection method": exercises/es-derivatives-12-bisection.md
+          - "Finding local and global extrema and extremum points": exercises/es-derivatives-13-extrema.md
+      - Series:
+          - "Numerical series": exercises/es-series-01-numerical-series.md
+      - Integrals:
+          - "Antiderivatives": exercises/es-integrals-01-antiderivatives.md
+          - "Integrals": exercises/es-integrals-02-integrals.md
   - Interactive lab:
       - interactive/index.md
   - The course:
