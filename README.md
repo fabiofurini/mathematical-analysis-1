@@ -25,10 +25,11 @@ with the same numbering and colors as the PDF.
 | 3 · Limits | sequences and limits, Euler's number, asymptotic estimates; limits of functions, continuity, zeros, Weierstrass |
 | 4 · Derivatives | rules of differentiation, Fermat, Lagrange, L'Hôpital, Taylor, curve sketching, Newton |
 | 5 · Series | numerical series, convergence tests, alternating series, series of functions |
+| Exercises | about 300 exercises with worked solutions, including antiderivatives and integrals |
 
 ## Author
 
-Lecture notes by **Fabio Furini**.
+Lecture notes by **Fabio Furini**; exercises by **Fabio Furini** and **Gianluca Priori**.
 
 ## License
 
