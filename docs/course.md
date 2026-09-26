@@ -14,7 +14,8 @@ menu on the right.
   <span style="color:var(--c-esempio)">**worked examples**</span>,
   <span style="color:var(--c-chiave)">**key points**</span>.
 - **Proofs** are folded: they open with a click.
-- **The PDF of each chapter** can be downloaded from the link at the top of the page.
+- **The PDF of each chapter** can be downloaded from the link at the top of the page; there is also
+  [a single PDF with all the lecture notes](pdf/lecture-notes-mathematical-analysis-1.pdf).
 - **Search** (at the top) finds words and formulas across all the notes.
 - **Light or dark theme**: with the icon at the top right.
 - On a phone the website reads well: long formulas scroll horizontally.
