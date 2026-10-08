@@ -48,6 +48,7 @@ The whole course is also available in Italian:
 
 - [Operations Research Lab](https://fabiofurini.github.io/operations-research-lab/)
 - [MIP Modelling](https://fabiofurini.github.io/mip-modelling/)
+- [Linear Algebra](https://fabiofurini.github.io/linear-algebra/)
 
 ---
 
