@@ -26,7 +26,6 @@ menu on the right.
    by hand, with pen and paper, before looking at the solution.
 2. Use the [interactive graphs](interactive/index.md) to get a feeling for what
    a theorem says or how a function changes.
-3. Review the [exam theorems](exam-theorems.md): statement, hypotheses, proof.
 
 ## Reference books
 

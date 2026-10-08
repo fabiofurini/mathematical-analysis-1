@@ -131,15 +131,6 @@ colors: on the website and in the PDF you find everything in the same place.
 
     [:octicons-arrow-right-24: The exercises](exercises/index.md)
 
--   :material-format-list-checks: **Exam theorems**
-
-    ---
-
-    The list of results you must be able to prove, each linked to the
-    chapter where it is proved.
-
-    [:octicons-arrow-right-24: The list](exam-theorems.md)
-
 -   :material-school: **The course**
 
     ---
