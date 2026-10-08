@@ -9,7 +9,7 @@ hide:
 
 # Mathematical Analysis 1
 
-Teaching material conceived and developed by **[Fabio Furini](https://sites.google.com/view/fabiofurini/home-page)**, associate
+Teaching material conceived and developed by **[Fabio Furini](https://fabiofurini.github.io/)**, associate
 professor at [DIAG](https://www.diag.uniroma1.it/), Sapienza University of Rome.
 
 **The course lecture notes, online**: definitions, theorems with their
@@ -153,7 +153,7 @@ colors: on the website and in the PDF you find everything in the same place.
 
 ---
 
-Teaching material by **[Fabio Furini](https://sites.google.com/view/fabiofurini/home-page)** —
+Teaching material by **[Fabio Furini](https://fabiofurini.github.io/)** —
 [DIAG](https://www.diag.uniroma1.it/), Sapienza University of Rome. Part of the
 same series as the [Operations Research Lab](https://fabiofurini.github.io/operations-research-lab/),
 [MIP Modelling](https://fabiofurini.github.io/mip-modelling/)
