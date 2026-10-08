@@ -6,7 +6,7 @@ title: "Parametric equations"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Derivatives** · with worked solutions · [:material-file-pdf-box: PDF](../pdf/es-derivatives-07-parametric-equations.pdf)
+**Exercises · Derivatives** · with worked solutions · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-4-derivatives.pdf)
 
 </div>
 

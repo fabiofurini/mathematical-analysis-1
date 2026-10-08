@@ -6,7 +6,7 @@ title: "Factorials, binomial coefficients and triangle inequality"
 
 <div class="info-capitolo" markdown>
 
-**Part 1 · Numbers and logic · Chapter 9** · lecture notes by Fabio Furini · [:material-file-pdf-box: Chapter PDF](../pdf/numbers-09-factorials-binomials.pdf)
+**Part 1 · Numbers and logic · Chapter 9** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-1-numbers.pdf)
 
 </div>
 

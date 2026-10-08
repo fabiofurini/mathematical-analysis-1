@@ -6,7 +6,7 @@ title: "Newton's method"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Derivatives · Chapter 10** · lecture notes by Fabio Furini · [:material-file-pdf-box: Chapter PDF](../pdf/derivatives-10-newton.pdf)
+**Part 4 · Derivatives · Chapter 10** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-4-derivatives.pdf)
 
 </div>
 

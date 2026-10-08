@@ -6,7 +6,7 @@ title: "Hyperbolic functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Functions · Chapter 8** · lecture notes by Fabio Furini · [:material-file-pdf-box: Chapter PDF](../pdf/functions-08-hyperbolic-functions.pdf)
+**Part 2 · Functions · Chapter 8** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-functions.pdf)
 
 </div>
 

@@ -6,7 +6,7 @@ title: "Limits via asymptotic expansions"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Derivatives** · with worked solutions · [:material-file-pdf-box: PDF](../pdf/es-derivatives-10-limits-with-expansions.pdf)
+**Exercises · Derivatives** · with worked solutions · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-4-derivatives.pdf)
 
 </div>
 

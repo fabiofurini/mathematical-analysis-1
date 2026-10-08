@@ -6,7 +6,7 @@ title: "Computing derivative functions"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Derivatives** · with worked solutions · [:material-file-pdf-box: PDF](../pdf/es-derivatives-02-computing-derivatives.pdf)
+**Exercises · Derivatives** · with worked solutions · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-4-derivatives.pdf)
 
 </div>
 

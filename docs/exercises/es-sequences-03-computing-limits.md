@@ -6,7 +6,7 @@ title: "Computing limits of sequences"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Limits of sequences** · with worked solutions · [:material-file-pdf-box: PDF](../pdf/es-sequences-03-computing-limits.pdf)
+**Exercises · Limits of sequences** · with worked solutions · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-limits.pdf)
 
 </div>
 

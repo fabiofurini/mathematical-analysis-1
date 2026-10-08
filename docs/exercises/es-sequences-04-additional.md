@@ -6,7 +6,7 @@ title: "Additional exercises"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Limits of sequences** · with worked solutions · [:material-file-pdf-box: PDF](../pdf/es-sequences-04-additional.pdf)
+**Exercises · Limits of sequences** · with worked solutions · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-limits.pdf)
 
 </div>
 

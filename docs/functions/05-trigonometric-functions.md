@@ -6,7 +6,7 @@ title: "Trigonometric functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Functions · Chapter 5** · lecture notes by Fabio Furini · [:material-file-pdf-box: Chapter PDF](../pdf/functions-05-trigonometric-functions.pdf)
+**Part 2 · Functions · Chapter 5** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-functions.pdf)
 
 </div>
 

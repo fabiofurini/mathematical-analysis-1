@@ -6,7 +6,7 @@ title: "Inverse functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Functions · Chapter 11** · lecture notes by Fabio Furini · [:material-file-pdf-box: Chapter PDF](../pdf/functions-11-inverse-functions.pdf)
+**Part 2 · Functions · Chapter 11** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-functions.pdf)
 
 </div>
 

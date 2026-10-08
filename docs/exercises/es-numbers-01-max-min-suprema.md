@@ -6,7 +6,7 @@ title: "Maxima, minima, suprema and infima"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Numbers and logic** · with worked solutions · [:material-file-pdf-box: PDF](../pdf/es-numbers-01-max-min-suprema.pdf)
+**Exercises · Numbers and logic** · with worked solutions · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-1-numbers.pdf)
 
 </div>
 

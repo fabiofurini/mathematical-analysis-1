@@ -6,7 +6,7 @@ title: "Cusps, inflection points and tangents"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Derivatives** · with worked solutions · [:material-file-pdf-box: PDF](../pdf/es-derivatives-01-cusps-inflections-tangents.pdf)
+**Exercises · Derivatives** · with worked solutions · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-4-derivatives.pdf)
 
 </div>
 

@@ -6,7 +6,7 @@ title: "L'Hôpital's rule and differentiability"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Derivatives · Chapter 6** · lecture notes by Fabio Furini · [:material-file-pdf-box: Chapter PDF](../pdf/derivatives-06-lhopital.pdf)
+**Part 4 · Derivatives · Chapter 6** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-4-derivatives.pdf)
 
 </div>
 

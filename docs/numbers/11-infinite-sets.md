@@ -6,7 +6,7 @@ title: "Cardinality of infinite sets"
 
 <div class="info-capitolo" markdown>
 
-**Part 1 · Numbers and logic · Chapter 11** · lecture notes by Fabio Furini · [:material-file-pdf-box: Chapter PDF](../pdf/numbers-11-infinite-sets.pdf)
+**Part 1 · Numbers and logic · Chapter 11** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-1-numbers.pdf)
 
 </div>
 

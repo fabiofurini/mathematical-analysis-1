@@ -6,7 +6,7 @@ title: "Antiderivatives"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Integrals** · with worked solutions · [:material-file-pdf-box: PDF](../pdf/es-integrals-01-antiderivatives.pdf)
+**Exercises · Integrals** · with worked solutions · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-5-series.pdf)
 
 </div>
 

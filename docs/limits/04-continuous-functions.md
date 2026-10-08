@@ -6,7 +6,7 @@ title: "Continuous functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Limits of functions and continuity · Chapter 4** · lecture notes by Fabio Furini · [:material-file-pdf-box: Chapter PDF](../pdf/limits-04-continuous-functions.pdf)
+**Part 3 · Limits of functions and continuity · Chapter 4** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-limits.pdf)
 
 </div>
 

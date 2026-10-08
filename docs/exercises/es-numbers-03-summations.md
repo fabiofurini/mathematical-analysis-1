@@ -6,7 +6,7 @@ title: "Summations"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Numbers and logic** · with worked solutions · [:material-file-pdf-box: PDF](../pdf/es-numbers-03-summations.pdf)
+**Exercises · Numbers and logic** · with worked solutions · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-1-numbers.pdf)
 
 </div>
 

@@ -6,7 +6,7 @@ title: "Number sets and intervals"
 
 <div class="info-capitolo" markdown>
 
-**Part 1 · Numbers and logic · Chapter 3** · lecture notes by Fabio Furini · [:material-file-pdf-box: Chapter PDF](../pdf/numbers-03-number-sets.pdf)
+**Part 1 · Numbers and logic · Chapter 3** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-1-numbers.pdf)
 
 </div>
 

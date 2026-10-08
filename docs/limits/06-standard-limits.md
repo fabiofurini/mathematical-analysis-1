@@ -6,7 +6,7 @@ title: "Fundamental limits and asymptotic estimates"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Limits of functions and continuity · Chapter 6** · lecture notes by Fabio Furini · [:material-file-pdf-box: Chapter PDF](../pdf/limits-06-standard-limits.pdf)
+**Part 3 · Limits of functions and continuity · Chapter 6** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-limits.pdf)
 
 </div>
 

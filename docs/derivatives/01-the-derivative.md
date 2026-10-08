@@ -6,7 +6,7 @@ title: "The derivative function"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Derivatives · Chapter 1** · lecture notes by Fabio Furini · [:material-file-pdf-box: Chapter PDF](../pdf/derivatives-01-the-derivative.pdf)
+**Part 4 · Derivatives · Chapter 1** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-4-derivatives.pdf)
 
 </div>
 

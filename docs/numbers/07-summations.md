@@ -6,7 +6,7 @@ title: "Summations and geometric progressions"
 
 <div class="info-capitolo" markdown>
 
-**Part 1 · Numbers and logic · Chapter 7** · lecture notes by Fabio Furini · [:material-file-pdf-box: Chapter PDF](../pdf/numbers-07-summations.pdf)
+**Part 1 · Numbers and logic · Chapter 7** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-1-numbers.pdf)
 
 </div>
 

@@ -6,7 +6,7 @@ title: "Complex numbers"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Numbers and logic** · with worked solutions · [:material-file-pdf-box: PDF](../pdf/es-numbers-05-complex-numbers.pdf)
+**Exercises · Numbers and logic** · with worked solutions · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-1-numbers.pdf)
 
 </div>
 

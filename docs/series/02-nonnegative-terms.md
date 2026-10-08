@@ -6,7 +6,7 @@ title: "Series with non-negative terms"
 
 <div class="info-capitolo" markdown>
 
-**Part 5 · Series · Chapter 2** · lecture notes by Fabio Furini · [:material-file-pdf-box: Chapter PDF](../pdf/series-02-nonnegative-terms.pdf)
+**Part 5 · Series · Chapter 2** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-5-series.pdf)
 
 </div>
 

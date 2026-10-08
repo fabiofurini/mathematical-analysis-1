@@ -6,7 +6,7 @@ title: "Domains of functions"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Functions** · with worked solutions · [:material-file-pdf-box: PDF](../pdf/es-functions-01-domains.pdf)
+**Exercises · Functions** · with worked solutions · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-functions.pdf)
 
 </div>
 

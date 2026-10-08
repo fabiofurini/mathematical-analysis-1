@@ -6,7 +6,7 @@ title: "Differential calculus and approximations"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Derivatives · Chapter 8** · lecture notes by Fabio Furini · [:material-file-pdf-box: Chapter PDF](../pdf/derivatives-08-approximations.pdf)
+**Part 4 · Derivatives · Chapter 8** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-4-derivatives.pdf)
 
 </div>
 

@@ -18,7 +18,7 @@ to watch mathematics move.
 
 [Start with numbers :material-arrow-right:](numbers/index.md){ .md-button .md-button--primary }
 [Try an interactive graph](interactive/index.md){ .md-button }
-[:material-download: All lecture notes as PDF](pdf/lecture-notes-mathematical-analysis-1.pdf){ .md-button }
+[:material-download: Download the lecture notes (PDF)](downloads.md){ .md-button }
 
 </div>
 

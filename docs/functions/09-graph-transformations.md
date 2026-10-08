@@ -6,7 +6,7 @@ title: "Operations on graphs"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Functions · Chapter 9** · lecture notes by Fabio Furini · [:material-file-pdf-box: Chapter PDF](../pdf/functions-09-graph-transformations.pdf)
+**Part 2 · Functions · Chapter 9** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-functions.pdf)
 
 </div>
 
