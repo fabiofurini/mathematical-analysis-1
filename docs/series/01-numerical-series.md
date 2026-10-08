@@ -6,7 +6,7 @@ title: "Numerical series"
 
 <div class="info-capitolo" markdown>
 
-**Part 5 · Series · Chapter 1** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-5-series.pdf)
+**Part 5 · Series · Chapter 1** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-5-series.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-series-01-numerical-series.pdf)
 
 </div>
 

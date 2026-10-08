@@ -6,7 +6,7 @@ title: "Roots, powers, logarithms and modular arithmetic"
 
 <div class="info-capitolo" markdown>
 
-**Part 1 · Numbers and logic · Chapter 6** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-1-numbers.pdf)
+**Part 1 · Numbers and logic · Chapter 6** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-1-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-06-roots-powers-logarithms.pdf)
 
 </div>
 

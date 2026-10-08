@@ -6,7 +6,7 @@ title: "Functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Functions · Chapter 1** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-functions.pdf)
+**Part 2 · Functions · Chapter 1** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-functions.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-functions-01-functions.pdf)
 
 </div>
 

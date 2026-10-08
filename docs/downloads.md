@@ -49,3 +49,59 @@ The lecture notes in PDF, one volume per part of the course, updated at every pu
     [:octicons-download-24: lecture-notes-5-series.pdf](pdf/lecture-notes-5-series.pdf)
 
 </div>
+
+## Slides
+
+The slides of the lectures, chapter by chapter (PDF).
+
+### Numbers and logic
+
+- Chapter 2 · [Basics of logic and proof techniques](pdf/slides-numbers-02-logic.pdf)
+- Chapter 3 · [Number sets and intervals](pdf/slides-numbers-03-number-sets.pdf)
+- Chapter 4 · [Binary relations](pdf/slides-numbers-04-binary-relations.pdf)
+- Chapter 6 · [Roots, powers, logarithms and modular arithmetic](pdf/slides-numbers-06-roots-powers-logarithms.pdf)
+- Chapter 7 · [Summations and geometric progressions](pdf/slides-numbers-07-summations.pdf)
+- Chapter 8 · [Principle of mathematical induction](pdf/slides-numbers-08-induction.pdf)
+- Chapter 9 · [Factorials, binomial coefficients and triangle inequality](pdf/slides-numbers-09-factorials-binomials.pdf)
+- Chapter 10 · [The Fibonacci sequence](pdf/slides-numbers-10-fibonacci.pdf)
+- Chapter 11 · [Cardinality of infinite sets](pdf/slides-numbers-11-infinite-sets.pdf)
+
+### Functions
+
+- Chapter 1 · [Functions](pdf/slides-functions-01-functions.pdf)
+- Chapter 2 · [Real functions of a real variable](pdf/slides-functions-02-real-functions.pdf)
+- Chapter 3 · [Power functions](pdf/slides-functions-03-power-functions.pdf)
+- Chapter 4 · [Exponential and logarithmic functions](pdf/slides-functions-04-exponentials-logarithms.pdf)
+- Chapter 7 · [Integer part and fractional part functions](pdf/slides-functions-07-integer-part.pdf)
+- Chapter 8 · [Hyperbolic functions](pdf/slides-functions-08-hyperbolic-functions.pdf)
+- Chapter 9 · [Operations on graphs](pdf/slides-functions-09-graph-transformations.pdf)
+- Chapter 10 · [Composite functions](pdf/slides-functions-10-composite-functions.pdf)
+- Chapter 11 · [Inverse functions](pdf/slides-functions-11-inverse-functions.pdf)
+
+### Limits of functions and continuity
+
+- Chapter 1 · [Limits of functions, asymptotes and continuity](pdf/slides-limits-01-limits-asymptotes.pdf)
+- Chapter 2 · [Computing limits of functions](pdf/slides-limits-02-computing-limits.pdf)
+- Chapter 3 · [Limits of polynomials and rational functions](pdf/slides-limits-03-polynomials-rational-functions.pdf)
+- Chapter 4 · [Continuous functions](pdf/slides-limits-04-continuous-functions.pdf)
+- Chapter 5 · [Comparison of infinities](pdf/slides-limits-05-comparing-infinities.pdf)
+- Chapter 6 · [Fundamental limits and asymptotic estimates](pdf/slides-limits-06-standard-limits.pdf)
+- Chapter 7 · [Asymptotic expansions](pdf/slides-limits-07-asymptotic-expansions.pdf)
+- Chapter 8 · [Intermediate zero theorem and bisection method](pdf/slides-limits-08-zeros-bisection.pdf)
+- Chapter 9 · [Weierstrass theorem and intermediate value theorem](pdf/slides-limits-09-weierstrass.pdf)
+- Chapter 10 · [Monotone functions on an interval and invertibility](pdf/slides-limits-10-monotone-invertible.pdf)
+
+### Derivatives
+
+- Chapter 6 · [L'Hôpital's rule and differentiability](pdf/slides-derivatives-06-lhopital.pdf)
+- Chapter 7 · [Second derivative](pdf/slides-derivatives-07-second-derivative.pdf)
+- Chapter 8 · [Differential calculus and approximations](pdf/slides-derivatives-08-approximations.pdf)
+- Chapter 9 · [Curve sketching](pdf/slides-derivatives-09-curve-sketching.pdf)
+- Chapter 10 · [Newton's method](pdf/slides-derivatives-10-newton.pdf)
+
+### Series
+
+- Chapter 1 · [Numerical series](pdf/slides-series-01-numerical-series.pdf)
+- Chapter 2 · [Series with non-negative terms](pdf/slides-series-02-nonnegative-terms.pdf)
+- Chapter 3 · [Series with terms of variable sign](pdf/slides-series-03-alternating-series.pdf)
+- Chapter 4 · [Series of functions](pdf/slides-series-04-series-of-functions.pdf)

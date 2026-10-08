@@ -6,7 +6,7 @@ title: "The Fibonacci sequence"
 
 <div class="info-capitolo" markdown>
 
-**Part 1 · Numbers and logic · Chapter 10** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-1-numbers.pdf)
+**Part 1 · Numbers and logic · Chapter 10** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-1-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-10-fibonacci.pdf)
 
 </div>
 

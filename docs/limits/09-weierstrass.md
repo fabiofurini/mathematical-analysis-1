@@ -6,7 +6,7 @@ title: "Weierstrass theorem and intermediate value theorem"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Limits of functions and continuity · Chapter 9** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-limits.pdf)
+**Part 3 · Limits of functions and continuity · Chapter 9** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-limits-09-weierstrass.pdf)
 
 </div>
 

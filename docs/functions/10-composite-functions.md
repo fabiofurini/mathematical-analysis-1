@@ -6,7 +6,7 @@ title: "Composite functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Functions · Chapter 10** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-functions.pdf)
+**Part 2 · Functions · Chapter 10** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-functions.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-functions-10-composite-functions.pdf)
 
 </div>
 

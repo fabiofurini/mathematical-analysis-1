@@ -6,7 +6,7 @@ title: "Monotone functions on an interval and invertibility"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Limits of functions and continuity · Chapter 10** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-limits.pdf)
+**Part 3 · Limits of functions and continuity · Chapter 10** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-limits-10-monotone-invertible.pdf)
 
 </div>
 
