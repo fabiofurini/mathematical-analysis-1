@@ -6,7 +6,7 @@ title: "Hierarchies of infinities and the ratio test"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Limits of sequences · Chapter 5** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-limits.pdf)
+**Part 3 · Limits of sequences · Chapter 5** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-sequences-05-hierarchy-of-infinities.pdf)
 
 </div>
 

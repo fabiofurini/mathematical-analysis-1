@@ -155,7 +155,8 @@ colors: on the website and in the PDF you find everything in the same place.
 
 Teaching material by **[Fabio Furini](https://sites.google.com/view/fabiofurini/home-page)** —
 [DIAG](https://www.diag.uniroma1.it/), Sapienza University of Rome. Part of the
-same series as the [Operations Research Lab](https://fabiofurini.github.io/operations-research-lab/)
-and [MIP Modelling](https://fabiofurini.github.io/mip-modelling/).
+same series as the [Operations Research Lab](https://fabiofurini.github.io/operations-research-lab/),
+[MIP Modelling](https://fabiofurini.github.io/mip-modelling/)
+and [Linear Algebra](https://fabiofurini.github.io/linear-algebra/).
 
 *Questo sito è disponibile anche in [italiano](https://fabiofurini.github.io/analisi-matematica-1/).*

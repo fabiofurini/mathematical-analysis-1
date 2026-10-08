@@ -56,9 +56,11 @@ The slides of the lectures, chapter by chapter (PDF).
 
 ### Numbers and logic
 
+- Chapter 1 · [Sets](pdf/slides-numbers-01-sets.pdf)
 - Chapter 2 · [Basics of logic and proof techniques](pdf/slides-numbers-02-logic.pdf)
 - Chapter 3 · [Number sets and intervals](pdf/slides-numbers-03-number-sets.pdf)
 - Chapter 4 · [Binary relations](pdf/slides-numbers-04-binary-relations.pdf)
+- Chapter 5 · [Ordered fields, supremum/infimum and the completeness axiom](pdf/slides-numbers-05-ordered-fields.pdf)
 - Chapter 6 · [Roots, powers, logarithms and modular arithmetic](pdf/slides-numbers-06-roots-powers-logarithms.pdf)
 - Chapter 7 · [Summations and geometric progressions](pdf/slides-numbers-07-summations.pdf)
 - Chapter 8 · [Principle of mathematical induction](pdf/slides-numbers-08-induction.pdf)
@@ -81,6 +83,15 @@ The slides of the lectures, chapter by chapter (PDF).
 - Chapter 10 · [Composite functions](pdf/slides-functions-10-composite-functions.pdf)
 - Chapter 11 · [Inverse functions](pdf/slides-functions-11-inverse-functions.pdf)
 
+### Limits of sequences
+
+- Chapter 1 · [Sequences and limits of sequences](pdf/slides-sequences-01-limits-of-sequences.pdf)
+- Chapter 2 · [Computing limits of sequences](pdf/slides-sequences-02-computing-limits.pdf)
+- Chapter 3 · [Euler's number](pdf/slides-sequences-03-euler-number.pdf)
+- Chapter 4 · [Comparisons and asymptotic estimates](pdf/slides-sequences-04-asymptotic-estimates.pdf)
+- Chapter 5 · [Hierarchies of infinities and the ratio test](pdf/slides-sequences-05-hierarchy-of-infinities.pdf)
+- Chapter 6 · [Recursively defined sequences](pdf/slides-sequences-06-recursive-sequences.pdf)
+
 ### Limits of functions and continuity
 
 - Chapter 1 · [Limits of functions, asymptotes and continuity](pdf/slides-limits-01-limits-asymptotes.pdf)
@@ -96,6 +107,11 @@ The slides of the lectures, chapter by chapter (PDF).
 
 ### Derivatives
 
+- Chapter 1 · [The derivative function](pdf/slides-derivatives-01-the-derivative.pdf)
+- Chapter 2 · [Derivatives of elementary functions](pdf/slides-derivatives-02-elementary-derivatives.pdf)
+- Chapter 3 · [Corner points, cusps, points with vertical/horizontal tangent](pdf/slides-derivatives-03-corners-cusps.pdf)
+- Chapter 4 · [Rules for computing derivatives](pdf/slides-derivatives-04-differentiation-rules.pdf)
+- Chapter 5 · [Mean value theorem, maxima and minima](pdf/slides-derivatives-05-mean-value.pdf)
 - Chapter 6 · [L'Hôpital's rule and differentiability](pdf/slides-derivatives-06-lhopital.pdf)
 - Chapter 7 · [Second derivative](pdf/slides-derivatives-07-second-derivative.pdf)
 - Chapter 8 · [Differential calculus and approximations](pdf/slides-derivatives-08-approximations.pdf)

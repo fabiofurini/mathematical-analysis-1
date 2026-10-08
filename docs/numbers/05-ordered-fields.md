@@ -6,7 +6,7 @@ title: "Ordered fields, supremum/infimum and the completeness axiom"
 
 <div class="info-capitolo" markdown>
 
-**Part 1 · Numbers and logic · Chapter 5** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-1-numbers.pdf)
+**Part 1 · Numbers and logic · Chapter 5** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-1-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-05-ordered-fields.pdf)
 
 </div>
 

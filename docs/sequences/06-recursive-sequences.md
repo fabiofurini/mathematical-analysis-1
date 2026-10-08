@@ -6,7 +6,7 @@ title: "Recursively defined sequences"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Limits of sequences · Chapter 6** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-limits.pdf)
+**Part 3 · Limits of sequences · Chapter 6** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-sequences-06-recursive-sequences.pdf)
 
 </div>
 

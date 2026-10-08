@@ -21,3 +21,6 @@ dispensa/
 # sorgenti delle dispense (privati: online vanno solo i PDF)
 dispensa_*/
 notes_*/
+
+# sorgenti delle slide (sul sito vanno solo i PDF)
+slides/
