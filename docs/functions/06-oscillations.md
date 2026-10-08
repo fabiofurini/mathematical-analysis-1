@@ -6,7 +6,7 @@ title: "Vibration phenomena"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Functions · Chapter 6** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-functions.pdf)
+**Part 2 · Functions · Chapter 6** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-functions.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-functions-06-oscillations.pdf)
 
 </div>
 

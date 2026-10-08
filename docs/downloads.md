@@ -65,6 +65,7 @@ The slides of the lectures, chapter by chapter (PDF).
 - Chapter 9 · [Factorials, binomial coefficients and triangle inequality](pdf/slides-numbers-09-factorials-binomials.pdf)
 - Chapter 10 · [The Fibonacci sequence](pdf/slides-numbers-10-fibonacci.pdf)
 - Chapter 11 · [Cardinality of infinite sets](pdf/slides-numbers-11-infinite-sets.pdf)
+- Chapter 12 · [Complex numbers](pdf/slides-numbers-12-complex-numbers.pdf)
 
 ### Functions
 
@@ -72,6 +73,8 @@ The slides of the lectures, chapter by chapter (PDF).
 - Chapter 2 · [Real functions of a real variable](pdf/slides-functions-02-real-functions.pdf)
 - Chapter 3 · [Power functions](pdf/slides-functions-03-power-functions.pdf)
 - Chapter 4 · [Exponential and logarithmic functions](pdf/slides-functions-04-exponentials-logarithms.pdf)
+- Chapter 5 · [Trigonometric functions](pdf/slides-functions-05-trigonometric-functions.pdf)
+- Chapter 6 · [Vibration phenomena](pdf/slides-functions-06-oscillations.pdf)
 - Chapter 7 · [Integer part and fractional part functions](pdf/slides-functions-07-integer-part.pdf)
 - Chapter 8 · [Hyperbolic functions](pdf/slides-functions-08-hyperbolic-functions.pdf)
 - Chapter 9 · [Operations on graphs](pdf/slides-functions-09-graph-transformations.pdf)
