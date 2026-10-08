@@ -179,11 +179,106 @@ title: "Principle of mathematical induction"
 
     <p class="qed-riga"><span class="qed">□</span></p>
 
+<a id="box-propODD-4"></a>
+
+!!! osservazione "Remark 3: sum of the first $n$ odd numbers"
+
+    For every integer $n \ge 1$, we have:
+
+    $$
+    \sum_{k=0}^{n-1} (2\:k+1) = n^2 {\rm ~~~~~or~equivalently~~~~} \sum_{k=1}^{n} (2\:k-1) = n^2
+    $$
+
+??? dimostrazione "Proof"
+
+    By induction on $n$.
+
+    - <strong>Base case of the induction</strong>
+
+        Let $n = 1$. Then the statement becomes:
+
+        $$
+        \sum_{k=0}^0 (2\:k+1) = 1^2 \text{ ~~ i.e.  ~~} 1 = 1
+        $$
+
+        which is clearly true.
+
+    - <strong>Passo induttivo</strong>
+
+        Suppose it is true for $n$, and let us prove it for $(n + 1)$. By the inductive hypothesis, we have:
+
+        $$
+        \sum_{k=0}^{n-1} (2\:k+1) = n^2
+        $$
+
+        Hence we can write:
+
+        \begin{align*}
+        \sum_{k=0}^{(n+1)-1} (2\:k+1)&= \sum_{k=0}^{n-1} (2\:k+1) + 2\:n +1
+         =  n^2 + 2\:n +1
+         =  (n+1)^2
+        \end{align*}
+
+        which is exactly the desired statement, for $n + 1$.
+
+    The second sum coincides with the first one, by an index shift ($k \to k+1$):
+
+    $$
+    \sum_{k=1}^{n} (2\:k-1) = \sum_{k=0}^{n-1} \big(2\:(k+1)-1\big) = \sum_{k=0}^{n-1} (2\:k+1)
+    $$
+
+    <p class="qed-riga"><span class="qed">□</span></p>
+
+<a id="box-propEVEN-5"></a>
+
+!!! osservazione "Remark 4: sum of the first $n$ even numbers"
+
+    For every integer $n \ge 1$, we have:
+
+    $$
+    \sum_{k=1}^{n} 2\:k = n \:(n+1)
+    $$
+
+??? dimostrazione "Proof"
+
+    By induction on $n$.
+
+    - <strong>Base case of the induction</strong>
+
+        Let $n = 1$. Then the statement becomes:
+
+        $$
+        \sum_{k=1}^1 2\:k = 1 \cdot 2 \text{ ~~ i.e.  ~~} 2 = 2
+        $$
+
+        which is clearly true.
+
+    - <strong>Passo induttivo</strong>
+
+        Suppose it is true for $n$, and let us prove it for $(n + 1)$. By the inductive hypothesis, we have:
+
+        $$
+        \sum_{k=1}^{n} 2\:k = n\: (n+1)
+        $$
+
+        Hence we can write:
+
+        \begin{align*}
+        \sum_{k=1}^{n+1} 2\:k&= \sum_{k=1}^{n} 2\:k  + 2\: (n+1) 
+        = n^2 + n + 2\: (n+1) \\[2ex]
+        & = n^2+2\:n+1+n+1
+         = (n+1)^2 + (n+1) =   (n+1) \:\big((n+1) +1 \big)
+        \end{align*}
+
+        which is exactly the desired statement, for $n + 1$.
+
+    <p class="qed-riga"><span class="qed">□</span></p>
+
 ### 2.3 Sum of the terms of the geometric progression
 
-<a id="box-propXX-4"></a>
+<a id="box-propXX-6"></a>
 
-!!! osservazione "Remark 3: sum of the first $n$ terms of the geometric progression ($a=1$)"
+!!! osservazione "Remark 5: sum of the first $n$ terms of the geometric progression ($a=1$)"
 
     Given $q \in\ \R_+$, for every integer $n \ge 1$ we have:
 
@@ -226,5 +321,117 @@ title: "Principle of mathematical induction"
         \end{align*}
 
         which is exactly the desired statement, for $n + 1$.
+
+    <p class="qed-riga"><span class="qed">□</span></p>
+
+### 2.4 Inequality of arithmetic and geometric means
+
+<a id="box-propAMGM-7"></a>
+
+!!! osservazione "Remark 6: inequality of arithmetic and geometric means"
+
+    For every integer $n \ge 2$ and every vector \(\boldsymbol{a}=\begin{pmatrix} a_1, a_2, \dots, a_n \end{pmatrix} \in \R_{\ge 0}^n\), we have:
+
+    \begin{equation}
+    \label{AMGM}
+    \frac{\sum_{i=1}^n a_i}{n} ~~\geq~~ \sqrt[n]{\prod_{i=1}^n a_i}
+    \end{equation}
+
+- The inequality \(\eqref{AMGM}\) states that the <em>arithmetic mean</em> is greater than or equal to the <em>geometric mean</em>.
+
+- If $a_i=a$ for every $i \in \{1,2,\dots,n\}$, we have:
+
+    $$
+    \frac{\sum_{i=1}^n a_i}{n} ~~=~~ \frac{n\;a}{n} ~~=~~ a \qquad \text{and} \qquad \sqrt[n]{\prod_{i=1}^n a_i} ~~=~~ \sqrt[n]{ a^n}  ~~=~~ a
+    $$
+
+    and the arithmetic mean and the geometric mean are equal (this is the only case in which equality holds).
+
+??? dimostrazione "Proof"
+
+    By induction on $n$.
+
+    - <strong>Base case of the induction</strong>
+
+        Let $n = 2$. Since both sides are non-negative, we can square them:
+
+        \begin{align*}
+        \frac{a_1 + a_2}{2} ~\geq~ \sqrt{a_1 \: a_2}
+        &~~~~\Longleftrightarrow~~~~
+        \left(\frac{a_1 + a_2}{2}\right)^2 ~\geq~ a_1 \: a_2
+        ~~~~\Longleftrightarrow~~~~
+        \frac{a_1^2 + 2\:a_1 \: a_2 + a_2^2}{4} ~\geq~ a_1 \: a_2\\[2ex]
+        &~~~~\Longleftrightarrow~~~~
+        a_1^2 - 2\:a_1 \: a_2 + a_2^2 ~\geq~ 0 ~~~~\Longleftrightarrow~~~~
+        (a_1 - a_2)^2 ~\geq~ 0
+        \end{align*}
+
+        which is clearly true.
+
+    - <strong>Inductive step</strong>
+
+        Suppose it is true for $n$, and let us prove it for $(n + 1)$. By the inductive hypothesis, the arithmetic mean of $n$ non-negative real numbers is greater than or equal to their geometric mean. We need to prove that:
+
+        \begin{equation}
+        \label{AMGM_A}
+        \tag{A}
+        \frac{\sum_{i=1}^{n+1} a_i}{n+1} ~~\geq~~ \sqrt[n+1]{\prod_{i=1}^{n+1} a_i}
+        \end{equation}
+
+        Let $\alpha$ be the arithmetic mean of the $n+1$ non-negative real numbers:
+
+        \begin{equation}
+        \label{AMGM_B} \tag{B}
+        \alpha = \frac{\sum_{i=1}^{n+1} a_i}{n+1}
+        \end{equation}
+
+        If \( a_i = \alpha \) for every $i \in \{1,2,\dots,n+1\}$, then \(\eqref{AMGM_A}\) holds with equality. Otherwise, there is at least one value greater than $\alpha$ and at least one value smaller than $\alpha$. Without loss of generality, we reorder the values so that:
+
+        $$
+        a_n > \alpha \quad \text{ and } \quad a_{n+1} < \alpha
+        $$
+
+        Then we have:
+
+        \begin{equation}
+        \label{AMGM_C} \tag{C}
+        a_n - \alpha > 0  \quad \text{ and } \quad \alpha - a_{n+1} > 0 ~~~\Longrightarrow~~~  (a_n - \alpha) \; (\alpha - a_{n+1}) > 0
+        \end{equation}
+
+        From \(\eqref{AMGM_B}\) we have:
+
+        $$
+        (n+1) \; \alpha = \sum_{i=1}^{n+1} a_i ~~~~\Longleftrightarrow~~~~ n\; \alpha = \sum_{i=1}^{n-1} a_i + 
+        \underbrace{ a_n + a_{n+1} -\alpha}_{=\,y }
+        ~~~~\Longleftrightarrow~~~~  \alpha = \frac{\sum_{i=1}^{n-1} a_i + y}{n}
+        $$
+
+        where $y = a_n + a_{n+1} - \alpha \ge a_n - \alpha > 0$, since $a_{n+1} \ge 0$. Hence $\alpha$ is also the arithmetic mean of the $n$ non-negative numbers $a_1,a_2,\dots,a_{n-1}$ and $y$. By the inductive hypothesis, $\alpha^n \ge \left(\prod_{i=1}^{n-1} a_i \right) y$, and therefore:
+
+        \begin{equation}
+        \label{AMGM_D} \tag{D}
+        \alpha^{n+1} = \alpha^{n} \; \alpha \ge \left(\prod_{i=1}^{n-1} a_i \right) y \; \alpha
+        \end{equation}
+
+        From \(\eqref{AMGM_C}\) it follows that:
+
+        $$
+        (a_n - \alpha) \; (\alpha - a_{n+1}) = (\underbrace{ a_n + a_{n+1} -\alpha}_{=\,y}) \; \alpha - a_{n} \; a_{n+1} > 0
+        $$
+
+        and therefore:
+
+        \begin{equation}
+        \label{AMGM_E} \tag{E}
+        y \; \alpha > a_{n} \; a_{n+1}
+        \end{equation}
+
+        Substituting \(\eqref{AMGM_E}\) into \(\eqref{AMGM_D}\) (the product $\prod_{i=1}^{n-1} a_i$ is non-negative), we obtain:
+
+        $$
+        \alpha^{n+1} \ge \prod_{i=1}^{n+1} a_i ~~~~\Longleftrightarrow~~~~ \frac{\sum_{i=1}^{n+1} a_i}{n+1} ~~\ge~~ \sqrt[n+1]{\prod_{i=1}^{n+1} a_i}
+        $$
+
+        that is, \(\eqref{AMGM_A}\), which is exactly the desired statement, for $n + 1$.
 
     <p class="qed-riga"><span class="qed">□</span></p>
