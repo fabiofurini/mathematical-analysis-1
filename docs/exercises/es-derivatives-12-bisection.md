@@ -74,7 +74,7 @@ title: "Bisection method"
     with $f(c_2)<0$. Then, in the next iteration, $a_3=c_2$. To reach the desired level of approximation, we will have to wait until iteration 9 $(n=8)$, where we will obtain
 
     $$
-    a_8=\frac{29}{64}\simeq0,\mathbf{45}3 \hspace{1cm} b_8=\frac{117}{256}\simeq 0,\mathbf{45}7
+    a_8=\frac{29}{64}\simeq0.\mathbf{45}3 \hspace{1cm} b_8=\frac{117}{256}\simeq 0.\mathbf{45}7
     $$
 
     We can finally state that $\alpha \in \left(\frac{29}{64},\frac{117}{256}\right)$ correct to two decimal places.
@@ -155,13 +155,13 @@ title: "Bisection method"
     with $f(c_3)<0$. Then, in the next iteration, $a_4=c_3$. Observe that
 
     $$
-    a_3=0,5, \; b_3=0,625
+    a_3=0.5, \; b_3=0.625
     $$
 
     and we are therefore still far from having two correct decimal places. To reach the desired level of approximation, we will have to wait until iteration 10 $(n=9)$, where we will obtain
 
     $$
-    a_9=\frac{145}{256}\simeq0,\mathbf{56}6 \hspace{1cm} b_9=\frac{291}{512}\simeq 0,\mathbf{56}8
+    a_9=\frac{145}{256}\simeq0.\mathbf{56}6 \hspace{1cm} b_9=\frac{291}{512}\simeq 0.\mathbf{56}8
     $$
 
     We can finally state that $\alpha \in \left(\frac{145}{256},\frac{291}{512}\right)$ correct to two decimal places.

@@ -84,24 +84,24 @@ title: "Roots, powers, logarithms and modular arithmetic"
     <td><span class="arithmatex">\(=1\)</span></td>
     </tr>
     <tr>
-    <td><span class="arithmatex">\(1,4\)</span></td>
-    <td><span class="arithmatex">\((1,4)^2\)</span></td>
-    <td><span class="arithmatex">\(=1,96\)</span></td>
+    <td><span class="arithmatex">\(1.4\)</span></td>
+    <td><span class="arithmatex">\((1.4)^2\)</span></td>
+    <td><span class="arithmatex">\(=1.96\)</span></td>
     </tr>
     <tr>
-    <td><span class="arithmatex">\(1,41\)</span></td>
-    <td><span class="arithmatex">\((1,41)^2\)</span></td>
-    <td><span class="arithmatex">\(=1,9881\)</span></td>
+    <td><span class="arithmatex">\(1.41\)</span></td>
+    <td><span class="arithmatex">\((1.41)^2\)</span></td>
+    <td><span class="arithmatex">\(=1.9881\)</span></td>
     </tr>
     <tr>
-    <td><span class="arithmatex">\(1,414\)</span></td>
-    <td><span class="arithmatex">\((1,414)^2\)</span></td>
-    <td><span class="arithmatex">\(=1,999396\)</span></td>
+    <td><span class="arithmatex">\(1.414\)</span></td>
+    <td><span class="arithmatex">\((1.414)^2\)</span></td>
+    <td><span class="arithmatex">\(=1.999396\)</span></td>
     </tr>
     <tr>
-    <td><span class="arithmatex">\(1,4142\)</span></td>
-    <td><span class="arithmatex">\((1,4142)^2\)</span></td>
-    <td><span class="arithmatex">\(=1,99996164\)</span></td>
+    <td><span class="arithmatex">\(1.4142\)</span></td>
+    <td><span class="arithmatex">\((1.4142)^2\)</span></td>
+    <td><span class="arithmatex">\(=1.99996164\)</span></td>
     </tr>
     <tr>
     <td>…</td>
@@ -125,24 +125,24 @@ title: "Roots, powers, logarithms and modular arithmetic"
     <td><span class="arithmatex">\(=4\)</span></td>
     </tr>
     <tr>
-    <td><span class="arithmatex">\(1,5\)</span></td>
-    <td><span class="arithmatex">\((1,5)^2\)</span></td>
-    <td><span class="arithmatex">\(=2, 25\)</span></td>
+    <td><span class="arithmatex">\(1.5\)</span></td>
+    <td><span class="arithmatex">\((1.5)^2\)</span></td>
+    <td><span class="arithmatex">\(=2.25\)</span></td>
     </tr>
     <tr>
-    <td><span class="arithmatex">\(1,42\)</span></td>
-    <td><span class="arithmatex">\((1,42)^2\)</span></td>
-    <td><span class="arithmatex">\(=2,0164\)</span></td>
+    <td><span class="arithmatex">\(1.42\)</span></td>
+    <td><span class="arithmatex">\((1.42)^2\)</span></td>
+    <td><span class="arithmatex">\(=2.0164\)</span></td>
     </tr>
     <tr>
-    <td><span class="arithmatex">\(1,415\)</span></td>
-    <td><span class="arithmatex">\((1,415)^2\)</span></td>
-    <td><span class="arithmatex">\(=2,002225\)</span></td>
+    <td><span class="arithmatex">\(1.415\)</span></td>
+    <td><span class="arithmatex">\((1.415)^2\)</span></td>
+    <td><span class="arithmatex">\(=2.002225\)</span></td>
     </tr>
     <tr>
-    <td><span class="arithmatex">\(1,4143\)</span></td>
-    <td><span class="arithmatex">\((1,4143)^2\)</span></td>
-    <td><span class="arithmatex">\(=2,00024449\)</span></td>
+    <td><span class="arithmatex">\(1.4143\)</span></td>
+    <td><span class="arithmatex">\((1.4143)^2\)</span></td>
+    <td><span class="arithmatex">\(=2.00024449\)</span></td>
     </tr>
     <tr>
     <td>…</td>
@@ -357,7 +357,7 @@ $$
         - In the (already considered) example of the irrational number:
 
             $$
-            0,101001000100001\dots
+            0.101001000100001\dots
             $$
 
             built according to the rule: write one digit 1, one digit 0, one digit 1, two digits 0, one digit 1, three digits 0, and so on) it is clear that we could write as many digits as we wish.
@@ -381,7 +381,7 @@ $$
 - Besides the approximation produced by computing tools, sometimes we ourselves are not interested in too many decimal digits; we then deliberately introduce approximations, writing for example
 
     $$
-    \sqrt{2} \approx 1,414
+    \sqrt{2} \approx 1.414
     $$
 
     !!! chiave ""
@@ -395,11 +395,11 @@ $$
         For example:
 
         $$
-        2,4138 \approx 2,41
+        2.4138 \approx 2.41
         $$
 
         $$
-        2,4152 \approx 2,42
+        2.4152 \approx 2.42
         $$
 
 ## 2. Modular arithmetic
@@ -429,7 +429,7 @@ $$
 !!! esempio "Example 6: Integer part"
 
     $$
-    [2,38] = 2;~~~~ [3] = 3;~~~~ [-1,8] = -2.
+    [2.38] = 2;~~~~ [3] = 3;~~~~ [-1.8] = -2.
     $$
 
 - While for positive numbers the integer part is obtained simply by “throwing away the digits after the decimal point”, for negative numbers one must take the largest integer $\le a$, which is different from what is obtained by throwing away the digits after the decimal point (except when $a$ is already an integer)
@@ -449,7 +449,7 @@ $$
 !!! esempio "Example 7: Fractional part"
 
     $$
-    (2,38) = 0.38;~~~~ (3) = 0;~~~~ (-1,8) = 0.2.
+    (2.38) = 0.38;~~~~ (3) = 0;~~~~ (-1.8) = 0.2.
     $$
 
 - The fractional part is therefore not an integer but a real number, lying in $[0, 1)$. Indeed, setting $n = [a]$, the definition of integer part gives $n \le a < n+1$ and, subtracting $n$,
@@ -485,7 +485,7 @@ $$
 !!! esempio "Example 8: of ceil"
 
     $$
-    \lceil 2,38 \rceil = 3;~~~~ \lceil 3 \rceil = 3;~~~~ \lceil -1,8 \rceil = -1.
+    \lceil 2.38 \rceil = 3;~~~~ \lceil 3 \rceil = 3;~~~~ \lceil -1.8 \rceil = -1.
     $$
 
 <strong>Some properties</strong>:

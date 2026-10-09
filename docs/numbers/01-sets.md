@@ -237,11 +237,11 @@ title: "Sets"
 
         !!! esempio "Example 5: rational numbers"
 
-            - For example, with $p=2$ and $q=5$ we have the fraction $\frac{2}{5}$, whose decimal expansion is $0,4$.
+            - For example, with $p=2$ and $q=5$ we have the fraction $\frac{2}{5}$, whose decimal expansion is $0.4$.
 
-            - For example, with $p=4$ and $q=10$ we have the fraction $\frac{4}{10}$, whose decimal expansion is again $0,4$. Note that a rational number can be written with more than one fraction.
+            - For example, with $p=4$ and $q=10$ we have the fraction $\frac{4}{10}$, whose decimal expansion is again $0.4$. Note that a rational number can be written with more than one fraction.
 
-            - For example, with $p=13$ and $q=30$ we have the fraction $\frac{13}{30}$, whose decimal expansion is $0,4\overline{3}=0,43333\dots$.
+            - For example, with $p=13$ and $q=30$ we have the fraction $\frac{13}{30}$, whose decimal expansion is $0.4\overline{3}=0.43333\dots$.
 
         However, we can represent every rational number different from $0$ by a single fraction $\frac{p}{q}$ by choosing $p \in \Z$ and $q \in \N$ coprime (that is, relatively prime: $p$ and $q$ are not both divisible by the same integer greater than 1).
 
@@ -250,7 +250,7 @@ title: "Sets"
         !!! osservazione "Remark 2"
 
             $$
-            0,\overline{9}=1
+            0.\overline{9}=1
             $$
 
         ??? dimostrazione "Proof"
@@ -260,17 +260,17 @@ title: "Sets"
             1. A simple proof follows directly from the definition of $1$ divided by $3$; indeed, we have:
 
                 \begin{align*}
-                \frac{1}{3} &= 0,\overline{3}\\
-                \frac{1}{3} \cdot 3 &= 0,\overline{3} \cdot 3\\
-                 1 &= 0,\overline{9}
+                \frac{1}{3} &= 0.\overline{3}\\
+                \frac{1}{3} \cdot 3 &= 0.\overline{3} \cdot 3\\
+                 1 &= 0.\overline{9}
                 \end{align*}
 
             2. Using algebraic arguments we can write:
 
                 \begin{align*}
-                x &= 0,999\dots\\
-                10\:x &= 9,999\dots & {\rm multiplying~by~} 10 \\
-                10\:x &= 9 + 0,999\dots & {\rm separating~the~integer~part~from~the~fractional~part} \\
+                x &= 0.999\dots\\
+                10\:x &= 9.999\dots & {\rm multiplying~by~} 10 \\
+                10\:x &= 9 + 0.999\dots & {\rm separating~the~integer~part~from~the~fractional~part} \\
                 10\:x &= 9 + x & {\rm by~definition~of~} x\\
                 9\:x &= 9  & {\rm subtracting~} x\\
                 x &= 1  & {\rm dividing~by~} 9
@@ -279,13 +279,13 @@ title: "Sets"
             3. A proof by contradiction is the following:
 
                 \begin{align*}
-                0,\overline{9} & \neq 1\\
-                0,\overline{9} \cdot 9 & \neq 1 \cdot 9\\
-                0,\overline{9} \cdot 9 + 0,\overline{9}& \neq 1 \cdot 9 +0,\overline{9}\\
-                0,\overline{9} \cdot 9 + 0,\overline{9}& \neq 9,\overline{9}\\
-                0,\overline{9} \cdot  (9+1) & \neq 9,\overline{9}\\
-                0,\overline{9} \cdot  (10) & \neq 9,\overline{9}\\
-                9,\overline{9} & \neq 9,\overline{9} ~~~~~~ {\rm contradiction!}
+                0.\overline{9} & \neq 1\\
+                0.\overline{9} \cdot 9 & \neq 1 \cdot 9\\
+                0.\overline{9} \cdot 9 + 0.\overline{9}& \neq 1 \cdot 9 +0.\overline{9}\\
+                0.\overline{9} \cdot 9 + 0.\overline{9}& \neq 9.\overline{9}\\
+                0.\overline{9} \cdot  (9+1) & \neq 9.\overline{9}\\
+                0.\overline{9} \cdot  (10) & \neq 9.\overline{9}\\
+                9.\overline{9} & \neq 9.\overline{9} ~~~~~~ {\rm contradiction!}
                 \end{align*}
 
             <p class="qed-riga"><span class="qed">□</span></p>
@@ -299,7 +299,7 @@ title: "Sets"
             - Consider for example the number
 
                 $$
-                0,10110111011110 \dots
+                0.10110111011110 \dots
                 $$
 
                 obtained by putting after the decimal point one digit equal to $1$, then $0$, then two digits equal to $1$, then $0$, then three digits equal to $1$ … and so on. The string of digits after the decimal point is neither finite nor periodic: therefore this number is real but not rational.
@@ -1552,10 +1552,10 @@ Let us call this set $S$; two hypotheses can be made:
 - A further proof of
 
     $$
-    0,\overline{9}=1
+    0.\overline{9}=1
     $$
 
-    starts from the assumption that two numbers are equal if and only if their difference is equal to zero, and it is based on computing the value of $1 - 0,\overline{9}$.
+    starts from the assumption that two numbers are equal if and only if their difference is equal to zero, and it is based on computing the value of $1 - 0.\overline{9}$.
 
 - This proof is based on the fact that 0 is the only non-negative number less than all the reciprocals of the positive integers, or equivalently that there is no number greater than every natural number. This is the <strong>Archimedean property</strong>, which holds for the rational and the real numbers.
 
@@ -1573,28 +1573,28 @@ Let us call this set $S$; two hypotheses can be made:
 
 ??? dimostrazione "Proof"
 
-    We write the number $0,999...$ with $n$ digits after the decimal point as $0,(9)_n$, hence $0,(9)_1 = 0,9$, $0,(9)_2 = 0,99$, $0,(9)_3 = 0,999$, and so on. 
+    We write the number $0.999...$ with $n$ digits after the decimal point as $0.(9)_n$, hence $0.(9)_1 = 0.9$, $0.(9)_2 = 0.99$, $0.(9)_3 = 0.999$, and so on. 
 
-    Given $\frac{1}{10^n} = 0,0 \dots 01$, with $n$ digits after the decimal point, the addition rules for decimal numbers imply
+    Given $\frac{1}{10^n} = 0.0 \dots 01$, with $n$ digits after the decimal point, the addition rules for decimal numbers imply
 
     $$
-    0,(9)_n + \frac{1}{10^n} = 1
+    0.(9)_n + \frac{1}{10^n} = 1
     {\rm ~~moreover~~}
-    0,(9)_n < 1,  \forall n \in \N.
+    0.(9)_n < 1,  \forall n \in \N.
     $$
 
-    We must prove that $1$ is the smallest number that is not less than all the $0,(9)_n$. For this it is enough to prove that, if a number $x$ is not greater than 1 and not less than all the $0,(9)_n$, then $x = 1$.
+    We must prove that $1$ is the smallest number that is not less than all the $0.(9)_n$. For this it is enough to prove that, if a number $x$ is not greater than 1 and not less than all the $0.(9)_n$, then $x = 1$.
 
     So let $x$ be such that
 
     $$
-    0,(9)_n \le x \le 1
+    0.(9)_n \le x \le 1
     $$
 
     for every positive integer $n$. Hence
 
     $$
-    1-1 \le 1 -  x \le 1- 0,(9)_n
+    1-1 \le 1 -  x \le 1- 0.(9)_n
     $$
 
     which, using basic arithmetic and the first equality established above, simplifies to
@@ -1606,7 +1606,7 @@ Let us call this set $S$; two hypotheses can be made:
     This implies that the difference between $1$ and $x$ is less than the reciprocal of any positive integer. Hence this difference must be zero, and therefore $x = 1$; which in turn implies
 
     $$
-    0,999\dots = 1
+    0.999\dots = 1
     $$
 
     <p class="qed-riga"><span class="qed">□</span></p>

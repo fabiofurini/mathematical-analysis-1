@@ -404,7 +404,7 @@ title: "Intermediate zero theorem and bisection method"
     the number of additional iterations is independent of the interval $[a,b]$, and it is equal to
 
     $$
-    \log_{2}10 \approx 3,32
+    \log_{2}10 \approx 3.32
     $$
 
 !!! chiave ""

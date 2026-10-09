@@ -55,7 +55,7 @@ $$
 Rational numbers can also be written in decimal form. For example:
 
 \begin{align*}
-\frac{3}{4} = 0, 75, {\rm ~~~while~~~} \frac{1}{3} =  0,333 \dots {\rm }= 0,\overline{3}.
+\frac{3}{4} = 0.75, {\rm ~~~while~~~} \frac{1}{3} =  0.333 \dots {\rm }= 0.\overline{3}.
 \end{align*}
 
 A rational number, written in decimal form, has a <strong>finite or infinite periodic decimal expansion</strong>: after the decimal point there is a finite number of digits, or an infinite number of digits which, from a certain point on, repeat <em>periodically</em>.
@@ -65,7 +65,7 @@ A rational number, written in decimal form, has a <strong>finite or infinite per
     The same rational number can have two different decimal expansions. The classical example is the equality
 
     $$
-    0,\overline{9}=1
+    0.\overline{9}=1
     $$
 
     for which we gave four different proofs in the chapter <em>Sets</em>, and which we therefore do not repeat here.
@@ -77,7 +77,7 @@ $\R$ is the set of <strong>real numbers</strong>, that is, those which are ident
 That numbers of this last kind exist (that is, real but not rational), can be understood by reflecting on examples such as:
 
 $$
-0,10110111011110 \dots
+0.10110111011110 \dots
 $$
 
 After the decimal point, the previous number has: one digit equal to $1$, then $0$, then two digits equal to $1$, then $0$, then three digits equal to $1$ … and so on. It is clear that this rule defines a decimal number precisely. On the other hand, the string of digits after the decimal point is neither finite nor periodic: therefore this number is irrational.

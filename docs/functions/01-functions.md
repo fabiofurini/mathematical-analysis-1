@@ -28,7 +28,7 @@ title: "Functions"
     s(t) = \frac{1}{2}\:g\:t^2 \qquad {\rm ~~with~~} t \ge 0
     \end{equation*}
 
-    where  $g \approx 9,8$ is the gravitational acceleration constant.
+    where  $g \approx 9.8$ is the gravitational acceleration constant.
 
     ![Figure 1](../img/functions-01-functions/fig01.svg){ .fig .ovale loading=lazy style="width:48%" }
 

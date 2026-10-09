@@ -1034,7 +1034,7 @@ title: "Sequences and limits of sequences"
         Let $\{a_n\}$ be the sequence defined as follows:
 
         $$
-        a_0 = 0, a_1 = 0,1, a_2= 0,1011, a_3= 0,10110111, a_4= 0,1011011101111 \dots
+        a_0 = 0, a_1 = 0.1, a_2= 0.1011, a_3= 0.10110111, a_4= 0.1011011101111 \dots
         $$
 
         At step $n$ we append to the decimal number obtained at the previous step a digit zero followed by $n$ digits equal to $1$. The sequence $\{a_n\}$ is evidently increasing, and bounded above (for example, $a_n \le 1$).

@@ -50,10 +50,10 @@ title: "Factorials, binomial coefficients and triangle inequality"
     <td>24</td>
     <td>120</td>
     <td>720</td>
-    <td>5.040</td>
-    <td>40.320</td>
-    <td>362.880</td>
-    <td>3.628.800</td>
+    <td>5,040</td>
+    <td>40,320</td>
+    <td>362,880</td>
+    <td>3,628,800</td>
     </tr>
     </table></div>
 
@@ -67,17 +67,17 @@ title: "Factorials, binomial coefficients and triangle inequality"
 
         \begin{equation}
         \label{MM}
-        \frac{n!}{(n-k)!}  =  n \cdot (n-1) \cdot (n-2) \cdot {\rm} \dots {\rm} \cdot (n-k+1),  {\rm ~~with~~} k\ge 1
+        \frac{n!}{(n-k)!}  =  n \cdot (n-1) \cdot (n-2) \cdot {\rm} \dots {\rm} \cdot (n-k+1),  {\rm ~~with~~} 1 \le k \le n
         \end{equation}
 
-        With $k\ge 1$,  it becomes  the product of $k$ factors, starting from $n$ and decreasing by one unit at a time.
+        With $1 \le k \le n$,  it becomes  the product of $k$ factors, starting from $n$ and decreasing by one unit at a time.
 
     <a id="box-texexpbox1-2"></a>
 
     !!! esempio "Example 1: Computing the factorial"
 
         $$
-        \frac{100!}{95!}= \frac{100!}{(100-5)!}=100 \cdot 99 \cdot 98 \cdot 97 \cdot 96 = 9.034.502.400
+        \frac{100!}{95!}= \frac{100!}{(100-5)!}=100 \cdot 99 \cdot 98 \cdot 97 \cdot 96 = 9{,}034{,}502{,}400
         $$
 
         It is always convenient to simplify expressions containing the factorial as much as possible, before computing them!
@@ -127,10 +127,10 @@ title: "Factorials, binomial coefficients and triangle inequality"
 
     \begin{equation}
     \label{TT}
-     {{n-1}\choose{k-1}} + {{n-1}\choose{k}} = {{n}\choose{k}}
+     {{n-1}\choose{k-1}} + {{n-1}\choose{k}} = {{n}\choose{k}} \qquad {\rm ~~for~every~} n \ge 2 {\rm ~and~} 1 \le k \le n-1
     \end{equation}
 
-    Since:
+    (the proof below needs $(k-1)!$ and $(n-k-1)!$, hence $k \ge 1$ and $k \le n-1$). Since:
 
     \begin{align*}
     {{n-1}\choose{k-1}} + {{n-1}\choose{k}} &=  \frac{(n-1)!}{(k-1)!\:\underbrace{(n-1-(k-1))!}_{=~(n-k)!~=~(n-k)\:(n-k-1)!}}+\frac{(n-1)!}{k!\:(n-k-1)!}\\[2ex]
@@ -142,7 +142,7 @@ title: "Factorials, binomial coefficients and triangle inequality"
     It also follows that:
 
     \begin{equation*}
-    {{n}\choose{k-1}} + {{n}\choose{k}} = {{n+1}\choose{k}}
+    {{n}\choose{k-1}} + {{n}\choose{k}} = {{n+1}\choose{k}} \qquad {\rm ~~for~every~} n \ge 1 {\rm ~and~} 1 \le k \le n
     \end{equation*}
 
 ### 2.1 Newton's formula
@@ -166,7 +166,7 @@ The $n$-th power of a binomial $(a + b)$ can be computed with the following form
 
     - <strong>Base case of the induction</strong>
 
-        Let $n = 0$. Then the statement becomes: $(a+b)^0 = {{0}\choose{0}} \; a^{0} \; b^0$ i.e. $1 = 1$ which is clearly true.
+        Let $n = 0$. Then the statement becomes: $(a+b)^0 = {{0}\choose{0}} \; a^{0} \; b^0$ i.e. $1 = 1$ which is clearly true (with the convention $0^0=1$, which also covers the case $a=b=0$).
 
     - <strong>Inductive step</strong>
 
@@ -188,7 +188,7 @@ The $n$-th power of a binomial $(a + b)$ can be computed with the following form
 
 !!! osservazione "Remark 2"
 
-    For every integer $n \ge 0$ and integer $k$ such that $0\le k \le n$, we have:
+    For every integer $n \ge 0$ we have:
 
     \begin{equation}
     \sum_{k=0}^{n} ~~{{n}\choose{k}} ~~ = 2^n
@@ -224,7 +224,7 @@ The $n$-th power of a binomial $(a + b)$ can be computed with the following form
 
     3. For $0 < k < n$, the number ${{n}\choose{k}}$ is written at the intersection of the $n$-th row and the $k$-th column.
 
-    4. The number ${{n}\choose{k}}$ is the sum of the two numbers located in the previous row, the one in the same column and the one in the previous column.
+    4. Again for $0 < k < n$, the number ${{n}\choose{k}}$ is the sum of the two numbers located in the previous row, the one in the same column and the one in the previous column.
 
 <a id="box-texexpbox1-6"></a>
 
