@@ -411,6 +411,28 @@ title: "Numerical series"
 
     <p class="qed-riga"><span class="qed">□</span></p>
 
+- Given the ratio $q \in \R$ and a first term $a \in \R$, the result extends to the series $\sum_{k=0}^{\infty} a \: q^k$ of the terms of the geometric progression:
+
+    \begin{equation}
+    \label{GEOMA}
+    {\rm the~series~} \sum_{k=0}^{\infty} a \: q^k  {\rm ~~~~is~~~~}
+    \begin{cases}
+    {\rm convergent,~with~sum~} 0 & {\rm if~} a = 0\\[1ex]
+    {\rm convergent,~with~sum~} \frac{a}{1-q} & {\rm if~} a \neq 0 {\rm ~and~} |q| < 1\\[1ex]
+    {\rm divergent~to~} \ip & {\rm if~} a > 0 {\rm ~and~} q \ge 1\\[1ex]
+    {\rm divergent~to~} \im & {\rm if~} a < 0 {\rm ~and~} q \ge 1\\[1ex]
+    {\rm irregular~} & {\rm if~} a \neq 0 {\rm ~and~} q \le -1
+    \end{cases}
+    \end{equation}
+
+    Indeed, if $a=0$ all the terms of the series are zero and therefore $s_n = 0$ for every $n$. If instead $a \neq 0$, by the product by a constant of summations the $n$-th partial sum is:
+
+    $$
+    s_n = \sum_{k=0}^{n} a \: q^k = a \: \sum_{k=0}^{n} q^k
+    $$
+
+    and therefore, by the theorem on the limit of the product of a constant and a sequence, $\{s_n\}$ has the same behavior as the sequence of the partial sums of $\sum_{k=0}^{\infty} q^k$, with the limit multiplied by $a$ (in the divergent cases the sign of $a$ decides between $\ip$ and $\im$).
+
 <a id="box-texexpbox1-13"></a>
 
 !!! esempio "Example 2: geometric series"
@@ -439,11 +461,102 @@ title: "Numerical series"
 
 <div class="gi" data-grafico="geometrica"></div>
 
-### 1.5 Telescoping series
+### 1.5 Arithmetic series
 
-<a id="box-defXX-14"></a>
+<a id="box-defARITSERIE-14"></a>
 
-!!! definizione "Definition 7: of telescoping series"
+!!! definizione "Definition 7: of arithmetic series"
+
+    Given the first term $a \in \R$ and the common difference $d \in \R$, the <strong>arithmetic series</strong> is the series $\sum_{k=0}^{\infty} (a + k \: d)$
+
+- The terms of the arithmetic series are the terms of the arithmetic progression with first term $a$ and common difference $d$, that is, $a, ~a+d, ~a+2\:d, ~\dots$ As for the geometric series, the first term is in position $k=0$.
+
+<a id="box-theoARITSERIE-15"></a>
+
+!!! teorema "Theorem 5: behavior and sum of the arithmetic series"
+
+    Given the first term $a \in \R$ and the common difference $d \in \R$,
+
+    $$
+    {\rm the~arithmetic~series~} \sum_{k=0}^{\infty} (a + k \: d)  {\rm ~~~~is~~~~}
+    \begin{cases}
+    {\rm divergent~to~} \ip & {\rm if~} d > 0\\[1ex]
+    {\rm divergent~to~} \im & {\rm if~} d < 0\\[1ex]
+    {\rm divergent~to~} \ip & {\rm if~} d = 0 {\rm ~and~} a > 0\\[1ex]
+    {\rm divergent~to~} \im & {\rm if~} d = 0 {\rm ~and~} a < 0\\[1ex]
+    {\rm convergent~} & {\rm if~} d = 0 {\rm ~and~} a = 0
+    \end{cases}
+    $$
+
+    If the arithmetic series is convergent, its sum $s$ is $0$
+
+??? dimostrazione "Proof"
+
+    Given $a, d \in \R$ and $n \in \N$, the $n$-th partial sum of the arithmetic series is:
+
+    $$
+    s_n = \sum_{k=0}^{n} (a + k \: d) = a \: (n+1) + d \: \left( \frac{n \: (n+1)}{2} \right) = \frac{d}{2} \: n^2 + \left( a + \frac{d}{2} \right) n + a
+    $$
+
+    since it equals the sum of the first $n+1$ terms of the arithmetic progression. Therefore, if $d \neq 0$, collecting the term of highest degree we have:
+
+    $$
+    \lim_{n \rightarrow +\infty} s_n = \lim_{n \rightarrow +\infty} \frac{d}{2} \: n^2 \left( 1 + \underbrace{\frac{2\:a+d}{d \: n}}_{\rr 0} + \underbrace{\frac{2\:a}{d \: n^2}}_{\rr 0} \right) =
+    \begin{cases}
+    +\infty & {\rm if~} d > 0\\[2ex]
+    -\infty & {\rm if~} d < 0
+    \end{cases}
+    $$
+
+    and if $d=0$ we have $s_n = a \: (n+1)$ and therefore:
+
+    $$
+    \lim_{n \rightarrow +\infty} s_n = \lim_{n \rightarrow +\infty} a \: (n+1) =
+    \begin{cases}
+    +\infty & {\rm if~} a > 0\\[1ex]
+    -\infty & {\rm if~} a < 0\\[1ex]
+    0 & {\rm if~} a = 0
+    \end{cases}
+    $$
+
+    <p class="qed-riga"><span class="qed">□</span></p>
+
+!!! chiave ""
+
+    The arithmetic series is therefore convergent only in the trivial case $a = d = 0$, in which all its terms are zero, and it is never irregular (unlike the geometric series, which is irregular for $q \le -1$).
+
+- The fact that the arithmetic series cannot converge, except in the trivial case, also follows from the necessary condition for convergence \(\eqref{BBB}\). The general term is $a_k = a + k \: d$ and we have:
+
+    $$
+    \lim_{k \rr \ip} (a + k \: d) =
+    \begin{cases}
+    +\infty & {\rm if~} d > 0\\[1ex]
+    -\infty & {\rm if~} d < 0\\[1ex]
+    a & {\rm if~} d = 0
+    \end{cases}
+    $$
+
+    that is, $\lim_{k \rr \ip} a_k = 0$ only if $d = 0$ and $a = 0$. In all the other cases the contrapositive of \(\eqref{BBB}\) guarantees that the series is not convergent. The necessary condition does not say, however, <em>which</em> the behavior is: it is the computation of the partial sums carried out in the proof that establishes that the series is divergent, and with which sign.
+
+<a id="box-texexpbox1-16"></a>
+
+!!! esempio "Example 3: arithmetic series"
+
+    Let us determine the behavior of the series:
+
+    $$
+    \sum_{k=0}^{\infty} \left(1 + \frac{1}{2} \: k \right)
+    $$
+
+    It is an arithmetic series with first term $a=1$ and common difference $d=1/2$. Since $d>0$, the series is divergent to $\ip$.
+
+    ![Figure 6](../img/series-01-numerical-series/fig06.svg){ .fig .ovale loading=lazy style="width:70%" }
+
+### 1.6 Telescoping series
+
+<a id="box-defXX-17"></a>
+
+!!! definizione "Definition 8: of telescoping series"
 
     A <strong>telescoping series</strong> is a series of the form:
 
@@ -451,9 +564,9 @@ title: "Numerical series"
     \sum_{k=n_0}^{\infty} (b_k-b_{k+1}) {\rm ~~~~~where~~} \{b_k\} {\rm~is~a ~sequence}
     $$
 
-<a id="box-theoZERI-15"></a>
+<a id="box-theoZERI-18"></a>
 
-!!! teorema "Theorem 5: behavior and sum of the telescoping series"
+!!! teorema "Theorem 6: behavior and sum of the telescoping series"
 
     A telescoping series converges, diverges or is irregular according to whether the sequence $\{b_k\}$ converges, diverges or is irregular, respectively.
 
@@ -481,7 +594,7 @@ title: "Numerical series"
 
     <p class="qed-riga"><span class="qed">□</span></p>
 
-<a id="box-theoZERI-16"></a>
+<a id="box-theoZERI-19"></a>
 
 !!! osservazione "Remark 2"
 
@@ -507,7 +620,7 @@ title: "Numerical series"
 
 - Graphically we have:
 
-![Figure 6](../img/series-01-numerical-series/fig06.svg){ .fig .ovale loading=lazy style="width:65%" }
+![Figure 7](../img/series-01-numerical-series/fig07.svg){ .fig .ovale loading=lazy style="width:65%" }
 
 ??? dimostrazione "Proof"
 
@@ -527,9 +640,9 @@ title: "Numerical series"
 
     Consequently Mengoli's series is convergent and its sum $s$ is 1. <span class="qed">□</span>
 
-<a id="box-texexpbox1-17"></a>
+<a id="box-texexpbox1-20"></a>
 
-!!! esempio "Example 3: telescoping series"
+!!! esempio "Example 4: telescoping series"
 
     Let us determine the behavior of the series:
 

@@ -121,7 +121,7 @@ title: "Recursively defined sequences"
     a_n \le a_{n +1}  \Longleftrightarrow a_n \le \frac{a_n}{1+a_n} \Longleftrightarrow 1+ a_n \le 1 \Longleftrightarrow a_n \le 0
     $$
 
-    which we know to be false; hence the opposite inequality holds, i.e., the sequence is strictly decreasing ($a_n > a_{n +1}, \forall n \in \N$).
+    which we know to be false; hence the opposite inequality holds, i.e., the sequence is decreasing ($a_n > a_{n +1}, \forall n \in \N$).
 
     Since it is also bounded below (by zero), $a_n$ converges to a finite non-negative limit, which we call $\ell \ge 0$.
 
@@ -208,7 +208,7 @@ title: "Recursively defined sequences"
     \frac{1}{2} \left( a_n + \frac{c}{a_n} \right) < a_n, ~~~~~~  \frac{a_n^2 + c}{a_n}  < 2\:a_n, ~~~~~~ a_n^2 + c < 2\: a_n^2 , ~~~~~~   c < a_n^2
     $$
 
-    hence the sequence is strictly decreasing if and only if:
+    hence the sequence is decreasing if and only if:
 
     $$
     a_n > \sqrt{c}
@@ -226,9 +226,19 @@ title: "Recursively defined sequences"
     \frac{1}{2} \left( a_n + \frac{c}{a_n} \right) -  \sqrt{c} > 0,~~~~~  \frac{a_n^2 + c}{2\:a_n} - \sqrt{c} > 0,~~~~~ \frac{a_n^2 + c - 2\: a_n\:\sqrt{c}}{2\:a_n}  > 0,~~~~~ \frac{(a_n - \sqrt{c})^2}{2\:a_n}  > 0
     $$
 
-    hence $a_n > \sqrt{c}$ for every $n \ge 1$ if $\underbrace{ b }_{= a_0} \neq \sqrt{c}$.  And hence we always have $a_1 > \sqrt{c},  \forall b >0$. 
+    hence $a_n > \sqrt{c}$ for every $n \ge 1$ if $\underbrace{ b }_{= a_0} \neq \sqrt{c}$, whereas, if $b = \sqrt{c}$, the recursive relation gives $a_1 = \frac{1}{2} \left(\sqrt{c} + \frac{c}{\sqrt{c}} \right) = \sqrt{c}$ and, by induction, $a_n = \sqrt{c}$ for every $n \ge 1$.  In either case we therefore have
 
-    1. If $b >\sqrt{c}$ the sequence is strictly decreasing, therefore it has a limit (finite and positive), which we denote by $\ell \ge 0$.
+    $$
+    a_n \ge \sqrt{c}, \qquad \forall b >0 {\rm ~~and~~} n \ge 1
+    $$
+
+    1. If $b >\sqrt{c}$ the sequence is decreasing and is <strong>bounded from below</strong> by $\sqrt{c}$, since $a_0 = b > \sqrt{c}$ and $a_n > \sqrt{c}$ for every $n \ge 1$. By the monotone sequence theorem it therefore has a finite limit
+
+        $$
+        \ell = \inf \{ a_n : n \in \N\} \ge \sqrt{c} > 0
+        $$
+
+        in particular $\ell > 0$ and we may divide by $\ell$.
 
         To identify it, we pass to the limit in the recursive relation, obtaining
 
@@ -241,6 +251,8 @@ title: "Recursively defined sequences"
         $$
         \ell - \frac{1}{2} \left( \ell + \frac{c}{\ell} \right) = 0,~~~~~~\ell - \frac{1}{2} \left(   \frac{\ell^2+c}{\ell} \right) = 0,~~~~~~ \left(   \frac{2\: \ell^2 -\ell^2-c}{2\:\ell} \right) = 0,~~~~~~ \left(   \frac{\ell^2 -c}{2\:\ell} \right) = 0
         $$
+
+        that is $\ell^2 = c$ and, since $\ell > 0$, we obtain $\ell = \sqrt{c}$ (and not $\ell = -\sqrt{c}$).
 
         Therefore, if $b >\sqrt{c}$, the whole sequence converges to $\sqrt{c}$ while decreasing.
 
@@ -257,16 +269,18 @@ title: "Recursively defined sequences"
 - Moreover, $\forall b >0$ and $n \ge 1$ we have:
 
     $$
-    \frac{c}{a_n} < \sqrt{c}  {\rm ~~~~since~~~} a_n > \sqrt{c},  \qquad
-     c = \sqrt{c} \cdot \underbrace{\sqrt{c}}_{<a_n} {\rm ~~~~~and~~~~~} c < \sqrt{c} \cdot a_n
+    \frac{c}{a_n} \le \sqrt{c}  {\rm ~~~~since~~~} a_n \ge \sqrt{c},  \qquad
+     c = \sqrt{c} \cdot \underbrace{\sqrt{c}}_{\le a_n} {\rm ~~~~~and~~~~~} c \le \sqrt{c} \cdot a_n
     $$
 
     Summarizing, $\forall b >0$ and $n \ge 1$ we have:
 
     $$
-    \frac{c}{a_n} < \sqrt{c} < a_n, \qquad   a_n \rr \sqrt{c}
+    \frac{c}{a_n} \le \sqrt{c} \le a_n, \qquad   a_n \rr \sqrt{c}
       {\rm ~~~~~and~also~~~~} \frac{c}{a_n} \rr \sqrt{c}  {\rm ~~since~~} c =\sqrt{c} \sqrt{c}
     $$
+
+    The inequalities are strict for every $b \neq \sqrt{c}$ and hold as equalities for $b = \sqrt{c}$.
 
 !!! chiave ""
 
@@ -364,7 +378,7 @@ title: "Recursively defined sequences"
     \tilde{\varepsilon}_n = \frac{|a_n - \sqrt{c}|}{\sqrt{c}}
     $$
 
-    we have $\sqrt{c} < a_n, \forall b >0$ and $n \ge 1$, hence we can simply consider:
+    we have $\sqrt{c} \le a_n, \forall b >0$ and $n \ge 1$, hence we can simply consider:
 
     $$
     \tilde{\varepsilon}_n = \frac{a_n - \sqrt{c}}{\sqrt{c}}
@@ -383,13 +397,13 @@ title: "Recursively defined sequences"
     we know that
 
     $$
-    \frac{c}{a_n} < \sqrt{c} < a_n,~~~~ \forall b >0, n \ge 1
+    \frac{c}{a_n} \le \sqrt{c} \le a_n,~~~~ \forall b >0, n \ge 1
     $$
 
     hence we can obtain an estimate of the absolute error $\varepsilon_n$ made at iteration $n$ as follows:
 
     $$
-    \varepsilon_n = a_n - \sqrt{c} < a_n - \frac{c}{a_n} {\rm ~~~~and~~~~} \varepsilon_n \rr 0 {\rm ~~for~~} n \rr \ip {\rm ~~since~~} a_n \rr \sqrt{c}
+    \varepsilon_n = a_n - \sqrt{c} \le a_n - \frac{c}{a_n} {\rm ~~~~and~~~~} \varepsilon_n \rr 0 {\rm ~~for~~} n \rr \ip {\rm ~~since~~} a_n \rr \sqrt{c}
     $$
 
     <a id="box-texexpbox1-5"></a>
@@ -501,13 +515,13 @@ title: "Recursively defined sequences"
     From the formula just obtained we can deduce the following simplified and more intuitive one:
 
     $$
-    0 \le \tilde{\varepsilon}_{n+1} < \frac{1}{2} \min \big\{\tilde{\varepsilon}_n,\tilde{\varepsilon}_n^2 \big\}
+    0 \le \tilde{\varepsilon}_{n+1} \le \frac{1}{2} \min \big\{\tilde{\varepsilon}_n,\tilde{\varepsilon}_n^2 \big\}
     $$
 
-    Hence:
+    with strict inequality when $\tilde{\varepsilon}_n > 0$ (if $\tilde{\varepsilon}_n = 0$ then $\tilde{\varepsilon}_{n+1}=0$ and equality holds). Hence:
 
     $$
-    {\rm ~~if~~~} \tilde{\varepsilon}_n < 1, {\rm ~~~we~have~~~} \tilde{\varepsilon}_{n+1} < \frac{1}{2} \: \tilde{\varepsilon}_n^2
+    {\rm ~~if~~~} 0 < \tilde{\varepsilon}_n < 1, {\rm ~~~we~have~~~} \tilde{\varepsilon}_{n+1} < \frac{1}{2} \: \tilde{\varepsilon}_n^2
     $$
 
     For example, if the relative error at a certain iteration equals $10^{-3}$, at the next step it will be less than $5 \cdot 10^{-7}$. In other words, the number of zeros after the decimal point (which equals the number of correctly estimated digits after the decimal point) doubles at each iteration.

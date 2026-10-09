@@ -131,7 +131,7 @@ title: "Limits of polynomials and rational functions"
 
 <a id="box-texexpbox1-4"></a>
 
-!!! esempio "Example 4: Limits of quotients of sums of powers with rational exponents "
+!!! esempio "Example 4: Limits of quotients of sums of powers with rational exponents"
 
     For example:
 

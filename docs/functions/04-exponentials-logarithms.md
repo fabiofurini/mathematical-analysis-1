@@ -103,7 +103,7 @@ title: "Exponential and logarithmic functions"
 
 <a id="box-texexpbox1-3"></a>
 
-!!! esempio "Example 1: graphs of exponential and logarithmic functions "
+!!! esempio "Example 1: graphs of exponential and logarithmic functions"
 
     Exponential functions:
 

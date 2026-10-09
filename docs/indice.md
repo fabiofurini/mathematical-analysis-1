@@ -8,7 +8,7 @@
 4. [Binary relations](numbers/04-binary-relations.md)
 5. [Ordered fields, supremum/infimum and the completeness axiom](numbers/05-ordered-fields.md)
 6. [Roots, powers, logarithms and modular arithmetic](numbers/06-roots-powers-logarithms.md)
-7. [Summations and geometric progressions](numbers/07-summations.md)
+7. [Summations, geometric and arithmetic progressions](numbers/07-summations.md)
 8. [Principle of mathematical induction](numbers/08-induction.md)
 9. [Factorials, binomial coefficients and triangle inequality](numbers/09-factorials-binomials.md)
 10. [The Fibonacci sequence](numbers/10-fibonacci.md)

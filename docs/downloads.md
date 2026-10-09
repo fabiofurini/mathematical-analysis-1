@@ -62,7 +62,7 @@ The slides of the lectures, chapter by chapter (PDF).
 - Chapter 4 · [Binary relations](pdf/slides-numbers-04-binary-relations.pdf)
 - Chapter 5 · [Ordered fields, supremum/infimum and the completeness axiom](pdf/slides-numbers-05-ordered-fields.pdf)
 - Chapter 6 · [Roots, powers, logarithms and modular arithmetic](pdf/slides-numbers-06-roots-powers-logarithms.pdf)
-- Chapter 7 · [Summations and geometric progressions](pdf/slides-numbers-07-summations.pdf)
+- Chapter 7 · [Summations, geometric and arithmetic progressions](pdf/slides-numbers-07-summations.pdf)
 - Chapter 8 · [Principle of mathematical induction](pdf/slides-numbers-08-induction.pdf)
 - Chapter 9 · [Factorials, binomial coefficients and triangle inequality](pdf/slides-numbers-09-factorials-binomials.pdf)
 - Chapter 10 · [The Fibonacci sequence](pdf/slides-numbers-10-fibonacci.pdf)

@@ -26,9 +26,9 @@ title: "Euler's number"
 
 ??? dimostrazione "Proof"
 
-    We will prove that the sequence $\{a_n\}$ is monotone increasing ($a_n \ge a_{n-1}, \forall n \in \N, n\ge 2$) and bounded ($m \le a_n \le M, \forall n \in \N, n \ge 1$); hence it is convergent by the monotone sequence theorem.
+    We will prove that the sequence $\{a_n\}$ is non-decreasing ($a_n \ge a_{n-1}, \forall n \in \N, n\ge 2$) and bounded ($m \le a_n \le M, \forall n \in \N, n \ge 1$); hence it is convergent by the monotone sequence theorem. The proof is split into three parts: (1) the monotonicity of $\{a_n\}$ and its lower bound; (2) the monotonicity and the upper bound of an auxiliary sequence $\{b_n\}$; (3) the synthesis of the two results.
 
-    To prove that $\{a_n\}$ is monotone increasing, we study, for $n \ge 2$, the ratio:
+    <strong>Part (1).</strong> To prove that $\{a_n\}$ is non-decreasing, we study, for $n \ge 2$, the ratio:
 
     \begin{align*}
     \frac{a_n}{a_{n-1}} & = \frac{\left(1 + \frac{1}{n}\right)^n}{\left(1 + \frac{1}{n-1}\right)^{n-1}} = \frac{\left( \frac{n+1}{n} \right)^n}{\left( \frac{n}{n-1} \right)^{n-1}}\\[2ex]
@@ -48,22 +48,19 @@ title: "Euler's number"
     \frac{a_n}{a_{n-1}} \ge 1
     $$
 
-    i.e., $a_{n} \ge a_{n-1}$ and the sequence is monotone increasing. 
+    i.e., $a_{n} \ge a_{n-1}$ and the sequence is non-decreasing. 
 
-    To prove that $\{a_n\}$ is bounded, we observe that, since $a_1 = 2$, it follows that $a_n \ge 2, \forall n \ge 1$. 
-
-    Now consider the sequence
-
-    $$
-    b_n = \left( 1 + \frac{1}{n}\right)^{n+1} {\rm~~note~that~~} b_n = a_n \: \left( 1 + \frac{1}{n}\right)
-    {\rm ~~therefore~~} b_n > a_n, \forall n \in \N, n \ge 1
-    $$
-
-    <p class="qed-riga"><span class="qed">□</span></p>
+    To prove that $\{a_n\}$ is bounded <em>from below</em>, we observe that, since $a_1 = 2$ and the sequence is non-decreasing, it follows that $a_n \ge 2, \forall n \ge 1$. <span class="qed">□</span>
 
 ??? dimostrazione "Proof"
 
-    To prove that $\{b_n\}$ is monotone decreasing, we study, for $n \ge 2$, the ratio:
+    <strong>Part (2).</strong> Consider the auxiliary sequence
+
+    $$
+    b_n = \left( 1 + \frac{1}{n}\right)^{n+1} {\rm ~~with~~} n \ge 1
+    $$
+
+    To prove that $\{b_n\}$ is decreasing, we study, for $n \ge 2$, the ratio:
 
     \begin{align*}
     \frac{b_n}{b_{n-1}} &
@@ -98,15 +95,32 @@ title: "Euler's number"
     \frac{b_n}{b_{n-1}} < 1 {\rm ~~hence~~ } b_n < b_{n-1}
     $$
 
-    and the sequence $\{b_n\}$ is (strictly) monotone decreasing.
+    and the sequence $\{b_n\}$ is decreasing.
 
-    Since $b_1=4$, we therefore obtain
+    Since $b_1=4$ and the sequence is decreasing, we therefore obtain
 
     $$
-    a_n < b_n \le b_1  =4, ~\forall n \ge 1
+    b_n \le b_1  =4, ~\forall n \ge 1
     $$
 
-    and $\{a_n\}$ is bounded. <span class="qed">□</span>
+    that is, $\{b_n\}$ is bounded from above. <span class="qed">□</span>
+
+??? dimostrazione "Proof"
+
+    <strong>Part (3).</strong> The two sequences are related by
+
+    $$
+    b_n = a_n \: \underbrace{\left( 1 + \frac{1}{n}\right)}_{>1,~ \forall n \ge 1} 
+    {\rm ~~therefore~~} b_n > a_n, \forall n \in \N, n \ge 1
+    $$
+
+    and consequently
+
+    $$
+    2 \le a_n < b_n \le 4, ~\forall n \ge 1
+    $$
+
+    The sequence $\{a_n\}$ is therefore non-decreasing and bounded and, by the monotone sequence theorem, it is convergent. <span class="qed">□</span>
 
 <a id="box-texexpbox1-2"></a>
 
@@ -187,7 +201,7 @@ title: "Euler's number"
     and also
 
     $$
-    \left( 1 + \frac{1}{ c_n  }\right)^{ c_n  } > \left( 1 + \frac{1}{\lfloor c_n \rfloor +1 }\right)^{\lfloor c_n \rfloor } = \underbrace{\left( 1 + \frac{1}{\lfloor c_n \rfloor +1}\right)^{\lfloor c_n \rfloor +1}}_{\rr e} \cdot \underbrace{\left( 1 + \frac{1}{ \lfloor c_n +1\rfloor  }\right)^{-1}}_{\rr 1}
+    \left( 1 + \frac{1}{ c_n  }\right)^{ c_n  } > \left( 1 + \frac{1}{\lfloor c_n \rfloor +1 }\right)^{\lfloor c_n \rfloor } = \underbrace{\left( 1 + \frac{1}{\lfloor c_n \rfloor +1}\right)^{\lfloor c_n \rfloor +1}}_{\rr e} \cdot \underbrace{\left( 1 + \frac{1}{ \lfloor c_n \rfloor +1  }\right)^{-1}}_{\rr 1}
     $$
 
     hence the first limit of the theorem follows from the comparison theorem.
@@ -280,12 +294,20 @@ title: "Euler's number"
     \lim_{n \rr \ip }  \left( 1 + \frac{\alpha}{n}\right)^n = e^\alpha {\rm ~~~with~~~} \alpha \in \R
     \end{align*}
 
-    Since:
+    If $\alpha = 0$ the result is immediate, since the sequence is constant:
+
+    $$
+    \left( 1 + \frac{0}{n}\right)^n = 1^n = 1 = e^0
+    $$
+
+    If instead $\alpha \neq 0$ (so that we can divide by $\alpha$), we have:
 
     $$
     \left( 1 + \frac{\alpha}{n}\right)^n = \left(
     1 + \frac{1}{\frac{n}{\alpha}}\right)^n = \left( \underbrace{\left( 1 + \frac{1}{\frac{n}{\alpha}}\right)^{\frac{n}{\alpha}}}_{\rr e} \right)^\alpha
     $$
+
+    where we used the previous theorem with $c_n = \frac{n}{\alpha}$, a sequence divergent to $\ip$ if $\alpha>0$ and to $\im$ if $\alpha<0$.
 
     For example, with $\alpha=2$ we have:
 

@@ -146,7 +146,7 @@ title: "Series with terms of variable sign"
 
 <a id="box-texexpbox1-5"></a>
 
-!!! esempio "Example 2: Leibniz test "
+!!! esempio "Example 2: Leibniz test"
 
     Let us determine the behavior of the series:
 
@@ -256,7 +256,7 @@ title: "Series with terms of variable sign"
 
 <a id="box-texexpbox1-7"></a>
 
-!!! esempio "Example 3: Leibniz test "
+!!! esempio "Example 3: Leibniz test"
 
     Let us determine the behavior of the series:
 
@@ -280,7 +280,7 @@ title: "Series with terms of variable sign"
 
 <a id="box-texexpbox1-8"></a>
 
-!!! esempio "Example 4: Leibniz test "
+!!! esempio "Example 4: Leibniz test"
 
     Let us determine the behavior of the series:
 
@@ -322,7 +322,7 @@ title: "Series with terms of variable sign"
 
 <a id="box-texexpbox1-9"></a>
 
-!!! esempio "Example 5: Leibniz test "
+!!! esempio "Example 5: Leibniz test"
 
     Let us determine the behavior of the series:
 
@@ -352,7 +352,7 @@ title: "Series with terms of variable sign"
 
 <a id="box-texexpbox1-10"></a>
 
-!!! esempio "Example 6: Leibniz test "
+!!! esempio "Example 6: Leibniz test"
 
     Let us determine the behavior of the series:
 
@@ -370,7 +370,7 @@ title: "Series with terms of variable sign"
 
 <a id="box-texexpbox1-11"></a>
 
-!!! esempio "Example 7: Leibniz test "
+!!! esempio "Example 7: Leibniz test"
 
     Let us determine the behavior of the series:
 

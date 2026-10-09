@@ -8,7 +8,7 @@
 
     ---
 
-    The concept of function · Definition of function, domain, codomain and image · Surjections, injections and bijections
+    The concept of function · Definition of function, domain, codomain and image · Surjections, injections and bijections · Inverse of a bijection
 
     [:octicons-arrow-right-24: Read the chapter](01-functions.md)
 
@@ -16,7 +16,7 @@
 
     ---
 
-    Real function of a real variable · Bounded functions · Symmetric functions · Monotonic functions · …
+    Real function of a real variable · Sign of a function · Bounded functions · Symmetric functions · …
 
     [:octicons-arrow-right-24: Read the chapter](02-real-functions.md)
 
@@ -56,7 +56,7 @@
 
     ---
 
-    Integer part and fractional part functions · Piecewise-defined functions
+    Integer part and fractional part functions · Piecewise-defined functions · The absolute-value function
 
     [:octicons-arrow-right-24: Read the chapter](07-integer-part.md)
 

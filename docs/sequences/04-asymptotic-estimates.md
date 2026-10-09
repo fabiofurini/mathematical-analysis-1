@@ -258,23 +258,25 @@ title: "Comparisons and asymptotic estimates"
 
         is to use the <strong>substitution principle</strong>.
 
-- For example, knowing that
+- For the logarithm the substitution principle reads as follows: if
 
     $$
-    \lim_{n \rr \ip} 	\underbrace{\log \: n}_{a_n} \rr \ip
+    a_n \thicksim b_n {\rm ~~~~and~~~~} \lim_{n \rr \ip} b_n = \ip \qquad {\rm then} \qquad \log a_n \thicksim \log b_n
     $$
 
-    we can state
+- Indeed, since $a_n \thicksim b_n$, we have $\frac{a_n}{b_n} \rr 1$ and therefore $\log \frac{a_n}{b_n} \rr \log 1 = 0$. We can then write:
 
     $$
-    \lim_{n \rr \ip} \log \: c_n \rr \ip
+    \frac{\log a_n}{\log b_n} = \frac{\log \left( b_n \: \frac{a_n}{b_n}\right)}{\log b_n} = \frac{\log b_n + \log \frac{a_n}{b_n}}{\log b_n} = 1 + \frac{\overbrace{\log \frac{a_n}{b_n}}^{\rr 0}}{\underbrace{\log b_n}_{\rr \ip}} \rr 1
     $$
 
-    where $\{c_n\}$ is any sequence diverging to $\ip$, hence
+- <strong>Warning</strong>: it is not enough that two sequences both diverge to $\ip$ for them to be asymptotic. For example $\log n$ and $\log e^n = n$ both diverge to $\ip$, but
 
     $$
-    \underbrace{\log n}_{a_n} \thicksim \underbrace{\log \: c_n}_{b_n}
+    \lim_{n \rr \ip} \frac{\log n}{n} = 0 \neq 1
     $$
+
+    hence $\log n$ and $\log e^n$ are not asymptotic.
 
 <a id="box-texexpbox1-7"></a>
 
@@ -286,22 +288,22 @@ title: "Comparisons and asymptotic estimates"
     \lim_{n \rr \ip} \log_3 (n^2 + 4n +1)
     $$
 
-    using the substitution principle and defining
+    using the substitution principle and asymptotic estimates. With the decomposition method we have
 
     $$
-    c_n = n^2 + 4n +1 {\rm ~~~we~have~~~} \lim_{n \rr \ip}  n^2 + 4n +1 = \ip
+    \underbrace{n^2 + 4\:n +1}_{a_n} = \underbrace{n^2}_{b_n} \: \underbrace{\left( 1 + \frac{4}{n} + \frac{1}{n^2}\right)}_{\rr 1} \thicksim n^2 {\rm ~~~~and~~~~} \lim_{n \rr \ip} n^2 = \ip
     $$
 
-    then
+    then, by the substitution principle,
 
     $$
-    \log_3 n \thicksim \log_3 (n^2 + 4n +1)
+    \log_3 (n^2 + 4\:n +1) \thicksim \log_3 \left(n^2\right) = 2 \: \log_3 n
     $$
 
     and hence
 
     $$
-    \lim_{n \rr \ip} \log_3 (n^2 + 4n +1) = \lim_{n \rr \ip} \log_3 n =\ip
+    \lim_{n \rr \ip} \log_3 (n^2 + 4\:n +1) = \lim_{n \rr \ip} 2 \: \log_3 n =\ip
     $$
 
 !!! chiave ""

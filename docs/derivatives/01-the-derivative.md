@@ -288,8 +288,7 @@ title: "The derivative function"
 
 <a id="box-defXX-5"></a>
 
-!!! definizione "Definition 2: tangent line
-"
+!!! definizione "Definition 2: tangent line"
 
     Given a function $f: (a, b) \rr \R$ with  $f$ differentiable at $x_0 \in (a, b)$, the line with equation:
 

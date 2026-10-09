@@ -148,6 +148,34 @@ title: "Functions"
     k: i \mapsto \left( 1 + \frac{i}{12}\right)^{12}
     $$
 
+<a id="box-defUguaglianzaFunzioni-8"></a>
+
+!!! definizione "Definition 3: of equality of two functions"
+
+    Two functions $f$ and $g$ are <strong>equal</strong> if they have the same <em>domain</em> $A$, the same <em>codomain</em> $B$ and if
+
+    $$
+    f(a) = g(a), \qquad {\rm~~for~every~~} a \in A.
+    $$
+
+- A function is therefore not just a “formula”: <strong>the domain and the codomain are part of the function</strong>. Changing either of them gives a different function, even if the law is the same.
+
+<a id="box-texexpbox1-9"></a>
+
+!!! esempio "Example 6: equal functions and different functions"
+
+    Consider the three functions
+
+    $$
+    f: \mathbb{R} \rightarrow \mathbb{R},~~ f: x \mapsto x^2 \qquad
+       g: \mathbb{R} \rightarrow [0,+\infty),~~ g: x \mapsto x^2 \qquad
+       h: [0,+\infty) \rightarrow \mathbb{R},~~ h: x \mapsto x^2
+    $$
+
+    - $f \neq g$: they have the same domain and the same law, but different codomains;
+
+    - $f \neq h$: they have the same codomain and the same law, but different domains.
+
 - The notation
 
     $$
@@ -164,9 +192,9 @@ title: "Functions"
 
 ![Figure 3](../img/functions-01-functions/fig03.svg){ .fig .ovale loading=lazy style="width:75%" }
 
-<a id="box-defImmagine-8"></a>
+<a id="box-defImmagine-10"></a>
 
-!!! definizione "Definition 3: of image and image of the domain"
+!!! definizione "Definition 4: of image and image of the domain"
 
     The output corresponding to $x$ is called the <strong>image</strong> of $x$; the set of possible outputs is called the <strong>image of the domain $A$ under $f$</strong> and is denoted by the symbol $f(A)$ or $\Ima f$.
 
@@ -178,15 +206,55 @@ title: "Functions"
 
 - If $f$ is real-valued, we usually write $f : A \rightarrow \mathbb{R}$ without specifying the actual image of $f$.
 
+<a id="box-defImmagineSottoinsieme-11"></a>
+
+!!! definizione "Definition 5: of image of a subset of the domain"
+
+    Given a function $f: A \rightarrow B$ and a subset $A' \subseteq A$, the <strong>image of $A'$ under $f$</strong> is the set of the outputs produced by the inputs in $A'$:
+
+    $$
+    f(A') = \big\{ b \in B:~~ b = f(a) {\rm ~~for~some~~} a \in A' \big\}.
+    $$
+
+- Taking $A'=A$ we recover the <em>image of the domain</em> (also called the <em>range</em> of $f$), which can therefore be written explicitly as
+
+    $$
+    f(A) = \big\{ b \in B:~~ b = f(a) {\rm ~~for~some~~} a \in A \big\} \subseteq B.
+    $$
+
+<a id="box-texexpbox1-12"></a>
+
+!!! esempio "Example 7: image of the domain and image of a subset"
+
+    Consider the function
+
+    $$
+    f: \mathbb{N} \rightarrow \mathbb{N}, \quad f: n \mapsto 2\:n
+    $$
+
+    - The image of its domain is
+
+        $$
+        f(\mathbb{N}) = \big\{ m \in \mathbb{N}:~~ m = 2\:n {\rm ~~for~some~~} n \in \mathbb{N} \big\},
+        $$
+
+        that is, the set of the <strong>nonnegative even numbers</strong>. In particular $f(\mathbb{N}) \subsetneq \mathbb{N}$: the codomain is strictly larger than the image.
+
+    - The image of the subset $A' = \{0,1,2,3\} \subseteq \mathbb{N}$ is instead
+
+        $$
+        f(A') = \{0,2,4,6\}.
+        $$
+
 ## 3. Surjections, injections and bijections
 
-<a id="box-notationA-9"></a>
+<a id="box-notationA-13"></a>
 
-!!! definizione "Definition 4: of surjection (surjective function)"
+!!! definizione "Definition 6: of surjection (surjective function)"
 
     A function $f$ is a <strong>surjection</strong> if the image of its domain coincides with its codomain.
 
-- A surjection $f:  A \rightarrow B$ is sometimes also called a mapping <em>onto</em> $B$ (from $A$).
+- If $f:  A \rightarrow B$ is a surjection, we also say that <strong>$f$ maps $A$ onto $B$</strong>. Note that the word <em>mapping</em> denotes an arbitrary function: it is the preposition <em>onto</em> that expresses surjectivity.
 
 - Set representation:
 
@@ -198,9 +266,9 @@ title: "Functions"
 
 </div>
 
-<a id="box-texexpbox1-10"></a>
+<a id="box-texexpbox1-14"></a>
 
-!!! esempio "Example 6: surjective and non-surjective functions"
+!!! esempio "Example 8: surjective and non-surjective functions"
 
     - The function $f(n)=\lfloor \frac{n}{2} \rfloor$ is a surjective function from $\mathbb{N}$ to $\mathbb{N}$, since every element of the codomain $\mathbb{N}$ is the image of some value of the domain.
 
@@ -208,35 +276,37 @@ title: "Functions"
 
     - The function $f(n)= 2\:n$ is, however, a surjective function from the natural numbers to the even numbers.
 
-<a id="box-propAAA-11"></a>
+<a id="box-propCARDsur-15"></a>
 
 !!! osservazione "Remark 1"
 
-    Given two sets $A$ and $B$, and a function $f: A \rightarrow B$, if $f$ is surjective then $|A| \ge |B|$.
+    Given two <strong>finite</strong> sets $A$ and $B$, and a function $f: A \rightarrow B$, if $f$ is surjective then $|A| \ge |B|$.
 
 ??? dimostrazione "Proof"
 
-    We proceed by induction on the number $n$ of elements in the codomain of the function.
+    Write $B = \{b_1, b_2, \dots, b_m\}$, with $m = |B|$, and for every $i \in \{1, 2, \dots, m\}$ consider the set of the inputs whose output is $b_i$:
 
-    - <strong>Base case</strong>
+    $$
+    A_i = \big\{ a \in A:~ f(a) = b_i \big\} \subseteq A.
+    $$
 
-        If there is only one element in the codomain ($|B|=1$), since the function is surjective, we have $|A| \ge 1$ (every element of $B$ is the image of at least one element of $A$). Hence $1 \ge 1$, which is clearly true.
+    - Every $A_i$ is <strong>nonempty</strong>: since $f$ is surjective, every $b_i$ is the image of at least one element of $A$, hence $|A_i| \ge 1$.
 
-    - <strong>Inductive step</strong>
+    - The sets $A_1, A_2, \dots, A_m$ are <strong>pairwise disjoint</strong>: if $a \in A_i \cap A_j$ then $b_i = f(a) = b_j$, because $f$ associates with $a$ <em>one and only one</em> output, and therefore $i=j$.
 
-        Assume then that all functions with codomain of size $n$ satisfy $|A_{n}| \ge |B_{n}|$.
+    - Their <strong>union is the whole of $A$</strong>: every $a \in A$ belongs to the set $A_i$ with $b_i = f(a)$.
 
-        Considering codomains of size $n+1$ we have $|B_{n+1}|=|B_{n}|+1$. Since the codomain has one more element and the function is surjective, we have $|A_{n+1}| \ge |A_{n}| +1$. Substituting we obtain:
+    The sets $A_1, A_2, \dots, A_m$ thus form a <em>partition</em> of $A$ and, since $A$ is finite, we count the elements of $A$ by summing the cardinalities of the blocks:
 
-        $$
-        \underbrace{|A_{n}|}_{\le~|A_{n+1}|-1} \ge \underbrace{|B_{n}|}_{=~|B_{n+1}|-1} {\rm~~hence~~} |A_{n+1}| \ge |B_{n+1}|.
-        $$
+    $$
+    |A| = \sum_{i=1}^{m} |A_i| \ge \sum_{i=1}^{m} 1 = m = |B|.
+    $$
 
     <p class="qed-riga"><span class="qed">□</span></p>
 
-<a id="box-notationA-12"></a>
+<a id="box-notationA-16"></a>
 
-!!! definizione "Definition 5: of injection (injective function)"
+!!! definizione "Definition 7: of injection (injective function)"
 
     A function $f$ is an <strong>injection</strong> if distinct arguments of $f$ produce distinct values, that is, if  $a \neq b$ implies $f(a) \neq f(b)$.
 
@@ -250,9 +320,9 @@ title: "Functions"
 
 </div>
 
-<a id="box-texexpbox1-13"></a>
+<a id="box-texexpbox1-17"></a>
 
-!!! esempio "Example 7"
+!!! esempio "Example 9"
 
     - The function $f(n)=  2\:n$ is an injective function from $\mathbb{N}$ to $\mathbb{N}$, since each even number $b$ is the image under  $f$ of exactly one element of the domain, namely $n=\frac{b}{2}$
 
@@ -260,35 +330,39 @@ title: "Functions"
 
 - An injection is also called a <strong>one-to-one</strong> function.
 
-<a id="box-propAAA-14"></a>
+<a id="box-propCARDinj-18"></a>
 
 !!! osservazione "Remark 2"
 
-    Given two sets $A$ and $B$, and a function $f: A \rightarrow B$, if $f$ is injective then $|A| \le |B|$.
+    Given two <strong>finite</strong> sets $A$ and $B$, and a function $f: A \rightarrow B$, if $f$ is injective then $|A| \le |B|$.
 
 ??? dimostrazione "Proof"
 
-    We proceed by induction on the number $n$ of elements in the domain of the function.
+    Write $A = \{a_1, a_2, \dots, a_n\}$, with $n=|A|$, and consider the $n$ outputs
 
-    - <strong>Base case</strong>
+    $$
+    f(a_1),~ f(a_2),~ \dots,~ f(a_n) \in f(A).
+    $$
 
-        If there is only one element in the domain ($|A|=1$), since each element of the domain is associated with one and only one element of the codomain, we have $|B| \ge 1$.  Hence $1 \le 1$, which is clearly true.
+    - These outputs are <strong>all distinct</strong>: if $i \neq j$ then $a_i \neq a_j$ and, since $f$ is injective, $f(a_i) \neq f(a_j)$.
 
-    - <strong>Inductive step</strong>
+    - Every element of $f(A)$ <strong>appears</strong> in the list: by definition of image of the domain, every $b \in f(A)$ has the form $b=f(a)$ with $a \in A$, that is, $a = a_i$ for some $i \in \{1, 2, \dots, n\}$.
 
-        Assume then that all functions with domain of size $n$ satisfy $|A_{n}| \le |B_{n}|$.
+    The list $f(a_1), f(a_2), \dots, f(a_n)$ therefore enumerates the elements of $f(A)$ without repetitions, and hence
 
-        Considering domains of size $n+1$ we have $|A_{n+1}|=|A_{n}|+1$ and, since the function is injective,  $|B_{n+1}| \ge |B_{n}| +1$. Substituting we obtain
+    $$
+    |A| = n = |f(A)|.
+    $$
 
-        $$
-        \underbrace{|A_{n}|}_{=~|A_{n+1}|-1} \le \underbrace{|B_{n}|}_{\le~|B_{n+1}|-1} {\rm~~hence~~} |A_{n+1}| \le |B_{n+1}|.
-        $$
+    Finally $f(A) \subseteq B$ and $B$ is finite, hence $|f(A)| \le |B|$. Putting the two relations together we obtain $|A| \le |B|$. <span class="qed">□</span>
 
-    <p class="qed-riga"><span class="qed">□</span></p>
+!!! chiave ""
 
-<a id="box-notationA-15"></a>
+    The two remarks above are stated for <strong>finite</strong> sets: the proofs <em>count</em> elements, and counting only makes sense for finite sets. Comparing the “sizes” of two infinite sets requires a different notion of cardinality, which is introduced in the chapter “Cardinality of infinite sets” of Part 1.
 
-!!! definizione "Definition 6: of bijection (bijective function or one-to-one correspondence)"
+<a id="box-notationA-19"></a>
+
+!!! definizione "Definition 8: of bijection (bijective function or one-to-one correspondence)"
 
     A function $f$ is a <strong>bijection</strong> if: $(i)$ it is <u><em>injective</em></u> and $(ii)$ it is <u><em>surjective</em></u>.
 
@@ -296,9 +370,9 @@ title: "Functions"
 
 ![Figure 8](../img/functions-01-functions/fig08.svg){ .fig .ovale loading=lazy style="width:32%" }
 
-<a id="box-texexpbox1-16"></a>
+<a id="box-texexpbox1-20"></a>
 
-!!! esempio "Example 8"
+!!! esempio "Example 10"
 
     - The function $f(n)= (-1)^n\:\lceil \frac{n}{2} \rceil$ is a bijection from $\mathbb{N}$ to $\mathbb{Z}$. The values of the function are:
 
@@ -311,3 +385,65 @@ title: "Functions"
 - A bijection is also called a <strong>one-to-one</strong> correspondence, since it pairs elements of the domain with elements of the codomain.
 
 - A bijection from a set $A$  to itself is also called a <strong>permutation</strong>.
+
+## 4. Inverse of a bijection
+
+- A bijection $f: A \rightarrow B$ pairs every element of $A$ with an element of $B$ and vice versa: the pairing can therefore be followed in the opposite direction as well, from $B$ to $A$.
+
+<a id="box-defInversaBiiezione-21"></a>
+
+!!! definizione "Definition 9: of inverse of a bijection"
+
+    Given a bijection $f: A \rightarrow B$, its <strong>inverse</strong> is the function
+
+    $$
+    f^{-1}: B \rightarrow A, \qquad f^{-1}(b)=a ~~~\Longleftrightarrow~~~ f(a)=b.
+    $$
+
+- The definition is well posed, that is, $f^{-1}$ really is a function, precisely because $f$ is a bijection: given $b \in B$,
+
+    - the <em>surjectivity</em> of $f$ guarantees that there exists <em>at least one</em> $a \in A$ with $f(a)=b$;
+
+    - the <em>injectivity</em> of $f$ guarantees that there exists <em>at most one</em>, because distinct inputs have distinct outputs.
+
+    Hence every $b \in B$ corresponds to <em>one and only one</em> $a \in A$, as required by the definition of function.
+
+- In other words, if $f$ applied to the input $a$ gives the output $b$, then $f^{-1}$ applied to $b$ returns $a$:
+
+    $$
+    f^{-1}\big(f(a)\big)=a,~~\forall a \in A \qquad {\rm ~~and~~} \qquad f\big(f^{-1}(b)\big)=b,~~\forall b \in B.
+    $$
+
+!!! chiave ""
+
+    Here the inverse is defined on the <strong>whole</strong> codomain $B$, and therefore <em>both</em> the injectivity <em>and</em> the surjectivity of $f$ are needed. In the chapter “Inverse functions” we study instead functions of a real variable, and there a function is called <em>invertible</em> when it is only <strong>injective</strong>: the inverse is built on the <em>image</em> $f(D)$ and not on the whole codomain, and with respect to the image surjectivity is automatic.
+
+<a id="box-texexpbox1-22"></a>
+
+!!! esempio "Example 11: inverse of a bijection"
+
+    Let us go back to the bijection $f: \mathbb{N} \rightarrow \mathbb{Z}$ of the previous example,
+
+    $$
+    f(n)= (-1)^n\:\left\lceil \frac{n}{2} \right\rceil,
+    $$
+
+    which pairs $0 \leftrightarrow 0$, $1 \leftrightarrow -1$, $2 \leftrightarrow 1$, $3 \leftrightarrow -2$, $4 \leftrightarrow 2, \dots$
+
+    Its inverse $f^{-1}: \mathbb{Z} \rightarrow \mathbb{N}$ is:
+
+    $$
+    f^{-1}(m)=
+    \begin{cases}
+    2\:m & {\rm if~~} m \ge 0\\[1ex]
+    -(2\:m+1) & {\rm if~~} m < 0
+    \end{cases}
+    $$
+
+    Indeed, if $m \ge 0$, then $n = 2\:m$ is even and $f(n)=(-1)^{2m} \lceil m \rceil = m$; if instead $m<0$, then $n=-(2\:m+1)=-2\:m-1$ is odd and nonnegative, and
+
+    $$
+    f(n)=(-1)^{n}\left\lceil \frac{-2\:m-1}{2} \right\rceil = -\left\lceil -m-\frac{1}{2} \right\rceil = -(-m)=m,
+    $$
+
+    where we used that $-m-\frac{1}{2}$ has ceiling $-m$, since $-m$ is a positive integer.

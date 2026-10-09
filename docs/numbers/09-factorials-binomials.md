@@ -496,6 +496,9 @@ The $n$-th power of a binomial $(a + b)$ can be computed with the following form
 - The following immediate properties also hold:
 
     \begin{equation}
-    |b\:c| = |b| \: |c|, \qquad \left| \frac{b}{c}\right|= \frac{|b|}{|c|}, \qquad |-b|=|b| \qquad \forall  b,c \in \mathbb{R}.
+    \begin{aligned}
+    |b\:c| &= |b| \: |c|, \qquad |-b|=|b| & &\forall  b,c \in \mathbb{R},\\[1ex]
+    \left| \frac{b}{c}\right| &= \frac{|b|}{|c|} & &\forall  b,c \in \mathbb{R},~ c \neq 0.
+    \end{aligned}
     \label{ass_7}
     \end{equation}

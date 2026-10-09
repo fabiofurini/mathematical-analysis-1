@@ -870,7 +870,7 @@ title: "Complex numbers"
 
 <a id="box-texexpbox1-22"></a>
 
-!!! esempio "Example 12: quadratic equations in the complex field "
+!!! esempio "Example 12: quadratic equations in the complex field"
 
     - We want to solve:
 

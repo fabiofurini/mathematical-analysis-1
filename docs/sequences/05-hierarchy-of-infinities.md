@@ -271,7 +271,7 @@ title: "Hierarchies of infinities and the ratio test"
     \frac{ \log(n+1) }{\log n} \thicksim \frac{ \log n }{ \log n} = 1 {\rm ~~~~hence~~~~} \lim_{n \rr \ip} \frac{ \log(n+1) }{\log n} = 1
     $$
 
-    where $\log(n+1) \thicksim \log(n)$ by the substitution principle. Now, using the theorem on the algebra of limits, we have
+    where $\log(n+1) \thicksim \log(n)$ by the substitution principle, since $n+1 \thicksim n$ and $\lim_{n \rr \ip} n = \ip$. Now, using the theorem on the algebra of limits, we have
 
     $$
     \lim_{n \rr \ip} \frac{a_{n+1}}{a_n} = 1 \cdot 1 = 1

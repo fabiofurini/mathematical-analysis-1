@@ -123,7 +123,63 @@ title: "Sequences and limits of sequences"
 
     We say that a sequence $\{a_n\}$ has (or acquires) a certain property <strong>eventually</strong> if there exists $\tilde{n} \in \mathbb{N}$ such that $a_n$ satisfies that property for every $n \ge \tilde{n}$.
 
-<a id="box-texexpbox1-7"></a>
+<a id="box-defPOSITIVITA-7"></a>
+
+!!! definizione "Definition 3: Positive and negative sequences"
+
+    A sequence $\{a_n\}$ is called <strong>non-negative</strong> if:
+
+    $$
+    ~a_n \ge 0,~ \forall n
+    $$
+
+    A sequence $\{a_n\}$ is called <strong>positive</strong> if:
+
+    $$
+    ~a_n > 0,~ \forall n
+    $$
+
+    A sequence $\{a_n\}$ is called <strong>non-positive</strong> if:
+
+    $$
+    ~a_n \le 0,~ \forall n
+    $$
+
+    A sequence $\{a_n\}$ is called <strong>negative</strong> if:
+
+    $$
+    ~a_n < 0,~ \forall n
+    $$
+
+<a id="box-defPOSITIVITA_DEFINITIVA-8"></a>
+
+!!! definizione "Definition 4: Eventually positive and eventually negative sequences"
+
+    A sequence $\{a_n\}$ is called <strong>eventually non-negative</strong> if there exists $\tilde{n} \in \mathbb{N}$ such that:
+
+    $$
+    ~a_n \ge 0,~ \forall n \ge \tilde{n}
+    $$
+
+    A sequence $\{a_n\}$ is called <strong>eventually positive</strong> if there exists $\tilde{n} \in \mathbb{N}$ such that:
+
+    $$
+    ~a_n > 0,~ \forall n \ge \tilde{n}
+    $$
+
+    A sequence $\{a_n\}$ is called <strong>eventually non-positive</strong> if there exists $\tilde{n} \in \mathbb{N}$ such that:
+
+    $$
+    ~a_n \le 0,~ \forall n \ge \tilde{n}
+    $$
+
+    A sequence $\{a_n\}$ is called <strong>eventually negative</strong> if there exists $\tilde{n} \in \mathbb{N}$ such that:
+
+    $$
+    ~a_n < 0,~ \forall n \ge \tilde{n}
+    $$
+
+<a id="box-texexpbox1-9"></a>
 
 !!! esempio "Example 5: Properties that hold eventually"
 
@@ -133,7 +189,7 @@ title: "Sequences and limits of sequences"
 
     This sequence is eventually positive. With $n=4$ we have $a_n=0$, hence taking $\tilde{n}=5$, we have $a_n > 0$ for $n \ge \tilde{n}$.
 
-<a id="box-texexpbox1-8"></a>
+<a id="box-texexpbox1-10"></a>
 
 !!! esempio "Example 6: Properties that hold eventually"
 
@@ -145,9 +201,9 @@ title: "Sequences and limits of sequences"
 
 ### 1.1 Convergent sequences and definition of the limit of a sequence
 
-<a id="box-defXX-9"></a>
+<a id="box-defXX-11"></a>
 
-!!! definizione "Definition 3: Convergent sequence"
+!!! definizione "Definition 5: Convergent sequence"
 
     A sequence $\{ a_n\}$ is called <strong>convergent</strong> if there exists a number $\ell \in  \mathbb{R}$ such that:
 
@@ -168,9 +224,9 @@ title: "Sequences and limits of sequences"
 
     The number $n(\varepsilon)$ depends (in general) on the value of $\varepsilon$. If the sequence $\{a_n\}$ is convergent, then the number $\ell \in \R$ is associated with it.
 
-<a id="box-defXX-10"></a>
+<a id="box-defXX-12"></a>
 
-!!! definizione "Definition 4: Limit of a sequence"
+!!! definizione "Definition 6: Limit of a sequence"
 
     The number $\ell \in \R$ appearing in inequality \(\eqref{limite_successione}\) is called the <strong>limit of the sequence</strong> $\{a_n\}$, and we write:
 
@@ -199,12 +255,12 @@ title: "Sequences and limits of sequences"
     The convergence condition means that, having fixed a horizontal strip “as narrow as we like”:
 
     $$
-    [\ell - \varepsilon,  \ell + \varepsilon]
+    (\ell - \varepsilon,  \ell + \varepsilon)
     $$
 
     from a certain value of $n$ onward, called $n(\varepsilon)$, the points $a_n$ of the sequence no longer leave this strip.  In the previous graph, having fixed the width of the strip, the values $a_n$ lie inside the strip for $n \ge n(\varepsilon)$.
 
-<a id="box-theoXXX-11"></a>
+<a id="box-theoXXX-13"></a>
 
 !!! teorema "Theorem 1: Uniqueness of the limit of a sequence"
 
@@ -227,14 +283,14 @@ title: "Sequences and limits of sequences"
 
     Hence two different values $\ell_1$ and $\ell_2$ cannot exist and consequently the limit (if it exists) is unique. <span class="qed">□</span>
 
-<a id="box-texexpbox1-12"></a>
+<a id="box-texexpbox1-14"></a>
 
 !!! esempio "Example 7: Verifying the limit of a sequence"
 
     The graph of the sequence $n \mapsto \frac{(-1)^n}{n}$, for example starting from $n=9$, lies within the horizontal strip:
 
     $$
-    \left[-\frac{1}{8}, \frac{1}{8}\right]
+    \left(-\frac{1}{8}, \frac{1}{8}\right)
     $$
 
     given by $\ell=0$ and $\varepsilon = \frac{1}{8}$.   With $n=8$ we have $a_n=\frac{1}{8}$, with $n=9$ we have $a_n=-\frac{1}{9}$, hence
@@ -254,7 +310,7 @@ title: "Sequences and limits of sequences"
     we must verify that for every $\varepsilon>0$ there exists $n(\varepsilon) \in \N$ such that
 
     $$
-    n>n(\varepsilon) \Rightarrow |a_{n}|< \varepsilon
+    n \ge n(\varepsilon) \Rightarrow |a_{n}|< \varepsilon
     $$
 
     The inequality is equivalent to
@@ -272,11 +328,55 @@ title: "Sequences and limits of sequences"
 
     to satisfy the condition required by the definition of limit.
 
-!!! chiave ""
+<a id="box-ossCONV_LIMITATE-15"></a>
 
-    Convergent sequences are (eventually) bounded.
+!!! osservazione "Remark 1"
 
-<a id="box-texexpbox1-13"></a>
+    Every convergent sequence is bounded.
+
+??? dimostrazione "Proof"
+
+    Let $\{a_n\}$ be convergent to the limit $\ell \in \R$. Choosing $\varepsilon = 1$ in the definition of limit, there exists $n(1) \in \N$ such that
+
+    $$
+    |a_n - \ell| < 1 {\rm~~~~for~every~~~~} n \ge n(1)
+    $$
+
+    By the triangle inequality we then have
+
+    $$
+    |a_n| = |(a_n - \ell) + \ell| ~\le~ |a_n - \ell| + |\ell| ~<~ 1 + |\ell| {\rm~~~~for~every~~~~} n \ge n(1)
+    $$
+
+    The remaining terms $a_0, a_1, \dots, a_{n(1)-1}$ are <em>finitely many</em>, hence we can set
+
+    $$
+    M = \max \big\{ ~|a_0|,~ |a_1|,~ \dots,~ |a_{n(1)-1}|,~ 1 + |\ell| ~\big\} \in \R
+    $$
+
+    and we obtain
+
+    $$
+    -M \le a_n \le M {\rm~~~~for~every~~~~} n \in \N
+    $$
+
+    that is, the sequence is bounded. <span class="qed">□</span>
+
+- By contraposition we also obtain: if a sequence is <strong>not</strong> bounded, then it is <strong>not</strong> convergent.
+
+- The implication does not hold in the opposite direction: a bounded sequence is not necessarily convergent. A counterexample is the sequence $\left\{ (-1)^n \right\}$, which is bounded ($-1 \le (-1)^n \le 1$ for every $n \in \N$) but is not convergent. Suppose indeed, for the sake of contradiction, that $(-1)^n \rr \ell \in \R$: fixing $\varepsilon = \frac{1}{2}$, we should have $|(-1)^n - \ell| < \frac{1}{2}$ eventually, whereas
+
+    - **** if $\ell \ge 0$, for every <em>odd</em> $n$ we have $|(-1)^n - \ell| = |-1 - \ell| = 1 + \ell \ge 1$;
+
+    - **** if $\ell < 0$, for every <em>even</em> $n$ we have $|(-1)^n - \ell| = |1 - \ell| = 1 + |\ell| > 1$.
+
+    In both cases the inequality $|(-1)^n - \ell| < \frac{1}{2}$ is violated for infinitely many values of $n$ (hence it does not hold eventually), and we have a contradiction. Therefore
+
+    $$
+    \{a_n\} {\rm ~~bounded~~} \nRightarrow \{a_n\} {\rm ~~convergent}
+    $$
+
+<a id="box-texexpbox1-16"></a>
 
 !!! esempio "Example 8: Verifying the limit of a sequence"
 
@@ -299,7 +399,7 @@ title: "Sequences and limits of sequences"
     We must verify that for every $\varepsilon>0$ there exists $n(\varepsilon) \in \N$ such that:
 
     $$
-    n>n(\varepsilon) \Rightarrow 1 -\varepsilon < \frac{n+1}{n-1} < 1 + \varepsilon
+    n \ge n(\varepsilon) \Rightarrow 1 -\varepsilon < \frac{n+1}{n-1} < 1 + \varepsilon
     $$
 
     The left inequality is always satisfied (the numerator of the fraction is always larger than the denominator). We take the right one:
@@ -320,7 +420,7 @@ title: "Sequences and limits of sequences"
 
     to satisfy the condition required by the definition of limit.
 
-<a id="box-texexpbox1-14"></a>
+<a id="box-texexpbox1-17"></a>
 
 !!! esempio "Example 9: Verifying the limit of a sequence"
 
@@ -332,7 +432,7 @@ title: "Sequences and limits of sequences"
 
     ![Figure 8](../img/sequences-01-limits-of-sequences/fig08.svg){ .fig .ovale loading=lazy style="width:80%" }
 
-<a id="box-texexpbox1-15"></a>
+<a id="box-texexpbox1-18"></a>
 
 !!! esempio "Example 10: Verifying the limit of a sequence"
 
@@ -355,7 +455,7 @@ title: "Sequences and limits of sequences"
     We must verify that for every $\varepsilon>0$ there exists $n(\varepsilon) \in \N$ such that:
 
     $$
-    n>n(\varepsilon) \Rightarrow 1 -\varepsilon < 2^{\frac{1}{n}} < 1 + \varepsilon.
+    n \ge n(\varepsilon) \Rightarrow 1 -\varepsilon < 2^{\frac{1}{n}} < 1 + \varepsilon.
     $$
 
     The left inequality is always satisfied (2 raised to a positive rational number), while for the right one, taking the logarithm to base $2$, we obtain:
@@ -378,7 +478,7 @@ title: "Sequences and limits of sequences"
 
     to satisfy the condition required by the definition of limit.
 
-<a id="box-texexpbox1-16"></a>
+<a id="box-texexpbox1-19"></a>
 
 !!! esempio "Example 11: Limit of sequences"
 
@@ -401,7 +501,7 @@ title: "Sequences and limits of sequences"
     We must verify that for every $\varepsilon>0$ there exists $n(\varepsilon) \in \N$ such that:
 
     $$
-    n>n(\varepsilon) \Rightarrow -\varepsilon < \log \left( 1 + \frac{1}{n} \right) <  \varepsilon
+    n \ge n(\varepsilon) \Rightarrow -\varepsilon < \log \left( 1 + \frac{1}{n} \right) <  \varepsilon
     $$
 
     The left inequality is always satisfied (the logarithm to base $e$ of a number greater than 1), while for the right one, exponentiating, we obtain:
@@ -424,9 +524,9 @@ title: "Sequences and limits of sequences"
 
 ### 1.2 Divergent sequences and irregular sequences
 
-<a id="box-defXX-17"></a>
+<a id="box-defXX-20"></a>
 
-!!! definizione "Definition 5: Sequence divergent to $+\infty$"
+!!! definizione "Definition 7: Sequence divergent to $+\infty$"
 
     A sequence $\{ a_n\}$ is called <strong>divergent</strong> to $+\infty$ if for every $M>0$ there exists a number $n(M) \in \N$ such that:
 
@@ -434,9 +534,9 @@ title: "Sequences and limits of sequences"
     a_n  > M {\rm~~for~every~~} n \ge n(M)
     $$
 
-<a id="box-defXX-18"></a>
+<a id="box-defXX-21"></a>
 
-!!! definizione "Definition 6: Sequence divergent to $-\infty$"
+!!! definizione "Definition 8: Sequence divergent to $-\infty$"
 
     A sequence $\{ a_n\}$ is called <strong>divergent</strong> to $-\infty$ if for every $M>0$ there exists a number $n(M) \in \N$ such that:
 
@@ -472,9 +572,9 @@ title: "Sequences and limits of sequences"
 
 - On the symbols $+\infty$ and $-\infty$ the operations of sum and product with the properties stated in $R_1$ and $R_2$ are not defined, even though we will be able to perform these operations “partially” (as we will see later).
 
-<a id="box-defXX-19"></a>
+<a id="box-defXX-22"></a>
 
-!!! definizione "Definition 7: The set $\mathbb{R}^*$"
+!!! definizione "Definition 9: The set $\mathbb{R}^*$"
 
     The set of real numbers $\mathbb{R}$ with the addition of the two elements $+\infty$ and $-\infty$ will be denoted by:
 
@@ -494,7 +594,7 @@ title: "Sequences and limits of sequences"
 
     Sequences whose limit is a real number are <strong>convergent</strong>; those whose limit is $+\infty$ or $-\infty$ are <strong>divergent</strong>.
 
-<a id="box-texexpbox1-20"></a>
+<a id="box-texexpbox1-23"></a>
 
 !!! esempio "Example 12: Convergent and divergent sequences"
 
@@ -506,9 +606,9 @@ title: "Sequences and limits of sequences"
 
     - the sequence $\{ 2^{\frac{1}{n}} \}$ is convergent to $1$.
 
-<a id="box-theoXXX-21"></a>
+<a id="box-theoXXX-24"></a>
 
-!!! osservazione "Remark 1"
+!!! osservazione "Remark 2"
 
     $$
     \lim_{n \rightarrow +\infty} n^{\alpha} =
@@ -524,7 +624,7 @@ title: "Sequences and limits of sequences"
     If $\alpha>0$, we must prove that the sequence diverges to $\ip$.  We must therefore verify that for every $M>0$ there exists $n(M) \in \N$ such that
 
     $$
-    n>n(M)\Rightarrow a_{n}>M
+    n \ge n(M)\Rightarrow a_{n}>M
     $$
 
     The inequality
@@ -548,7 +648,7 @@ title: "Sequences and limits of sequences"
     If $\alpha<0$,  we must verify that for every $\varepsilon>0$ there exists $n(\varepsilon) \in \N$ such that
 
     $$
-    n>n(\varepsilon) \Rightarrow -\varepsilon < n^{\alpha} <   \varepsilon
+    n \ge n(\varepsilon) \Rightarrow -\varepsilon < n^{\alpha} <   \varepsilon
     $$
 
     The left inequality is always satisfied. For the right inequality, since $n^{\alpha}=\frac{1}{n^{|\alpha|}}$, we obtain
@@ -573,19 +673,29 @@ title: "Sequences and limits of sequences"
 
 - Finally, we observe that there are sequences that are neither convergent nor divergent
 
-<a id="box-defXX-22"></a>
+<a id="box-defXX-25"></a>
 
-!!! definizione "Definition 8: Irregular (indeterminate) sequence"
+!!! definizione "Definition 10: Irregular (indeterminate) sequence"
 
     A sequence that is neither convergent nor divergent is called <strong>irregular</strong> (oscillating) or <strong>indeterminate</strong>.
 
-<a id="box-texexpbox1-23"></a>
+<a id="box-texexpbox1-26"></a>
 
 !!! esempio "Example 13: Irregular sequences"
 
     - the sequence  $\{ (-1)^n \}$ is neither convergent nor divergent (but it is bounded)
 
     - the sequence  $\{ (-2)^n \}$ is neither convergent nor divergent (and not even bounded).
+
+??? dimostrazione "Proof"
+
+    We check that the sequence $\{(-1)^n\}$ is irregular, that is, that it is neither convergent nor divergent.
+
+    - **** <strong>It is not convergent</strong>: we proved it in Remark [Remark 1](#box-ossCONV_LIMITATE-15), where $\left\{(-1)^n\right\}$ was used as a counterexample to the converse implication.
+
+    - **** <strong>It is not divergent</strong>: for every $n \in \N$ we have $-1 \le (-1)^n \le 1$. Fixing $M = 1$, for every <em>odd</em> $n$ we get $(-1)^n = -1 < M$, hence $(-1)^n \rr \ip$ is impossible; for every <em>even</em> $n$ we get $(-1)^n = 1 > -M$, hence $(-1)^n \rr \im$ is impossible.
+
+    The limit of $\{(-1)^n\}$ therefore does not exist. <span class="qed">□</span>
 
 - For <strong>irregular</strong> sequences, the limit operation is not defined, i.e., their <strong>limit does not exist</strong>.
 
@@ -597,9 +707,9 @@ title: "Sequences and limits of sequences"
 
 - It is convenient to adopt the convention introduced for limits also for the $\sup$ and the $\inf$, extending the definition of these quantities as follows
 
-<a id="box-defXX-24"></a>
+<a id="box-defXX-27"></a>
 
-!!! definizione "Definition 9: Supremum and infimum $\sup$ and $\inf$ (unbounded sets)"
+!!! definizione "Definition 11: Supremum and infimum $\sup$ and $\inf$ (unbounded sets)"
 
     If a set $E \subseteq \mathbb{R}$ is not bounded above (below), we will say that
 
@@ -615,13 +725,13 @@ title: "Sequences and limits of sequences"
 
 ## 3. Infinitesimal and infinite sequences
 
-<a id="box-defXX-25"></a>
+<a id="box-defXX-28"></a>
 
-!!! definizione "Definition 10: Infinitesimal sequence"
+!!! definizione "Definition 12: Infinitesimal sequence"
 
     A sequence $\{a_n\}$ tending to zero is called <strong>infinitesimal</strong>
 
-<a id="box-texexpbox1-26"></a>
+<a id="box-texexpbox1-29"></a>
 
 !!! esempio "Example 14: Infinitesimal sequences"
 
@@ -629,19 +739,53 @@ title: "Sequences and limits of sequences"
 
     - the sequence $\left\{ \frac{1}{n^2} \right\}$ is infinitesimal
 
+<a id="box-theoINFINITESIMA_MODULO-30"></a>
+
+!!! teorema "Theorem 2: On infinitesimal sequences"
+
+    A sequence $\{a_n\}$ is infinitesimal if and only if the sequence of absolute values $\{|a_n|\}$ is infinitesimal:
+
+    $$
+    \lim_{n \rr \ip} a_n = 0 \quad \Longleftrightarrow \quad \lim_{n \rr \ip} |a_n| = 0.
+    $$
+
+??? dimostrazione "Proof"
+
+    We prove the two implications.
+
+    - **** ($\Rightarrow$) If $\{a_n\}$ is infinitesimal, then $a_n \rr 0$ and therefore, for every $\varepsilon>0$, there exists $n(\varepsilon) \in \N$ such that
+
+        $$
+        \underbrace{|a_n - 0|}_{=~\big| \: |a_n| - 0 \: \big|} < \varepsilon {\rm~~~~for~every~~~~} n \ge n(\varepsilon)
+        $$
+
+        which is exactly the condition $|a_n| \rr 0$.
+
+    - **** ($\Leftarrow$) If $|a_n| \rr 0$, then for every $\varepsilon>0$ there exists $n(\varepsilon) \in \N$ such that
+
+        $$
+        \underbrace{\big| \: |a_n| - 0 \: \big|}_{=~|a_n|~=~|a_n - 0|} < \varepsilon {\rm~~~~for~every~~~~} n \ge n(\varepsilon)
+        $$
+
+        which is exactly the condition $a_n \rr 0$, that is, $\{a_n\}$ is infinitesimal.
+
+    <p class="qed-riga"><span class="qed">□</span></p>
+
+- Beware: the theorem holds <strong>only</strong> for the limit $0$. For instance $(-1)^n$ has $|(-1)^n| = 1 \rr 1$, but the sequence $\left\{(-1)^n\right\}$ is not convergent.
+
 - The concept of <em>infinitesimal</em> plays a central role and is also fundamental for having a correct and effective <strong>intuitive picture</strong> of the concepts of <em>infinitesimal calculus</em>.
 
 !!! chiave ""
 
     an “<strong>infinitesimal</strong>” is not an “infinitely small number” (a meaningless concept) but a <strong>variable quantity</strong> (a sequence or, as we will see, a function) that <strong>becomes indefinitely small</strong>.
 
-<a id="box-defXX-27"></a>
+<a id="box-defXX-31"></a>
 
-!!! definizione "Definition 11: Infinite sequence"
+!!! definizione "Definition 13: Infinite sequence"
 
     A sequence $\{a_n\}$ tending to $\pm \infty$ is called <strong>infinite</strong> (an infinity)
 
-<a id="box-texexpbox1-28"></a>
+<a id="box-texexpbox1-32"></a>
 
 !!! esempio "Example 15: Infinite sequences"
 
@@ -651,9 +795,9 @@ title: "Sequences and limits of sequences"
 
 - Sometimes it is possible to specify whether a convergent sequence <strong>approaches its limit from above or from below</strong>
 
-<a id="box-defXX-29"></a>
+<a id="box-defXX-33"></a>
 
-!!! definizione "Definition 12: Limit from above"
+!!! definizione "Definition 14: Limit from above"
 
     We say that the sequence $\{a_n\}$ tends to $\ell \in \mathbb{R}$ <strong>from above</strong> and we write
 
@@ -667,9 +811,9 @@ title: "Sequences and limits of sequences"
     0 \le a_n - \ell < \varepsilon, {\rm ~~~~eventually}.
     $$
 
-<a id="box-defXX-30"></a>
+<a id="box-defXX-34"></a>
 
-!!! definizione "Definition 13: Limit from below"
+!!! definizione "Definition 15: Limit from below"
 
     We say that the sequence $\{a_n\}$ tends to $\ell \in \mathbb{R}$ <strong>from below</strong> and we write
 
@@ -687,7 +831,7 @@ title: "Sequences and limits of sequences"
 
 - Saying that $a_n \rightarrow \ell^-$ for $n \rr \ip$ means stating that $a_n \rightarrow \ell$ and moreover $a_n \le \ell$ eventually; hence $a_n$ approaches $\ell$ <em>from below</em>, i.e., it approximates $\ell$ from below.
 
-<a id="box-texexpbox1-31"></a>
+<a id="box-texexpbox1-35"></a>
 
 !!! esempio "Example 16: Sequence with limit from above"
 
@@ -697,7 +841,7 @@ title: "Sequences and limits of sequences"
 
     ![Figure 12](../img/sequences-01-limits-of-sequences/fig12.svg){ .fig .ovale loading=lazy style="width:75%" }
 
-<a id="box-texexpbox1-32"></a>
+<a id="box-texexpbox1-36"></a>
 
 !!! esempio "Example 17: Sequence with limit from below"
 
@@ -707,7 +851,7 @@ title: "Sequences and limits of sequences"
 
     ![Figure 13](../img/sequences-01-limits-of-sequences/fig13.svg){ .fig .ovale loading=lazy style="width:75%" }
 
-<a id="box-texexpbox1-33"></a>
+<a id="box-texexpbox1-37"></a>
 
 !!! esempio "Example 18: Sequence with a limit, but neither from below nor from above"
 
@@ -721,59 +865,91 @@ title: "Sequences and limits of sequences"
 
 ## 4. Monotone sequences
 
-<a id="box-defXX-34"></a>
+<a id="box-defXX-38"></a>
 
-!!! definizione "Definition 14: Monotone sequences"
+!!! definizione "Definition 16: Monotone sequences"
 
-    A sequence $\{a_n\}$ is called <strong>monotone increasing</strong> if:
+    A sequence $\{a_n\}$ is called <strong>non-decreasing</strong> if:
 
     $$
     ~a_n \le a_{n+1},~ \forall n
     $$
 
-    A sequence $\{a_n\}$ is called <strong>strictly monotone increasing</strong> if:
+    A sequence $\{a_n\}$ is called <strong>increasing</strong> if:
 
     $$
     ~a_n < a_{n+1},~ \forall n
     $$
 
-    A sequence $\{a_n\}$ is called <strong>monotone decreasing</strong> if:
+    A sequence $\{a_n\}$ is called <strong>non-increasing</strong> if:
 
     $$
     ~a_n \ge a_{n+1},~ \forall n
     $$
 
-    A sequence $\{a_n\}$ is called <strong>strictly monotone decreasing</strong> if:
+    A sequence $\{a_n\}$ is called <strong>decreasing</strong> if:
 
     $$
     ~a_n > a_{n+1},~ \forall n
     $$
 
-<a id="box-texexpbox1-35"></a>
+    A sequence is <strong>monotonic</strong> if it is non-decreasing or non-increasing; it is <strong>strictly monotonic</strong> if it is increasing or decreasing.
 
-!!! esempio "Example 19: Monotone increasing/decreasing sequences"
+<a id="box-defMONOTONE_DEFINITIVE-39"></a>
 
-    - The sequence $\{ n^2\}$ is strictly monotone increasing
+!!! definizione "Definition 17: Eventually monotone sequences"
 
-    - The sequence $\left\{ \frac{1}{n} \right\}$ is strictly monotone decreasing
+    A sequence $\{a_n\}$ is called <strong>eventually non-decreasing</strong> if there exists $\tilde{n} \in \mathbb{N}$ such that:
 
-    - The sequence $\left\{ (-1)^n \right\}$ is not monotone
+    $$
+    ~a_n \le a_{n+1},~ \forall n \ge \tilde{n}
+    $$
 
-    - every constant sequence is monotone (increasing or decreasing, not strictly)
+    A sequence $\{a_n\}$ is called <strong>eventually increasing</strong> if there exists $\tilde{n} \in \mathbb{N}$ such that:
+
+    $$
+    ~a_n < a_{n+1},~ \forall n \ge \tilde{n}
+    $$
+
+    A sequence $\{a_n\}$ is called <strong>eventually non-increasing</strong> if there exists $\tilde{n} \in \mathbb{N}$ such that:
+
+    $$
+    ~a_n \ge a_{n+1},~ \forall n \ge \tilde{n}
+    $$
+
+    A sequence $\{a_n\}$ is called <strong>eventually decreasing</strong> if there exists $\tilde{n} \in \mathbb{N}$ such that:
+
+    $$
+    ~a_n > a_{n+1},~ \forall n \ge \tilde{n}
+    $$
+
+    A sequence is <strong>eventually monotonic</strong> if it is eventually non-decreasing or eventually non-increasing; it is <strong>eventually strictly monotonic</strong> if it is eventually increasing or eventually decreasing.
+
+<a id="box-texexpbox1-40"></a>
+
+!!! esempio "Example 19: Increasing and decreasing sequences"
+
+    - The sequence $\{ n^2\}$ is increasing
+
+    - The sequence $\left\{ \frac{1}{n} \right\}$ is decreasing
+
+    - The sequence $\left\{ (-1)^n \right\}$ is not monotonic
+
+    - every constant sequence is monotonic (it is both non-decreasing and non-increasing), but it is not strictly monotonic
 
 - With regard to the limit operation, these sequences are of particular importance; indeed, they are <strong>never irregular</strong>, but are <strong>convergent or divergent</strong> depending on whether they are <strong>bounded or not</strong>.
 
-<a id="box-theoSUCC_MONOTONE-36"></a>
+<a id="box-theoSUCC_MONOTONE-41"></a>
 
-!!! teorema "Theorem 2: Monotone sequence theorem"
+!!! teorema "Theorem 3: Monotone sequence theorem"
 
-    - Let $\{a_n\}$ be a <strong>monotone increasing sequence that is bounded above</strong>. Then $\{a_n\}$ is convergent, and its limit equals
+    - Let $\{a_n\}$ be a <strong>non-decreasing sequence that is bounded above</strong>. Then $\{a_n\}$ is convergent, and its limit equals
 
         $$
         \sup \{a_n: n \in \N\}.
         $$
 
-    - Let $\{a_n\}$ be a <strong>monotone decreasing sequence that is bounded below</strong>. Then $\{a_n\}$ is convergent, and its limit equals
+    - Let $\{a_n\}$ be a <strong>non-increasing sequence that is bounded below</strong>. Then $\{a_n\}$ is convergent, and its limit equals
 
         $$
         \inf \{a_n: n \in \N\}.
@@ -781,7 +957,7 @@ title: "Sequences and limits of sequences"
 
 ??? dimostrazione "Proof"
 
-    We consider the case of monotone increasing sequences that are bounded above.
+    We consider the case of non-decreasing sequences that are bounded above.
 
     Since the sequence is bounded above, the set of values taken by the sequence $\{a_n : n \in  \N\}$ is bounded above. 
 
@@ -823,7 +999,7 @@ title: "Sequences and limits of sequences"
     a_{n(\varepsilon)} > \ell - \varepsilon.
     $$
 
-    On the other hand, the sequence is monotone increasing, therefore for every $n \ge n(\varepsilon)$ we have $a_n \ge a_{n(\varepsilon)}$. We have thus proved that
+    On the other hand, the sequence is non-decreasing, therefore for every $n \ge n(\varepsilon)$ we have $a_n \ge a_{n(\varepsilon)}$. We have thus proved that
 
     $$
     a_n \ge a_{n(\varepsilon)} > \ell - \varepsilon {\rm ~~for~every~~} n \ge n(\varepsilon)
@@ -835,13 +1011,13 @@ title: "Sequences and limits of sequences"
     \lim_{n \rightarrow +\infty} a_n = \ell
     $$
 
-    The case of monotone decreasing sequences that are bounded below is proved analogously. <span class="qed">□</span>
+    The case of non-increasing sequences that are bounded below is proved analogously. <span class="qed">□</span>
 
 - The idea of the proof is conveyed by the following figure:
 
     ![Figure 15](../img/sequences-01-limits-of-sequences/fig15.svg){ .fig .ovale loading=lazy style="width:90%" }
 
-- To express symbolically as well that the limit is the $\sup$ (or the $\inf$) of an increasing (or decreasing) sequence, we use the notation
+- To express symbolically as well that the limit is the $\sup$ (or the $\inf$) of a non-decreasing (or non-increasing) sequence, we use the notation
 
     $$
     a_n \uparrow \ell {\rm ~~~or~~~} a_n \downarrow \ell
@@ -851,7 +1027,7 @@ title: "Sequences and limits of sequences"
 
 - This theorem is a consequence of the completeness axiom (axiom of continuity) $R_4$ of the real numbers and therefore holds if the setting we consider is $\R$. For example, it is not true that an increasing and bounded sequence of rational numbers always has a rational limit, i.e., in $\Q$.
 
-    <a id="box-texexpbox1-37"></a>
+    <a id="box-texexpbox1-42"></a>
 
     !!! esempio "Example 20: Increasing and bounded sequence in $\Q$"
 
@@ -869,11 +1045,11 @@ title: "Sequences and limits of sequences"
 
 - The monotone sequence theorem can be completed with the next corollary, which considers bounded or unbounded sequences.
 
-<a id="box-corolXXX-38"></a>
+<a id="box-corolXXX-43"></a>
 
-!!! teorema "Corollary 1:  Of the monotone sequence theorem"
+!!! teorema "Corollary 1: Of the monotone sequence theorem"
 
-    Let $\{a_n\}$ be a monotone increasing sequence. Then there exists
+    Let $\{a_n\}$ be a non-decreasing sequence. Then there exists
 
     $$
     \lim_{n \rightarrow +\infty} a_n = \sup\{a_n: n \in \N\}.
@@ -881,7 +1057,7 @@ title: "Sequences and limits of sequences"
 
 ??? dimostrazione "Proof"
 
-    If $\{a_n\}$ is bounded above, the statement is contained in Theorem [Theorem 2](#box-theoSUCC_MONOTONE-36) (monotone sequence theorem).
+    If $\{a_n\}$ is bounded above, the statement is contained in Theorem [Theorem 3](#box-theoSUCC_MONOTONE-41) (monotone sequence theorem).
 
     If instead $\{a_n\}$ is unbounded above, this means that, having fixed $M > 0$, there exists an $n(M) \in \N$ such that
 
@@ -889,7 +1065,7 @@ title: "Sequences and limits of sequences"
     a_{n(M)} > M
     $$
 
-    On the other hand, the sequence is increasing, therefore for every $n \ge n(M)$ we have
+    On the other hand, the sequence is non-decreasing, therefore for every $n \ge n(M)$ we have
 
     $$
     a_n \ge a_{n(M)} > M
@@ -905,7 +1081,7 @@ Summarizing, we have:
 
 !!! chiave ""
 
-    A monotone sequence either converges or diverges (it cannot be irregular).
+    A monotonic sequence either converges or diverges (it cannot be irregular).
 
 ## 5. Limits of geometric progressions
 
@@ -921,17 +1097,17 @@ Summarizing, we have:
     n \mapsto a^n
     $$
 
-- If $a > 1$, the sequence is monotone increasing and unbounded above.
+- If $a > 1$, the sequence is increasing and unbounded above.
 
 - If $a = 1$, the sequence is constant.
 
-- If $0 < a < 1$, the sequence is monotone decreasing and tends to zero.
+- If $0 < a < 1$, the sequence is decreasing and tends to zero.
 
-- If $a$ is negative, the sequence is not monotone.
+- If $a$ is negative, the sequence is not monotonic.
 
-<a id="box-theoXXX-39"></a>
+<a id="box-theoXXX-44"></a>
 
-!!! osservazione "Remark 2"
+!!! osservazione "Remark 3"
 
     $$
     \lim_{n \rightarrow +\infty} a^n =
@@ -945,19 +1121,21 @@ Summarizing, we have:
 
 ??? dimostrazione "Proof"
 
-    If $|a| <1$, we must verify that for every $\varepsilon>0$ there exists $n(\varepsilon) \in \N$ such that
+    If $a = 0$, we have $a^n = 0$ for every $n \ge 1$: the sequence is eventually zero and therefore $a^n \rr 0$.
+
+    If $0 < |a| <1$, we must verify that for every $\varepsilon>0$ there exists $n(\varepsilon) \in \N$ such that
 
     $$
-    n>n(\varepsilon) \Rightarrow -\varepsilon<a_{n}<+\varepsilon
+    n \ge n(\varepsilon) \Rightarrow |a^{n}|< \varepsilon
     $$
 
-    Hence we must verify that
+    Since $|a^n| = |a|^n$, we must verify that
 
     $$
-    n>n(\varepsilon)\Rightarrow -\varepsilon<|a|^n<\varepsilon
+    n \ge n(\varepsilon)\Rightarrow |a|^n<\varepsilon
     $$
 
-    The first inequality is always true, while the second is satisfied if
+    Taking the logarithm in base $|a|$, which is <em>decreasing</em> since $0<|a|<1$, the inequality is satisfied if
 
     $$
     n > \log_{|a|} \varepsilon
@@ -974,7 +1152,7 @@ Summarizing, we have:
     If $a > 1$, we must verify that for every $M>0$ there exists $n(M) \in \N$ such that
 
     $$
-    n> n(M)  \Rightarrow a_{n}>M
+    n \ge n(M)  \Rightarrow a_{n}>M
     $$
 
     The inequality
@@ -993,25 +1171,41 @@ Summarizing, we have:
 
     to satisfy the required divergence condition. <span class="qed">□</span>
 
-<a id="box-texexpbox1-40"></a>
+??? dimostrazione "Proof"
 
-!!! esempio "Example 21: Infinitesimal and monotone decreasing geometric progression"
+    If $a \le -1$, we have $|a| \ge 1$ and therefore
+
+    $$
+    a^n = (-1)^n \: |a|^n {\rm ~~~~with~~~~} |a|^n \ge 1, ~~\forall n \in \N
+    $$
+
+    that is, $a^n \ge 1$ for $n$ even and $a^n \le -1$ for $n$ odd. We show that the sequence is neither convergent nor divergent, that is, it is irregular.
+
+    - **** <strong>It is not convergent</strong>: if, for the sake of contradiction, $a^n \rr \ell \in \R$, then fixing $\varepsilon = \frac{1}{2}$ we should have $|a^n - \ell| < \frac{1}{2}$ eventually. Instead, if $\ell \ge 0$, for every <em>odd</em> $n$ we have $|a^n - \ell| = |a|^n + \ell \ge 1$, while if $\ell < 0$, for every <em>even</em> $n$ we have $|a^n - \ell| = |a|^n + |\ell| > 1$. In both cases the inequality is violated for infinitely many values of $n$.
+
+    - **** <strong>It is not divergent</strong>: fixing $M = 1$, for every <em>odd</em> $n$ we have $a^n \le -1 < M$, hence $a^n \rr \ip$ is impossible; for every <em>even</em> $n$ we have $a^n \ge 1 > -M$, hence $a^n \rr \im$ is impossible.
+
+    The limit therefore does not exist. <span class="qed">□</span>
+
+<a id="box-texexpbox1-45"></a>
+
+!!! esempio "Example 21: Infinitesimal and decreasing geometric progression"
 
     ![Figure 16](../img/sequences-01-limits-of-sequences/fig16.svg){ .fig loading=lazy style="width:75%" }
 
-<a id="box-texexpbox1-41"></a>
+<a id="box-texexpbox1-46"></a>
 
-!!! esempio "Example 22: Infinitesimal (but not monotone) geometric progression"
+!!! esempio "Example 22: Infinitesimal (but not monotonic) geometric progression"
 
     ![Figure 17](../img/sequences-01-limits-of-sequences/fig17.svg){ .fig loading=lazy style="width:75%" }
 
-<a id="box-texexpbox1-42"></a>
+<a id="box-texexpbox1-47"></a>
 
 !!! esempio "Example 23: Divergent geometric progression"
 
     ![Figure 18](../img/sequences-01-limits-of-sequences/fig18.svg){ .fig loading=lazy style="width:75%" }
 
-<a id="box-texexpbox1-43"></a>
+<a id="box-texexpbox1-48"></a>
 
 !!! esempio "Example 24: Geometric progression that is neither convergent nor divergent"
 

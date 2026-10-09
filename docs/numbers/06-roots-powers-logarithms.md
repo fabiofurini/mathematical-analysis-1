@@ -194,7 +194,7 @@ title: "Roots, powers, logarithms and modular arithmetic"
 
     1. if the exponent $b$ is an integer, or
 
-    2. if the exponent $b=\frac{n}{m}$ is rational, provided that it is not the case that $n$ is odd and $m$ is even.
+    2. if the exponent $b=\frac{n}{m}$ is rational, <em>written in lowest terms</em>, provided that it is not the case that $n$ is odd and $m$ is even.
 
     If $c < 0$ and $m$ is odd, we define
 
@@ -215,6 +215,14 @@ title: "Roots, powers, logarithms and modular arithmetic"
     $$
     (-2)^{\frac{2}{5}} = \sqrt[5]{(-2)^2} = \sqrt[5]{4}
     $$
+
+    The assumption that the fraction is written in lowest terms is essential: $\frac{1}{3}$ and $\frac{2}{6}$ are the same rational number, but
+
+    $$
+    \sqrt[3]{(-8)^1} = \sqrt[3]{-8} = -2 \qquad {\rm ~~while~~} \qquad \sqrt[6]{(-8)^2} = \sqrt[6]{64} = 2.
+    $$
+
+    Only the first expression, with $\frac{n}{m}=\frac{1}{3}$ in lowest terms, defines $(-8)^{\frac{1}{3}}$.
 
 - When we say “does not exist in $\R$” we mean that it is not possible to define this operation in such a way that the usual rules of computation remain valid.
 
@@ -406,6 +414,16 @@ $$
     [a] = {\rm integer~~} n {\rm~~such~that~~} n \le a < n+1
     $$
 
+!!! chiave ""
+
+    Equivalently, the integer part of $a$ is the <strong>largest</strong> integer less than or equal to $a$:
+
+    $$
+    \lfloor a \rfloor = \max \big\{ n \in \Z:~~ n \le a \big\}.
+    $$
+
+- The two descriptions coincide. If $n \le a < n+1$, then $n$ belongs to the set $\{k \in \Z: k \le a\}$ and every other element $k$ of it satisfies $k \le a < n+1$, that is, $k \le n$ (since $k$ and $n$ are integers): hence $n$ is its maximum. Conversely, if $n$ is the maximum of that set, then $n \le a$ and moreover $a < n+1$, since otherwise $n+1$ would belong to the set and $n$ would not be its maximum.
+
 <a id="box-texexpbox1-9"></a>
 
 !!! esempio "Example 6: Integer part"
@@ -434,7 +452,11 @@ $$
     (2,38) = 0.38;~~~~ (3) = 0;~~~~ (-1,8) = 0.2.
     $$
 
-- The fractional part is therefore not an integer but a real number, lying in $[0, 1)$.
+- The fractional part is therefore not an integer but a real number, lying in $[0, 1)$. Indeed, setting $n = [a]$, the definition of integer part gives $n \le a < n+1$ and, subtracting $n$,
+
+    $$
+    0 \le \underbrace{a - n}_{(a)} < 1.
+    $$
 
 - For positive numbers, it is obtained simply by “throwing away the digits before the decimal point”; for negative numbers the fractional part is the <strong>one's complement</strong> of the number obtained by throwing away the digits before the decimal point.
 
@@ -447,6 +469,16 @@ $$
     $$
     \lceil a \rceil = {\rm integer~~} n {\rm~~such~that~~} n -1  < a \le n
     $$
+
+!!! chiave ""
+
+    Equivalently, the upper integer part of $a$ is the <strong>smallest</strong> integer greater than or equal to $a$:
+
+    $$
+    \lceil a \rceil = \min \big\{ n \in \Z:~~ n \ge a \big\}.
+    $$
+
+- Here too the two descriptions coincide. If $n-1 < a \le n$, then $n$ belongs to the set $\{k \in \Z: k \ge a\}$ and every other element $k$ of it satisfies $k \ge a > n-1$, that is, $k \ge n$: hence $n$ is its minimum. Conversely, if $n$ is the minimum of that set, then $a \le n$ and moreover $n-1 < a$, since otherwise $n-1$ would belong to the set and $n$ would not be its minimum.
 
 <a id="box-texexpbox1-13"></a>
 
@@ -466,6 +498,82 @@ Given a real number $a \in \mathbb{R}$, we have
     a - 1 < \lfloor a \rfloor \le a \le \lceil a \rceil < a + 1
     $$
 
+- This follows at once from the two definitions: from $\lfloor a \rfloor \le a < \lfloor a \rfloor +1$ we get $\lfloor a \rfloor \le a$ and $a - 1 < \lfloor a \rfloor$; from $\lceil a \rceil -1 < a \le \lceil a \rceil$ we get $a \le \lceil a \rceil$ and $\lceil a \rceil < a+1$.
+
+Moreover, the following relations between the two functions hold.
+
+<a id="box-OSS_floor_segno-14"></a>
+
+!!! osservazione "Remark 1: integer part, upper integer part and change of sign"
+
+    For every real number $a \in \mathbb{R}$ we have
+
+    \begin{equation}
+    - \lfloor a \rfloor = \lceil -a \rceil \qquad {\rm ~~and~~} \qquad - \lceil a \rceil = \lfloor -a \rfloor
+    \label{floor_segno}
+    \end{equation}
+
+    and moreover
+
+    \begin{equation}
+    \lfloor a \rfloor = a ~~~\Longleftrightarrow~~~ a \in \Z ~~~\Longleftrightarrow~~~ \lceil a \rceil = a
+    \label{floor_intero}
+    \end{equation}
+
+??? dimostrazione "Proof"
+
+    Set $n = \lfloor a \rfloor$, that is, $n \le a < n+1$. Multiplying by $-1$ (and reversing the inequalities) we obtain
+
+    $$
+    -n-1 < -a \le -n, \qquad {\rm ~that~is,~} \qquad (-n)-1 < -a \le -n.
+    $$
+
+    Since $-n$ is an integer, the definition of upper integer part gives $\lceil -a \rceil = -n = - \lfloor a \rfloor$: this is the first identity in \(\eqref{floor_segno}\). Applying the first identity to the number $-a$ we obtain $-\lfloor -a \rfloor = \lceil a \rceil$, that is, the second one.
+
+    As for \(\eqref{floor_intero}\): if $\lfloor a \rfloor = a$ then $a$ is an integer, because $\lfloor a \rfloor \in \Z$. Conversely, if $a \in \Z$ then $a \le a < a+1$ and hence $\lfloor a \rfloor = a$. In the same way, if $\lceil a \rceil = a$ then $a \in \Z$; and if $a \in \Z$ then $a-1 < a \le a$, hence $\lceil a \rceil = a$. <span class="qed">□</span>
+
+The two functions are completely characterized by the following inequalities.
+
+<a id="box-OSS_floor_car-15"></a>
+
+!!! osservazione "Remark 2: characterizations of the integer part and of the upper integer part"
+
+    For every real number $a \in \mathbb{R}$ and every integer $n \in \Z$ we have:
+
+    \begin{align}
+    \lfloor a \rfloor = n &~~\Longleftrightarrow~~ n \le a < n+1 \label{floor_C1}\\[1ex]
+    \lfloor a \rfloor = n &~~\Longleftrightarrow~~ a-1 < n \le a \label{floor_C2}\\[1ex]
+    \lceil a \rceil = n &~~\Longleftrightarrow~~ n-1 < a \le n \label{floor_C3}\\[1ex]
+    \lceil a \rceil = n &~~\Longleftrightarrow~~ a \le n < a+1 \label{floor_C4}\\[1ex]
+    a < n &~~\Longleftrightarrow~~ \lfloor a \rfloor < n \label{floor_C5}\\[1ex]
+    n \le a &~~\Longleftrightarrow~~ n \le \lfloor a \rfloor \label{floor_C6}\\[1ex]
+    a \le n &~~\Longleftrightarrow~~ \lceil a \rceil \le n \label{floor_C7}\\[1ex]
+    n < a &~~\Longleftrightarrow~~ n < \lceil a \rceil \label{floor_C8}
+    \end{align}
+
+    and moreover
+
+    \begin{equation}
+    \lfloor a + n \rfloor = \lfloor a \rfloor + n \qquad {\rm ~~and~~} \qquad \lceil a + n \rceil = \lceil a \rceil + n
+    \label{floor_C9}
+    \end{equation}
+
+??? dimostrazione "Proof"
+
+    - Equation \(\eqref{floor_C1}\) is the definition of integer part and \(\eqref{floor_C3}\) is the definition of upper integer part.
+
+    - Equation \(\eqref{floor_C2}\) is a rewriting of \(\eqref{floor_C1}\): the condition $n \le a < n+1$ is equivalent to “$n \le a$ and $a < n+1$”, that is, to “$n \le a$ and $a-1 < n$”. In the same way \(\eqref{floor_C4}\) is a rewriting of \(\eqref{floor_C3}\): $n-1 < a \le n$ is equivalent to “$a \le n$ and $n < a+1$”.
+
+    - \(\eqref{floor_C5}\): if $a < n$, then $\lfloor a \rfloor \le a < n$. Conversely, if $\lfloor a \rfloor < n$, then, both being integers, $\lfloor a \rfloor \le n-1$ and hence $a < \lfloor a \rfloor + 1 \le n$.
+
+    - \(\eqref{floor_C7}\): if $a \le n$, then $n$ belongs to the set $\{k \in \Z: k \ge a\}$, whose minimum is $\lceil a \rceil$, hence $\lceil a \rceil \le n$. Conversely, if $\lceil a \rceil \le n$, then $a \le \lceil a \rceil \le n$.
+
+    - Equations \(\eqref{floor_C6}\) and \(\eqref{floor_C8}\) are obtained by negating both sides of \(\eqref{floor_C5}\) and of \(\eqref{floor_C7}\) respectively: the negation of $a<n$ is $n \le a$ and the negation of $\lfloor a \rfloor < n$ is $n \le \lfloor a \rfloor$; the negation of $a \le n$ is $n < a$ and the negation of $\lceil a \rceil \le n$ is $n < \lceil a \rceil$.
+
+    - \(\eqref{floor_C9}\): setting $m = \lfloor a \rfloor$, that is, $m \le a < m+1$, and adding $n$ we obtain $m+n \le a+n < (m+n)+1$ with $m+n \in \Z$, hence $\lfloor a+n \rfloor = m+n = \lfloor a \rfloor + n$. In the same way, setting $m=\lceil a \rceil$, from $m-1 < a \le m$ we obtain $(m+n)-1 < a+n \le m+n$, hence $\lceil a+n \rceil = m+n = \lceil a \rceil + n$.
+
+    <p class="qed-riga"><span class="qed">□</span></p>
+
 Given an integer $n \in \mathbb{Z}$, we have
 
 !!! chiave ""
@@ -473,6 +581,28 @@ Given an integer $n \in \mathbb{Z}$, we have
     $$
     \left\lfloor \frac{n}{2} \right\rfloor + \left\lceil \frac{n}{2} \right\rceil=n
     $$
+
+??? dimostrazione "Proof"
+
+    We distinguish the two cases.
+
+    - If $n$ is <strong>even</strong>, there exists $m \in \Z$ such that $n = 2\:m$, and since $m$ is an integer \(\eqref{floor_intero}\) gives $\lfloor m \rfloor = \lceil m \rceil = m$:
+
+        $$
+        \left\lfloor \frac{n}{2} \right\rfloor + \left\lceil \frac{n}{2} \right\rceil
+        = \left\lfloor \frac{2\:m}{2} \right\rfloor + \left\lceil \frac{2\:m}{2} \right\rceil
+        = \lfloor m \rfloor + \lceil m \rceil = m + m = 2\:m = n.
+        $$
+
+    - If $n$ is <strong>odd</strong>, there exists $m \in \Z$ such that $n = 2\:m+1$. Since $m \le m + \frac{1}{2} < m+1$, \(\eqref{floor_C1}\) gives $\left\lfloor m + \frac{1}{2} \right\rfloor = m$; since $(m+1)-1 < m+\frac{1}{2} \le m+1$, \(\eqref{floor_C3}\) gives $\left\lceil m + \frac{1}{2} \right\rceil = m+1$. Hence
+
+        $$
+        \left\lfloor \frac{n}{2} \right\rfloor + \left\lceil \frac{n}{2} \right\rceil
+        = \left\lfloor m + \frac{1}{2} \right\rfloor + \left\lceil m + \frac{1}{2} \right\rceil
+        = m + (m+1) = 2\:m+1 = n.
+        $$
+
+    <p class="qed-riga"><span class="qed">□</span></p>
 
 Given two positive integers $r,s \in \mathbb{Z}$, $r, s > 0$, we have
 
@@ -492,7 +622,7 @@ Given, in addition, a non-negative real number $p \in \mathbb{R},p \ge 0$, we ha
     \left\lfloor \frac{ \left \lfloor \frac{p}{r} \right \rfloor }{s} \right\rfloor &= \left\lfloor \frac{p}{r\:s} \right\rfloor
     \end{align}
 
-<a id="box-notationA-14"></a>
+<a id="box-notationA-16"></a>
 
 !!! definizione "Definition 4: Divisor"
 
@@ -504,7 +634,7 @@ Given, in addition, a non-negative real number $p \in \mathbb{R},p \ge 0$, we ha
 
 - For an integer ${a} \in \mathbb{Z}$ and a positive integer ${n} \in \mathbb{Z}, {n}>0$, the value ${a} \mod {n}$ is the remainder of the division $\frac{{a}}{{n}}$.
 
-<a id="box-funcP2-15"></a>
+<a id="box-funcP2-17"></a>
 
 !!! definizione "Definition 5: of modulo (remainder)"
 
@@ -526,7 +656,7 @@ Given, in addition, a non-negative real number $p \in \mathbb{R},p \ge 0$, we ha
 
     and we say that ${a}$ is <strong>equivalent</strong> to ${b}$, modulo ${n}$.
 
-<a id="box-texexpbox1-16"></a>
+<a id="box-texexpbox1-18"></a>
 
 !!! esempio "Example 9"
 

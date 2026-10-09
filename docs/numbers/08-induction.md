@@ -280,7 +280,7 @@ title: "Principle of mathematical induction"
 
 !!! osservazione "Remark 5: sum of the first $n$ terms of the geometric progression ($a=1$)"
 
-    Given $q \in\ \R_+$, for every integer $n \ge 1$ we have:
+    Given $q \in \R$, for every integer $n \ge 1$ we have (with the convention $0^0=1$ for the case $q=0$):
 
     \begin{equation}
     \label{GEOM}

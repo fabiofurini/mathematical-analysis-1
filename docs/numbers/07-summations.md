@@ -1,8 +1,8 @@
 ---
-title: "Summations and geometric progressions"
+title: "Summations, geometric and arithmetic progressions"
 ---
 
-# Summations and geometric progressions
+# Summations, geometric and arithmetic progressions
 
 <div class="info-capitolo" markdown>
 
@@ -358,13 +358,27 @@ title: "Summations and geometric progressions"
 
     ![Figure 2](../img/numbers-07-summations/fig02.svg){ .fig .ovale loading=lazy style="width:85%" }
 
+<a id="box-texexpbox1-16"></a>
+
+!!! esempio "Example 4: geometric progression with a negative common ratio"
+
+    - With $a=1$ and $q=-2$, the first 4 terms are:
+
+        $$
+        1,~~-2,~~4,~~-8
+        $$
+
+        With a negative common ratio the terms change sign at every step: those in odd positions are positive, those in even positions are negative.
+
+    ![Figure 3](../img/numbers-07-summations/fig03.svg){ .fig .ovale loading=lazy style="width:85%" }
+
 ### 2.1 Sums of the terms of geometric progressions
 
-<a id="box-propGEOM-16"></a>
+<a id="box-propGEOM-17"></a>
 
 !!! osservazione "Remark 11: sum of the first $n$ terms of the geometric progression ($a=1$)"
 
-    Given $q \in\ \R_+$, for every natural number $n \ge 1$ we have:
+    Given $q \in \R$, for every natural number $n \ge 1$ we have:
 
     \begin{equation}
     \label{GEOM}
@@ -405,7 +419,15 @@ title: "Summations and geometric progressions"
 
     <p class="qed-riga"><span class="qed">□</span></p>
 
-- Given $q \in\ \R_+, n \in \N, n \ge 1$ and $a \in \R$, formula \(\eqref{GEOM}\) extends as follows:
+- The proof never uses the sign of the common ratio: formula \(\eqref{GEOM}\) holds for every $q \in \R$, positive, zero or negative. The only case to be made precise is $q=0$: the first term of the summation is $q^{1-1}=0^0$, which here is understood to be equal to $1$ (convention $0^0=1$). With this convention, for every $n \ge 1$ we have:
+
+    $$
+    \sum_{k=1}^{n} 0^{k-1} = 1 + 0 + \dots + 0 = 1 \qquad {\rm ~~and~~} \qquad \frac{0^{n}-1}{0-1} = \frac{-1}{-1} = 1
+    $$
+
+    and therefore formula \(\eqref{GEOM}\) remains true.
+
+- Given $q \in \R, n \in \N, n \ge 1$ and $a \in \R$, formula \(\eqref{GEOM}\) extends as follows:
 
     \begin{equation}
     \sum_{k=1}^{n} a \; q^{k-1}  =
@@ -428,9 +450,9 @@ title: "Summations and geometric progressions"
 
 - Formula \(\eqref{GEOM}\) can also be proved by induction, in the chapter “Principle of induction”.
 
-<a id="box-texexpbox1-17"></a>
+<a id="box-texexpbox1-18"></a>
 
-!!! esempio "Example 4: sum of the first $n$ terms of geometric progressions"
+!!! esempio "Example 5: sum of the first $n$ terms of geometric progressions"
 
     - With $a=2$ and $q=\frac{1}{2}$, the first 4 terms are:
 
@@ -466,4 +488,209 @@ title: "Summations and geometric progressions"
 
         $$
         \sum_{k=1}^4  2^{k-1} = \frac{2^4-1}{2-1} = 16-1 =15
+        $$
+
+    - With $a=1$ and $q=-2$, the first 4 terms are:
+
+        $$
+        1,~~-2,~~4,~~-8 \qquad {\rm ~~and~~} \qquad  1 - 2+ 4 -8= -5
+        $$
+
+        the sum of the first $n=4$ terms is given by the formula:
+
+        $$
+        \sum_{k=1}^4  (-2)^{k-1} = \frac{(-2)^4-1}{-2-1} = \frac{16-1}{-3} = \frac{15}{-3} = -5
+        $$
+
+## 3. Arithmetic progressions
+
+<a id="box-defPROGARIT-19"></a>
+
+!!! definizione "Definition 3: arithmetic progression"
+
+    A sequence of real numbers is an <strong>arithmetic progression</strong> if the difference between each term (starting from the second one) and the previous one is constant. This constant is called the common difference of the progression.
+
+!!! chiave ""
+
+    Given the first term $a \in \R$ and the common difference $d \in \R$, the associated arithmetic progression is:
+
+    $$
+    a,~~ a + d,~~ a + 2\:d,~~ a + 3\:d,~~ a + 4\:d,~~ \dots
+    $$
+
+    Each term (starting from the second one) is obtained from the previous one by adding $d$ to it. The  $k$-th term ($k \in \N$, $k \ge 1$) can be written as $a + (k-1)\:d$ and we have:
+
+    \begin{align*}
+    &a+ (1-1)\:d=a+0\:d=a   &{\rm first~term,~in~position~} k=1\\
+    &a+ (2-1)\:d=a+1\:d=a+d  &{\rm second~term,~in~position~} k=2\\
+    &a+ (3-1)\:d=a+2\:d   &{\rm third~term,~in~position~} k=3\\
+    &a+ (4-1)\:d=a+3\:d   &{\rm fourth~term,~in~position~} k=4\\
+    &\dots &   \dots
+    \end{align*}
+
+- The arithmetic progression is the additive analogue of the geometric progression: in the geometric progression each term is <em>multiplied</em> by the common ratio $q$, in the arithmetic progression the common difference $d$ is <em>added</em> to each term.
+
+<a id="box-propTERMARIT-20"></a>
+
+!!! osservazione "Remark 12: $k$-th term of an arithmetic progression"
+
+    Given the first term $a \in \R$ and the common difference $d \in \R$, let $t_k$ denote the term in position $k$ of the arithmetic progression. The recursive relation that defines the progression is:
+
+    \begin{equation}
+    \label{ARITREC}
+    t_1 = a \qquad {\rm and} \qquad t_k = t_{k-1} + d \qquad {\rm for~every~natural~number~} k \ge 2
+    \end{equation}
+
+    and the closed formula of the $k$-th term is:
+
+    \begin{equation}
+    \label{ARITTERM}
+    t_k = a + (k-1) \: d \qquad {\rm for~every~natural~number~} k \ge 1
+    \end{equation}
+
+??? dimostrazione "Proof"
+
+    The closed formula \(\eqref{ARITTERM}\) is obtained by repeatedly applying the recursive relation \(\eqref{ARITREC}\):
+
+    \begin{align*}
+    t_1 &= a = a + 0 \: d\\[1ex]
+    t_2 &= t_1 + d = a + d = a + 1 \: d\\[1ex]
+    t_3 &= t_2 + d = a + d + d  = a + 2 \: d\\[1ex]
+    t_4 &= t_3 + d = a + 2 \: d + d  = a + 3 \: d\\[1ex]
+    &\vdots\\[1ex]
+    t_k &= t_{k-1} + d = a + (k-2) \: d + d  = a + (k-1) \: d
+    \end{align*}
+
+    <p class="qed-riga"><span class="qed">□</span></p>
+
+- The closed formula \(\eqref{ARITTERM}\) can also be obtained by the following argument, which does not need the dots. We write the recursive relation \(\eqref{ARITREC}\) in the form $t_j - t_{j-1} = d$ for every position $j$ from $2$ to $k$:
+
+    \begin{align*}
+    t_2 - t_1 &= d \\[1ex]
+    t_3 - t_2 &= d \\[1ex]
+    t_4 - t_3 &= d \\[1ex]
+    &\vdots\\[1ex]
+    t_k - t_{k-1} &= d
+    \end{align*}
+
+    We now add all these $k-1$ equalities. On the right-hand side we add $d$ to itself $k-1$ times and we obtain $d \: (k-1)$. On the left-hand side the sum is <strong>telescopic</strong>: every term appears twice, once with the sign $+$ and once with the sign $-$, except $t_k$ and $t_1$:
+
+    $$
+    \underbrace{(t_2 - t_1) + (t_3 - t_2) + (t_4 - t_3) + \dots + (t_k - t_{k-1})}_{=\sum_{j=2}^{k} (t_j - t_{j-1})} = t_k - t_1 = t_k - a
+    $$
+
+    Equating the two sides we get $t_k - a = d \: (k-1)$, that is, the closed formula:
+
+    $$
+    t_k = a + (k-1) \: d \qquad {\rm for~every~natural~number~} k \ge 1
+    $$
+
+<a id="box-texexpbox1-21"></a>
+
+!!! esempio "Example 6: arithmetic progressions"
+
+    - With $a=1$ and $d=\frac{1}{2}$, the first 4 terms are:
+
+        $$
+        1,~~\frac{3}{2},~~2,~~\frac{5}{2}
+        $$
+
+    ![Figure 4](../img/numbers-07-summations/fig04.svg){ .fig .ovale loading=lazy style="width:85%" }
+
+    - With $a=2$ and $d=2$, the first 4 terms are:
+
+        $$
+        2,~~4,~~6,~~8
+        $$
+
+        that is, the first 4 even numbers (without zero).
+
+    ![Figure 5](../img/numbers-07-summations/fig05.svg){ .fig .ovale loading=lazy style="width:85%" }
+
+### 3.1 Sums of the terms of arithmetic progressions
+
+<a id="box-propARIT-22"></a>
+
+!!! osservazione "Remark 13: sum of the first $n$ terms of the arithmetic progression ($a=0$)"
+
+    Given $d \in \R$, for every natural number $n \ge 1$ we have:
+
+    \begin{equation}
+    \label{ARIT}
+    \sum_{k=1}^{n} d \: (k-1) = d \: \left( \frac{n \: (n-1)}{2} \right)
+    \end{equation}
+
+??? dimostrazione "Proof"
+
+    Using the product by a constant \(\eqref{P1}\) and the index reflection \(\eqref{P6}\), with the same argument used for the sum of the first $n$ natural numbers, we have:
+
+    \begin{align*}
+    \sum_{k=1}^{n} d \: (k-1) &= \frac{d}{2} \left( \sum_{k=1}^{n} (k-1) + \sum_{k=1}^{n} (k-1) \right) = \frac{d}{2} \left( \sum_{k=1}^{n} (k-1) + \sum_{k=1}^{n} \big( n-k \big) \right)\\[2ex]
+     & = \frac{d}{2}  \; \sum_{k=1}^{n}  \big(k-1+ n-k \big)
+      = \frac{d}{2} \; \sum_{k=1}^{n}  \big(n -1  \big)
+      = d \: \left( \frac{n \: (n-1)}{2} \right)
+    \end{align*}
+
+    where in the second step the index of the second summation has been reflected: the term in position $k$ is $a_k = k-1$ and therefore $a_{n-k+1} = (n-k+1)-1 = n-k$. <span class="qed">□</span>
+
+- Given $d \in \R, n \in \N, n \ge 1$ and $a \in \R$, formula \(\eqref{ARIT}\) extends as follows:
+
+    \begin{equation}
+    \label{ARIT_A}
+    \sum_{k=1}^{n} \big( a + d \: (k-1) \big) = a \: n + d \: \left( \frac{n \: (n-1)}{2} \right)
+    \qquad {\rm ~~since~~~~} \sum_{k=1}^{n} \big( a + d \: (k-1) \big) = \underbrace{\sum_{k=1}^{n} a}_{= a \: n} + \sum_{k=1}^{n} d \: (k-1)
+    \end{equation}
+
+    where the union of summations \(\eqref{P3}\) and the summation with a constant term \(\eqref{P2}\) have been used. This formula computes the sum of the first $n$ terms of the arithmetic progression with a generic first term $a$.
+
+- The same proof by index reflection, applied directly to the summation of the first $n$ terms, gives the equivalent form:
+
+    $$
+    \sum_{k=1}^{n} \big( a + d \: (k-1) \big) = \frac{n}{2} \: \Big( \underbrace{a}_{=t_1} + \underbrace{a + (n-1) \: d}_{=t_n} \Big) = n \: \left( \frac{t_1 + t_n}{2} \right)
+    $$
+
+    since, reflecting the index, the term in position $k$ and the term in position $n-k+1$ have constant sum $t_k + t_{n-k+1} = 2\:a + (n-1)\:d = t_1 + t_n$. The sum of the first $n$ terms of an arithmetic progression is therefore $n$ times the average of the first and the last term.
+
+- With $a=1$ and $d=1$ the arithmetic progression is $1, 2, 3, \dots$ and formula \(\eqref{ARIT_A}\) gives $n + \frac{n \: (n-1)}{2} = \frac{n \: (n+1)}{2}$, that is, the sum of the first $n$ natural numbers (without zero) already seen in the section “Some important summations”. With $a=1$ and $d=2$ the progression is $1, 3, 5, \dots$ and the formula gives $n + 2 \: \frac{n \: (n-1)}{2} = n^2$, that is, the sum of the first $n$ odd numbers.
+
+<a id="box-texexpbox1-23"></a>
+
+!!! esempio "Example 7: sum of the first $n$ terms of arithmetic progressions"
+
+    - With $a=1$ and $d=\frac{1}{2}$, the first 4 terms are:
+
+        $$
+        1,~~\frac{3}{2},~~2,~~\frac{5}{2} \qquad {\rm ~~and~~} \qquad  1 + \frac{3}{2} + 2 + \frac{5}{2} = \frac{2+3+4+5}{2} = \frac{14}{2} = 7
+        $$
+
+        the sum of the first $n=4$ terms is given by the formula:
+
+        $$
+        \sum_{k=1}^4 \left( 1 + \frac{1}{2} \: (k-1) \right) = 1 \cdot 4 + \frac{1}{2} \: \left( \frac{4 \cdot 3}{2} \right) = 4 + 3 = 7
+        $$
+
+    - With $a=2$ and $d=2$, the first 4 terms are:
+
+        $$
+        2,~~4,~~6,~~8 \qquad {\rm ~~and~~} \qquad  2 + 4 + 6 + 8 = 20
+        $$
+
+        the sum of the first $n=4$ terms is given by the formula:
+
+        $$
+        \sum_{k=1}^4 \big( 2 + 2 \: (k-1) \big) = 2 \cdot 4 + 2 \: \left( \frac{4 \cdot 3}{2} \right) = 8 + 12 = 20
+        $$
+
+        and with the equivalent form: $4 \: \left( \frac{2+8}{2} \right) = 4 \cdot 5 = 20$.
+
+    - With $a=1$ and $d=-\frac{1}{2}$, the first 4 terms are:
+
+        $$
+        1,~~\frac{1}{2},~~0,~~-\frac{1}{2} \qquad {\rm ~~and~~} \qquad  1 + \frac{1}{2} + 0 - \frac{1}{2} = 1
+        $$
+
+        the sum of the first $n=4$ terms is given by the formula:
+
+        $$
+        \sum_{k=1}^4 \left( 1 - \frac{1}{2} \: (k-1) \right) = 1 \cdot 4 - \frac{1}{2} \: \left( \frac{4 \cdot 3}{2} \right) = 4 - 3 = 1
         $$

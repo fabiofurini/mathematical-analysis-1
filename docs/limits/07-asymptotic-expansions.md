@@ -126,7 +126,7 @@ title: "Asymptotic expansions"
 
     <a id="box-texexpbox1-3"></a>
 
-    !!! esempio "Example 2:  Little $o$ and products"
+    !!! esempio "Example 2: Little $o$ and products"
 
         For example, as $x \rr c$:
 
@@ -159,7 +159,7 @@ title: "Asymptotic expansions"
 
 <a id="box-texexpbox1-5"></a>
 
-!!! esempio "Example 3:  $o(1)$ "
+!!! esempio "Example 3: $o(1)$"
 
     For example:
 
@@ -187,7 +187,7 @@ title: "Asymptotic expansions"
 
 <a id="box-texexpbox1-6"></a>
 
-!!! esempio "Example 4:  $o(1)$ "
+!!! esempio "Example 4: $o(1)$"
 
     For example:
 
@@ -228,7 +228,7 @@ title: "Asymptotic expansions"
 
 <a id="box-texexpbox1-7"></a>
 
-!!! esempio "Example 5:  $o(1)$ "
+!!! esempio "Example 5: $o(1)$"
 
     We have
 

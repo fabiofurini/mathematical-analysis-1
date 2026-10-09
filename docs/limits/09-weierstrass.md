@@ -85,7 +85,7 @@ title: "Weierstrass theorem and intermediate value theorem"
 
     Proceeding by bisection in this way, we construct a sequence of intervals $[a_n, b_n]$, each contained in the previous ones, with the properties:
 
-    1. the sequence $\{a_n\}$ is monotone increasing and bounded, and the sequence $\{b_n\}$ is monotone decreasing and bounded;
+    1. the sequence $\{a_n\}$ is monotone non-decreasing and bounded, and the sequence $\{b_n\}$ is monotone non-increasing and bounded;
 
     2. $b_n - a_n = \frac{b-a}{2^n} \rr 0 {\rm~~as~~} n \rr \ip;$
 
@@ -268,8 +268,7 @@ title: "Weierstrass theorem and intermediate value theorem"
 
 <a id="box-texexpbox1-3"></a>
 
-!!! esempio "Example 1: Discontinuous function without the intermediate
-value property"
+!!! esempio "Example 1: Discontinuous function without the intermediate value property"
 
     Consider for example the graph of the following function, discontinuous on $[a,b]$:
 

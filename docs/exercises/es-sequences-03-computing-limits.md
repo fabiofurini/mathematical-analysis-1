@@ -53,7 +53,7 @@ title: "Computing limits of sequences"
     If:
 
     $$
-    a_n \rr \ell_a\in \R, ~~~b_n \rr 0 {\rm ~~~and~~~} c_n \rr \infty,
+    a_n \rr \ell_a\in \R, ~~~b_n \rr 0^+ {\rm ~or~} b_n \rr 0^-  {\rm ~~~and~~~} c_n \rr \infty,
     $$
 
     we have:
@@ -61,6 +61,8 @@ title: "Computing limits of sequences"
     $$
     a_n \:\: c_n  \rr \ell_a\:\: \infty = \infty ~~ (\ell_a\neq 0), ~~~~ \frac{a_n}{b_n}  \rr \frac{\ell_a}{0} = \infty ~~ (\ell_a\neq 0), ~~~~ \frac{a_n}{c_n}  \rr \frac{\ell_a}{\infty} = 0.
     $$
+
+    The hypothesis that $\{b_n\}$ tends to zero from above or from below (and hence that it eventually has constant sign, with $b_n \neq 0$) is necessary: with $a_n=1$ and $b_n = \frac{(-1)^n}{n}$ we have $\frac{a_n}{b_n} = (-1)^n \: n$, which is irregular.
 
 !!! chiave ""
 

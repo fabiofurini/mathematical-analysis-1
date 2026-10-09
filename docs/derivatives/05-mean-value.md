@@ -271,9 +271,7 @@ title: "Mean value theorem, maxima and minima"
 
 <a id="box-theoTM-11"></a>
 
-!!! teorema "Theorem 3: Differential
-Monotonicity
-Test"
+!!! teorema "Theorem 3: Differential Monotonicity Test"
 
     Given a function $f:I \rr \R$, continuous in $I$ and differentiable at the interior points of $I$, then:
 

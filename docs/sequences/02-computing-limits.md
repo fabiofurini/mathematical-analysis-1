@@ -178,9 +178,75 @@ title: "Computing limits of sequences"
 
     The case $\ell_a < 0$ is proved analogously. <span class="qed">□</span>
 
-<a id="box-theoPERMANENZA_SEGNO_2_A-3"></a>
+<a id="box-theoPERMANENZA_SEGNO_GEN-3"></a>
 
-!!! teorema "Theorem 3: Sign-preservation, second form (part I)"
+!!! teorema "Theorem 3: Permanence of sign (generalized form)"
+
+    Hypotheses:
+
+    $$
+    \textbf{1.} ~~ a_n \rr \ell_a \in \R \qquad \textbf{2.}~~ \lambda \in \R \qquad \textbf{3.}~~ \ell_a > \lambda.
+    $$
+
+    Claim:
+
+    $$
+    a_n  > \lambda, {\rm ~~eventually}.
+    $$
+
+??? dimostrazione "Proof"
+
+    Since $\ell_a > \lambda$, the number $\varepsilon = \ell_a - \lambda$ is strictly positive. Applying the definition of limit with precisely this value of $\varepsilon$, we have, eventually:
+
+    $$
+    \underbrace{\ell_a - (\ell_a - \lambda)}_{= \lambda} ~<~ a_n ~<~ \ell_a + (\ell_a - \lambda)
+    $$
+
+    and therefore $a_n > \lambda$, eventually. <span class="qed">□</span>
+
+- Analogously one proves that, if $a_n \rr \ell_a \in \R$ and $\ell_a < \lambda$, then $a_n < \lambda$ eventually: it suffices to choose $\varepsilon = \lambda - \ell_a > 0$ and to obtain, eventually,
+
+    $$
+    \ell_a - (\lambda - \ell_a) ~<~ a_n ~<~ \underbrace{\ell_a + (\lambda - \ell_a)}_{= \lambda}
+    $$
+
+- With $\lambda = 0$ we recover the permanence of sign theorem, $1^{st}$ form.
+
+- We can now prove the case of the <strong>quotient</strong> in Theorem [Theorem 1](#box-theoALGEBRA_LIMITI_FINITI-1) on the algebra of limits.
+
+??? dimostrazione "Proof"
+
+    We first prove that:
+
+    $$
+    b_n \rr \ell_b \in \R, ~\ell_b \neq 0 ~ \Rightarrow \frac{1}{b_n} \rr \frac{1}{\ell_b}
+    $$
+
+    The case of the quotient then follows from the case of the product, already proved, applied to the sequences $\{a_n\}$ and $\left\{\frac{1}{b_n}\right\}$:
+
+    $$
+    \frac{a_n}{b_n} = a_n \: \frac{1}{b_n} \rr \ell_a \: \frac{1}{\ell_b} = \frac{\ell_a}{\ell_b}
+    $$
+
+    Suppose $\ell_b > 0$ (if $\ell_b<0$ one argues in the same way on the sequence $\{-b_n\}$). By the permanence of sign theorem (generalized form), applied with $\lambda = \frac{\ell_b}{2} < \ell_b$, we have
+
+    $$
+    b_n > \frac{\ell_b}{2} > 0, \quad {\rm eventually}
+    $$
+
+    in particular $b_n \neq 0$ eventually and the quotient $\frac{1}{b_n}$ is well defined. Moreover, for every $\varepsilon > 0$, we have $|b_n - \ell_b| < \varepsilon$ eventually, and therefore, eventually:
+
+    \begin{align*}
+    \left| \frac{1}{b_n} - \frac{1}{\ell_b} \right| 
+    &= \left|\frac{\ell_b - b_n}{b_n\; \ell_b} \right| = \frac{|b_n - \ell_b|}{|b_n| \; |\ell_b|}\\[2ex]
+    &< \frac{2}{\ell_b \; |\ell_b|} \: |b_n -\ell_b| ~<~ \underbrace{\frac{2}{\ell_b^2 } \:\varepsilon}_{=\tilde{\varepsilon} {\rm ~and~}> 0}
+    \end{align*}
+
+    where we used $|b_n| > \frac{\ell_b}{2}$. Since $\tilde{\varepsilon}$ is arbitrary, the claim follows. <span class="qed">□</span>
+
+<a id="box-theoPERMANENZA_SEGNO_2_A-4"></a>
+
+!!! teorema "Theorem 4: Sign-preservation, second form (part I)"
 
     Hypotheses:
 
@@ -200,9 +266,9 @@ title: "Computing limits of sequences"
 
     This case cannot occur, i.e., the opposite holds, which is the claim of the theorem. <span class="qed">□</span>
 
-<a id="box-theoPERMANENZA_SEGNO_2_B-4"></a>
+<a id="box-theoPERMANENZA_SEGNO_2_B-5"></a>
 
-!!! teorema "Theorem 4: Sign-preservation, second form (part II)"
+!!! teorema "Theorem 5: Sign-preservation, second form (part II)"
 
     Hypotheses:
 
@@ -242,15 +308,15 @@ title: "Computing limits of sequences"
 
 - Note, instead, that in general strict inequalities “$<$” and “$>$” are not preserved when passing to the limit.
 
-    <a id="box-texexpbox1-5"></a>
+    <a id="box-texexpbox1-6"></a>
 
     !!! esempio "Example 1: Passing to the limit with strict inequalities"
 
         For example, even if the $a_n$ are strictly positive, their limit $\ell_a$ is positive or zero, as shown by the simple example $\frac{1}{n} \rr 0$.
 
-<a id="box-theoCONFRONTO-6"></a>
+<a id="box-theoCONFRONTO-7"></a>
 
-!!! teorema "Theorem 5: Comparison (squeeze) theorem"
+!!! teorema "Theorem 6: Comparison (squeeze) theorem"
 
     Hypotheses:
 
@@ -292,9 +358,43 @@ title: "Computing limits of sequences"
 
     Since $\tilde{\varepsilon}$ is arbitrary, the claim follows. <span class="qed">□</span>
 
-- Frequently used special cases of this theorem are expressed by the following corollaries, which are very useful when studying the product of an oscillating (but bounded) sequence and one that tends to zero
+<a id="box-theoCONFRONTO_DIVERGENTI-8"></a>
 
-<a id="box-corolCONFRONTO_A-7"></a>
+!!! teorema "Theorem 7: Comparison theorem for divergent sequences"
+
+    Hypotheses:
+
+    $$
+    \textbf{1.}~~ a_n \rr \ip, \qquad \textbf{2. }~~ a_n \le b_n, ~~{\rm eventually}.
+    $$
+
+    Claim:
+
+    $$
+    b_n \rr \ip.
+    $$
+
+??? dimostrazione "Proof"
+
+    Since $a_n \rr \ip$, for every $M>0$ we have, eventually,
+
+    $$
+    a_n > M
+    $$
+
+    By hypothesis we also have $a_n \le b_n$, eventually. Both properties hold eventually, hence, eventually, we have
+
+    $$
+    b_n \ge a_n > M
+    $$
+
+    Since $M>0$ is arbitrary, we conclude that $b_n \rr \ip$. <span class="qed">□</span>
+
+- Analogously one proves that, if $a_n \rr \im$ and $a_n \ge b_n$ eventually, then $b_n \rr \im$.
+
+- Frequently used special cases of the comparison theorem are expressed by the following corollaries, which are very useful when studying the product of an oscillating (but bounded) sequence and one that tends to zero
+
+<a id="box-corolCONFRONTO_A-9"></a>
 
 !!! teorema "Corollary 1: Of the comparison theorem (part I)"
 
@@ -320,7 +420,7 @@ title: "Computing limits of sequences"
 
     Hence by the comparison theorem (with $a_n = -c_n$ and $\ell = 0$) we have that $b_n \rr 0$. <span class="qed">□</span>
 
-<a id="box-corolCONFRONTO_B-8"></a>
+<a id="box-corolCONFRONTO_B-10"></a>
 
 !!! teorema "Corollary 2: Of the comparison theorem (part II)"
 
@@ -350,13 +450,13 @@ title: "Computing limits of sequences"
     c_n \rr 0 {\rm ~~also~~} M \: |c_n| \rr 0,
     $$
 
-    by Corollary [Corollary 1](#box-corolCONFRONTO_A-7) we conclude that $b_n \: c_n \rr 0$. <span class="qed">□</span>
+    by Corollary [Corollary 1](#box-corolCONFRONTO_A-9) we conclude that $b_n \: c_n \rr 0$. <span class="qed">□</span>
 
 !!! chiave ""
 
     The product of an infinitesimal sequence and a bounded one is infinitesimal.
 
-<a id="box-texexpbox1-9"></a>
+<a id="box-texexpbox1-11"></a>
 
 !!! esempio "Example 2: Application of the corollary"
 
@@ -372,19 +472,19 @@ title: "Computing limits of sequences"
     \frac{ n^{{5}/{2}} \: \left( 1 - \frac{3}{n^{{3}/{2}} } + \frac{7}{n^{5/2}}\right)}{n^3\:\left(1 + \frac{1}{n^{{5}/{2}} } - \frac{3}{n}  \right)} = \frac{1}{\sqrt{n}} \: \frac{   1 - \frac{3}{n^{{3}/{2}} } + \frac{7}{n^{5/2}}}{ 1 + \frac{1}{n^{{5}/{2}} } - \frac{3}{n}  }
     $$
 
-    Now, by Theorem [Theorem 1](#box-theoALGEBRA_LIMITI_FINITI-1) on the algebra of limits and knowing that negative powers of $n$ tend to zero, we can state that:
+    Now, by Theorem [Theorem 1](#box-theoALGEBRA_LIMITI_FINITI-1) on the algebra of limits and knowing that negative powers of $n$ tend to zero, we can state that:
 
     $$
     1 - \underbrace{\frac{3}{n^{{3}/{2}} }}_{\rr 0} + \underbrace{\frac{7}{n^{5/2}}}_{\rr 0} \rr 1, \quad 1 + \underbrace{\frac{1}{n^{{5}/{2}} }}_{\rr 0} - \underbrace{\frac{3}{n}}_{\rr 0} \rr 1 {\rm ~~~and~~~} \left( \frac{   1 - \frac{3}{n^{{3}/{2}} } + \frac{7}{n^{5/2}}}{ 1 + \frac{1}{n^{{5}/{2}} } - \frac{3}{n}  } \right) \rr 1
     $$
 
-    hence the last sequence is convergent and consequently bounded. Now, by Corollary [Corollary 2](#box-corolCONFRONTO_B-8) and since
+    hence the last sequence is convergent and consequently bounded. Now, by Corollary [Corollary 2](#box-corolCONFRONTO_B-10) and since
 
     $$
     \frac{1}{\sqrt{n}} \rr 0 {\rm~~we~have~~} \frac{n^{{5}/{2}} - 3 \: n + 7}{n^3 + \sqrt{n} - 3 \: n^2} \rr 0
     $$
 
-<a id="box-texexpbox1-10"></a>
+<a id="box-texexpbox1-12"></a>
 
 !!! esempio "Example 3: Application of the corollary"
 
@@ -400,15 +500,15 @@ title: "Computing limits of sequences"
     n \mapsto \frac{1}{n} {\rm ~~(convergent,~infinitesimal)} {\rm ~~and~~} n \mapsto \sin n {\rm ~~(irregular)},
     $$
 
-    hence Theorem [Theorem 1](#box-theoALGEBRA_LIMITI_FINITI-1) on the algebra of limits cannot be applied (the second limit does not exist).
+    hence Theorem [Theorem 1](#box-theoALGEBRA_LIMITI_FINITI-1) on the algebra of limits cannot be applied (the second limit does not exist).
 
-    - However, Corollary [Corollary 2](#box-corolCONFRONTO_B-8) can be applied. The sequence $\left\{\frac{1}{n}\right\}$ is infinitesimal and, since $|\sin n| \le 1$, the sequence $\{\sin n\}$ is bounded; therefore we have
+    - However, Corollary [Corollary 2](#box-corolCONFRONTO_B-10) can be applied. The sequence $\left\{\frac{1}{n}\right\}$ is infinitesimal and, since $|\sin n| \le 1$, the sequence $\{\sin n\}$ is bounded; therefore we have
 
         $$
         \lim_{n \rr \ip} \frac{\sin n}{n} = 0
         $$
 
-- So far we have seen theorems that work on pairs of sequences that are both convergent or at least bounded.
+- The theorems on the algebra of limits seen so far work on pairs of sequences that are both convergent or at least bounded.
 
 <strong>Sequences with limits $\ip$ and $\im$</strong>
 
@@ -434,9 +534,9 @@ title: "Computing limits of sequences"
 
 <strong>Rules of partial arithmetization of the infinity symbol</strong>
 
-<a id="box-theoARIT_INF1-11"></a>
+<a id="box-theoARIT_INF1-13"></a>
 
-!!! teorema "Theorem 6: Partial arithmetization of the infinity symbol (addition)"
+!!! teorema "Theorem 8: Partial arithmetization of the infinity symbol (addition)"
 
     Hypotheses:
 
@@ -454,14 +554,14 @@ title: "Computing limits of sequences"
     \textbf{3.}~~ b_n + c_n \rr \ip \ip = \ip \qquad \textbf{4.}~~- b_n - c_n \rr \im \im = \im.
     $$
 
-<a id="box-theoARIT_INF2-12"></a>
+<a id="box-theoARIT_INF2-14"></a>
 
-!!! teorema "Theorem 7: Partial arithmetization of the infinity symbol (product)"
+!!! teorema "Theorem 9: Partial arithmetization of the infinity symbol (product)"
 
     Hypotheses:
 
     $$
-    \textbf{1.}~~ a_n \rr \ell_a \in \R \qquad \textbf{2.}~~b_n \rr 0 \qquad \textbf{3.}~~ c_n \rr \infty.
+    \textbf{1.}~~ a_n \rr \ell_a \in \R \qquad \textbf{2.}~~b_n \rr 0^+ {\rm ~or~} b_n \rr 0^- \qquad \textbf{3.}~~ c_n \rr \infty.
     $$
 
     Claim:
@@ -470,9 +570,19 @@ title: "Computing limits of sequences"
     \textbf{1.}~~ a_n \:\: c_n  \rr \ell_a \:\: \infty = \infty \quad (\ell_a \neq 0) \qquad \textbf{2.}~~\frac{a_n}{b_n}  \rr \frac{\ell_a}{0} = \infty \quad (\ell_a \neq 0) \qquad \textbf{3.}~~ \frac{a_n}{c_n}  \rr \frac{\ell_a}{\infty} = 0.
     $$
 
-- the <strong>sign</strong> of $\infty$ must be determined with the <strong>usual rule of signs</strong>.
+- the <strong>sign</strong> of $\infty$ must be determined with the <strong>usual rule of signs</strong>;
 
-<a id="box-texexpbox1-13"></a>
+- in claim <strong>2.</strong> it is understood, as usual, that $b_n \neq 0$ eventually, so that the quotient is well defined;
+
+- hypothesis <strong>2.</strong>, namely that $\{b_n\}$ tends to zero <em>from above</em> or <em>from below</em> (and hence that it eventually has constant sign), is <strong>necessary</strong>: with $a_n = 1$ and $b_n = \frac{(-1)^n}{n} \rr 0$ we have
+
+    $$
+    \frac{a_n}{b_n} = (-1)^n \: n
+    $$
+
+    which is an irregular sequence (it tends neither to $\ip$ nor to $\im$).
+
+<a id="box-texexpbox1-15"></a>
 
 !!! esempio "Example 4: Rule of signs"
 
@@ -528,7 +638,7 @@ title: "Computing limits of sequences"
 
     are called <strong>indeterminate forms</strong>, since no rule can be established a priori to determine their result.
 
-<a id="box-texexpbox1-14"></a>
+<a id="box-texexpbox1-16"></a>
 
 !!! esempio "Example 5: Resolving indeterminate forms $\ip\im$"
 
@@ -595,7 +705,7 @@ title: "Computing limits of sequences"
 
     If the sequence $\left\{b_n \log a_n\right\}$ is indeterminate (has no limit), then $\left\{a_n^{b_n}\right\}$ is indeterminate as well.
 
-<a id="box-texexpbox1-15"></a>
+<a id="box-texexpbox1-17"></a>
 
 !!! esempio "Example 6: Computing limits by taking logarithms"
 
@@ -621,7 +731,7 @@ title: "Computing limits of sequences"
     \lim_{n \rr \ip} (3 \: n)^{\left(-3 \: n^2 +7\right)} = 0
     $$
 
-<a id="box-texexpbox1-16"></a>
+<a id="box-texexpbox1-18"></a>
 
 !!! esempio "Example 7: Computing limits by taking logarithms (alternative method)"
 
@@ -669,11 +779,7 @@ title: "Computing limits of sequences"
     \log \left(+\infty^0\right)= 0 \: \log \left(+\infty\right) = 0  \cdot +\infty
     $$
 
-    Finally, since $-\infty^0= -1 \cdot (+\infty^0)$, we have
-
-    $$
-    -1 \cdot \left(\log \left(+\infty^0\right) \right) = -1 \cdot \left( 0 \: \log +\infty\right) = -1 \cdot \left( 0  \cdot +\infty \right)
-    $$
+    In the powers $\left\{a_n^{b_n}\right\}$ the base is always (eventually) positive, hence in the form $\infty^0$ the base is $+\infty$.
 
 !!! chiave ""
 
@@ -699,7 +805,7 @@ title: "Computing limits of sequences"
     \log \left( 0^{-\infty} \right)= -\infty \cdot \log 0 =  -\infty \cdot -\infty = +\infty  {\rm ~~~~and~~~~} e^{+\infty}=+\infty
     $$
 
-<a id="box-texexpbox1-17"></a>
+<a id="box-texexpbox1-19"></a>
 
 !!! esempio "Example 8: Limits of the forms $0^{\ip}$ and $0^{\im}$"
 

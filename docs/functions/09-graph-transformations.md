@@ -97,7 +97,7 @@ title: "Operations on graphs"
 
 <a id="box-texexpbox1-4"></a>
 
-!!! esempio "Example 4: Operations on graphs related to $y_4 =  f(k\: x)$"
+!!! esempio "Example 4: Operations on graphs related to $y_4 = f(k\: x)$"
 
     Consider $y = \sin x$, then $y_4 =  \sin(k\: x).$ With $k=\frac{1}{2}$ and $k=2$ we have:
 
@@ -107,7 +107,7 @@ title: "Operations on graphs"
 
 <a id="box-texexpbox1-5"></a>
 
-!!! esempio "Example 5: Operations on graphs related to $y_4=  f(k\: x)$"
+!!! esempio "Example 5: Operations on graphs related to $y_4= f(k\: x)$"
 
     Consider $y = \ln x$, then $y_4 =  \ln(k\: x).$ With $k=-1$ we have:
 
@@ -133,7 +133,7 @@ title: "Operations on graphs"
 
 <a id="box-texexpbox1-6"></a>
 
-!!! esempio "Example 6: Operations on graphs related to $y_5=  |f(x)|$"
+!!! esempio "Example 6: Operations on graphs related to $y_5= |f(x)|$"
 
     Consider $y = x$, then $y_5 = |x|$
 
@@ -143,7 +143,7 @@ title: "Operations on graphs"
 
 <a id="box-texexpbox1-7"></a>
 
-!!! esempio "Example 7: Operations on graphs related to $y_5=  |f( x)|$"
+!!! esempio "Example 7: Operations on graphs related to $y_5= |f( x)|$"
 
     Consider $y = \sin x$, then $y_5  = |\sin x|$
 

@@ -540,7 +540,7 @@ title: "Computing limits of functions"
 
 <a id="box-texexpbox1-15"></a>
 
-!!! esempio "Example 5: Computing a limit with the change of variable theorem "
+!!! esempio "Example 5: Computing a limit with the change of variable theorem"
 
     Let us compute the limits
 

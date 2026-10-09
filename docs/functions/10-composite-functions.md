@@ -69,7 +69,7 @@ title: "Composite functions"
     1. Since $g$ is defined on all of $\mathbb{R}$, $h = g \circ f$ is well defined on $\mathbb{R}$ and the following formula holds
 
         $$
-        h(x) = (g \circ f) (x) = g[f(x)] = \cos x^2
+        h(x) = (g \circ f) (x) = g[f(x)] = \cos (x^2)
         $$
 
         ![Figure 3](../img/functions-10-composite-functions/fig03.svg){ .fig .ovale loading=lazy style="width:73%" }

@@ -52,11 +52,11 @@
 
     [:octicons-arrow-right-24: Read the chapter](06-roots-powers-logarithms.md)
 
--   **7. Summations and geometric progressions**
+-   **7. Summations, geometric and arithmetic progressions**
 
     ---
 
-    Summations · Geometric progressions
+    Summations · Geometric progressions · Arithmetic progressions
 
     [:octicons-arrow-right-24: Read the chapter](07-summations.md)
 
