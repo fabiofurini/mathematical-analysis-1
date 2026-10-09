@@ -84,7 +84,13 @@ $$
 
     - <strong>Inductive step</strong>
 
-        Suppose it is true for $i = k$ and $i = k - 1$ with $k \ge 1$, and let us prove it for $i = k + 1$. By the inductive hypothesis, we have: $F_{k+1}  = F_{k} + F_{k-1}$, hence we can write
+        Suppose it is true for $i = k$ and $i = k - 1$ with $k \ge 1$, and let us prove it for $i = k + 1$. By the definition of the Fibonacci sequence, we have $F_{k+1}  = F_{k} + F_{k-1}$, while by the inductive hypothesis we have:
+
+        $$
+        F_{k}  = \frac{\phi^k - \hat{\phi}^k }{\sqrt{5}} {\rm ~~~~~and~~~~~} F_{k-1}  = \frac{\phi^{k-1} - \hat{\phi}^{k-1} }{\sqrt{5}}
+        $$
+
+        Hence we can write
 
         \begin{align*}
         F_{k+1} & = F_{k} + F_{k-1} \\[2ex]

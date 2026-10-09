@@ -32,7 +32,7 @@
 
     ---
 
-    Binary relations · Partial order relations · Total order relations · Functions
+    Binary relations · Properties of relations · Representation with directed graphs · Equivalence relations · …
 
     [:octicons-arrow-right-24: Read the chapter](04-binary-relations.md)
 
