@@ -41,9 +41,9 @@ title: "Comparisons and asymptotic estimates"
     $$
     \lim_{n \rightarrow +\infty} \frac{a_n}{b_n} =
     \begin{cases}
-    0 & {\rm ~~~~case~~1):~~}  \{a_n\} {\rm ~~is~an~infinity~of ~\textbf{lower~order~} than~~} \{b_n\}\\
-    l \in \R, l \neq 0  & {\rm ~~~~case~~2):~~} \{a_n\} {\rm ~and~} \{b_n\} {\rm ~are~infinities~of~the~\textbf{same~order}} \\
-    \pm \infty & {\rm ~~~~case~~3):~~} \{a_n\} {\rm ~~is~an~infinity~of ~\textbf{higher~order~} than~~} \{b_n\}\\
+    0 & {\rm ~~~~case~~1):~~}  \{a_n\} {\rm ~~is~an~infinity~of ~\textbf{lower order } than~~} \{b_n\}\\
+    l \in \R, l \neq 0  & {\rm ~~~~case~~2):~~} \{a_n\} {\rm ~and~} \{b_n\} {\rm ~are~infinities~of~the~\textbf{same order}} \\
+    \pm \infty & {\rm ~~~~case~~3):~~} \{a_n\} {\rm ~~is~an~infinity~of ~\textbf{higher order } than~~} \{b_n\}\\
     {\rm nonexistent} & {\rm ~~~~case~~4):~~}  \{a_n\} {\rm ~and~} \{b_n\} {\rm ~are~not~comparable}
     \end{cases}
     $$
@@ -53,9 +53,9 @@ title: "Comparisons and asymptotic estimates"
     $$
     \lim_{n \rightarrow +\infty} \frac{a_n}{b_n} =
     \begin{cases}
-    0 & {\rm ~~~~case~~1):~~}  \{a_n\} {\rm ~~is~an~infinitesimal~of ~\textbf{higher~order~} than~~} \{b_n\}\\
-    l \in \R, l \neq 0  & {\rm ~~~~case~~2):~~} \{a_n\} {\rm ~and~} \{b_n\} {\rm ~are~infinitesimals~of~the~\textbf{same~order}} \\
-    \pm \infty & {\rm ~~~~case~~3):~~} \{a_n\} {\rm ~~is~an~infinitesimal~of ~\textbf{lower~order~} than~~} \{b_n\}\\
+    0 & {\rm ~~~~case~~1):~~}  \{a_n\} {\rm ~~is~an~infinitesimal~of ~\textbf{higher order } than~~} \{b_n\}\\
+    l \in \R, l \neq 0  & {\rm ~~~~case~~2):~~} \{a_n\} {\rm ~and~} \{b_n\} {\rm ~are~infinitesimals~of~the~\textbf{same order}} \\
+    \pm \infty & {\rm ~~~~case~~3):~~} \{a_n\} {\rm ~~is~an~infinitesimal~of ~\textbf{lower order } than~~} \{b_n\}\\
     {\rm nonexistent} & {\rm ~~~~case~~4):~~}  \{a_n\} {\rm ~and~} \{b_n\} {\rm ~are~not~comparable}
     \end{cases}
     $$

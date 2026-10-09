@@ -281,7 +281,7 @@ title: "The derivative function"
 - To denote the derivative  the following symbols are used:
 
     $$
-    \underbrace{f'(x_0)}_{{\rm \textbf{Lagrange's~notation}}}  \qquad
+    \underbrace{f'(x_0)}_{{\rm \textbf{Lagrange's notation}}}  \qquad
     \underbrace{\dot{f}(x_0)}_{{\rm Newton's~notation}} \qquad
     \underbrace{\frac{df}{dx}\bigg\vert _{x=x_0} {\rm~~~~and~~~~~~} \frac{dy}{dx}\bigg\vert _{x=x_0}}_{{\rm Leibniz's~notation}}
     $$
@@ -353,7 +353,7 @@ title: "The derivative function"
 - To denote the first derivative function the following notations are used:
 
     $$
-    \underbrace{f'(x)}_{{\rm \textbf{Lagrange's~notation}}}  \qquad
+    \underbrace{f'(x)}_{{\rm \textbf{Lagrange's notation}}}  \qquad
     \underbrace{\dot{f}(x)}_{{\rm Newton's~notation}} \qquad
     \underbrace{ \frac{df}{dx} {\rm~~~~,~~~~~~} \frac{df(x)}{dx}  {\rm~~~~and~~~~~~} \frac{dy}{dx}}_{{\rm Leibniz's~notation}}
     $$

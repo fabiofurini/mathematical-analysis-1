@@ -85,7 +85,7 @@ title: "Sets"
         A set can be defined <strong>by a property</strong> as follows:
 
         $$
-        A = \big\{~ x \in U:  p(x) \textrm{~~is~true} ~\big\}
+        A = \big\{~ x \in U:  p(x) \textrm{ is true} ~\big\}
         $$
 
         where $p(x)$ is the property that the element $x$ of the set $U$ must have in order to belong to the set $A$. This technique can be used to define sets with a finite or even an infinite number of elements.
@@ -104,7 +104,7 @@ title: "Sets"
         Using for example the property $p(x)$ defined as “$x$ is a vowel” we can define the following set of vowels:
 
         $$
-        A= \underbrace{\{x \in U: x \textrm{~~~is~a~vowel}\}}_{ \{a,~e,~i,~o,~u\} }
+        A= \underbrace{\{x \in U: x \textrm{ is a vowel}\}}_{ \{a,~e,~i,~o,~u\} }
         $$
 
     Note that to define a set $A$ by a property we need a set $U$ to which all the elements of the set $A$ we want to define belong. The set $U$ plays the role of the <strong>universal set</strong>.
@@ -399,7 +399,7 @@ Sometimes we consider sets whose elements are other sets. In this case too, the 
     Given two sets $A$ and $B$, we have
 
     $$
-    A = B \quad \Longleftrightarrow \quad A \subseteq B \textrm{ ~and~ } B \subseteq A.
+    A = B \quad \Longleftrightarrow \quad A \subseteq B \textrm{ and } B \subseteq A.
     $$
 
 ??? dimostrazione "Proof"
@@ -417,7 +417,7 @@ Sometimes we consider sets whose elements are other sets. In this case too, the 
     Given three sets $A$, $B$ and $C$, we have
 
     $$
-    A \subseteq B \textrm{ ~and~ } B \subseteq C \quad \Longrightarrow \quad A \subseteq C.
+    A \subseteq B \textrm{ and } B \subseteq C \quad \Longrightarrow \quad A \subseteq C.
     $$
 
 ??? dimostrazione "Proof"
@@ -1260,7 +1260,7 @@ This definition, due to Kuratowski, expresses the ordered pair using only sets. 
     Given the elements $a$, $b$, $c$ and $d$, we have
 
     $$
-    (a, b) = (c, d) \quad \Longleftrightarrow \quad a = c \textrm{ ~and~ } b = d.
+    (a, b) = (c, d) \quad \Longleftrightarrow \quad a = c \textrm{ and } b = d.
     $$
 
 ??? dimostrazione "Proof"
@@ -1284,7 +1284,7 @@ This definition, due to Kuratowski, expresses the ordered pair using only sets. 
     Given two (not necessarily distinct) sets $A$ and $B$, the set consisting of all <em>ordered pairs</em> $(a, b)$, with $a \in A$ and $b \in B$, is called the <strong>Cartesian product</strong> of $A$ and $B$ and is denoted by the symbol $A \times B$:
 
     $$
-    A \times B = \big\{ (a, b) : a \in A \textrm{ ~and~ } b \in B \big\}.
+    A \times B = \big\{ (a, b) : a \in A \textrm{ and } b \in B \big\}.
     $$
 
 <a id="box-prop_ins-card-prodotto-55"></a>
@@ -1352,7 +1352,7 @@ The Cartesian product extends to more than two sets.
 - Applying repeatedly the characteristic property of ordered pairs we obtain
 
     $$
-    (a_1, a_2, \dots, a_n) = (b_1, b_2, \dots, b_n) \quad \Longleftrightarrow \quad a_i = b_i \textrm{ ~for every~ } i \in \{1, 2, \dots, n\}.
+    (a_1, a_2, \dots, a_n) = (b_1, b_2, \dots, b_n) \quad \Longleftrightarrow \quad a_i = b_i \textrm{ for every } i \in \{1, 2, \dots, n\}.
     $$
 
 <a id="box-prop_ins-card-nprodotto-58"></a>
@@ -1404,7 +1404,7 @@ The Cartesian product extends to more than two sets.
     When we study subsets of the plane we choose $U = \R^2$ as universal set. For example, the set of points of the plane with both coordinates positive (the <em>first quadrant</em>) is
 
     $$
-    Q_1 = \big\{ (x_1, x_2) \in \R^2 : x_1 > 0 \textrm{ ~and~ } x_2 > 0 \big\}.
+    Q_1 = \big\{ (x_1, x_2) \in \R^2 : x_1 > 0 \textrm{ and } x_2 > 0 \big\}.
     $$
 
     Since $(x_1, x_2) \in Q_1$ if and only if $x_1 \in \R_{>0}$ and $x_2 \in \R_{>0}$, we have $Q_1 = \R_{>0} \times \R_{>0}$.

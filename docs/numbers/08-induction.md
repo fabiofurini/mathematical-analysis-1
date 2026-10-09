@@ -72,7 +72,7 @@ title: "Principle of mathematical induction"
         Let $n = 0$. Then the statement becomes:
 
         $$
-        (1+x)^0 \ge 1 + 0\: x \text{ ~~ i.e.  ~~} 1 \ge 1
+        (1+x)^0 \ge 1 + 0\: x \text{ i.e. } 1 \ge 1
         $$
 
         which is clearly true.
@@ -153,7 +153,7 @@ title: "Principle of mathematical induction"
         Let $n = 1$. Then the statement becomes:
 
         $$
-        \sum_{k=1}^1 k = \frac{1\:(1+1)}{2} \text{ ~~ i.e.  ~~} 1 = 1
+        \sum_{k=1}^1 k = \frac{1\:(1+1)}{2} \text{ i.e. } 1 = 1
         $$
 
         which is clearly true.
@@ -198,7 +198,7 @@ title: "Principle of mathematical induction"
         Let $n = 1$. Then the statement becomes:
 
         $$
-        \sum_{k=0}^0 (2\:k+1) = 1^2 \text{ ~~ i.e.  ~~} 1 = 1
+        \sum_{k=0}^0 (2\:k+1) = 1^2 \text{ i.e. } 1 = 1
         $$
 
         which is clearly true.
@@ -248,7 +248,7 @@ title: "Principle of mathematical induction"
         Let $n = 1$. Then the statement becomes:
 
         $$
-        \sum_{k=1}^1 2\:k = 1 \cdot 2 \text{ ~~ i.e.  ~~} 2 = 2
+        \sum_{k=1}^1 2\:k = 1 \cdot 2 \text{ i.e. } 2 = 2
         $$
 
         which is clearly true.
@@ -300,7 +300,7 @@ title: "Principle of mathematical induction"
         Let $n = 1$. Then the statement becomes:
 
         $$
-        \sum_{k=1}^{1} q^{k-1}  = \frac{q^1-1}{q-1} \text{ ~~ i.e.  ~~} 1 = 1
+        \sum_{k=1}^{1} q^{k-1}  = \frac{q^1-1}{q-1} \text{ i.e. } 1 = 1
         $$
 
         which is clearly true.
@@ -435,3 +435,81 @@ title: "Principle of mathematical induction"
         that is, \(\eqref{AMGM_A}\), which is exactly the desired statement, for $n + 1$.
 
     <p class="qed-riga"><span class="qed">□</span></p>
+
+### 2.5 Fibonacci sequence
+
+- The <strong>Fibonacci sequence</strong> is defined by the following two initial values and recurrence relation:
+
+    \begin{equation}
+    \label{FIBONACCI}
+    F_0 = 0, \qquad F_1 = 1, \qquad F_n = F_{n-1} + F_{n-2} \quad \text{for every integer } n \ge 2.
+    \end{equation}
+
+- The first terms are $0,~ 1,~ 1,~ 2,~ 3,~ 5,~ 8,~ 13,~ 21,~ 34, \dots$: each term is the sum of the two preceding ones.
+
+- The two solutions of the equation $x^2 - x - 1 = 0$ are called the <strong>golden ratio</strong> $\phi$ and the <strong>conjugate of the golden ratio</strong> $\hat{\phi}$:
+
+    $$
+    \phi = \frac{1 + \sqrt{5}}{2} \qquad {\rm ~~and~~} \qquad \hat{\phi} = \frac{1 - \sqrt{5}}{2}
+    $$
+
+    Since they are solutions of $x^2 = x+1$, the following two equalities hold:
+
+    \begin{equation}
+    \label{FIBONACCI_PHI}
+    \phi^2 = \phi + 1 \qquad {\rm ~~and~~} \qquad \hat{\phi}^2 = \hat{\phi} + 1
+    \end{equation}
+
+- The following proposition gives a closed formula for $F_n$: the $n$-th term can be computed directly, without going through all the preceding terms.
+
+<a id="box-propFIB-8"></a>
+
+!!! osservazione "Remark 7: closed formula of the Fibonacci sequence"
+
+    For every integer $n \ge 0$, we have:
+
+    \begin{equation}
+    \label{BINET}
+    F_n = \frac{\phi^n - \hat{\phi}^n }{\sqrt{5}}
+    \end{equation}
+
+??? dimostrazione "Proof"
+
+    By induction on $n$. Since the recurrence relation links $F_{n+1}$ to the <strong>two</strong> preceding terms, the base case of the induction checks the statement for $n=0$ and for $n=1$, and the inductive step assumes it true for $n$ and for $n-1$.
+
+    - <strong>Base case of the induction</strong>
+
+        Let $n = 0$ and $n = 1$. Then the statement becomes:
+
+        $$
+        F_0  = \frac{\phi^0 - \hat{\phi}^0 }{\sqrt{5}} = \frac{1 - 1 }{\sqrt{5}} = 0
+        \qquad {\rm ~~and~~} \qquad
+        F_1  = \frac{\phi^1 - \hat{\phi}^1 }{\sqrt{5}} = \frac{\frac{1 + \sqrt{5}}{2} - \frac{1 - \sqrt{5}}{2}}{\sqrt{5}} = \frac{\sqrt{5}}{\sqrt{5}} = 1
+        $$
+
+        which is clearly true.
+
+    - <strong>Inductive step</strong>
+
+        Suppose it is true for $n$ and for $n-1$, with $n \ge 1$, and let us prove it for $(n + 1)$. By the definition of the Fibonacci sequence we have $F_{n+1} = F_{n} + F_{n-1}$, while by the inductive hypothesis we have:
+
+        $$
+        F_{n}  = \frac{\phi^n - \hat{\phi}^n }{\sqrt{5}} {\rm ~~~~~and~~~~~} F_{n-1}  = \frac{\phi^{n-1} - \hat{\phi}^{n-1} }{\sqrt{5}}
+        $$
+
+        Hence we can write:
+
+        \begin{align*}
+        F_{n+1} & = F_{n} + F_{n-1}
+         = \frac{\phi^n - \hat{\phi}^n }{\sqrt{5}} + \frac{\phi^{n-1} - \hat{\phi}^{n-1} }{\sqrt{5}}\\[2ex]
+        & = \frac{\big(\phi^n + \phi^{n-1}\big) - \big(\hat{\phi}^n  + \hat{\phi}^{n-1}\big)}{\sqrt{5}}
+         = \frac{\phi^{n-1} \big(\phi + 1\big) - \hat{\phi}^{n-1} \big(\hat{\phi}  + 1\big)}{\sqrt{5}}\\[2ex]
+        & = \frac{\phi^{n-1} \; \phi^2 - \hat{\phi}^{n-1} \; \hat{\phi}^2}{\sqrt{5}}
+         = \frac{\phi^{n+1} - \hat{\phi}^{n+1}}{\sqrt{5}}
+        \end{align*}
+
+        where in the second-to-last equality we used the relations \(\eqref{FIBONACCI_PHI}\). This is exactly the desired statement, for $n + 1$.
+
+    <p class="qed-riga"><span class="qed">□</span></p>
+
+- The Fibonacci sequence is studied in more detail in the chapter “Fibonacci sequence”.

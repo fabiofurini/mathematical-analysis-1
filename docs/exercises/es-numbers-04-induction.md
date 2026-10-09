@@ -29,7 +29,7 @@ title: "Principle of mathematical induction"
         Let $n = 1$. Then the statement becomes:
 
         $$
-        \sum_{k=1}^1 k^2 = \frac{1\:(1+1)\:(2\cdot1+1)}{6} \text{ ~~ i.e.  ~~} 1 = 1
+        \sum_{k=1}^1 k^2 = \frac{1\:(1+1)\:(2\cdot1+1)}{6} \text{ i.e. } 1 = 1
         $$
 
         which is clearly true.
@@ -77,7 +77,7 @@ title: "Principle of mathematical induction"
         Let $n = 1$. Then the statement becomes:
 
         $$
-        \sum_{k=0}^0 (2\:k+1) = 1^2 \text{ ~~ i.e.  ~~} 1 = 1
+        \sum_{k=0}^0 (2\:k+1) = 1^2 \text{ i.e. } 1 = 1
         $$
 
         which is clearly true.
@@ -119,7 +119,7 @@ title: "Principle of mathematical induction"
         Let $n = 1$. Then the statement becomes:
 
         $$
-        \sum_{k=1}^1 2\:k = 1 \cdot 2 \text{ ~~ i.e.  ~~} 2 = 2
+        \sum_{k=1}^1 2\:k = 1 \cdot 2 \text{ i.e. } 2 = 2
         $$
 
         which is clearly true.
@@ -161,7 +161,7 @@ title: "Principle of mathematical induction"
         Let $n = 1$. Then the statement becomes:
 
         $$
-        \sum_{k=1}^1 \frac{k}{2^k} = 2 - \frac{1+2}{2^1} \text{ ~~ i.e.  ~~} \frac{1}{2} = \frac{1}{2}
+        \sum_{k=1}^1 \frac{k}{2^k} = 2 - \frac{1+2}{2^1} \text{ i.e. } \frac{1}{2} = \frac{1}{2}
         $$
 
         which is clearly true.
@@ -204,7 +204,7 @@ title: "Principle of mathematical induction"
         Let $n = 0$.  A set with 0 elements is the empty set ($\emptyset$). The power set of the empty set contains only the empty set as an element.  Then the statement becomes:
 
         $$
-        |\mathscr{P}(\emptyset)| = 2^0  \text{ ~~ i.e.  ~~} 1 = 1
+        |\mathscr{P}(\emptyset)| = 2^0  \text{ i.e. } 1 = 1
         $$
 
         which is clearly true.
@@ -272,7 +272,7 @@ title: "Principle of mathematical induction"
         Let $n = 1$. Then the statement becomes:
 
         $$
-        \sum_{k=1}^1 k^3 = \frac{1+2+1}{4} \text{ ~~ i.e.  ~~} 1 = 1
+        \sum_{k=1}^1 k^3 = \frac{1+2+1}{4} \text{ i.e. } 1 = 1
         $$
 
         which is clearly true.
@@ -335,7 +335,7 @@ title: "Principle of mathematical induction"
         Let $n = 1$. Then the statement becomes:
 
         $$
-        \sum_{k=1}^1 \frac{1}{k\:(k+1)} = \frac{1}{1+1} \text{ ~~ i.e.  ~~} \frac{1}{2} = \frac{1}{2}
+        \sum_{k=1}^1 \frac{1}{k\:(k+1)} = \frac{1}{1+1} \text{ i.e. } \frac{1}{2} = \frac{1}{2}
         $$
 
         which is clearly true.
@@ -388,7 +388,7 @@ title: "Principle of mathematical induction"
         Let $n = 1$. Then the statement becomes:
 
         $$
-        \sum_{k=1}^1 k\:(k+1) = \frac{2+3+1}{3} \text{ ~~ i.e.  ~~} 2 = 2
+        \sum_{k=1}^1 k\:(k+1) = \frac{2+3+1}{3} \text{ i.e. } 2 = 2
         $$
 
         which is clearly true.
@@ -442,7 +442,7 @@ title: "Principle of mathematical induction"
         Let $n = 1$. Then the statement becomes:
 
         $$
-        1! \ge 2^{1-1} \text{ ~~ i.e.  ~~} 1 \ge 1
+        1! \ge 2^{1-1} \text{ i.e. } 1 \ge 1
         $$
 
         which is clearly true.
@@ -480,7 +480,7 @@ title: "Principle of mathematical induction"
         Let $n = 1$. Then the statement becomes:
 
         $$
-        1^1 \ge 2^{1-1} \cdot 1! \text{ ~~ i.e.  ~~} 1 \ge 1
+        1^1 \ge 2^{1-1} \cdot 1! \text{ i.e. } 1 \ge 1
         $$
 
         which is clearly true.
@@ -532,7 +532,7 @@ title: "Principle of mathematical induction"
         Let $n = 1$. Then the statement becomes:
 
         $$
-        1! \le 1^1 \text{ ~~ i.e.  ~~} 1 \le 1
+        1! \le 1^1 \text{ i.e. } 1 \le 1
         $$
 
         which is clearly true.
@@ -684,7 +684,7 @@ title: "Principle of mathematical induction"
         Let $n = 0$. Then the statement becomes:
 
         $$
-        (1+x)\:e^0 \ge \frac{1}{0+3} \text{ ~~ i.e.  ~~} x \ge -\frac{2}{3}
+        (1+x)\:e^0 \ge \frac{1}{0+3} \text{ i.e. } x \ge -\frac{2}{3}
         $$
 
         which is true by hypothesis.

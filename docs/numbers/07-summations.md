@@ -12,7 +12,7 @@ title: "Summations and geometric progressions"
 
 ## 1. Summations
 
-<a id="box-notationA-1"></a>
+<a id="box-defSOMM-1"></a>
 
 !!! definizione "Definition 1: summation"
 
@@ -65,31 +65,41 @@ title: "Summations and geometric progressions"
 
 ### 1.1 Main properties of summations
 
-<a id="box-propSUM-4"></a>
+<a id="box-propPROD-4"></a>
 
-!!! osservazione "Remark 1"
+!!! osservazione "Remark 1: product by a constant"
 
-    Given $c \in \R$, we have:
+    Given a summation $\sum_{k=1}^n a_k$ and a real number $c \in \R$, we have:
 
     \begin{equation}
     \label{P1}
-    \sum_{k=1}^n (c \cdot a_k) = c \: \sum_{k=1}^n a_k \qquad {\rm (product~by~a~constant)}
-    \end{equation}
-
-    \begin{equation}
-    \label{P2}
-    \sum_{k=1}^n c  = c \cdot n   \qquad {\rm (summation~with~a~constant~term)}
+    \sum_{k=1}^n (c \cdot a_k) = c \: \sum_{k=1}^n a_k
     \end{equation}
 
 ??? dimostrazione "Proof"
 
-    First property \(\eqref{P1}\). By the distributive property we have:
+    By the distributive property we have:
 
     $$
     \underbrace{c\: a_1 + c\: a_2 + \dots + c\: a_n}_{=\sum_{k=1}^n (c \cdot a_k)} = \underbrace{c \: (a_1+a_2+\dots+a_n)}_{= c \: \sum_{k=1}^n a_k}
     $$
 
-    Second property \(\eqref{P2}\):
+    <p class="qed-riga"><span class="qed">□</span></p>
+
+<a id="box-propCOST-5"></a>
+
+!!! osservazione "Remark 2: summation with a constant term"
+
+    For every natural number $n \ge 1$ and every real number $c \in \R$, we have:
+
+    \begin{equation}
+    \label{P2}
+    \sum_{k=1}^n c  = c \cdot n
+    \end{equation}
+
+??? dimostrazione "Proof"
+
+    We have:
 
     $$
     \underbrace{c\:  + c  + \dots + c\:}_{=\sum_{k=1}^n c {\rm ~~~~that~is,~} c {\rm ~added~} n {\rm ~times}} = c \: n
@@ -97,9 +107,9 @@ title: "Summations and geometric progressions"
 
     <p class="qed-riga"><span class="qed">□</span></p>
 
-<a id="box-propSUM-5"></a>
+<a id="box-propUNIONE-6"></a>
 
-!!! osservazione "Remark 2"
+!!! osservazione "Remark 3: union of summations"
 
     Given two summations $\sum_{k=1}^n a_k$ and $\sum_{k=1}^n b_k$, we have:
 
@@ -118,30 +128,88 @@ title: "Summations and geometric progressions"
 
     <p class="qed-riga"><span class="qed">□</span></p>
 
-<a id="box-propSUM-6"></a>
+- The three properties that follow (decomposition, index translation and index reflection) are simply different ways of writing and/or ordering the terms of the summations.
 
-!!! osservazione "Remark 3"
+<a id="box-propSCOMP-7"></a>
 
-    Given two natural numbers $n,m \in \N$, we have:
+!!! osservazione "Remark 4: decomposition"
 
-    \begin{align}
+    Given two natural numbers $n \ge 1$ and $m \ge 1$, we have:
+
+    \begin{equation}
     \label{P4}
-    \sum_{k=1}^{n+m} a_k   &= \sum_{k=1}^{n} a_k + \sum_{k=n+1}^{n+m} a_k  \qquad {\rm (splitting)}\\[2ex]
-    \label{P5}
-    \sum_{k=1}^{n} a_k   &= \sum_{k=1+m}^{n+m} a_{k-m} =  \sum_{k=1-m}^{n-m} a_{k+m} \qquad {\rm (index~shift)}\\[2ex]
-    \label{P6}
-    \sum_{k=1}^{n} a_k   &= \sum_{k=1}^{n} a_{n-k+1} = \sum_{k=0}^{n-1} a_{n-k} \qquad {\rm (index~reflection)}
-    \end{align}
+    \sum_{k=1}^{n+m} a_k   = \sum_{k=1}^{n} a_k + \sum_{k=n+1}^{n+m} a_k
+    \end{equation}
 
 ??? dimostrazione "Proof"
 
-    The three properties are simply different ways of writing and/or ordering the terms of the summations. <span class="qed">□</span>
+    The terms of the summation $\sum_{k=1}^{n+m} a_k$ can be grouped into the first $n$ and the last $m$ ones:
+
+    $$
+    \underbrace{a_1 + a_2 + \dots + a_n}_{=\sum_{k=1}^{n} a_k} + \underbrace{a_{n+1} + a_{n+2} + \dots + a_{n+m}}_{=\sum_{k=n+1}^{n+m} a_k} = \underbrace{a_1 + a_2 + \dots + a_n + a_{n+1} + \dots + a_{n+m}}_{=\sum_{k=1}^{n+m} a_k}
+    $$
+
+    <p class="qed-riga"><span class="qed">□</span></p>
+
+<a id="box-propTRASL-8"></a>
+
+!!! osservazione "Remark 5: index translation"
+
+    Given a summation $\sum_{k=1}^{n} a_k$ and a natural number $m \ge 1$, we have:
+
+    \begin{equation}
+    \label{P5}
+    \sum_{k=1}^{n} a_k   = \sum_{k=1+m}^{n+m} a_{k-m} =  \sum_{k=1-m}^{n-m} a_{k+m}
+    \end{equation}
+
+??? dimostrazione "Proof"
+
+    In the summation $\sum_{k=1+m}^{n+m} a_{k-m}$ the index $k$ ranges from $1+m$ to $n+m$, and therefore the index $k-m$ ranges from $1$ to $n$:
+
+    $$
+    \underbrace{a_{(1+m)-m} + a_{(2+m)-m} + \dots + a_{(n+m)-m}}_{=\sum_{k=1+m}^{n+m} a_{k-m}} = \underbrace{a_1 + a_2 + \dots + a_n}_{=\sum_{k=1}^{n} a_k}
+    $$
+
+    In the same way, in the summation $\sum_{k=1-m}^{n-m} a_{k+m}$ the index $k$ ranges from $1-m$ to $n-m$, and therefore the index $k+m$ ranges from $1$ to $n$:
+
+    $$
+    \underbrace{a_{(1-m)+m} + a_{(2-m)+m} + \dots + a_{(n-m)+m}}_{=\sum_{k=1-m}^{n-m} a_{k+m}} = \underbrace{a_1 + a_2 + \dots + a_n}_{=\sum_{k=1}^{n} a_k}
+    $$
+
+    <p class="qed-riga"><span class="qed">□</span></p>
+
+<a id="box-propRIFL-9"></a>
+
+!!! osservazione "Remark 6: index reflection"
+
+    Given a summation $\sum_{k=1}^{n} a_k$, we have:
+
+    \begin{equation}
+    \label{P6}
+    \sum_{k=1}^{n} a_k   = \sum_{k=1}^{n} a_{n-k+1} = \sum_{k=0}^{n-1} a_{n-k}
+    \end{equation}
+
+??? dimostrazione "Proof"
+
+    In the summation $\sum_{k=1}^{n} a_{n-k+1}$ the index $k$ ranges from $1$ to $n$, and therefore the index $n-k+1$ ranges from $n$ to $1$, that is, the terms are the same ones listed in reverse order:
+
+    $$
+    \underbrace{a_{n} + a_{n-1} + \dots + a_{1}}_{=\sum_{k=1}^{n} a_{n-k+1}} = \underbrace{a_1 + a_2 + \dots + a_n}_{=\sum_{k=1}^{n} a_k}
+    $$
+
+    In the same way, in the summation $\sum_{k=0}^{n-1} a_{n-k}$ the index $k$ ranges from $0$ to $n-1$, and therefore the index $n-k$ ranges from $n$ to $1$:
+
+    $$
+    \underbrace{a_{n} + a_{n-1} + \dots + a_{1}}_{=\sum_{k=0}^{n-1} a_{n-k}} = \underbrace{a_1 + a_2 + \dots + a_n}_{=\sum_{k=1}^{n} a_k}
+    $$
+
+    <p class="qed-riga"><span class="qed">□</span></p>
 
 ### 1.2 Some important summations
 
-<a id="box-propSUM-7"></a>
+<a id="box-propNAT-10"></a>
 
-!!! osservazione "Remark 4: sum of the first $n$ natural numbers (without zero)"
+!!! osservazione "Remark 7: sum of the first $n$ natural numbers (without zero)"
 
     For every natural number $n \ge 1$, we have:
 
@@ -150,6 +218,8 @@ title: "Summations and geometric progressions"
     $$
 
 ??? dimostrazione "Proof"
+
+    Using the index reflection \(\eqref{P6}\) we have:
 
     \begin{align*}
     \sum_{k=1}^{n} k &= \frac{1}{2} \left( \sum_{k=1}^{n} k + \sum_{k=1}^{n} k \right) = \frac{1}{2} \left( \sum_{k=1}^{n} k + \sum_{k=1}^{n} \big( n-k+1 \big) \right)\\[2ex]
@@ -160,9 +230,9 @@ title: "Summations and geometric progressions"
 
     <p class="qed-riga"><span class="qed">□</span></p>
 
-<a id="box-propYY-8"></a>
+<a id="box-propDISP-11"></a>
 
-!!! osservazione "Remark 5: sum of the first $n$ odd numbers"
+!!! osservazione "Remark 8: sum of the first $n$ odd numbers"
 
     For every natural number $n \ge 1$, we have:
 
@@ -189,9 +259,9 @@ title: "Summations and geometric progressions"
 
     <p class="qed-riga"><span class="qed">□</span></p>
 
-<a id="box-propYY-9"></a>
+<a id="box-propPARI-12"></a>
 
-!!! osservazione "Remark 6: sum of the first $n$ even numbers (without zero)"
+!!! osservazione "Remark 9: sum of the first $n$ even numbers (without zero)"
 
     For every natural number $n \ge 1$, we have:
 
@@ -207,9 +277,11 @@ title: "Summations and geometric progressions"
 
     <p class="qed-riga"><span class="qed">□</span></p>
 
+- The three important summations we have just seen can also be proved by induction, in the chapter “Principle of induction”.
+
 ## 2. Geometric progressions
 
-<a id="box-notationA-10"></a>
+<a id="box-defPROGGEOM-13"></a>
 
 !!! definizione "Definition 2: geometric progression"
 
@@ -233,7 +305,40 @@ title: "Summations and geometric progressions"
     &\dots &   \dots
     \end{align*}
 
-<a id="box-texexpbox1-11"></a>
+<a id="box-propTERM-14"></a>
+
+!!! osservazione "Remark 10: $k$-th term of a geometric progression"
+
+    Given the first term $a \in \R$ and the common ratio $q \in \R$, let $t_k$ denote the term in position $k$ of the geometric progression. The recursive relation that defines the progression is:
+
+    \begin{equation}
+    \label{GEOMREC}
+    t_1 = a \qquad {\rm and} \qquad t_k = t_{k-1} \: q \qquad {\rm for~every~natural~number~} k \ge 2
+    \end{equation}
+
+    and the closed formula of the $k$-th term is:
+
+    \begin{equation}
+    \label{GEOMTERM}
+    t_k = a \: q^{k-1} \qquad {\rm for~every~natural~number~} k \ge 1
+    \end{equation}
+
+??? dimostrazione "Proof"
+
+    The closed formula \(\eqref{GEOMTERM}\) is obtained by applying repeatedly the recursive relation \(\eqref{GEOMREC}\):
+
+    \begin{align*}
+    t_1 &= a = a \: q^0\\[1ex]
+    t_2 &= t_1 \: q = a \: q = a \: q^1\\[1ex]
+    t_3 &= t_2 \: q = a \: q \: q  = a \: q^2\\[1ex]
+    t_4 &= t_3 \: q = a \: q^2 \: q  = a \: q^3\\[1ex]
+    &\vdots\\[1ex]
+    t_k &= t_{k-1} \: q = a \: q^{k-2} \: q  = a \: q^{k-1}
+    \end{align*}
+
+    <p class="qed-riga"><span class="qed">□</span></p>
+
+<a id="box-texexpbox1-15"></a>
 
 !!! esempio "Example 3: geometric progressions"
 
@@ -251,11 +356,13 @@ title: "Summations and geometric progressions"
         1,~~2,~~4,~~8
         $$
 
+    ![Figure 2](../img/numbers-07-summations/fig02.svg){ .fig .ovale loading=lazy style="width:85%" }
+
 ### 2.1 Sums of the terms of geometric progressions
 
-<a id="box-propXX-12"></a>
+<a id="box-propGEOM-16"></a>
 
-!!! osservazione "Remark 7: sum of the first $n$ terms of the geometric progression ($a=1$)"
+!!! osservazione "Remark 11: sum of the first $n$ terms of the geometric progression ($a=1$)"
 
     Given $q \in\ \R_+$, for every natural number $n \ge 1$ we have:
 
@@ -276,13 +383,19 @@ title: "Summations and geometric progressions"
     ({q-1}) \: \sum_{k=1}^{n} q^{k-1} = {q^{n} - 1}
     $$
 
-    Applying the properties of summations, we get:
+    Applying the properties of summations, in particular the product by a constant \(\eqref{P1}\) and the index translation \(\eqref{P5}\), we get:
 
     \begin{align*}
     ({q-1}) \: \sum_{k=1}^{n} q^{k-1} &= q \: \sum_{k=1}^{n} q^{k-1} - \sum_{k=1}^{n} q^{k-1} =\\[2ex]
     & = \sum_{k=1}^{n} q^{k} - \sum_{k=1}^{n} q^{k-1} = \sum_{k=1}^n q^k - \sum_{k=0}^{n-1} q^{k} =\\[2ex]
     & =  \sum_{k=1}^{n-1} q^k + q^n - \left(1 + \sum_{k=1}^{n-1} q^k  \right) = q^{n}  - 1
     \end{align*}
+
+    Dividing by $q-1 \neq 0$ we obtain:
+
+    $$
+    \sum_{k=1}^{n} q^{k-1} = \frac{q^{n}-1}{q-1}
+    $$
 
     If $q = 1$, we have instead:
 
@@ -313,9 +426,23 @@ title: "Summations and geometric progressions"
     \end{cases}
     \end{equation*}
 
-<a id="box-texexpbox1-13"></a>
+- Formula \(\eqref{GEOM}\) can also be proved by induction, in the chapter “Principle of induction”.
+
+<a id="box-texexpbox1-17"></a>
 
 !!! esempio "Example 4: sum of the first $n$ terms of geometric progressions"
+
+    - With $a=2$ and $q=\frac{1}{2}$, the first 4 terms are:
+
+        $$
+        2,~~1,~~\frac{1}{2},~~\frac{1}{4} \qquad {\rm ~~and~~} \qquad  2 + 1 + \frac{1}{2} + \frac{1}{4} = \frac{8+4+2+1}{4} = \frac{15}{4}
+        $$
+
+        the sum of the first $n=4$ terms is given by the formula:
+
+        $$
+        \sum_{k=1}^4  2 \; \left(\frac{1}{2}\right)^{k-1}= \sum_{k=1}^4 \frac{2}{2^{k-1}} = 2 \; \frac{1-\frac{1}{2^4}}{1-\frac{1}{2}} = 2 \; \frac{1-\frac{1}{16}}{\frac{1}{2}}= \frac{15}{16} \; 4 = \frac{15}{4}
+        $$
 
     - With $a=1$ and $q=\frac{1}{2}$, the first 4 terms are:
 
