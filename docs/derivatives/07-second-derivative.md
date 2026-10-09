@@ -417,8 +417,7 @@ title: "Second derivative"
     are concave on $(0,\ip)$ if $a >1$ and convex on $(0,\ip)$ if $0 < a < 1$, since:
 
     $$
-    f'(x) = \frac{1}{x\; \log a}; ~~~~ f''(x) = - \frac{1}{x^2\; \log a}
-    ~~
+    f'(x) = \frac{1}{x\; \log a}; ~~~~ f''(x) = - \frac{1}{x^2\; \log a} ~~
     \begin{cases}
     < 0, ~ \forall x >0, & {\rm if}~~ a >1\\[2ex]
     > 0, ~ \forall x >0, & {\rm if}~~  0 < a < 1
@@ -630,12 +629,10 @@ title: "Second derivative"
     $$
     f(x) = x \; |x|, {\rm ~~with~~} x \neq 0,~~ f(x)=\left\{\begin{array}{lr} x^2, &x>0\\
     \\
-    -x^2, & x < 0 \end{array}\right.
-    ~~~
+    -x^2, & x < 0 \end{array}\right. ~~~
     f'(x)=\left\{\begin{array}{lr} 2\;x, &x>0 \\
     \\
-    -2\;x, & x< 0 \end{array}\right.
-    ~~~
+    -2\;x, & x< 0 \end{array}\right. ~~~
     f''(x)=\left\{\begin{array}{lr} 2, &x>0 \\
     \\
     -2, & x< 0 \end{array}\right.
