@@ -317,14 +317,13 @@ title: "Fundamental limits and asymptotic estimates"
 
     As $x \rr 0$ we have (from the fundamental limits):
 
-    <a id="LIMMMM"></a>
-
     \begin{align}
-    \sin x &\thicksim x\\[2ex]
+    \sin x &\thicksim x \label{LIMMMM}
+    \\[2ex]
     \log(1+x) &\thicksim x\\[2ex] 
      \cos x & \thicksim  1- \frac{1}{2} x^2\\[2ex]
      e^x &\thicksim 1+ x\\[2ex] 
-    (1+x)^{\alpha}  &\thicksim 1 + \alpha \: x  {\rm ~~~~~~~~with~~~} \alpha \in \R
+    (1+x)^{\alpha}  &\thicksim 1 + \alpha \: x  {\rm ~~~~~~~~with~~~} \alpha \in \R \label{LIMMMM__ultima}
     \end{align}
 
 - The functions $\thicksim x$ behave, to a first approximation or to first order, like $x$ as $x \rr 0$.
@@ -333,17 +332,16 @@ title: "Fundamental limits and asymptotic estimates"
 
     If $\varepsilon(x)$ is a function that tends to zero[^2] (i.e., it is an infinitesimal: $\varepsilon(x) \rr 0$), we have:
 
-    <a id="LIM_NOT_C__2"></a>
-
     \begin{align}
-    \sin \big( \varepsilon(x) \big) &\thicksim \varepsilon(x)\\[2ex]
+    \sin \big( \varepsilon(x) \big) &\thicksim \varepsilon(x) \label{LIM_NOT_C__2}
+    \\[2ex]
      \log \big(1+\varepsilon(x)\big) &\thicksim \varepsilon(x)\\[2ex]
      \cos \big( \varepsilon(x) \big) &\thicksim 1 - \frac{1}{2} \;\varepsilon^2(x)\\[2ex]
      e^{\varepsilon(x)} &\thicksim 1 +\varepsilon(x)\\[2ex]
-      \big(1+\varepsilon(x)\big)^{\alpha}  & \thicksim 1+ \alpha \; \varepsilon(x)  {\rm ~~~~~~~~with~~~} \alpha \in \R
+      \big(1+\varepsilon(x)\big)^{\alpha}  & \thicksim 1+ \alpha \; \varepsilon(x)  {\rm ~~~~~~~~with~~~} \alpha \in \R \label{LIM_NOT_C__ultima}
     \end{align}
 
-- Formulas \(\eqref{LIM_NOT_C__2}\) follow from formulas \(\eqref{LIMMMM}\) simply by a change of variable
+- Formulas \(\eqref{LIM_NOT_C__2}\)–\(\eqref{LIM_NOT_C__ultima}\) follow from formulas \(\eqref{LIMMMM}\)–\(\eqref{LIMMMM__ultima}\) simply by a change of variable
 
     $$
     x = \varepsilon(x)
