@@ -341,11 +341,7 @@ title: "Fundamental limits and asymptotic estimates"
       \big(1+\varepsilon(x)\big)^{\alpha}  & \thicksim 1+ \alpha \; \varepsilon(x)  {\rm ~~~~~~~~with~~~} \alpha \in \R \label{LIM_NOT_C__ultima}
     \end{align}
 
-- Formulas \(\eqref{LIM_NOT_C__2}\)–\(\eqref{LIM_NOT_C__ultima}\) follow from formulas \(\eqref{LIMMMM}\)–\(\eqref{LIMMMM__ultima}\) simply by a change of variable
-
-    $$
-    x = \varepsilon(x)
-    $$
+- Formulas \(\eqref{LIM_NOT_C__2}\)–\(\eqref{LIM_NOT_C__ultima}\) follow from formulas \(\eqref{LIMMMM}\)–\(\eqref{LIMMMM__ultima}\) simply by a change of variable: replace $x$ with $\varepsilon(x)$.
 
 <a id="box-texexpbox1-10"></a>
 
