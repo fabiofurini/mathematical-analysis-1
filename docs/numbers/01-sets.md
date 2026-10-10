@@ -117,15 +117,87 @@ title: "Sets"
 
     It is important that the property $p(x)$ we use makes sense for every $x$ of the set $U$ (universal set), and therefore is true or false (without ambiguity of meaning) for every particular $x \in U$; the set $A$ will then consist of exactly those $x$ belonging to $U$ for which the property $p(x)$ is true.
 
+    Fixing a single universal set for the whole discussion is convenient, but it is not necessary. We can start from <strong>any set already known</strong> $B$, which may change from one definition to the next:
+
+    !!! chiave ""
+
+        Given a set $B$ already known, the notation
+
+        $$
+        A = \big\{~ x \in B:  p(x) ~\big\}
+        $$
+
+        defines the set $A$ made of exactly those elements of $B$ for which the property $p(x)$ is true (“is true” is usually not written). The universal set is the special case in which $B = U$ is the same for all the definitions in a given context.
+
+    - This is the form used everywhere in mathematics. The property can be written in words or with a formula, and it can consist of several conditions, separated by commas or by “and”.
+
+    - When the starting set is clear from the context, it is often left implicit and we simply write $\{~ x : p(x) ~\}$. For example, when discussing real numbers, $\{~ x : x > 0 ~\}$ denotes the set of positive real numbers. The starting set is still fixed: it is only omitted from the notation.
+
+    <a id="box-ex_ins-proprieta-partenza-5"></a>
+
+    !!! esempio "Example 4: properties with different starting sets"
+
+        - Starting from $B = \{a,~ b,~ c,~ d,~ e\}$ and from the same property “$x$ is a vowel” we obtain a set different from the one of the previous example:
+
+            $$
+            \{x \in B: x \textrm{ is a vowel}\} = \{a,~ e\}
+            $$
+
+        - Starting from $C = \{1,~ 2,~ 3,~ 4,~ 5,~ 6\}$ we can define:
+
+            $$
+            \{x \in C: x \textrm{ is even}\} = \{2,~ 4,~ 6\}
+            $$
+
+        - The conditions can be more than one:
+
+            $$
+            \{x \in C: x \textrm{ is even}, ~ x > 2\} = \{4,~ 6\}
+            $$
+
+        In all cases the starting set is chosen each time and is not the universe of the whole discussion.
+
+3. A third way to define sets is <strong>definition by construction</strong>: instead of choosing the elements among those of a set that already contains them, we <strong>build</strong> them from the elements of a set already known.
+
+    !!! chiave ""
+
+        Given a set $B$ already known, a set can be defined <strong>by construction</strong> as follows:
+
+        $$
+        A = \big\{~ \textrm{expression built from } x ~:~ x \in B ~\big\}
+        $$
+
+        that is, $A$ is made of all the objects obtained by applying the same rule to each element $x$ of $B$. There is no need to know in advance a set containing the elements of $A$.
+
+    <a id="box-ex_ins-costruzione-6"></a>
+
+    !!! esempio "Example 5: definition by construction"
+
+        - The set of the squares of the elements of $\{1,~ 2,~ 3\}$:
+
+            $$
+            \big\{~ x^2 ~:~ x \in \{1,~ 2,~ 3\} ~\big\} = \{1,~ 4,~ 9\}
+            $$
+
+        - The set of the doubles of the elements of $\{1,~ 2,~ 3,~ 4\}$:
+
+            $$
+            \big\{~ 2x ~:~ x \in \{1,~ 2,~ 3,~ 4\} ~\big\} = \{2,~ 4,~ 6,~ 8\}
+            $$
+
+        If the rule produces the same object from different elements, the object is counted only once: for example $\big\{~ x^2 ~:~ x \in \{-1,~ 0,~ 1\} ~\big\} = \{0,~ 1\}$.
+
 !!! chiave ""
 
     One must be careful when defining sets, since contradictions may arise. There is a formal definition of the concept of set, developed to avoid contradictions, but it is beyond the scope of this course.
 
-- For example, the set of all sets that do not contain themselves is not a set in the formal definition of sets. Admitting this set would generate the contradiction: “the set of all sets that do not belong to themselves belongs to itself if and only if it does not belong to itself” (<strong>Russell's paradox</strong>, discussed in the further topics at the end of the chapter).
+- In all the ways seen so far we always start from a set already known. The notation $\{~ x : p(x) ~\}$ understood as “all the objects for which $p(x)$ is true”, with no starting set at all (not even an implicit one), does <strong>not</strong> in general define a set.
+
+- For example, with the property $p(x)$ defined as “$x \notin x$” we would obtain the set of all sets that do not contain themselves, which however is not a set in the formal definition of sets. Admitting this set would generate the contradiction: “the set of all sets that do not belong to themselves belongs to itself if and only if it does not belong to itself” (<strong>Russell's paradox</strong>, discussed in the further topics at the end of the chapter).
 
 ## 2. Number sets
 
-<a id="box-defXX-5"></a>
+<a id="box-defXX-7"></a>
 
 !!! definizione "Definition 2: numeral system"
 
@@ -149,7 +221,7 @@ title: "Sets"
         \N_{>0} = \N \setminus \{0\} = \{1,~ 2,~ 3,~ 4,~ \dots\}
         $$
 
-        <a id="box-def_pari-6"></a>
+        <a id="box-def_pari-8"></a>
 
         !!! definizione "Definition 3: of even number"
 
@@ -159,7 +231,7 @@ title: "Sets"
             n = 2 \, m
             $$
 
-        <a id="box-def_dispari-7"></a>
+        <a id="box-def_dispari-9"></a>
 
         !!! definizione "Definition 4: of odd number"
 
@@ -169,9 +241,9 @@ title: "Sets"
             n = 2 \, m + 1
             $$
 
-        <a id="box-ex_pari-dispari-8"></a>
+        <a id="box-ex_pari-dispari-10"></a>
 
-        !!! esempio "Example 4: even and odd numbers"
+        !!! esempio "Example 6: even and odd numbers"
 
             - $0$ is even, because $0 = 2 \cdot 0$, and $6$ is even, because $6 = 2 \cdot 3$.
 
@@ -187,7 +259,7 @@ title: "Sets"
 
         - It is the axiom that justifies the <strong>principle of mathematical induction</strong>, which we will deal with later on, and it guarantees the existence of a smallest element whenever a property is satisfied by at least one natural number.
 
-        <a id="box-oss_pari-dispari-9"></a>
+        <a id="box-oss_pari-dispari-11"></a>
 
         !!! osservazione "Remark 1"
 
@@ -233,9 +305,9 @@ title: "Sets"
 
     3. We denote by $\Q$ the set of <strong>rational numbers</strong>, that is, the set of numbers that can be written as <strong>finite or infinite periodic decimal expansions</strong>. In other words, it is the set of numbers that can be written as a fraction $\frac{p}{q}$ where $p$ is an integer and $q$ is a natural number different from zero.
 
-        <a id="box-ex_ins-k2-10"></a>
+        <a id="box-ex_ins-k2-12"></a>
 
-        !!! esempio "Example 5: rational numbers"
+        !!! esempio "Example 7: rational numbers"
 
             - For example, with $p=2$ and $q=5$ we have the fraction $\frac{2}{5}$, whose decimal expansion is $0.4$.
 
@@ -245,7 +317,7 @@ title: "Sets"
 
         However, we can represent every rational number different from $0$ by a single fraction $\frac{p}{q}$ by choosing $p \in \Z$ and $q \in \N$ coprime (that is, relatively prime: $p$ and $q$ are not both divisible by the same integer greater than 1).
 
-        <a id="box-obserXX-11"></a>
+        <a id="box-obserXX-13"></a>
 
         !!! osservazione "Remark 2"
 
@@ -292,9 +364,9 @@ title: "Sets"
 
     4. We denote by $\R$ the set of <strong>real numbers</strong>, that is, the set of numbers identified with finite or infinite decimal expansions, periodic or non-periodic.
 
-        <a id="box-ex_ins-k3-12"></a>
+        <a id="box-ex_ins-k3-14"></a>
 
-        !!! esempio "Example 6: real numbers"
+        !!! esempio "Example 8: real numbers"
 
             - Consider for example the number
 
@@ -306,9 +378,9 @@ title: "Sets"
 
             - Other examples of real but not rational numbers are $\sqrt{2}$ and $\sqrt{3}$, or $\pi$ and Euler's number $e$ (Napier's constant), which have infinite non-periodic decimal expansions and are therefore real but not rational numbers.
 
-    <a id="box-ex_ins-numerici-13"></a>
+    <a id="box-ex_ins-numerici-15"></a>
 
-    !!! esempio "Example 7: number sets defined by listing and by a property"
+    !!! esempio "Example 9: number sets defined by listing and by a property"
 
         - The set of the first five prime numbers can be defined by listing:
 
@@ -338,7 +410,7 @@ title: "Sets"
 
 ## 3. Relations between sets
 
-<a id="box-def_ins-uguali-14"></a>
+<a id="box-def_ins-uguali-16"></a>
 
 !!! definizione "Definition 5: of equal sets"
 
@@ -350,9 +422,9 @@ title: "Sets"
 
     and this means that every element that belongs to $A$ also belongs to $B$ and every element that belongs to $B$ also belongs to $A$. If $A$ and $B$ are not equal we write $A \neq B$.
 
-<a id="box-ex_ins-uguali-15"></a>
+<a id="box-ex_ins-uguali-17"></a>
 
-!!! esempio "Example 8: order and multiplicity of the elements"
+!!! esempio "Example 10: order and multiplicity of the elements"
 
     - The concept of <em>order</em> among the elements is foreign to sets:
 
@@ -378,7 +450,7 @@ title: "Sets"
 
 It may happen that only one of the two requirements expressed by the equality relation holds. For example, if we only know that every element of $A$ is also an element of $B$, we can say that $A$ is contained in $B$.
 
-<a id="box-def_ins-sottoinsieme-16"></a>
+<a id="box-def_ins-sottoinsieme-18"></a>
 
 !!! definizione "Definition 6: of subset"
 
@@ -392,7 +464,7 @@ It may happen that only one of the two requirements expressed by the equality re
 
 If we state that $A \subseteq B$, we do not exclude that $A = B$. If instead we want to state precisely that $A$ is contained in $B$ but does not coincide with $B$, we say that $A$ is <em>strictly contained</em> in $B$.
 
-<a id="box-def_ins-sottoinsieme-proprio-17"></a>
+<a id="box-def_ins-sottoinsieme-proprio-19"></a>
 
 !!! definizione "Definition 7: of proper subset"
 
@@ -406,9 +478,9 @@ If we state that $A \subseteq B$, we do not exclude that $A = B$. If instead we 
 
 - In some texts the symbol $\subset$ denotes strict inclusion, in others it is a synonym of $\subseteq$. To avoid ambiguity we will use $\subseteq$ for inclusion and $\subsetneqq$ for strict inclusion; when it appears, the symbol $\subset$ has the same meaning as $\subseteq$.
 
-<a id="box-ex_ins-inclusione-18"></a>
+<a id="box-ex_ins-inclusione-20"></a>
 
-!!! esempio "Example 9: inclusion and strict inclusion"
+!!! esempio "Example 11: inclusion and strict inclusion"
 
     - $\{1, 4\} \subseteq \{1, 3, 4\}$, because $1$ and $4$ belong to $\{1, 3, 4\}$. The inclusion is strict, $\{1, 4\} \subsetneqq \{1, 3, 4\}$, because $3 \in \{1, 3, 4\}$ but $3 \notin \{1, 4\}$, so the two sets are not equal.
 
@@ -424,9 +496,9 @@ If we state that $A \subseteq B$, we do not exclude that $A = B$. If instead we 
 
     - an element belongs to a set.
 
-<a id="box-ex_ins-appartiene-1-19"></a>
+<a id="box-ex_ins-appartiene-1-21"></a>
 
-!!! esempio "Example 10: “belongs to” vs “is contained in”"
+!!! esempio "Example 12: “belongs to” vs “is contained in”"
 
     For example:
 
@@ -446,9 +518,9 @@ If we state that $A \subseteq B$, we do not exclude that $A = B$. If instead we 
 
 Sometimes we consider sets whose elements are other sets. In this case too, the symbols $\in$ and $\subseteq$ are not interchangeable, but must be used correctly.
 
-<a id="box-ex_ins-appartiene-2-20"></a>
+<a id="box-ex_ins-appartiene-2-22"></a>
 
-!!! esempio "Example 11: “belongs to” vs “is contained in”"
+!!! esempio "Example 13: “belongs to” vs “is contained in”"
 
     For example, if we define the set
 
@@ -460,7 +532,7 @@ Sometimes we consider sets whose elements are other sets. In this case too, the 
 
 ### 3.1 Properties of inclusion
 
-<a id="box-prop_ins-riflessiva-21"></a>
+<a id="box-prop_ins-riflessiva-23"></a>
 
 !!! teorema "Proposition 1: reflexive property of inclusion"
 
@@ -474,7 +546,7 @@ Sometimes we consider sets whose elements are other sets. In this case too, the 
 
     By the definition of subset we must check that every element of $A$ is also an element of $A$, that is, that for every $x$ the implication $x \in A \Longrightarrow x \in A$ holds. The implication is true because the conclusion coincides with the hypothesis: if $x \in A$, then $x \in A$. Hence $A \subseteq A$. <span class="qed">□</span>
 
-<a id="box-prop_ins-antisimmetrica-22"></a>
+<a id="box-prop_ins-antisimmetrica-24"></a>
 
 !!! teorema "Proposition 2: antisymmetric property of inclusion"
 
@@ -492,7 +564,7 @@ Sometimes we consider sets whose elements are other sets. In this case too, the 
 
 - The antisymmetric property gives the most common method to prove that two sets $A$ and $B$ are equal, called <strong>double inclusion</strong>: we take an arbitrary element of $A$ and show that it belongs to $B$ (that is, $A \subseteq B$), then we take an arbitrary element of $B$ and show that it belongs to $A$ (that is, $B \subseteq A$).
 
-<a id="box-prop_ins-transitiva-23"></a>
+<a id="box-prop_ins-transitiva-25"></a>
 
 !!! teorema "Proposition 3: transitive property of inclusion"
 
@@ -508,13 +580,13 @@ Sometimes we consider sets whose elements are other sets. In this case too, the 
 
 ### 3.2 Empty set, cardinality and power set
 
-<a id="box-def_ins-vuoto-24"></a>
+<a id="box-def_ins-vuoto-26"></a>
 
 !!! definizione "Definition 8: of empty set"
 
     The <strong>empty set</strong> is the set that contains no elements. It is denoted by $\varnothing.$
 
-<a id="box-oss_ins-vuoto-25"></a>
+<a id="box-oss_ins-vuoto-27"></a>
 
 !!! osservazione "Remark 3"
 
@@ -534,7 +606,7 @@ Sometimes we consider sets whose elements are other sets. In this case too, the 
 
     holds. The hypothesis $x \in \varnothing$ is false for every $x$, because no element belongs to $\varnothing$. An implication with a false hypothesis is true whatever the conclusion is: we say that the implication is <strong>vacuously true</strong>. The same can be seen by contradiction: if $\varnothing \subseteq A$ did not hold, there would exist an element of $\varnothing$ that does not belong to $A$; but $\varnothing$ has no elements, so such an element does not exist. Hence the thesis holds. <span class="qed">□</span>
 
-<a id="box-def_ins-cardinalita-26"></a>
+<a id="box-def_ins-cardinalita-28"></a>
 
 !!! definizione "Definition 9: of cardinality of a set"
 
@@ -546,13 +618,13 @@ Sometimes we consider sets whose elements are other sets. In this case too, the 
 
 - A subset with $k$ elements of a set $A$ is called a <strong>$k$-subset</strong> of $A$.
 
-<a id="box-ex_ins-cardinalita-27"></a>
+<a id="box-ex_ins-cardinalita-29"></a>
 
-!!! esempio "Example 12: cardinality and subsets with k elements"
+!!! esempio "Example 14: cardinality and subsets with k elements"
 
     Given the set $A=\{1,2,3\}$ we have $|A| = 3$. The $2$-subsets of $A$ are $\{1,2\}$, $\{1,3\}$ and $\{2,3\}$; the $1$-subsets of $A$ are the singletons $\{1\}$, $\{2\}$ and $\{3\}$; the only $0$-subset of $A$ is $\varnothing$ and the only $3$-subset of $A$ is $A$ itself.
 
-<a id="box-def_ins-parti-28"></a>
+<a id="box-def_ins-parti-30"></a>
 
 !!! definizione "Definition 10: of power set"
 
@@ -560,9 +632,9 @@ Sometimes we consider sets whose elements are other sets. In this case too, the 
 
 - Every set $A$ has two trivial subsets, namely $A$ itself (by the reflexive property of inclusion) and the empty set $\varnothing$ (by the remark on the empty set); the two subsets coincide if $A$ is empty.
 
-<a id="box-ex_ins-parti-29"></a>
+<a id="box-ex_ins-parti-31"></a>
 
-!!! esempio "Example 13: power set"
+!!! esempio "Example 15: power set"
 
     For example, given
 
@@ -576,7 +648,7 @@ Sometimes we consider sets whose elements are other sets. In this case too, the 
     \mathscr{P}(A) = \bigg\{~\varnothing,~ \{1\},~ \{2\},~ \{3\},~ \{1, 2\},~ \{2, 3\},~ \{1 , 3\},~ \{1,2,3\} ~\bigg\}
     $$
 
-<a id="box-oss_ins-parti-30"></a>
+<a id="box-oss_ins-parti-32"></a>
 
 !!! osservazione "Remark 4"
 
@@ -602,9 +674,9 @@ Sometimes we consider sets whose elements are other sets. In this case too, the 
 
     <p class="qed-riga"><span class="qed">□</span></p>
 
-<a id="box-ex_ins-k4-31"></a>
+<a id="box-ex_ins-k4-33"></a>
 
-!!! esempio "Example 14: construction of the power set with a binary tree"
+!!! esempio "Example 16: construction of the power set with a binary tree"
 
     Given the set $A=\{1,2,3\}$ with $n=3$ elements, the cardinality of its power set is $2^3=8$. The construction of the power set $\mathscr{P}(A)$ can be visualized through the following <strong>binary tree</strong> (an undirected, connected and acyclic graph) in which at each level we decide whether or not to include the object in the subset:
 
@@ -612,7 +684,7 @@ Sometimes we consider sets whose elements are other sets. In this case too, the 
 
 ## 4. Operations on sets
 
-<a id="box-def_ins-intersezione-32"></a>
+<a id="box-def_ins-intersezione-34"></a>
 
 !!! definizione "Definition 11: of intersection of sets"
 
@@ -624,7 +696,7 @@ Sometimes we consider sets whose elements are other sets. In this case too, the 
 
 It is the set of elements that belong both to the first and to the second set.
 
-<a id="box-def_ins-unione-33"></a>
+<a id="box-def_ins-unione-35"></a>
 
 !!! definizione "Definition 12: of union of sets"
 
@@ -636,7 +708,7 @@ It is the set of elements that belong both to the first and to the second set.
 
 It is the set of elements that belong to the first or to the second set, where “or” is meant in the <u>non-exclusive</u> sense (the set of elements that belong to $A$ or to $B$ or to both).
 
-<a id="box-def_ins-differenza-34"></a>
+<a id="box-def_ins-differenza-36"></a>
 
 !!! definizione "Definition 13: of difference of sets"
 
@@ -648,9 +720,9 @@ It is the set of elements that belong to the first or to the second set, where �
 
 It is the set of elements that belong to the first but not to the second set. The symbol “$\setminus$” can also be written “-” by analogy with arithmetic subtraction.
 
-<a id="box-ex_ins-operazioni-35"></a>
+<a id="box-ex_ins-operazioni-37"></a>
 
-!!! esempio "Example 15: intersection, union and difference"
+!!! esempio "Example 17: intersection, union and difference"
 
     Given the sets $A = \{1, 2, 3, 4\}$ and $B = \{3, 4, 5\}$, we have
 
@@ -666,13 +738,13 @@ It is the set of elements that belong to the first but not to the second set. Th
 
 ### 4.1 Complementary sets and disjoint sets
 
-<a id="box-ex_ins-universo-36"></a>
+<a id="box-ex_ins-universo-38"></a>
 
-!!! esempio "Example 16: universal sets"
+!!! esempio "Example 18: universal sets"
 
     For example, in questions of arithmetic we could have $U= \N$; if we consider sets made up only of integers it is natural to choose $U = \Z$, while in questions of analysis we could have $U =\R$.
 
-<a id="box-def_ins-complementare-37"></a>
+<a id="box-def_ins-complementare-39"></a>
 
 !!! definizione "Definition 14: of set complementation and complementary sets"
 
@@ -690,7 +762,7 @@ It is the set of elements that belong to the first but not to the second set. Th
     \overline{A} = U \setminus A.
     $$
 
-<a id="box-prop_ins-complementare-38"></a>
+<a id="box-prop_ins-complementare-40"></a>
 
 !!! teorema "Proposition 4: properties of the complement"
 
@@ -720,7 +792,7 @@ It is the set of elements that belong to the first but not to the second set. Th
 
     <p class="qed-riga"><span class="qed">□</span></p>
 
-<a id="box-prop_ins-identita-39"></a>
+<a id="box-prop_ins-identita-41"></a>
 
 !!! teorema "Proposition 5: identity laws"
 
@@ -747,7 +819,7 @@ It is the set of elements that belong to the first but not to the second set. Th
 
     <p class="qed-riga"><span class="qed">□</span></p>
 
-<a id="box-def_ins-disgiunti-40"></a>
+<a id="box-def_ins-disgiunti-42"></a>
 
 !!! definizione "Definition 15: of disjoint sets"
 
@@ -757,9 +829,9 @@ It is the set of elements that belong to the first but not to the second set. Th
     \red{A} \cap \blue{B} = \varnothing
     $$
 
-<a id="box-ex_ins-disgiunti-41"></a>
+<a id="box-ex_ins-disgiunti-43"></a>
 
-!!! esempio "Example 17: disjoint sets"
+!!! esempio "Example 19: disjoint sets"
 
     The sets $\{1, 2\}$ and $\{3, 4\}$ are disjoint, while $\{1, 2\}$ and $\{2, 3\}$ are not, because $\{1, 2\} \cap \{2, 3\} = \{2\}$. By the properties of the complement, every set $A \subseteq U$ and its complement $\overline{A}$ are disjoint.
 
@@ -771,7 +843,7 @@ $$
 
 For a family made up of two sets $B$ and $C$ we recover the union $B \cup C$.
 
-<a id="box-def_ins-partizione-42"></a>
+<a id="box-def_ins-partizione-44"></a>
 
 !!! definizione "Definition 16: of partition"
 
@@ -791,7 +863,7 @@ For a family made up of two sets $B$ and $C$ we recover the union $B \cup C$.
 
     The sets of the family $\mathcal{F}$ are called the <strong>blocks</strong> of the partition.
 
-<a id="box-oss_ins-partizione-43"></a>
+<a id="box-oss_ins-partizione-45"></a>
 
 !!! osservazione "Remark 5"
 
@@ -803,9 +875,9 @@ For a family made up of two sets $B$ and $C$ we recover the union $B \cup C$.
 
     ($\Longleftarrow$) Suppose that every element of $A$ belongs to exactly one set of the family. The sets of the family are nonempty by hypothesis. Every element of $A$ belongs to at least one set of the family, hence $A \subseteq \bigcup_{B \in \mathcal{F}} B$; conversely, every element of the union belongs to a subset of $A$ and hence to $A$: by double inclusion the union is $A$. Finally, if two different sets $B, C \in \mathcal{F}$ had a common element $x$, this element of $A$ would belong to two sets of the family, against the hypothesis: hence $B \cap C = \varnothing$. <span class="qed">□</span>
 
-<a id="box-ex_ins-partizione-44"></a>
+<a id="box-ex_ins-partizione-46"></a>
 
-!!! esempio "Example 18: partitions"
+!!! esempio "Example 20: partitions"
 
     - The family $\big\{ \{1, 2\},~ \{3\},~ \{4, 5, 6\} \big\}$ is a partition of $A = \{1, 2, 3, 4, 5, 6\}$: the three sets are nonempty and every element of $A$ belongs to exactly one of them.
 
@@ -837,7 +909,7 @@ Venn diagrams are graphical representations in which sets are represented as reg
 
 ### 4.3 Properties of operations on sets
 
-<a id="box-oss_ins-intersezione-45"></a>
+<a id="box-oss_ins-intersezione-47"></a>
 
 !!! osservazione "Remark 6: properties of intersection"
 
@@ -893,7 +965,7 @@ Venn diagrams are graphical representations in which sets are represented as reg
 
     </div> <span class="qed">□</span>
 
-<a id="box-oss_ins-unione-46"></a>
+<a id="box-oss_ins-unione-48"></a>
 
 !!! osservazione "Remark 7: properties of union"
 
@@ -949,7 +1021,7 @@ Venn diagrams are graphical representations in which sets are represented as reg
 
     </div> <span class="qed">□</span>
 
-<a id="box-oss_ins-distributive-47"></a>
+<a id="box-oss_ins-distributive-49"></a>
 
 !!! osservazione "Remark 8: distributive properties (linking union and intersection)"
 
@@ -1011,7 +1083,7 @@ The distributive properties link union and intersection to each other.
 
     </div> <span class="qed">□</span>
 
-<a id="box-prop_ins-assorbimento-48"></a>
+<a id="box-prop_ins-assorbimento-50"></a>
 
 !!! teorema "Proposition 6: absorption laws"
 
@@ -1035,7 +1107,7 @@ The distributive properties link union and intersection to each other.
 
     <p class="qed-riga"><span class="qed">□</span></p>
 
-<a id="box-prop_ins-inclusione-operazioni-49"></a>
+<a id="box-prop_ins-inclusione-operazioni-51"></a>
 
 !!! teorema "Proposition 7: inclusion, union and intersection"
 
@@ -1059,7 +1131,7 @@ The distributive properties link union and intersection to each other.
 
     <p class="qed-riga"><span class="qed">□</span></p>
 
-<a id="box-prop_ins-demorgan-1-50"></a>
+<a id="box-prop_ins-demorgan-1-52"></a>
 
 !!! teorema "Proposition 8: De Morgan's laws (first version)"
 
@@ -1119,7 +1191,7 @@ The distributive properties link union and intersection to each other.
 
     </div> <span class="qed">□</span>
 
-<a id="box-prop_ins-demorgan-2-51"></a>
+<a id="box-prop_ins-demorgan-2-53"></a>
 
 !!! teorema "Proposition 9: De Morgan's laws (second version)"
 
@@ -1209,7 +1281,7 @@ The distributive properties link union and intersection to each other.
 
 ### 4.4 Properties of the cardinality of sets
 
-<a id="box-prop_ins-card-disgiunti-52"></a>
+<a id="box-prop_ins-card-disgiunti-54"></a>
 
 !!! teorema "Proposition 10: cardinality of the union of disjoint sets"
 
@@ -1231,7 +1303,7 @@ The distributive properties link union and intersection to each other.
 
     In the same way, every element of $A_1 \cup A_2 \cup \cdots \cup A_m$ belongs to at least one of the sets $A_1, A_2, \dots, A_m$ and, since the sets are pairwise disjoint, to only one of them. Counting one after the other the elements of $A_1, A_2, \dots, A_m$ we therefore count every element of the union exactly once. <span class="qed">□</span>
 
-<a id="box-prop_ins-card-unione-53"></a>
+<a id="box-prop_ins-card-unione-55"></a>
 
 !!! teorema "Proposition 11: cardinality of the union"
 
@@ -1269,7 +1341,7 @@ The distributive properties link union and intersection to each other.
 
     that is, $|A \cup B| = |A| + |B| - |A \cap B|$. <span class="qed">□</span>
 
-<a id="box-prop_ins-card-disuguaglianza-54"></a>
+<a id="box-prop_ins-card-disuguaglianza-56"></a>
 
 !!! teorema "Proposition 12: inequality for the cardinality of the union"
 
@@ -1289,7 +1361,7 @@ The distributive properties link union and intersection to each other.
 
     <p class="qed-riga"><span class="qed">□</span></p>
 
-<a id="box-prop_ins-card-sottoinsieme-55"></a>
+<a id="box-prop_ins-card-sottoinsieme-57"></a>
 
 !!! teorema "Proposition 13: cardinality of a subset"
 
@@ -1321,7 +1393,7 @@ The distributive properties link union and intersection to each other.
 
 There is another operation on sets, which can be performed on any two sets (i.e., two sets not necessarily contained in the same universal set). To introduce it we need the concept of <em>ordered pair</em>: unlike the set $\{a, b\}$, in which the order of the elements is irrelevant, in an ordered pair it matters which element comes first.
 
-<a id="box-def_ins-coppia-56"></a>
+<a id="box-def_ins-coppia-58"></a>
 
 !!! definizione "Definition 17: of ordered pair"
 
@@ -1335,7 +1407,7 @@ There is another operation on sets, which can be performed on any two sets (i.e.
 
 This definition, due to Kuratowski, expresses the ordered pair using only sets. What matters about the ordered pair is the following property.
 
-<a id="box-prop_ins-coppia-57"></a>
+<a id="box-prop_ins-coppia-59"></a>
 
 !!! teorema "Proposition 14: characteristic property of ordered pairs"
 
@@ -1359,7 +1431,7 @@ This definition, due to Kuratowski, expresses the ordered pair using only sets. 
 
 - In particular, if $a \neq b$ then $(a, b) \neq (b, a)$: if $(a,b) = (b,a)$ held, the characteristic property would give $a = b$. Instead the sets $\{a, b\}$ and $\{b, a\}$ are always equal. If $a = b$, the two pairs $(a,b)$ and $(b,a)$ are the same pair.
 
-<a id="box-def_ins-prodotto-58"></a>
+<a id="box-def_ins-prodotto-60"></a>
 
 !!! definizione "Definition 18: of Cartesian product"
 
@@ -1369,7 +1441,7 @@ This definition, due to Kuratowski, expresses the ordered pair using only sets. 
     A \times B = \big\{ (a, b) : a \in A \textrm{ and } b \in B \big\}.
     $$
 
-<a id="box-prop_ins-card-prodotto-59"></a>
+<a id="box-prop_ins-card-prodotto-61"></a>
 
 !!! teorema "Proposition 15: cardinality of the Cartesian product"
 
@@ -1399,9 +1471,9 @@ This definition, due to Kuratowski, expresses the ordered pair using only sets. 
 
     <p class="qed-riga"><span class="qed">□</span></p>
 
-<a id="box-ex_ins-prodotto-60"></a>
+<a id="box-ex_ins-prodotto-62"></a>
 
-!!! esempio "Example 19: Cartesian product"
+!!! esempio "Example 21: Cartesian product"
 
     $$
     \{a,b\} \times \{a,b,c\} = \big\{ (a,a),(a,b),(a,c),(b,a),(b,b),(b,c) \big\}
@@ -1415,7 +1487,7 @@ This definition, due to Kuratowski, expresses the ordered pair using only sets. 
 
 The Cartesian product extends to more than two sets.
 
-<a id="box-def_ins-nuple-61"></a>
+<a id="box-def_ins-nuple-63"></a>
 
 !!! definizione "Definition 19: of ordered $n$-tuple and of Cartesian product of $n$ sets"
 
@@ -1437,7 +1509,7 @@ The Cartesian product extends to more than two sets.
     (a_1, a_2, \dots, a_n) = (b_1, b_2, \dots, b_n) \quad \Longleftrightarrow \quad a_i = b_i \textrm{ for every } i \in \{1, 2, \dots, n\}.
     $$
 
-<a id="box-prop_ins-card-nprodotto-62"></a>
+<a id="box-prop_ins-card-nprodotto-64"></a>
 
 !!! teorema "Proposition 16: cardinality of the Cartesian product of $n$ sets"
 
@@ -1479,9 +1551,9 @@ The Cartesian product extends to more than two sets.
     \R^n =\big\{ ~(x_1,~x_2,~ \dots,~ x_n)~: ~~x_i \in \R, ~~i \in \{1,2,\dots, n\} ~\big\}
     $$
 
-<a id="box-ex_ins-piano-63"></a>
+<a id="box-ex_ins-piano-65"></a>
 
-!!! esempio "Example 20: subsets of the plane"
+!!! esempio "Example 22: subsets of the plane"
 
     When we study subsets of the plane we choose $U = \R^2$ as universal set. For example, the set of points of the plane with both coordinates positive (the <em>first quadrant</em>) is
 
@@ -1529,7 +1601,7 @@ Let us call this set $S$; two hypotheses can be made:
 
 - The <strong>axiom of regularity</strong> states that “Every non-empty set $A$ contains an element disjoint from $A$”.
 
-    <a id="box-oss_ins-regolarita-64"></a>
+    <a id="box-oss_ins-regolarita-66"></a>
 
     !!! osservazione "Remark 9"
 
