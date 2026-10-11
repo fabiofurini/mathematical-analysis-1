@@ -1,100 +1,167 @@
 # Interactive lab
 
-Here you can get your hands on mathematics. Each graph has **sliders**: every
-coefficient has its own color, the same in the slider and in the formula, so
-you immediately see *what does what*. The ▶ button next to a coefficient makes
-it move by itself; in some graphs the **Challenge** tab shows a target curve
-to reproduce.
-
-!!! tip "How to use it"
-    Drag the sliders, or click ▶ for the animation. On the graph you can pan
-    by dragging with two fingers (or with the mouse) and zoom with
-    Shift + mouse wheel. Each graph also appears in the chapter of the
-    notes it refers to.
-
-<div class="grid cards" markdown>
-
--   :material-numeric: **[Numbers](#numbers)** — complex n-th roots
--   :material-function-variant: **[Functions](#functions)** — graph transformations, oscillations, powers, exponentials and logarithms
--   :material-chart-bell-curve: **[Limits](#limits)** — limit of a sequence, Heron, bisection
--   :material-chart-line: **[Derivatives](#derivatives)** — tangent, Lagrange, concavity, Taylor, Newton
--   :material-sigma: **[Series](#series)** — geometric series, generalized harmonic series
--   :material-chart-areaspline: **[Integrals](#integrals)** — Riemann sums
-
-</div>
+Here you can get your hands on mathematics. Each app opens in its own full-width page: **drag the points, move the sliders** (the ▶ button animates them) and see the graph change at once.
 
 ## Numbers
 
-<div class="gi" data-grafico="radici"></div>
+<div class="grid cards" markdown>
 
-The chapter: [Complex numbers](../numbers/12-complex-numbers.md).
+-   :material-hexagon-multiple-outline:{ .lg .middle } **Complex n-th roots**
+
+    ---
+
+    The \(n\) solutions of \(z^n = w\) in the complex plane: choose the index \(n\) and the modulus and argument of \(w\), and watch the vertices of the regular polygon.
+
+    [Open the app →](complex-roots.md)
+
+</div>
 
 ## Functions
 
-<div class="gi" data-grafico="operazioni"></div>
+<div class="grid cards" markdown>
 
-The chapter: [Graph transformations](../functions/09-graph-transformations.md).
+-   :material-chart-line-variant:{ .lg .middle } **Operations on graphs**
 
-<div class="gi" data-grafico="oscillazioni"></div>
+    ---
 
-The chapter: [Oscillations](../functions/06-oscillations.md).
+    Translations, stretches and reflections of a graph: the four coefficients of \(a f(bx + c) + d\) move with the sliders.
 
-<div class="gi" data-grafico="potenze"></div>
+    [Open the app →](graph-operations.md)
 
-The chapter: [Power functions](../functions/03-power-functions.md).
+-   :material-sine-wave:{ .lg .middle } **Harmonic oscillations**
 
-<div class="gi" data-grafico="esponenziali"></div>
+    ---
 
-The chapter: [Exponential and logarithmic functions](../functions/04-exponentials-logarithms.md).
+    Amplitude, angular frequency and phase of \(A\sin(\omega x + \varphi)\): see how the period and the position of the wave change.
+
+    [Open the app →](oscillations.md)
+
+-   :material-exponent:{ .lg .middle } **Power functions**
+
+    ---
+
+    The graph of \(y = x^{\alpha}\) as the exponent varies, with a choice among many typical cases.
+
+    [Open the app →](power-functions.md)
+
+-   :material-exponent-box:{ .lg .middle } **Exponentials and logarithms**
+
+    ---
+
+    The exponential and the logarithm with base \(a\), symmetric about the line \(y = x\): move the base and see growth turn into decay.
+
+    [Open the app →](exponentials-logarithms.md)
+
+</div>
 
 ## Limits
 
-<div class="gi" data-grafico="successione"></div>
+<div class="grid cards" markdown>
 
-The chapter: [Sequences and limits of sequences](../sequences/01-limits-of-sequences.md).
+-   :material-dots-horizontal:{ .lg .middle } **Limit of a sequence**
 
-<div class="gi" data-grafico="erone"></div>
+    ---
 
-The chapter: [Recursively defined sequences](../sequences/06-recursive-sequences.md).
+    The band \((\ell-\varepsilon, \ell+\varepsilon)\) around the limit and the threshold \(N\): shrink \(\varepsilon\) and see from where on the terms stay inside.
 
-<div class="gi" data-grafico="bisezione"></div>
+    [Open the app →](sequence-limit.md)
 
-The chapter: [Zeros theorem and bisection method](../limits/08-zeros-bisection.md).
+-   :material-square-root:{ .lg .middle } **Heron's sequence**
+
+    ---
+
+    The iteration \(x_{n+1} = \tfrac12(x_n + a/x_n)\) converging to \(\sqrt a\), drawn as a cobweb: choose \(a\), the starting point and the number of steps.
+
+    [Open the app →](heron-sequence.md)
+
+-   :material-content-cut:{ .lg .middle } **Bisection method**
+
+    ---
+
+    At every step the interval is halved and still contains the zero: advance step by step and compare the error with the theoretical bound.
+
+    [Open the app →](bisection.md)
+
+</div>
 
 ## Derivatives
 
-<div class="gi" data-grafico="tangente"></div>
+<div class="grid cards" markdown>
 
-The chapter: [The derivative](../derivatives/01-the-derivative.md).
+-   :material-vector-line:{ .lg .middle } **From the secant to the tangent line**
 
-<div class="gi" data-grafico="lagrange"></div>
+    ---
 
-The chapter: [Mean value theorem, maxima and minima](../derivatives/05-mean-value.md).
+    The difference quotient as \(h \to 0\): drag \(h\) towards zero, from the right and from the left, and watch the secant turn into the tangent.
 
-<div class="gi" data-grafico="concavita"></div>
+    [Open the app →](secant-tangent.md)
 
-The chapter: [Second derivative](../derivatives/07-second-derivative.md).
+-   :material-slope-uphill:{ .lg .middle } **Lagrange's mean value theorem**
 
-<div class="gi" data-grafico="taylor"></div>
+    ---
 
-The chapter: [Differential calculus and approximations](../derivatives/08-approximations.md).
+    There is a point where the tangent is parallel to the secant: move the endpoints of the interval and find the points \(c\).
 
-<div class="gi" data-grafico="newton"></div>
+    [Open the app →](lagrange-theorem.md)
 
-The chapter: [Newton's method](../derivatives/10-newton.md).
+-   :material-chart-bell-curve-cumulative:{ .lg .middle } **First and second derivative**
+
+    ---
+
+    Monotonicity, concavity and inflection points: move a point on the graph and read the sign of \(f'\) and \(f''\).
+
+    [Open the app →](concavity.md)
+
+-   :material-chart-areaspline-variant:{ .lg .middle } **Maclaurin polynomials**
+
+    ---
+
+    Approximating a function by its degree-\(n\) polynomial: raise the degree and see where the polynomial follows the graph.
+
+    [Open the app →](maclaurin-polynomials.md)
+
+-   :material-chart-timeline-variant:{ .lg .middle } **Newton's method**
+
+    ---
+
+    Sliding down the tangent lines towards the zero: choose the starting point and the iterations, and watch the correct digits double.
+
+    [Open the app →](newton-method.md)
+
+</div>
 
 ## Series
 
-<div class="gi" data-grafico="geometrica"></div>
+<div class="grid cards" markdown>
 
-The chapter: [Numerical series](../series/01-numerical-series.md).
+-   :material-sigma:{ .lg .middle } **Geometric series**
 
-<div class="gi" data-grafico="seriep"></div>
+    ---
 
-The chapter: [Series with non-negative terms](../series/02-nonnegative-terms.md).
+    The partial sums of \(\sum q^k\): change the ratio \(q\) and see when they converge, oscillate or diverge.
+
+    [Open the app →](geometric-series.md)
+
+-   :material-sigma-lower:{ .lg .middle } **Generalized harmonic series**
+
+    ---
+
+    The series \(\sum 1/n^p\), with positive and with alternating terms: vary \(p\) and compare the partial sums.
+
+    [Open the app →](harmonic-series.md)
+
+</div>
 
 ## Integrals
 
-<div class="gi" data-grafico="riemann"></div>
+<div class="grid cards" markdown>
 
-The exercises: [Antiderivatives](../exercises/es-integrals-01-antiderivatives.md) · [Integrals](../exercises/es-integrals-02-integrals.md).
+-   :material-chart-histogram:{ .lg .middle } **Riemann sums**
+
+    ---
+
+    The area under a graph as a limit of rectangles: increase the number of rectangles and choose where to measure the height.
+
+    [Open the app →](riemann-sums.md)
+
+</div>

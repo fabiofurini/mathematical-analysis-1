@@ -120,6 +120,10 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/jsxgraph@1.10.1/distrib/jsxgraphcore.js
   - javascripts/interattivi.js
 
+# le pagine delle singole app del laboratorio non stanno nel menu
+not_in_nav: |
+  /interactive/*.md
+
 nav:
   - Home: index.md
   - Numbers and logic:
@@ -224,8 +228,7 @@ nav:
       - Integrals:
           - "Antiderivatives": exercises/es-integrals-01-antiderivatives.md
           - "Integrals": exercises/es-integrals-02-integrals.md
-  - Interactive lab:
-      - interactive/index.md
+  - Interactive lab: interactive/index.md
   - Downloads: downloads.md
   - The course:
       - course.md
