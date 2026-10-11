@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Interactive lab
 
 Here you can get your hands on mathematics. Each app opens in its own full-width page: **drag the points, move the sliders** (the ▶ button animates them) and see the graph change at once.
