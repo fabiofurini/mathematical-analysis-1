@@ -4,7 +4,9 @@ title: Downloads
 
 # Downloads
 
-The lecture notes in PDF, one volume per part of the course, updated at every publication of the site. Text and figures are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en).
+The lecture notes and the exercise books in PDF, one volume per part of the course, updated at every publication of the site. Text and figures are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en).
+
+## Lecture notes
 
 <div class="grid cards" markdown>
 
@@ -12,7 +14,7 @@ The lecture notes in PDF, one volume per part of the course, updated at every pu
 
     ---
 
-    The first volume: the language and the numbers on which analysis is built. Sets, logic and proof techniques, number sets and binary relations, ordered fields, supremum and the completeness axiom, roots, powers and logarithms, summations and geometric progressions, mathematical induction, factorials and binomial coefficients, the Fibonacci sequence, infinite sets, complex numbers. Definitions, theorems with proofs, worked examples; at the end, the exercises of the part with solutions.
+    The first volume: the language and the numbers on which analysis is built. Sets, logic and proof techniques, number sets and binary relations, ordered fields, supremum and the completeness axiom, roots, powers and logarithms, summations and geometric progressions, mathematical induction, factorials and binomial coefficients, the Fibonacci sequence, infinite sets, complex numbers. Definitions, theorems with proofs, worked examples; the exercises of the part, with solutions, are in the volume Exercises 1.
 
     [:octicons-download-24: lecture-notes-1-numbers.pdf](pdf/lecture-notes-1-numbers.pdf)
 
@@ -20,7 +22,7 @@ The lecture notes in PDF, one volume per part of the course, updated at every pu
 
     ---
 
-    The second volume: functions and their graphs. Functions between sets and real functions of a real variable, power, exponential and logarithmic functions, trigonometric functions, vibration phenomena, integer part and piecewise functions, hyperbolic functions, operations on graphs, composite and inverse functions. Definitions, results, many graphs and worked examples; at the end, the exercises of the part with solutions.
+    The second volume: functions and their graphs. Functions between sets and real functions of a real variable, power, exponential and logarithmic functions, trigonometric functions, vibration phenomena, integer part and piecewise functions, hyperbolic functions, operations on graphs, composite and inverse functions. Definitions, results, many graphs and worked examples; the exercises of the part, with solutions, are in the volume Exercises 2.
 
     [:octicons-download-24: lecture-notes-2-functions.pdf](pdf/lecture-notes-2-functions.pdf)
 
@@ -28,7 +30,7 @@ The lecture notes in PDF, one volume per part of the course, updated at every pu
 
     ---
 
-    The third volume: limits, in two parts each numbered from 1 as in the notes. Limits of sequences: properties and limits, computing limits, Euler's number, comparisons and asymptotic estimates, hierarchies of infinities and the ratio test, recursive sequences. Limits of functions and continuity: limits and asymptotes, computing limits, polynomials and rational functions, continuous functions, comparison of infinities, standard limits, asymptotic expansions, the zeros theorem and bisection, Weierstrass and intermediate value theorems, monotone functions and invertibility. At the end, the exercises with solutions.
+    The third volume: limits, in two parts each numbered from 1 as in the notes. Limits of sequences: properties and limits, computing limits, Euler's number, comparisons and asymptotic estimates, hierarchies of infinities and the ratio test, recursive sequences. Limits of functions and continuity: limits and asymptotes, computing limits, polynomials and rational functions, continuous functions, comparison of infinities, standard limits, asymptotic expansions, the zeros theorem and bisection, Weierstrass and intermediate value theorems, monotone functions and invertibility. The exercises, with solutions, are in the volume Exercises 3.
 
     [:octicons-download-24: lecture-notes-3-limits.pdf](pdf/lecture-notes-3-limits.pdf)
 
@@ -36,7 +38,7 @@ The lecture notes in PDF, one volume per part of the course, updated at every pu
 
     ---
 
-    The fourth volume: differential calculus. The derivative function, derivatives of elementary functions, corner points and cusps, rules of differentiation, the mean value theorem, maxima and minima, L'Hôpital's rule, the second derivative, approximations and Taylor's formula, curve sketching, Newton's method. Definitions, theorems with proofs, graphs and worked examples; at the end, the exercises of the part with solutions.
+    The fourth volume: differential calculus. The derivative function, derivatives of elementary functions, corner points and cusps, rules of differentiation, the mean value theorem, maxima and minima, L'Hôpital's rule, the second derivative, approximations and Taylor's formula, curve sketching, Newton's method. Definitions, theorems with proofs, graphs and worked examples; the exercises of the part, with solutions, are in the volume Exercises 4.
 
     [:octicons-download-24: lecture-notes-4-derivatives.pdf](pdf/lecture-notes-4-derivatives.pdf)
 
@@ -44,9 +46,55 @@ The lecture notes in PDF, one volume per part of the course, updated at every pu
 
     ---
 
-    The fifth volume: series. Numerical series, series with non-negative terms and convergence tests, series with terms of variable sign, series of functions. Definitions, theorems with proofs and worked examples; at the end, the exercises on series with solutions and, in the appendix, the exercises on antiderivatives and integrals.
+    The fifth volume: series. Numerical series, series with non-negative terms and convergence tests, series with terms of variable sign, series of functions. Definitions, theorems with proofs and worked examples; the exercises on series and on antiderivatives and integrals, with solutions, are in the volume Exercises 5.
 
     [:octicons-download-24: lecture-notes-5-series.pdf](pdf/lecture-notes-5-series.pdf)
+
+</div>
+
+## Exercises
+
+<div class="grid cards" markdown>
+
+-   :material-pencil-box-multiple: **Exercises, volume 1 · Numbers and logic**
+
+    ---
+
+    The worked exercises of the first part of the course, one sheet per chapter, with the solution right after each statement: maxima, minima, suprema and infima, equations and inequalities, summations, mathematical induction, complex numbers. The sheets are by Fabio Furini and Gianluca Priori; many exercises are taken from M. Bramanti, *Esercitazioni di Analisi matematica 1*, Esculapio.
+
+    [:octicons-download-24: exercises-1-numbers.pdf](pdf/exercises-1-numbers.pdf)
+
+-   :material-pencil-box-multiple: **Exercises, volume 2 · Functions**
+
+    ---
+
+    The worked exercises on functions, one sheet per chapter, with the solution right after each statement: domains of functions and inverse functions. The sheets are by Fabio Furini and Gianluca Priori; many exercises are taken from M. Bramanti, *Esercitazioni di Analisi matematica 1*, Esculapio.
+
+    [:octicons-download-24: exercises-2-functions.pdf](pdf/exercises-2-functions.pdf)
+
+-   :material-pencil-box-multiple: **Exercises, volume 3 · Limits**
+
+    ---
+
+    The worked exercises on limits, in two parts as the volume of lecture notes, one sheet per chapter, with the solution right after each statement. Limits of sequences: properties of sequences, verifying and computing limits, additional exercises. Limits of functions: limits of real functions of a real variable. The sheets are by Fabio Furini and Gianluca Priori; many exercises are taken from M. Bramanti, *Esercitazioni di Analisi matematica 1*, Esculapio.
+
+    [:octicons-download-24: exercises-3-limits.pdf](pdf/exercises-3-limits.pdf)
+
+-   :material-pencil-box-multiple: **Exercises, volume 4 · Derivatives**
+
+    ---
+
+    The worked exercises on differential calculus, one sheet per chapter, with the solution right after each statement: cusps, inflection points and tangents, computing derivatives, tangent lines, asymptotes, continuous extensions, differentiability, parametric equations, curve sketching, Maclaurin expansions, limits via asymptotic expansions, Newton's and bisection methods, finding extrema. The sheets are by Fabio Furini and Gianluca Priori; many exercises are taken from M. Bramanti, *Esercitazioni di Analisi matematica 1*, Esculapio.
+
+    [:octicons-download-24: exercises-4-derivatives.pdf](pdf/exercises-4-derivatives.pdf)
+
+-   :material-pencil-box-multiple: **Exercises, volume 5 · Series and integrals**
+
+    ---
+
+    The worked exercises on numerical series and, in the second part, on antiderivatives and integrals, one sheet per chapter, with the solution right after each statement. The sheets are by Fabio Furini and Gianluca Priori; many exercises are taken from M. Bramanti, *Esercitazioni di Analisi matematica 1*, Esculapio.
+
+    [:octicons-download-24: exercises-5-series.pdf](pdf/exercises-5-series.pdf)
 
 </div>
 
