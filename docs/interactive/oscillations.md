@@ -5,7 +5,7 @@ hide:
 title: "Harmonic oscillations"
 ---
 
-[← Lab](index.md) · Chapter: [Oscillations](../functions/06-oscillations.md)
+[← Lab](index.md) · Chapter: [Trigonometric functions: an application, oscillations](../functions/05-trigonometric-functions.md)
 
 # Harmonic oscillations
 

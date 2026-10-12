@@ -51,6 +51,27 @@ theme:
 plugins:
   - search:
       lang: en
+  - redirects:
+      redirect_maps:
+        numbers/02-logic.md: logic/01-logic.md
+        numbers/08-induction.md: logic/02-induction.md
+        numbers/03-number-sets.md: numbers/02-number-sets.md
+        numbers/05-ordered-fields.md: numbers/03-ordered-fields.md
+        numbers/06-roots-powers-logarithms.md: numbers/04-roots-powers-logarithms.md
+        numbers/07-summations.md: numbers/05-summations.md
+        numbers/09-factorials-binomials.md: numbers/06-factorials-binomials.md
+        numbers/10-fibonacci.md: numbers/07-fibonacci.md
+        numbers/11-infinite-sets.md: numbers/08-infinite-sets.md
+        numbers/12-complex-numbers.md: numbers/09-complex-numbers.md
+        numbers/04-binary-relations.md: relations/01-binary-relations.md
+        functions/06-oscillations.md: functions/05-trigonometric-functions.md
+        functions/07-integer-part.md: functions/06-integer-part.md
+        functions/08-hyperbolic-functions.md: functions/07-hyperbolic-functions.md
+        functions/09-graph-transformations.md: functions/08-graph-transformations.md
+        functions/10-composite-functions.md: functions/09-composite-functions.md
+        functions/11-inverse-functions.md: functions/10-inverse-functions.md
+        exercises/es-numbers-04-induction.md: exercises/es-logic-01-induction.md
+        exercises/es-numbers-05-complex-numbers.md: exercises/es-numbers-04-complex-numbers.md
 
 extra:
   social:
@@ -126,34 +147,37 @@ not_in_nav: |
 
 nav:
   - Home: index.md
-  - Numbers and logic:
+  - Logic:
+      - logic/index.md
+      - "1. Basics of logic and proof techniques": logic/01-logic.md
+      - "2. Principle of mathematical induction": logic/02-induction.md
+  - Numbers:
       - numbers/index.md
       - "1. Sets": numbers/01-sets.md
-      - "2. Basics of logic and proof techniques": numbers/02-logic.md
-      - "3. Number sets and intervals": numbers/03-number-sets.md
-      - "4. Binary relations": numbers/04-binary-relations.md
-      - "5. Ordered fields, supremum/infimum and the completeness axiom": numbers/05-ordered-fields.md
-      - "6. Roots, powers, logarithms and modular arithmetic": numbers/06-roots-powers-logarithms.md
-      - "7. Summations, geometric and arithmetic progressions": numbers/07-summations.md
-      - "8. Principle of mathematical induction": numbers/08-induction.md
-      - "9. Factorials, binomial coefficients and triangle inequality": numbers/09-factorials-binomials.md
-      - "10. The Fibonacci sequence": numbers/10-fibonacci.md
-      - "11. Cardinality of infinite sets": numbers/11-infinite-sets.md
-      - "12. Complex numbers": numbers/12-complex-numbers.md
+      - "2. Number sets and intervals": numbers/02-number-sets.md
+      - "3. Ordered fields, supremum/infimum and the completeness axiom": numbers/03-ordered-fields.md
+      - "4. Roots, powers, logarithms and modular arithmetic": numbers/04-roots-powers-logarithms.md
+      - "5. Summations, geometric and arithmetic progressions": numbers/05-summations.md
+      - "6. Factorials, binomial coefficients and triangle inequality": numbers/06-factorials-binomials.md
+      - "7. The Fibonacci sequence": numbers/07-fibonacci.md
+      - "8. Cardinality of infinite sets": numbers/08-infinite-sets.md
+      - "9. Complex numbers": numbers/09-complex-numbers.md
+  - Relations:
+      - relations/index.md
+      - "1. Binary relations": relations/01-binary-relations.md
   - Functions:
       - functions/index.md
-      - "1. Functions": functions/01-functions.md
-      - "2. Real functions of a real variable": functions/02-real-functions.md
-      - "3. Power functions": functions/03-power-functions.md
-      - "4. Exponential and logarithmic functions": functions/04-exponentials-logarithms.md
-      - "5. Trigonometric functions": functions/05-trigonometric-functions.md
-      - "6. Vibration phenomena": functions/06-oscillations.md
-      - "7. Integer part and fractional part functions": functions/07-integer-part.md
-      - "8. Hyperbolic functions": functions/08-hyperbolic-functions.md
-      - "9. Operations on graphs": functions/09-graph-transformations.md
-      - "10. Composite functions": functions/10-composite-functions.md
-      - "11. Inverse functions": functions/11-inverse-functions.md
-  - Limits of sequences:
+      - "2. Functions": functions/01-functions.md
+      - "3. Real functions of a real variable": functions/02-real-functions.md
+      - "4. Power functions": functions/03-power-functions.md
+      - "5. Exponential and logarithmic functions": functions/04-exponentials-logarithms.md
+      - "6. Trigonometric functions": functions/05-trigonometric-functions.md
+      - "7. Integer part and fractional part functions": functions/06-integer-part.md
+      - "8. Hyperbolic functions": functions/07-hyperbolic-functions.md
+      - "9. Operations on graphs": functions/08-graph-transformations.md
+      - "10. Composite functions": functions/09-composite-functions.md
+      - "11. Inverse functions": functions/10-inverse-functions.md
+  - Sequences:
       - sequences/index.md
       - "1. Sequences and limits of sequences": sequences/01-limits-of-sequences.md
       - "2. Computing limits of sequences": sequences/02-computing-limits.md
@@ -161,7 +185,7 @@ nav:
       - "4. Comparisons and asymptotic estimates": sequences/04-asymptotic-estimates.md
       - "5. Hierarchies of infinities and the ratio test": sequences/05-hierarchy-of-infinities.md
       - "6. Recursively defined sequences": sequences/06-recursive-sequences.md
-  - Limits of functions and continuity:
+  - Limits:
       - limits/index.md
       - "1. Limits of functions, asymptotes and continuity": limits/01-limits-asymptotes.md
       - "2. Computing limits of functions": limits/02-computing-limits.md
@@ -193,12 +217,13 @@ nav:
       - "4. Series of functions": series/04-series-of-functions.md
   - Exercises:
       - exercises/index.md
-      - Numbers and logic:
+      - Logic and proof methods:
+          - "Principle of mathematical induction": exercises/es-logic-01-induction.md
+      - Numbers and sets:
           - "Maxima, minima, suprema and infima": exercises/es-numbers-01-max-min-suprema.md
           - "Equations and inequalities in one real variable": exercises/es-numbers-02-equations-inequalities.md
           - "Summations": exercises/es-numbers-03-summations.md
-          - "Principle of mathematical induction": exercises/es-numbers-04-induction.md
-          - "Complex numbers": exercises/es-numbers-05-complex-numbers.md
+          - "Complex numbers": exercises/es-numbers-04-complex-numbers.md
       - Functions:
           - "Domains of functions": exercises/es-functions-01-domains.md
           - "Inverse functions": exercises/es-functions-02-inverse-functions.md
@@ -228,7 +253,7 @@ nav:
       - Integrals:
           - "Antiderivatives": exercises/es-integrals-01-antiderivatives.md
           - "Integrals": exercises/es-integrals-02-integrals.md
-  - Interactive lab: interactive/index.md
+  - Lab: interactive/index.md
   - Downloads: downloads.md
   - The course:
       - course.md

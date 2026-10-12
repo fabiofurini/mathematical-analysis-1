@@ -5,7 +5,7 @@ hide:
 title: "Operations on graphs"
 ---
 
-[← Lab](index.md) · Chapter: [Graph transformations](../functions/09-graph-transformations.md)
+[← Lab](index.md) · Chapter: [Graph transformations](../functions/08-graph-transformations.md)
 
 # Operations on graphs
 

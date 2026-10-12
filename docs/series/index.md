@@ -1,6 +1,6 @@
 # Series
 
-*Part 5 of the lecture notes.* Numerical series, convergence tests, series with terms of varying sign, series of functions.
+*Part 6 of the lecture notes.* Numerical series, convergence tests, series with terms of varying sign, series of functions.
 
 <div class="grid cards" markdown>
 

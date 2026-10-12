@@ -6,7 +6,7 @@ title: "Power functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Functions · Chapter 3** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-functions.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-functions-03-power-functions.pdf)
+**Part 3 · Functions · Chapter 4** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-functions.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-functions-03-power-functions.pdf)
 
 </div>
 

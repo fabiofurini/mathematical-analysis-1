@@ -1,33 +1,38 @@
 # Full index
 
-## [Numbers and logic](numbers/index.md)
+## [Logic and proof methods](logic/index.md)
+
+1. [Basics of logic and proof techniques](logic/01-logic.md)
+2. [Principle of mathematical induction](logic/02-induction.md)
+
+## [Numbers and sets](numbers/index.md)
 
 1. [Sets](numbers/01-sets.md)
-2. [Basics of logic and proof techniques](numbers/02-logic.md)
-3. [Number sets and intervals](numbers/03-number-sets.md)
-4. [Binary relations](numbers/04-binary-relations.md)
-5. [Ordered fields, supremum/infimum and the completeness axiom](numbers/05-ordered-fields.md)
-6. [Roots, powers, logarithms and modular arithmetic](numbers/06-roots-powers-logarithms.md)
-7. [Summations, geometric and arithmetic progressions](numbers/07-summations.md)
-8. [Principle of mathematical induction](numbers/08-induction.md)
-9. [Factorials, binomial coefficients and triangle inequality](numbers/09-factorials-binomials.md)
-10. [The Fibonacci sequence](numbers/10-fibonacci.md)
-11. [Cardinality of infinite sets](numbers/11-infinite-sets.md)
-12. [Complex numbers](numbers/12-complex-numbers.md)
+2. [Number sets and intervals](numbers/02-number-sets.md)
+3. [Ordered fields, supremum/infimum and the completeness axiom](numbers/03-ordered-fields.md)
+4. [Roots, powers, logarithms and modular arithmetic](numbers/04-roots-powers-logarithms.md)
+5. [Summations, geometric and arithmetic progressions](numbers/05-summations.md)
+6. [Factorials, binomial coefficients and triangle inequality](numbers/06-factorials-binomials.md)
+7. [The Fibonacci sequence](numbers/07-fibonacci.md)
+8. [Cardinality of infinite sets](numbers/08-infinite-sets.md)
+9. [Complex numbers](numbers/09-complex-numbers.md)
+
+## [Binary relations](relations/index.md)
+
+1. [Binary relations](relations/01-binary-relations.md)
 
 ## [Functions](functions/index.md)
 
-1. [Functions](functions/01-functions.md)
-2. [Real functions of a real variable](functions/02-real-functions.md)
-3. [Power functions](functions/03-power-functions.md)
-4. [Exponential and logarithmic functions](functions/04-exponentials-logarithms.md)
-5. [Trigonometric functions](functions/05-trigonometric-functions.md)
-6. [Vibration phenomena](functions/06-oscillations.md)
-7. [Integer part and fractional part functions](functions/07-integer-part.md)
-8. [Hyperbolic functions](functions/08-hyperbolic-functions.md)
-9. [Operations on graphs](functions/09-graph-transformations.md)
-10. [Composite functions](functions/10-composite-functions.md)
-11. [Inverse functions](functions/11-inverse-functions.md)
+2. [Functions](functions/01-functions.md)
+3. [Real functions of a real variable](functions/02-real-functions.md)
+4. [Power functions](functions/03-power-functions.md)
+5. [Exponential and logarithmic functions](functions/04-exponentials-logarithms.md)
+6. [Trigonometric functions](functions/05-trigonometric-functions.md)
+7. [Integer part and fractional part functions](functions/06-integer-part.md)
+8. [Hyperbolic functions](functions/07-hyperbolic-functions.md)
+9. [Operations on graphs](functions/08-graph-transformations.md)
+10. [Composite functions](functions/09-composite-functions.md)
+11. [Inverse functions](functions/10-inverse-functions.md)
 
 ## [Limits of sequences](sequences/index.md)
 

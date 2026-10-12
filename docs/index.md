@@ -16,7 +16,7 @@ professor at [DIAG](https://www.diag.uniroma1.it/), Sapienza University of Rome.
 proofs, examples worked out step by step, exercises and **interactive graphs**
 to watch mathematics move.
 
-[Start with numbers :material-arrow-right:](numbers/index.md){ .md-button .md-button--primary }
+[Start with logic :material-arrow-right:](logic/index.md){ .md-button .md-button--primary }
 [Try an interactive graph](interactive/index.md){ .md-button }
 [:material-download: Download the lecture notes (PDF)](downloads.md){ .md-button }
 
@@ -53,16 +53,34 @@ colors: on the website and in the PDF you find everything in the same place.
 
 <div class="grid cards" markdown>
 
--   :material-numeric: **1 · Numbers and logic**
+-   :material-lightbulb-on-outline: **1 · Logic and proof methods**
 
     ---
 
-    Sets, logic and proof techniques, real numbers and supremum, summations,
-    induction, binomial coefficients, complex numbers.
+    Logical symbols and implications, the contrapositive, necessary and
+    sufficient conditions, proofs by contradiction, mathematical induction.
+
+    [:octicons-arrow-right-24: The chapters](logic/index.md)
+
+-   :material-numeric: **2 · Numbers and sets**
+
+    ---
+
+    Sets, real numbers and supremum, roots and logarithms, summations,
+    binomial coefficients, infinite sets, complex numbers.
 
     [:octicons-arrow-right-24: The chapters](numbers/index.md)
 
--   :material-function-variant: **2 · Functions**
+-   :material-relation-many-to-many: **3 · Binary relations**
+
+    ---
+
+    Properties of relations, directed graphs, equivalence and order
+    relations: functions are special relations.
+
+    [:octicons-arrow-right-24: The chapter](relations/index.md)
+
+-   :material-function-variant: **3 · Functions**
 
     ---
 
@@ -71,7 +89,7 @@ colors: on the website and in the PDF you find everything in the same place.
 
     [:octicons-arrow-right-24: The chapters](functions/index.md)
 
--   :material-dots-horizontal: **3 · Limits of sequences**
+-   :material-dots-horizontal: **4 · Limits of sequences**
 
     ---
 
@@ -80,7 +98,7 @@ colors: on the website and in the PDF you find everything in the same place.
 
     [:octicons-arrow-right-24: The chapters](sequences/index.md)
 
--   :material-chart-bell-curve: **3 · Limits of functions and continuity**
+-   :material-chart-bell-curve: **4 · Limits of functions and continuity**
 
     ---
 
@@ -89,7 +107,7 @@ colors: on the website and in the PDF you find everything in the same place.
 
     [:octicons-arrow-right-24: The chapters](limits/index.md)
 
--   :material-chart-line: **4 · Derivatives**
+-   :material-chart-line: **5 · Derivatives**
 
     ---
 
@@ -98,7 +116,7 @@ colors: on the website and in the PDF you find everything in the same place.
 
     [:octicons-arrow-right-24: The chapters](derivatives/index.md)
 
--   :material-sigma: **5 · Series**
+-   :material-sigma: **6 · Series**
 
     ---
 

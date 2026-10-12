@@ -5,7 +5,7 @@ hide:
 title: "Complex n-th roots"
 ---
 
-[← Lab](index.md) · Chapter: [Complex numbers](../numbers/12-complex-numbers.md)
+[← Lab](index.md) · Chapter: [Complex numbers](../numbers/09-complex-numbers.md)
 
 # Complex n-th roots
 

@@ -6,7 +6,7 @@ title: "Differentiability"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Derivatives** · with worked solutions · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-4-derivatives.pdf)
+**Exercises · Derivatives** · with worked solutions · [:material-file-pdf-box: Exercises, volume (PDF)](../pdf/exercises-5-derivatives.pdf)
 
 </div>
 

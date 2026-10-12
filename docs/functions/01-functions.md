@@ -6,7 +6,7 @@ title: "Functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Functions · Chapter 1** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-functions.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-functions-01-functions.pdf)
+**Part 3 · Functions · Chapter 2** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-functions.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-functions-01-functions.pdf)
 
 </div>
 
@@ -109,6 +109,8 @@ title: "Functions"
 !!! definizione "Definition 2: of function"
 
     Given any two sets $A$, $B$, a <strong>function</strong> $f$ with <strong>domain</strong> $A$ and values in $B$ (or also “with <strong>codomain</strong> $B$”) is any law that associates with each element of $A$ <em>one and only one element</em> of $B$.
+
+- In the language of the previous chapter, “Binary relations”, the law $f$ is identified with the set of pairs $(x, f(x))$ with $x \in A$: a function is thus a <strong>binary relation</strong> on $A$ and $B$ with the <strong>functional property</strong>, that is, each $x \in A$ corresponds to one and only one $y \in B$ with $(x,y)$ in the relation (this is the definition of function given in that chapter).
 
 - The notation:
 
@@ -358,7 +360,7 @@ title: "Functions"
 
 !!! chiave ""
 
-    The two remarks above are stated for <strong>finite</strong> sets: the proofs <em>count</em> elements, and counting only makes sense for finite sets. Comparing the “sizes” of two infinite sets requires a different notion of cardinality, which is introduced in the chapter “Cardinality of infinite sets” of Part 1.
+    The two remarks above are stated for <strong>finite</strong> sets: the proofs <em>count</em> elements, and counting only makes sense for finite sets. Comparing the “sizes” of two infinite sets requires a different notion of cardinality, which is introduced in the chapter “Cardinality of infinite sets” of Part 2.
 
 <a id="box-notationA-19"></a>
 

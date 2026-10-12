@@ -20,11 +20,12 @@ with the same numbering and colors as the PDF.
 
 | Part | Topics |
 |---|---|
-| 1 · Numbers and logic | sets, logic, real numbers and suprema, summations, induction, binomials, complex numbers |
-| 2 · Functions | elementary functions and their graphs, composite and inverse functions |
-| 3 · Limits | sequences and limits, Euler's number, asymptotic estimates; limits of functions, continuity, zeros, Weierstrass |
-| 4 · Derivatives | rules of differentiation, Fermat, Lagrange, L'Hôpital, Taylor, curve sketching, Newton |
-| 5 · Series | numerical series, convergence tests, alternating series, series of functions |
+| 1 · Logic and proof methods | logic, proof techniques, mathematical induction |
+| 2 · Numbers and sets | sets, real numbers and suprema, roots and logarithms, summations, binomials, infinite sets, complex numbers |
+| 3 · Functions | binary relations, elementary functions and their graphs, composite and inverse functions |
+| 4 · Limits | sequences and limits, Euler's number, asymptotic estimates; limits of functions, continuity, zeros, Weierstrass |
+| 5 · Derivatives | rules of differentiation, Fermat, Lagrange, L'Hôpital, Taylor, curve sketching, Newton |
+| 6 · Series | numerical series, convergence tests, alternating series, series of functions |
 | Exercises | about 300 exercises with worked solutions, including antiderivatives and integrals |
 
 ## Author

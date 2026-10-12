@@ -1,6 +1,6 @@
 # Limits of sequences
 
-*Part 3 of the lecture notes.* Sequences, limits, Euler's number, asymptotic estimates, recursive sequences.
+*Part 4 of the lecture notes.* Sequences, limits, Euler's number, asymptotic estimates, recursive sequences.
 
 <div class="grid cards" markdown>
 

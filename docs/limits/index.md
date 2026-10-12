@@ -1,6 +1,6 @@
 # Limits of functions and continuity
 
-*Part 3 of the lecture notes.* Limits, asymptotes, standard limits, continuity, zeros theorem, Weierstrass.
+*Part 4 of the lecture notes.* Limits, asymptotes, standard limits, continuity, zeros theorem, Weierstrass.
 
 <div class="grid cards" markdown>
 

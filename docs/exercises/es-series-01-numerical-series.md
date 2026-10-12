@@ -6,7 +6,7 @@ title: "Numerical series"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Series** · with worked solutions · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-5-series.pdf)
+**Exercises · Series** · with worked solutions · [:material-file-pdf-box: Exercises, volume (PDF)](../pdf/exercises-6-series.pdf)
 
 </div>
 

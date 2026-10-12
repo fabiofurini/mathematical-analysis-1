@@ -1,6 +1,6 @@
 # Derivatives
 
-*Part 4 of the lecture notes.* Derivative, rules of differentiation, theorems of differential calculus, Taylor, curve sketching, Newton.
+*Part 5 of the lecture notes.* Derivative, rules of differentiation, theorems of differential calculus, Taylor, curve sketching, Newton.
 
 <div class="grid cards" markdown>
 

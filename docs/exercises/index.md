@@ -4,15 +4,20 @@ Exercise sheets with **worked solutions**, organized as the parts of the notes. 
 
 <div class="grid cards" markdown>
 
--   **Numbers and logic**
+-   **Logic and proof methods**
+
+    ---
+
+    - [Principle of mathematical induction](es-logic-01-induction.md) · 15 exercises
+
+-   **Numbers and sets**
 
     ---
 
     - [Maxima, minima, suprema and infima](es-numbers-01-max-min-suprema.md) · 11 exercises
     - [Equations and inequalities in one real variable](es-numbers-02-equations-inequalities.md) · 14 exercises
     - [Summations](es-numbers-03-summations.md) · 2 exercises
-    - [Principle of mathematical induction](es-numbers-04-induction.md) · 15 exercises
-    - [Complex numbers](es-numbers-05-complex-numbers.md) · 21 exercises
+    - [Complex numbers](es-numbers-04-complex-numbers.md) · 21 exercises
 
 -   **Functions**
 

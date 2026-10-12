@@ -3,8 +3,8 @@
 ## How to use this website
 
 The website contains the **lecture notes** of the Mathematical Analysis 1
-course, divided into five parts as in the PDF: numbers and logic, functions,
-limits (of sequences and of functions), derivatives, series. Each chapter can
+course, divided into six parts as the PDF volumes: logic and proof methods, numbers and sets,
+functions (with binary relations), limits (of sequences and of functions), derivatives, series. Each chapter can
 be read from beginning to end, or you can jump directly to a section from the
 menu on the right.
 

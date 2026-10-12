@@ -6,7 +6,7 @@ title: "Derivatives of elementary functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Derivatives · Chapter 2** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-4-derivatives.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-02-elementary-derivatives.pdf)
+**Part 5 · Derivatives · Chapter 2** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-02-elementary-derivatives.pdf)
 
 </div>
 

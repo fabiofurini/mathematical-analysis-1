@@ -6,7 +6,7 @@ title: "Verifying limits of sequences"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Limits of sequences** · with worked solutions · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-limits.pdf)
+**Exercises · Limits of sequences** · with worked solutions · [:material-file-pdf-box: Exercises, volume (PDF)](../pdf/exercises-4-limits.pdf)
 
 </div>
 
