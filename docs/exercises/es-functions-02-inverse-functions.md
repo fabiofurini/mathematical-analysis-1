@@ -6,7 +6,7 @@ title: "Inverse functions"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Functions** · with worked solutions · [:material-file-pdf-box: Exercises, volume (PDF)](../pdf/exercises-3-functions.pdf)
+**Exercises · Part 3 · Functions** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 3 (PDF)](../pdf/exercises-3-functions.pdf)
 
 </div>
 

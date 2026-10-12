@@ -6,7 +6,7 @@ title: "Series of functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 6 · Series · Chapter 4** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-6-series.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-series-04-series-of-functions.pdf)
+**Part 6 · Series · Chapter 4** · [:material-file-pdf-box: Lecture notes, volume 6 (PDF)](../pdf/lecture-notes-6-series.pdf) · [:material-pencil-box-multiple: Exercises, volume 6 (PDF)](../pdf/exercises-6-series.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-series-04-series-of-functions.pdf)
 
 </div>
 

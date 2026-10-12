@@ -6,7 +6,7 @@ title: "Summations"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Numbers and sets** · with worked solutions · [:material-file-pdf-box: Exercises, volume (PDF)](../pdf/exercises-2-numbers.pdf)
+**Exercises · Part 2 · Numbers** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf)
 
 </div>
 

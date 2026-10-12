@@ -6,7 +6,7 @@ title: "Integrals"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Integrals** · with worked solutions · [:material-file-pdf-box: Exercises, volume (PDF)](../pdf/exercises-6-series.pdf)
+**Exercises · Part 7 · Integrals** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 6 (PDF)](../pdf/exercises-6-series.pdf)
 
 </div>
 

@@ -1,6 +1,18 @@
 # Logic and proof methods
 
-*Part 1 of the lecture notes.* Propositions and quantifiers, implications, proof techniques, mathematical induction.
+<div class="info-capitolo" markdown>
+
+**Part 1 · Logic** · 2 chapters
+
+</div>
+
+Propositions and quantifiers, implications, proof techniques, mathematical induction.
+
+**Downloads**
+
+- [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-logic.pdf)
+- [:material-pencil-box-multiple: Exercises, volume 1 (PDF)](../pdf/exercises-1-logic.pdf)
+- :material-presentation: Slides by chapter: [1](../pdf/slides-logic-01-logic.pdf) · [2](../pdf/slides-logic-02-induction.pdf)
 
 <div class="grid cards" markdown>
 

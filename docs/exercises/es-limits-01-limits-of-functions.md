@@ -6,7 +6,7 @@ title: "Limits of real functions of a real variable"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Limits of functions** · with worked solutions · [:material-file-pdf-box: Exercises, volume (PDF)](../pdf/exercises-4-limits.pdf)
+**Exercises · Part 4 · Limits** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf)
 
 </div>
 

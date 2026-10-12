@@ -1,6 +1,23 @@
 # Derivatives
 
-*Part 5 of the lecture notes.* Derivative, rules of differentiation, theorems of differential calculus, Taylor, curve sketching, Newton.
+<div class="info-capitolo" markdown>
+
+**Part 5 · Derivatives** · 10 chapters
+
+</div>
+
+Derivative, rules of differentiation, theorems of differential calculus, Taylor, curve sketching, Newton.
+
+**Downloads**
+
+- [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf)
+- [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf)
+- :material-presentation: Slides by chapter: [1](../pdf/slides-derivatives-01-the-derivative.pdf) · [2](../pdf/slides-derivatives-02-elementary-derivatives.pdf) · [3](../pdf/slides-derivatives-03-corners-cusps.pdf) · [4](../pdf/slides-derivatives-04-differentiation-rules.pdf) · [5](../pdf/slides-derivatives-05-mean-value.pdf) · [6](../pdf/slides-derivatives-06-lhopital.pdf) · [7](../pdf/slides-derivatives-07-second-derivative.pdf) · [8](../pdf/slides-derivatives-08-approximations.pdf) · [9](../pdf/slides-derivatives-09-curve-sketching.pdf) · [10](../pdf/slides-derivatives-10-newton.pdf)
+- [:material-gesture-tap: App: From the secant to the tangent line](../interactive/secant-tangent.md)
+- [:material-gesture-tap: App: Lagrange's mean value theorem](../interactive/lagrange-theorem.md)
+- [:material-gesture-tap: App: First and second derivative](../interactive/concavity.md)
+- [:material-gesture-tap: App: Maclaurin polynomials](../interactive/maclaurin-polynomials.md)
+- [:material-gesture-tap: App: Newton's method](../interactive/newton-method.md)
 
 <div class="grid cards" markdown>
 

@@ -6,7 +6,7 @@ title: "Number sets and intervals"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Numbers and sets · Chapter 2** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-02-number-sets.pdf)
+**Part 2 · Numbers · Chapter 2** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-02-number-sets.pdf)
 
 </div>
 
@@ -30,7 +30,7 @@ $$
 
 !!! chiave ""
 
-    In the chapter <em>Sets</em> we have already introduced, for the natural numbers:
+    In the chapter <em>[Sets](https://fabiofurini.github.io/mathematical-analysis-1/numbers/01-sets/)</em> we have already introduced, for the natural numbers:
 
     - the definitions of <strong>even</strong> number ($n = 2\,m$) and <strong>odd</strong> number ($n = 2\,m+1$), with $m \in \N$, and the fact that every natural number is either even or odd, but never both;
 
@@ -68,7 +68,7 @@ A rational number, written in decimal form, has a <strong>finite or infinite per
     0.\overline{9}=1
     $$
 
-    for which we gave four different proofs in the chapter <em>Sets</em>, and which we therefore do not repeat here.
+    for which we gave four different proofs in the chapter <em>[Sets](https://fabiofurini.github.io/mathematical-analysis-1/numbers/01-sets/)</em>, and which we therefore do not repeat here.
 
 ### 1.4 The real numbers
 

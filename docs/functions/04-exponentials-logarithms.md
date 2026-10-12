@@ -6,7 +6,7 @@ title: "Exponential and logarithmic functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Functions · Chapter 5** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-functions.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-functions-04-exponentials-logarithms.pdf)
+**Part 3 · Functions · Chapter 5** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-functions.pdf) · [:material-pencil-box-multiple: Exercises, volume 3 (PDF)](../pdf/exercises-3-functions.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-functions-04-exponentials-logarithms.pdf) · [:material-gesture-tap: App: Exponentials and logarithms](../interactive/exponentials-logarithms.md)
 
 </div>
 

@@ -6,7 +6,7 @@ title: "Limits of polynomials and rational functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Limits of functions and continuity · Chapter 3** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-limits-03-polynomials-rational-functions.pdf)
+**Part 4 · Limits · Chapter 3** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-limits-03-polynomials-rational-functions.pdf)
 
 </div>
 

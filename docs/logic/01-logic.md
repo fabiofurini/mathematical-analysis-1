@@ -6,7 +6,7 @@ title: "Basics of logic and proof techniques"
 
 <div class="info-capitolo" markdown>
 
-**Part 1 · Logic and proof methods · Chapter 1** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-1-logic.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-logic-01-logic.pdf)
+**Part 1 · Logic · Chapter 1** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-logic.pdf) · [:material-pencil-box-multiple: Exercises, volume 1 (PDF)](../pdf/exercises-1-logic.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-logic-01-logic.pdf)
 
 </div>
 
@@ -601,7 +601,7 @@ In this way we have proved that “$n^2$ even” is a necessary and sufficient c
 
 ## 6. Logic and sets
 
-Sets are treated in detail in the chapter “Sets” of Part 2 (volume 2); here we only use their basic notions.
+Sets are treated in detail in the chapter “[Sets](https://fabiofurini.github.io/mathematical-analysis-1/numbers/01-sets/)” of Part 2 (volume 2); here we only use their basic notions.
 
 The language of logic and the language of sets are two sides of the same coin.
 

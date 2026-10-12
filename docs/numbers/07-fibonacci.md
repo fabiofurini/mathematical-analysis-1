@@ -6,7 +6,7 @@ title: "The Fibonacci sequence"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Numbers and sets · Chapter 7** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-07-fibonacci.pdf)
+**Part 2 · Numbers · Chapter 7** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-07-fibonacci.pdf)
 
 </div>
 

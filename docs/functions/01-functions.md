@@ -6,7 +6,7 @@ title: "Functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Functions · Chapter 2** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-functions.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-functions-01-functions.pdf)
+**Part 3 · Functions · Chapter 2** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-functions.pdf) · [:material-pencil-box-multiple: Exercises, volume 3 (PDF)](../pdf/exercises-3-functions.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-functions-01-functions.pdf)
 
 </div>
 
@@ -110,7 +110,7 @@ title: "Functions"
 
     Given any two sets $A$, $B$, a <strong>function</strong> $f$ with <strong>domain</strong> $A$ and values in $B$ (or also “with <strong>codomain</strong> $B$”) is any law that associates with each element of $A$ <em>one and only one element</em> of $B$.
 
-- In the language of the previous chapter, “Binary relations”, the law $f$ is identified with the set of pairs $(x, f(x))$ with $x \in A$: a function is thus a <strong>binary relation</strong> on $A$ and $B$ with the <strong>functional property</strong>, that is, each $x \in A$ corresponds to one and only one $y \in B$ with $(x,y)$ in the relation (this is the definition of function given in that chapter).
+- In the language of the previous chapter, “[Binary relations](https://fabiofurini.github.io/mathematical-analysis-1/relations/01-binary-relations/)”, the law $f$ is identified with the set of pairs $(x, f(x))$ with $x \in A$: a function is thus a <strong>binary relation</strong> on $A$ and $B$ with the <strong>functional property</strong>, that is, each $x \in A$ corresponds to one and only one $y \in B$ with $(x,y)$ in the relation (this is the definition of function given in that chapter).
 
 - The notation:
 
@@ -360,7 +360,7 @@ title: "Functions"
 
 !!! chiave ""
 
-    The two remarks above are stated for <strong>finite</strong> sets: the proofs <em>count</em> elements, and counting only makes sense for finite sets. Comparing the “sizes” of two infinite sets requires a different notion of cardinality, which is introduced in the chapter “Cardinality of infinite sets” of Part 2.
+    The two remarks above are stated for <strong>finite</strong> sets: the proofs <em>count</em> elements, and counting only makes sense for finite sets. Comparing the “sizes” of two infinite sets requires a different notion of cardinality, which is introduced in the chapter “[Cardinality of infinite sets](https://fabiofurini.github.io/mathematical-analysis-1/numbers/08-infinite-sets/)” of Part 2.
 
 <a id="box-notationA-19"></a>
 
@@ -418,7 +418,7 @@ title: "Functions"
 
 !!! chiave ""
 
-    Here the inverse is defined on the <strong>whole</strong> codomain $B$, and therefore <em>both</em> the injectivity <em>and</em> the surjectivity of $f$ are needed. In the chapter “Inverse functions” we study instead functions of a real variable, and there a function is called <em>invertible</em> when it is only <strong>injective</strong>: the inverse is built on the <em>image</em> $f(D)$ and not on the whole codomain, and with respect to the image surjectivity is automatic.
+    Here the inverse is defined on the <strong>whole</strong> codomain $B$, and therefore <em>both</em> the injectivity <em>and</em> the surjectivity of $f$ are needed. In the chapter “[Inverse functions](https://fabiofurini.github.io/mathematical-analysis-1/functions/10-inverse-functions/)” we study instead functions of a real variable, and there a function is called <em>invertible</em> when it is only <strong>injective</strong>: the inverse is built on the <em>image</em> $f(D)$ and not on the whole codomain, and with respect to the image surjectivity is automatic.
 
 <a id="box-texexpbox1-22"></a>
 

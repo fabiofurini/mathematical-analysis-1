@@ -6,7 +6,7 @@ title: "Limits of functions, asymptotes and continuity"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Limits of functions and continuity · Chapter 1** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-limits-01-limits-asymptotes.pdf)
+**Part 4 · Limits · Chapter 1** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-limits-01-limits-asymptotes.pdf)
 
 </div>
 

@@ -6,7 +6,7 @@ title: "Sets"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Numbers and sets · Chapter 1** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-01-sets.pdf)
+**Part 2 · Numbers · Chapter 1** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-01-sets.pdf)
 
 </div>
 
@@ -1641,7 +1641,7 @@ Let us call this set $S$; two hypotheses can be made:
 
 - Equivalently: for every real number $\varepsilon > 0$ there exists a natural number $n > 0$ such that $\frac{1}{n} < \varepsilon$ (it is enough to take $n$ greater than $\frac{1}{\varepsilon}$). As a consequence, the only non-negative number that is less than or equal to $\frac{1}{n}$ for every $n$ is zero: this is the form in which the property is used in the proof below.
 
-- It is not an additional axiom: in the chapter <em>Ordered fields, supremum/infimum and the completeness axiom</em> we will prove it starting from the supremum property of the real numbers.
+- It is not an additional axiom: in the chapter <em>[Ordered fields, supremum/infimum and the completeness axiom](https://fabiofurini.github.io/mathematical-analysis-1/numbers/03-ordered-fields/)</em> we will prove it starting from the supremum property of the real numbers.
 
 ??? dimostrazione "Proof"
 

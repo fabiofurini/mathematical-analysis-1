@@ -1,6 +1,20 @@
 # Limits of sequences
 
-*Part 4 of the lecture notes.* Sequences, limits, Euler's number, asymptotic estimates, recursive sequences.
+<div class="info-capitolo" markdown>
+
+**Part 4 · Sequences** · 6 chapters
+
+</div>
+
+Sequences, limits, Euler's number, asymptotic estimates, recursive sequences.
+
+**Downloads**
+
+- [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf)
+- [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf)
+- :material-presentation: Slides by chapter: [1](../pdf/slides-sequences-01-limits-of-sequences.pdf) · [2](../pdf/slides-sequences-02-computing-limits.pdf) · [3](../pdf/slides-sequences-03-euler-number.pdf) · [4](../pdf/slides-sequences-04-asymptotic-estimates.pdf) · [5](../pdf/slides-sequences-05-hierarchy-of-infinities.pdf) · [6](../pdf/slides-sequences-06-recursive-sequences.pdf)
+- [:material-gesture-tap: App: Limit of a sequence](../interactive/sequence-limit.md)
+- [:material-gesture-tap: App: Heron's sequence](../interactive/heron-sequence.md)
 
 <div class="grid cards" markdown>
 

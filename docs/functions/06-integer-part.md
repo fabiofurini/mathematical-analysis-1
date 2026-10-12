@@ -6,7 +6,7 @@ title: "Integer part and fractional part functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Functions · Chapter 7** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-functions.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-functions-06-integer-part.pdf)
+**Part 3 · Functions · Chapter 7** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-functions.pdf) · [:material-pencil-box-multiple: Exercises, volume 3 (PDF)](../pdf/exercises-3-functions.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-functions-06-integer-part.pdf)
 
 </div>
 
@@ -49,7 +49,7 @@ title: "Integer part and fractional part functions"
 
 - The integer part function $f(x)= \lfloor x \rfloor$ and the upper integer part function $f(x)= \lceil x \rceil$ are <strong>non-decreasing</strong> in $\mathbb{R}$, but they are <strong>not</strong> increasing.
 
-    - They are non-decreasing: let $x_1 < x_2$. Then $\lfloor x_1 \rfloor \le x_1 < x_2$ and, since $\lfloor x_1 \rfloor$ is an integer less than or equal to $x_2$, while $\lfloor x_2 \rfloor$ is the <em>largest</em> integer less than or equal to $x_2$ (see the chapter “Roots, powers, logarithms and modular arithmetic” of Part 2), we have $\lfloor x_1 \rfloor \le \lfloor x_2 \rfloor$. In the same way $\lceil x_2 \rceil \ge x_2 > x_1$ and, since $\lceil x_1 \rceil$ is the <em>smallest</em> integer greater than or equal to $x_1$, we have $\lceil x_1 \rceil \le \lceil x_2 \rceil$.
+    - They are non-decreasing: let $x_1 < x_2$. Then $\lfloor x_1 \rfloor \le x_1 < x_2$ and, since $\lfloor x_1 \rfloor$ is an integer less than or equal to $x_2$, while $\lfloor x_2 \rfloor$ is the <em>largest</em> integer less than or equal to $x_2$ (see the chapter “[Roots, powers, logarithms and modular arithmetic](https://fabiofurini.github.io/mathematical-analysis-1/numbers/04-roots-powers-logarithms/)” of Part 2), we have $\lfloor x_1 \rfloor \le \lfloor x_2 \rfloor$. In the same way $\lceil x_2 \rceil \ge x_2 > x_1$ and, since $\lceil x_1 \rceil$ is the <em>smallest</em> integer greater than or equal to $x_1$, we have $\lceil x_1 \rceil \le \lceil x_2 \rceil$.
 
     - They are not increasing: both are <em>constant</em> on every interval between two consecutive integers, for instance
 
@@ -102,7 +102,7 @@ title: "Integer part and fractional part functions"
 
 ## 3. The absolute-value function
 
-- In the chapter “Factorials, binomial coefficients and triangle inequality” of Part 2 the <strong>absolute value</strong> of a real number $a$ was defined by
+- In the chapter “[Factorials, binomial coefficients and triangle inequality](https://fabiofurini.github.io/mathematical-analysis-1/numbers/06-factorials-binomials/)” of Part 2 the <strong>absolute value</strong> of a real number $a$ was defined by
 
     $$
     |a|  = 

@@ -6,7 +6,7 @@ title: "Summations, geometric and arithmetic progressions"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Numbers and sets · Chapter 5** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-05-summations.pdf)
+**Part 2 · Numbers · Chapter 5** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-05-summations.pdf)
 
 </div>
 
@@ -277,7 +277,7 @@ title: "Summations, geometric and arithmetic progressions"
 
     <p class="qed-riga"><span class="qed">□</span></p>
 
-- The three important summations we have just seen can also be proved by induction, in the chapter “Principle of induction” of Part 1.
+- The three important summations we have just seen can also be proved by induction, in the chapter “[Principle of induction](https://fabiofurini.github.io/mathematical-analysis-1/logic/02-induction/)” of Part 1.
 
 ## 2. Geometric progressions
 
@@ -448,7 +448,7 @@ title: "Summations, geometric and arithmetic progressions"
     \end{cases}
     \end{equation*}
 
-- Formula \(\eqref{GEOM}\) can also be proved by induction, in the chapter “Principle of induction” of Part 1.
+- Formula \(\eqref{GEOM}\) can also be proved by induction, in the chapter “[Principle of induction](https://fabiofurini.github.io/mathematical-analysis-1/logic/02-induction/)” of Part 1.
 
 <a id="box-texexpbox1-18"></a>
 

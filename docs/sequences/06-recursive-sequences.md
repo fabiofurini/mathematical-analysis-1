@@ -6,7 +6,7 @@ title: "Recursively defined sequences"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Limits of sequences · Chapter 6** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-sequences-06-recursive-sequences.pdf)
+**Part 4 · Sequences · Chapter 6** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-sequences-06-recursive-sequences.pdf) · [:material-gesture-tap: App: Heron's sequence](../interactive/heron-sequence.md)
 
 </div>
 

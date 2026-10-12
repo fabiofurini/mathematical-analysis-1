@@ -6,7 +6,7 @@ title: "Comparisons and asymptotic estimates"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Limits of sequences · Chapter 4** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-sequences-04-asymptotic-estimates.pdf)
+**Part 4 · Sequences · Chapter 4** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-sequences-04-asymptotic-estimates.pdf)
 
 </div>
 

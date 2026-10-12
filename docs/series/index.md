@@ -1,6 +1,20 @@
 # Series
 
-*Part 6 of the lecture notes.* Numerical series, convergence tests, series with terms of varying sign, series of functions.
+<div class="info-capitolo" markdown>
+
+**Part 6 · Series** · 4 chapters
+
+</div>
+
+Numerical series, convergence tests, series with terms of varying sign, series of functions.
+
+**Downloads**
+
+- [:material-file-pdf-box: Lecture notes, volume 6 (PDF)](../pdf/lecture-notes-6-series.pdf)
+- [:material-pencil-box-multiple: Exercises, volume 6 (PDF)](../pdf/exercises-6-series.pdf)
+- :material-presentation: Slides by chapter: [1](../pdf/slides-series-01-numerical-series.pdf) · [2](../pdf/slides-series-02-nonnegative-terms.pdf) · [3](../pdf/slides-series-03-alternating-series.pdf) · [4](../pdf/slides-series-04-series-of-functions.pdf)
+- [:material-gesture-tap: App: Geometric series](../interactive/geometric-series.md)
+- [:material-gesture-tap: App: Generalized harmonic series](../interactive/harmonic-series.md)
 
 <div class="grid cards" markdown>
 

@@ -6,7 +6,7 @@ title: "Binary relations"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Binary relations · Chapter 1** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-3-functions.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-relations-01-binary-relations.pdf)
+**Part 3 · Relations · Chapter 1** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-functions.pdf) · [:material-pencil-box-multiple: Exercises, volume 3 (PDF)](../pdf/exercises-3-functions.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-relations-01-binary-relations.pdf)
 
 </div>
 
@@ -1819,4 +1819,4 @@ Let us now see in detail, for each property, how to prove that a relation has it
     f = \big\{ (n,2\:n): n \in \mathbb{N} \big\} {~~and~~} f: \mathbb{N} \rightarrow \mathbb{N}
     $$
 
-- The next chapter, “Functions”, starts again from this definition: a function $f: A \rightarrow B$ is a binary relation on $A$ and $B$ with the <strong>functional property</strong> (each $a \in A$ corresponds to one and only one $b \in B$). There we study domain, codomain and image, and injective, surjective and bijective functions.
+- The next chapter, “[Functions](https://fabiofurini.github.io/mathematical-analysis-1/functions/01-functions/)”, starts again from this definition: a function $f: A \rightarrow B$ is a binary relation on $A$ and $B$ with the <strong>functional property</strong> (each $a \in A$ corresponds to one and only one $b \in B$). There we study domain, codomain and image, and injective, surjective and bijective functions.

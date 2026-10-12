@@ -1,6 +1,19 @@
 # Numbers and sets
 
-*Part 2 of the lecture notes.* Sets, real numbers and suprema, roots and logarithms, summations, binomials, infinite sets, complex numbers.
+<div class="info-capitolo" markdown>
+
+**Part 2 · Numbers** · 9 chapters
+
+</div>
+
+Sets, real numbers and suprema, roots and logarithms, summations, binomials, infinite sets, complex numbers.
+
+**Downloads**
+
+- [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-numbers.pdf)
+- [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf)
+- :material-presentation: Slides by chapter: [1](../pdf/slides-numbers-01-sets.pdf) · [2](../pdf/slides-numbers-02-number-sets.pdf) · [3](../pdf/slides-numbers-03-ordered-fields.pdf) · [4](../pdf/slides-numbers-04-roots-powers-logarithms.pdf) · [5](../pdf/slides-numbers-05-summations.pdf) · [6](../pdf/slides-numbers-06-factorials-binomials.pdf) · [7](../pdf/slides-numbers-07-fibonacci.pdf) · [8](../pdf/slides-numbers-08-infinite-sets.pdf) · [9](../pdf/slides-numbers-09-complex-numbers.pdf)
+- [:material-gesture-tap: App: Complex n-th roots](../interactive/complex-roots.md)
 
 <div class="grid cards" markdown>
 

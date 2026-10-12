@@ -6,7 +6,7 @@ title: "Second derivative"
 
 <div class="info-capitolo" markdown>
 
-**Part 5 · Derivatives · Chapter 7** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-07-second-derivative.pdf)
+**Part 5 · Derivatives · Chapter 7** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-07-second-derivative.pdf) · [:material-gesture-tap: App: First and second derivative](../interactive/concavity.md)
 
 </div>
 

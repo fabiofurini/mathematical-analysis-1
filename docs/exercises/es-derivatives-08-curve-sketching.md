@@ -6,7 +6,7 @@ title: "Curve sketching"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Derivatives** · with worked solutions · [:material-file-pdf-box: Exercises, volume (PDF)](../pdf/exercises-5-derivatives.pdf)
+**Exercises · Part 5 · Derivatives** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf)
 
 </div>
 

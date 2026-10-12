@@ -6,7 +6,7 @@ title: "Sequences and limits of sequences"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Limits of sequences · Chapter 1** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-sequences-01-limits-of-sequences.pdf)
+**Part 4 · Sequences · Chapter 1** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-sequences-01-limits-of-sequences.pdf) · [:material-gesture-tap: App: Limit of a sequence](../interactive/sequence-limit.md)
 
 </div>
 

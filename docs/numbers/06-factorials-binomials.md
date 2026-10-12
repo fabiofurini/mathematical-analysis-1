@@ -6,7 +6,7 @@ title: "Factorials, binomial coefficients and triangle inequality"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Numbers and sets · Chapter 6** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-06-factorials-binomials.pdf)
+**Part 2 · Numbers · Chapter 6** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-06-factorials-binomials.pdf)
 
 </div>
 

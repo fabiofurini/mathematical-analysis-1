@@ -1,6 +1,19 @@
 # Limits of functions and continuity
 
-*Part 4 of the lecture notes.* Limits, asymptotes, standard limits, continuity, zeros theorem, Weierstrass.
+<div class="info-capitolo" markdown>
+
+**Part 4 · Limits** · 10 chapters
+
+</div>
+
+Limits, asymptotes, standard limits, continuity, zeros theorem, Weierstrass.
+
+**Downloads**
+
+- [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf)
+- [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf)
+- :material-presentation: Slides by chapter: [1](../pdf/slides-limits-01-limits-asymptotes.pdf) · [2](../pdf/slides-limits-02-computing-limits.pdf) · [3](../pdf/slides-limits-03-polynomials-rational-functions.pdf) · [4](../pdf/slides-limits-04-continuous-functions.pdf) · [5](../pdf/slides-limits-05-comparing-infinities.pdf) · [6](../pdf/slides-limits-06-standard-limits.pdf) · [7](../pdf/slides-limits-07-asymptotic-expansions.pdf) · [8](../pdf/slides-limits-08-zeros-bisection.pdf) · [9](../pdf/slides-limits-09-weierstrass.pdf) · [10](../pdf/slides-limits-10-monotone-invertible.pdf)
+- [:material-gesture-tap: App: Bisection method](../interactive/bisection.md)
 
 <div class="grid cards" markdown>
 

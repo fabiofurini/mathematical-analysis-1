@@ -6,7 +6,7 @@ title: "Ordered fields, supremum/infimum and the completeness axiom"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Numbers and sets · Chapter 3** · lecture notes by Fabio Furini · [:material-file-pdf-box: Lecture notes, volume (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-03-ordered-fields.pdf)
+**Part 2 · Numbers · Chapter 3** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-03-ordered-fields.pdf)
 
 </div>
 
@@ -306,7 +306,7 @@ title: "Ordered fields, supremum/infimum and the completeness axiom"
     \forall x \in E, \qquad x \le M \qquad
     $$
 
-- It makes no difference whether we require $m$ and/or $M$ to belong to $\Q$ or to $\R$, since the condition only concerns the existence of such numbers. This is not an immediate consequence of the definition, though, because $\Q$ is a proper subset of $\R$: it follows from the <strong>Archimedean property</strong> (recalled in the chapter <em>Sets</em> and proved later in this chapter). Indeed, if $M \in \R$ satisfies $x \le M$ for every $x \in E$, there exists a natural number $n > M$, and hence $x \le M < n$ for every $x \in E$, with $n \in \Q$; in the same way, if $m \in \R$ satisfies $m \le x$ for every $x \in E$, there exists a natural number $n > -m$, that is $-n < m$, and hence $-n < x$ for every $x \in E$, with $-n \in \Q$. Conversely, every rational number is also a real number, and therefore the two requirements single out the same bounded sets.
+- It makes no difference whether we require $m$ and/or $M$ to belong to $\Q$ or to $\R$, since the condition only concerns the existence of such numbers. This is not an immediate consequence of the definition, though, because $\Q$ is a proper subset of $\R$: it follows from the <strong>Archimedean property</strong> (recalled in the chapter <em>[Sets](https://fabiofurini.github.io/mathematical-analysis-1/numbers/01-sets/)</em> and proved later in this chapter). Indeed, if $M \in \R$ satisfies $x \le M$ for every $x \in E$, there exists a natural number $n > M$, and hence $x \le M < n$ for every $x \in E$, with $n \in \Q$; in the same way, if $m \in \R$ satisfies $m \le x$ for every $x \in E$, there exists a natural number $n > -m$, that is $-n < m$, and hence $-n < x$ for every $x \in E$, with $-n \in \Q$. Conversely, every rational number is also a real number, and therefore the two requirements single out the same bounded sets.
 
 <a id="box-defXX-12"></a>
 
@@ -809,7 +809,7 @@ title: "Ordered fields, supremum/infimum and the completeness axiom"
     n > x
     $$
 
-- This is the property that we recalled in the chapter <em>Sets</em> and used above. <strong>It is not an additional axiom</strong>: as the proof shows, it follows from the property $R_4$.
+- This is the property that we recalled in the chapter <em>[Sets](https://fabiofurini.github.io/mathematical-analysis-1/numbers/01-sets/)</em> and used above. <strong>It is not an additional axiom</strong>: as the proof shows, it follows from the property $R_4$.
 
 ??? dimostrazione "Proof"
 

@@ -1,6 +1,22 @@
 # Functions
 
-*Part 3 of the lecture notes.* Elementary functions and their graphs: powers, exponentials, trigonometric functions, inverses.
+<div class="info-capitolo" markdown>
+
+**Part 3 · Functions** · 10 chapters
+
+</div>
+
+Elementary functions and their graphs: powers, exponentials, trigonometric functions, inverses.
+
+**Downloads**
+
+- [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-functions.pdf)
+- [:material-pencil-box-multiple: Exercises, volume 3 (PDF)](../pdf/exercises-3-functions.pdf)
+- :material-presentation: Slides by chapter: [2](../pdf/slides-functions-01-functions.pdf) · [3](../pdf/slides-functions-02-real-functions.pdf) · [4](../pdf/slides-functions-03-power-functions.pdf) · [5](../pdf/slides-functions-04-exponentials-logarithms.pdf) · [6](../pdf/slides-functions-05-trigonometric-functions.pdf) · [7](../pdf/slides-functions-06-integer-part.pdf) · [8](../pdf/slides-functions-07-hyperbolic-functions.pdf) · [9](../pdf/slides-functions-08-graph-transformations.pdf) · [10](../pdf/slides-functions-09-composite-functions.pdf) · [11](../pdf/slides-functions-10-inverse-functions.pdf)
+- [:material-gesture-tap: App: Power functions](../interactive/power-functions.md)
+- [:material-gesture-tap: App: Exponentials and logarithms](../interactive/exponentials-logarithms.md)
+- [:material-gesture-tap: App: Harmonic oscillations](../interactive/oscillations.md)
+- [:material-gesture-tap: App: Operations on graphs](../interactive/graph-operations.md)
 
 <div class="grid cards" markdown>
 
