@@ -164,14 +164,14 @@ colors: on the website and in the PDF you find everything in the same place.
 
 By the same author:
 
-- **[Linear Programming](https://fabiofurini.github.io/linear-programming/)** — polyhedra, the simplex algorithm, duality and the dual simplex, with the interactive lab
-- **[Convex Optimization](https://fabiofurini.github.io/convex-optimization/)** — convex sets and functions, convex optimization problems, with interactive graphs
-- **[Algorithms](https://fabiofurini.github.io/algorithms/)** — number representation, pseudo-code, sorting and searching, analysis and recursive algorithms
-- **[Integer Linear Programming](https://fabiofurini.github.io/integer-linear-programming/)** — LP relaxation, valid inequalities, cutting planes, branch-and-bound and branch-and-cut
-- **[Combinatorial Optimization](https://fabiofurini.github.io/combinatorial-optimization/)** — knapsack, bin packing, coloring, TSP, scheduling and lot sizing, solved in every way
-- **[MIP Modelling](https://fabiofurini.github.io/mip-modelling/)** — integer linear programming models, from the formulation to the solution with solvers
-- **[Operations Research Lab](https://fabiofurini.github.io/operations-research-lab/)** — modelling and solving optimization problems with Python and solvers
-- **[Linear Algebra](https://fabiofurini.github.io/linear-algebra/)** — vectors, matrices, determinants, linear systems and eigenvalues, with the computation lab
+- **[Linear Programming](https://fabiofurini.github.io/linear-programming/)** — polyhedra, the simplex algorithm, duality and the dual simplex, with the interactive lab;
+- **[Convex Optimization](https://fabiofurini.github.io/convex-optimization/)** — convex sets and functions, convex optimization problems, with interactive graphs;
+- **[Algorithms](https://fabiofurini.github.io/algorithms/)** — number representation, pseudo-code, sorting and searching, analysis and recursive algorithms;
+- **[Integer Linear Programming](https://fabiofurini.github.io/integer-linear-programming/)** — LP relaxation, valid inequalities, cutting planes, branch-and-bound and branch-and-cut;
+- **[Combinatorial Optimization](https://fabiofurini.github.io/combinatorial-optimization/)** — knapsack, bin packing, coloring, TSP, scheduling and lot sizing, solved in every way;
+- **[MIP Modelling](https://fabiofurini.github.io/mip-modelling/)** — integer linear programming models, from the formulation to the solution with solvers;
+- **[Operations Research Lab](https://fabiofurini.github.io/operations-research-lab/)** — modelling and solving optimization problems with Python and solvers;
+- **[Linear Algebra](https://fabiofurini.github.io/linear-algebra/)** — vectors, matrices, determinants, linear systems and eigenvalues, with the computation lab.
 
 Teaching material by **[Fabio Furini](https://fabiofurini.github.io/)** —
 [DIAG](https://www.diag.uniroma1.it/), Sapienza University of Rome.
