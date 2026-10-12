@@ -601,6 +601,8 @@ In this way we have proved that “$n^2$ even” is a necessary and sufficient c
 
 ## 6. Logic and sets
 
+Sets are treated in detail in the chapter “Sets” of Part 2 (volume 2); here we only use their basic notions.
+
 The language of logic and the language of sets are two sides of the same coin.
 
 ### 6.1 Logical implication and set inclusion
