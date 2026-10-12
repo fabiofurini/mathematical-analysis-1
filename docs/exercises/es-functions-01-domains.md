@@ -6,7 +6,7 @@ title: "Domains of functions"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Part 3 · Functions** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 3 (PDF)](../pdf/exercises-3-functions.pdf)
+**Exercises · Part 3 · Functions** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 3 (PDF)](../pdf/exercises-3-functions.pdf) · [:material-book-open-variant: Chapter 3: Real functions of a real variable](../functions/02-real-functions.md)
 
 </div>
 

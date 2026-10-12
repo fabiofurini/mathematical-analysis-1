@@ -6,7 +6,7 @@ title: "Computing limits of sequences"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Part 4 · Sequences** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf)
+**Exercises · Part 4 · Sequences** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-book-open-variant: Chapter 2: Computing limits of sequences](../sequences/02-computing-limits.md) · [:material-book-open-variant: Chapter 3: Euler's number](../sequences/03-euler-number.md) · [:material-book-open-variant: Chapter 4: Comparisons and asymptotic estimates](../sequences/04-asymptotic-estimates.md) · [:material-book-open-variant: Chapter 5: Hierarchies of infinities and the ratio test](../sequences/05-hierarchy-of-infinities.md)
 
 </div>
 

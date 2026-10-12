@@ -6,7 +6,7 @@ title: "Euler's number"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Sequences · Chapter 3** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-sequences-03-euler-number.pdf)
+**Part 4 · Sequences · Chapter 3** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-pencil: Exercises: Computing limits of sequences](../exercises/es-sequences-03-computing-limits.md) · [:material-presentation: Slides (PDF)](../pdf/slides-sequences-03-euler-number.pdf)
 
 </div>
 
@@ -370,3 +370,8 @@ title: "Euler's number"
         $$
         \lim_{n \rr \ip } \left( 1 + \frac{1}{n}\right)^n= e
         $$
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Computing limits of sequences](../exercises/es-sequences-03-computing-limits.md)
+

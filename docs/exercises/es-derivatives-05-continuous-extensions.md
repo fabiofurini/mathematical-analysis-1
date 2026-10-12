@@ -6,7 +6,7 @@ title: "Continuous extensions"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Part 5 · Derivatives** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf)
+**Exercises · Part 5 · Derivatives** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-book-open-variant: Chapter 4: Continuous functions](../limits/04-continuous-functions.md)
 
 </div>
 

@@ -6,7 +6,7 @@ title: "Limits of functions, asymptotes and continuity"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Limits · Chapter 1** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-limits-01-limits-asymptotes.pdf)
+**Part 4 · Limits · Chapter 1** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-pencil: Exercises: Asymptotes](../exercises/es-derivatives-04-asymptotes.md) · [:material-presentation: Slides (PDF)](../pdf/slides-limits-01-limits-asymptotes.pdf)
 
 </div>
 
@@ -874,3 +874,8 @@ which is read: the limit of $f(x)$, as $x$ tends to $c$, is $\ell$.
     The function has infinitely many oscillations in a finite space, so it is not possible to draw its graph on an interval $(0, b]$ with $b\in \R_+$.
 
     ![Figure 10](../img/limits-01-limits-asymptotes/fig10.svg){ .fig .ovale loading=lazy style="width:80%" }
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Asymptotes](../exercises/es-derivatives-04-asymptotes.md)
+

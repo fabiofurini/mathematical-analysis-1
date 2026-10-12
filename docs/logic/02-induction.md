@@ -6,7 +6,7 @@ title: "Principle of mathematical induction"
 
 <div class="info-capitolo" markdown>
 
-**Part 1 · Logic · Chapter 2** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-logic.pdf) · [:material-pencil-box-multiple: Exercises, volume 1 (PDF)](../pdf/exercises-1-logic.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-logic-02-induction.pdf)
+**Part 1 · Logic · Chapter 2** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-logic.pdf) · [:material-pencil-box-multiple: Exercises, volume 1 (PDF)](../pdf/exercises-1-logic.pdf) · [:material-pencil: Exercises: Principle of mathematical induction](../exercises/es-logic-01-induction.md) · [:material-presentation: Slides (PDF)](../pdf/slides-logic-02-induction.pdf)
 
 </div>
 
@@ -513,3 +513,8 @@ title: "Principle of mathematical induction"
     <p class="qed-riga"><span class="qed">□</span></p>
 
 - The Fibonacci sequence is studied in more detail in the chapter “[Fibonacci sequence](https://fabiofurini.github.io/mathematical-analysis-1/numbers/07-fibonacci/)” of Part 2.
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Principle of mathematical induction](../exercises/es-logic-01-induction.md)
+

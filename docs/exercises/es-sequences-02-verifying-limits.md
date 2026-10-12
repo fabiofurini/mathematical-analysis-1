@@ -6,7 +6,7 @@ title: "Verifying limits of sequences"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Part 4 · Sequences** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf)
+**Exercises · Part 4 · Sequences** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-book-open-variant: Chapter 1: Sequences and limits of sequences](../sequences/01-limits-of-sequences.md)
 
 </div>
 

@@ -6,7 +6,7 @@ title: "Complex numbers"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Numbers · Chapter 9** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-09-complex-numbers.pdf) · [:material-gesture-tap: App: Complex n-th roots](../interactive/complex-roots.md)
+**Part 2 · Numbers · Chapter 9** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-pencil: Exercises: Complex numbers](../exercises/es-numbers-04-complex-numbers.md) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-09-complex-numbers.pdf) · [:material-gesture-tap: App: Complex n-th roots](../interactive/complex-roots.md)
 
 </div>
 
@@ -907,6 +907,10 @@ title: "Complex numbers"
 <strong>Cosines and sines of the main angles</strong>
 
 ![Figure 9](../img/numbers-09-complex-numbers/fig09.svg){ .fig .ovale loading=lazy style="width:69%" }
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Complex numbers](../exercises/es-numbers-04-complex-numbers.md)
 
 [^1]: In a non-degenerate triangle, the sum of the lengths of two sides is greater than the length of the third one.
 [^2]: If $P(z)$ is a polynomial in $z$ of degree $n$ and $z_0$ is one of its roots, we say that $z_0$ has multiplicity $k$ ($k$ integer, $\ge 1$) if the formula $P(z)=(z-z_0)^k\;Q(z)$ holds, where $Q$ is a polynomial such that $Q(z_0) \neq 0$.

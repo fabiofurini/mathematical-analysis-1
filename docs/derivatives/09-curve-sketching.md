@@ -6,7 +6,7 @@ title: "Curve sketching"
 
 <div class="info-capitolo" markdown>
 
-**Part 5 · Derivatives · Chapter 9** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-09-curve-sketching.pdf)
+**Part 5 · Derivatives · Chapter 9** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-pencil: Exercises: Asymptotes](../exercises/es-derivatives-04-asymptotes.md) · [:material-pencil: Exercises: Parametric equations](../exercises/es-derivatives-07-parametric-equations.md) · [:material-pencil: Exercises: Curve sketching](../exercises/es-derivatives-08-curve-sketching.md) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-09-curve-sketching.pdf)
 
 </div>
 
@@ -290,3 +290,8 @@ title: "Curve sketching"
     $$
 
     by the theorem on the hierarchy of infinities.
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Asymptotes](../exercises/es-derivatives-04-asymptotes.md) · [:material-pencil: Parametric equations](../exercises/es-derivatives-07-parametric-equations.md) · [:material-pencil: Curve sketching](../exercises/es-derivatives-08-curve-sketching.md)
+

@@ -6,7 +6,7 @@ title: "Fundamental limits and asymptotic estimates"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Limits · Chapter 6** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-limits-06-standard-limits.pdf)
+**Part 4 · Limits · Chapter 6** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-pencil: Exercises: Limits of real functions of a real variable](../exercises/es-limits-01-limits-of-functions.md) · [:material-presentation: Slides (PDF)](../pdf/slides-limits-06-standard-limits.pdf)
 
 </div>
 
@@ -621,6 +621,10 @@ title: "Fundamental limits and asymptotic estimates"
     $$
 
     ![Figure 15](../img/limits-06-standard-limits/fig15.svg){ .fig .ovale loading=lazy style="width:85%" }
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Limits of real functions of a real variable](../exercises/es-limits-01-limits-of-functions.md)
 
 [^1]: it does not matter what $x$ tends to
 [^2]: it does not matter what $x$ tends to

@@ -6,7 +6,7 @@ title: "L'Hôpital's rule and differentiability"
 
 <div class="info-capitolo" markdown>
 
-**Part 5 · Derivatives · Chapter 6** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-06-lhopital.pdf)
+**Part 5 · Derivatives · Chapter 6** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-pencil: Exercises: Differentiability](../exercises/es-derivatives-06-differentiability.md) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-06-lhopital.pdf)
 
 </div>
 
@@ -421,3 +421,8 @@ title: "L'Hôpital's rule and differentiability"
     $$
 
     ![Figure 4](../img/derivatives-06-lhopital/fig04.svg){ .fig .ovale loading=lazy style="width:55%" }
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Differentiability](../exercises/es-derivatives-06-differentiability.md)
+

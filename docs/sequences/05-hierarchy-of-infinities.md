@@ -6,7 +6,7 @@ title: "Hierarchies of infinities and the ratio test"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Sequences · Chapter 5** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-sequences-05-hierarchy-of-infinities.pdf)
+**Part 4 · Sequences · Chapter 5** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-pencil: Exercises: Computing limits of sequences](../exercises/es-sequences-03-computing-limits.md) · [:material-presentation: Slides (PDF)](../pdf/slides-sequences-05-hierarchy-of-infinities.pdf)
 
 </div>
 
@@ -345,3 +345,8 @@ title: "Hierarchies of infinities and the ratio test"
     $$
 
     Using the ratio test theorem, we obtain the claim. <span class="qed">□</span>
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Computing limits of sequences](../exercises/es-sequences-03-computing-limits.md)
+

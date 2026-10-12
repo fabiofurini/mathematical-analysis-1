@@ -6,7 +6,7 @@ title: "Factorials, binomial coefficients and triangle inequality"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Numbers · Chapter 6** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-06-factorials-binomials.pdf)
+**Part 2 · Numbers · Chapter 6** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-pencil: Exercises: Equations and inequalities in one real variable](../exercises/es-numbers-02-equations-inequalities.md) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-06-factorials-binomials.pdf)
 
 </div>
 
@@ -502,3 +502,8 @@ The $n$-th power of a binomial $(a + b)$ can be computed with the following form
     \end{aligned}
     \label{ass_7}
     \end{equation}
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Equations and inequalities in one real variable](../exercises/es-numbers-02-equations-inequalities.md)
+

@@ -6,7 +6,7 @@ title: "Cusps, inflection points and tangents"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Part 5 · Derivatives** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf)
+**Exercises · Part 5 · Derivatives** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-book-open-variant: Chapter 3: Corner points, cusps, points with vertical/horizontal tangent](../derivatives/03-corners-cusps.md) · [:material-book-open-variant: Chapter 7: Second derivative](../derivatives/07-second-derivative.md)
 
 </div>
 

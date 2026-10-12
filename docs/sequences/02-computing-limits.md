@@ -6,7 +6,7 @@ title: "Computing limits of sequences"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Sequences · Chapter 2** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-sequences-02-computing-limits.pdf)
+**Part 4 · Sequences · Chapter 2** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-pencil: Exercises: Computing limits of sequences](../exercises/es-sequences-03-computing-limits.md) · [:material-pencil: Exercises: Additional exercises](../exercises/es-sequences-04-additional.md) · [:material-presentation: Slides (PDF)](../pdf/slides-sequences-02-computing-limits.pdf)
 
 </div>
 
@@ -844,6 +844,10 @@ title: "Computing limits of sequences"
         $$
         \lim_{n \rr \ip } \left( \frac{1}{n}\right)^{-\log n} = \lim_{n \rr \ip } e^{ \overbrace{-\log n}^{\rr \im} \: \overbrace{\log \frac{1}{n}}^{\rr \im} } = e^{\ip} = \ip.
         $$
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Computing limits of sequences](../exercises/es-sequences-03-computing-limits.md) · [:material-pencil: Additional exercises](../exercises/es-sequences-04-additional.md)
 
 [^1]: A set on which an operation is defined is called an algebraic structure
 [^2]: A set is endowed with an order structure if an order relation is defined on it

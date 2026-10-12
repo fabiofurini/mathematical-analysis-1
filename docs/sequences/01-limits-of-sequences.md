@@ -6,7 +6,7 @@ title: "Sequences and limits of sequences"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Sequences · Chapter 1** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-sequences-01-limits-of-sequences.pdf) · [:material-gesture-tap: App: Limit of a sequence](../interactive/sequence-limit.md)
+**Part 4 · Sequences · Chapter 1** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-pencil: Exercises: Properties of sequences](../exercises/es-sequences-01-properties.md) · [:material-pencil: Exercises: Verifying limits of sequences](../exercises/es-sequences-02-verifying-limits.md) · [:material-presentation: Slides (PDF)](../pdf/slides-sequences-01-limits-of-sequences.pdf) · [:material-gesture-tap: App: Limit of a sequence](../interactive/sequence-limit.md)
 
 </div>
 
@@ -1210,3 +1210,8 @@ Summarizing, we have:
 !!! esempio "Example 24: Geometric progression that is neither convergent nor divergent"
 
     ![Figure 19](../img/sequences-01-limits-of-sequences/fig19.svg){ .fig loading=lazy style="width:75%" }
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Properties of sequences](../exercises/es-sequences-01-properties.md) · [:material-pencil: Verifying limits of sequences](../exercises/es-sequences-02-verifying-limits.md)
+

@@ -6,7 +6,7 @@ title: "Rules for computing derivatives"
 
 <div class="info-capitolo" markdown>
 
-**Part 5 · Derivatives · Chapter 4** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-04-differentiation-rules.pdf)
+**Part 5 · Derivatives · Chapter 4** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-pencil: Exercises: Computing derivative functions](../exercises/es-derivatives-02-computing-derivatives.md) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-04-differentiation-rules.pdf)
 
 </div>
 
@@ -957,3 +957,8 @@ title: "Rules for computing derivatives"
     $$
     E(x)=x \cdot \frac{\alpha\; x^{\alpha-1}}{x^\alpha}=\alpha \qquad {\rm ~~(constant~ elasticity)}
     $$
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Computing derivative functions](../exercises/es-derivatives-02-computing-derivatives.md)
+

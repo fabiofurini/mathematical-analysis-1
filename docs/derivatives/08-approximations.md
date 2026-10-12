@@ -6,7 +6,7 @@ title: "Differential calculus and approximations"
 
 <div class="info-capitolo" markdown>
 
-**Part 5 · Derivatives · Chapter 8** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-08-approximations.pdf) · [:material-gesture-tap: App: Maclaurin polynomials](../interactive/maclaurin-polynomials.md)
+**Part 5 · Derivatives · Chapter 8** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-pencil: Exercises: Maclaurin expansions](../exercises/es-derivatives-09-maclaurin.md) · [:material-pencil: Exercises: Limits via asymptotic expansions](../exercises/es-derivatives-10-limits-with-expansions.md) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-08-approximations.pdf) · [:material-gesture-tap: App: Maclaurin polynomials](../interactive/maclaurin-polynomials.md)
 
 </div>
 
@@ -1064,3 +1064,8 @@ f(x)   = f(0) + f'(0)\; x + o(x) {\rm ~~~as~~~} x \rr 0
     !!! chiave ""
 
         We have therefore proved that if a (twice differentiable) function is concave, it is also “concave with respect to tangents”
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Maclaurin expansions](../exercises/es-derivatives-09-maclaurin.md) · [:material-pencil: Limits via asymptotic expansions](../exercises/es-derivatives-10-limits-with-expansions.md)
+

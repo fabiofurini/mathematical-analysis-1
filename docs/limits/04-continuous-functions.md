@@ -6,7 +6,7 @@ title: "Continuous functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Limits · Chapter 4** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-limits-04-continuous-functions.pdf)
+**Part 4 · Limits · Chapter 4** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-pencil: Exercises: Continuous extensions](../exercises/es-derivatives-05-continuous-extensions.md) · [:material-presentation: Slides (PDF)](../pdf/slides-limits-04-continuous-functions.pdf)
 
 </div>
 
@@ -243,3 +243,8 @@ title: "Continuous functions"
     For example, with $a=e$ we have:
 
     ![Figure 4](../img/limits-04-continuous-functions/fig04.svg){ .fig .ovale loading=lazy style="width:75%" }
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Continuous extensions](../exercises/es-derivatives-05-continuous-extensions.md)
+

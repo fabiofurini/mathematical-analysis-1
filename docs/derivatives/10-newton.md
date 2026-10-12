@@ -6,7 +6,7 @@ title: "Newton's method"
 
 <div class="info-capitolo" markdown>
 
-**Part 5 · Derivatives · Chapter 10** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-10-newton.pdf) · [:material-gesture-tap: App: Newton's method](../interactive/newton-method.md)
+**Part 5 · Derivatives · Chapter 10** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-pencil: Exercises: Newton's method](../exercises/es-derivatives-11-newton.md) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-10-newton.pdf) · [:material-gesture-tap: App: Newton's method](../interactive/newton-method.md)
 
 </div>
 
@@ -410,3 +410,8 @@ title: "Newton's method"
     <td>0.01314…</td>
     </tr>
     </table></div>
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Newton's method](../exercises/es-derivatives-11-newton.md)
+

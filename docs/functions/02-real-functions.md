@@ -6,7 +6,7 @@ title: "Real functions of a real variable"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Functions · Chapter 3** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-functions.pdf) · [:material-pencil-box-multiple: Exercises, volume 3 (PDF)](../pdf/exercises-3-functions.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-functions-02-real-functions.pdf)
+**Part 3 · Functions · Chapter 3** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-functions.pdf) · [:material-pencil-box-multiple: Exercises, volume 3 (PDF)](../pdf/exercises-3-functions.pdf) · [:material-pencil: Exercises: Domains of functions](../exercises/es-functions-01-domains.md) · [:material-presentation: Slides (PDF)](../pdf/slides-functions-02-real-functions.pdf)
 
 </div>
 
@@ -358,5 +358,9 @@ title: "Real functions of a real variable"
     $$
     y = k \qquad k \in \mathbb{R}
     $$
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Domains of functions](../exercises/es-functions-01-domains.md)
 
 [^1]:  If the line did not intersect the graph, this would mean that no output corresponds to the input $x$. If the line intersected the graph at more than one point, this would mean that several distinct outputs correspond to the input $x$, and hence the function would no longer be single-valued.

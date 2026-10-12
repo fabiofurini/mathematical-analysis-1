@@ -6,7 +6,7 @@ title: "Computing limits of functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Limits · Chapter 2** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-limits-02-computing-limits.pdf)
+**Part 4 · Limits · Chapter 2** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-pencil: Exercises: Limits of real functions of a real variable](../exercises/es-limits-01-limits-of-functions.md) · [:material-presentation: Slides (PDF)](../pdf/slides-limits-02-computing-limits.pdf)
 
 </div>
 
@@ -574,3 +574,8 @@ title: "Computing limits of functions"
         $$
 
     ![Figure 4](../img/limits-02-computing-limits/fig04.svg){ .fig .ovale loading=lazy style="width:80%" }
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Limits of real functions of a real variable](../exercises/es-limits-01-limits-of-functions.md)
+

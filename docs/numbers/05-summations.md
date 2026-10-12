@@ -6,7 +6,7 @@ title: "Summations, geometric and arithmetic progressions"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Numbers · Chapter 5** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-05-summations.pdf)
+**Part 2 · Numbers · Chapter 5** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-pencil: Exercises: Summations](../exercises/es-numbers-03-summations.md) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-05-summations.pdf)
 
 </div>
 
@@ -694,3 +694,8 @@ title: "Summations, geometric and arithmetic progressions"
         $$
         \sum_{k=1}^4 \left( 1 - \frac{1}{2} \: (k-1) \right) = 1 \cdot 4 - \frac{1}{2} \: \left( \frac{4 \cdot 3}{2} \right) = 4 - 3 = 1
         $$
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Summations](../exercises/es-numbers-03-summations.md)
+

@@ -6,7 +6,7 @@ title: "Newton's method"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Part 5 · Derivatives** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf)
+**Exercises · Part 5 · Derivatives** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-book-open-variant: Chapter 10: Newton's method](../derivatives/10-newton.md)
 
 </div>
 

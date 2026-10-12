@@ -6,7 +6,7 @@ title: "Derivatives of elementary functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 5 · Derivatives · Chapter 2** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-02-elementary-derivatives.pdf)
+**Part 5 · Derivatives · Chapter 2** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-pencil: Exercises: Computing derivative functions](../exercises/es-derivatives-02-computing-derivatives.md) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-02-elementary-derivatives.pdf)
 
 </div>
 
@@ -311,3 +311,8 @@ title: "Derivatives of elementary functions"
     $$
 
     ![Figure 2](../img/derivatives-02-elementary-derivatives/fig02.svg){ .fig .ovale loading=lazy style="width:82%" }
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Computing derivative functions](../exercises/es-derivatives-02-computing-derivatives.md)
+

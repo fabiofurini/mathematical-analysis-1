@@ -6,7 +6,7 @@ title: "Numerical series"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Part 6 · Series** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 6 (PDF)](../pdf/exercises-6-series.pdf)
+**Exercises · Part 6 · Series** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 6 (PDF)](../pdf/exercises-6-series.pdf) · [:material-book-open-variant: Chapter 1: Numerical series](../series/01-numerical-series.md) · [:material-book-open-variant: Chapter 2: Series with non-negative terms](../series/02-nonnegative-terms.md) · [:material-book-open-variant: Chapter 3: Series with terms of variable sign](../series/03-alternating-series.md)
 
 </div>
 

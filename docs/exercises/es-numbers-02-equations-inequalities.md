@@ -6,7 +6,7 @@ title: "Equations and inequalities in one real variable"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Part 2 · Numbers** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf)
+**Exercises · Part 2 · Numbers** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-book-open-variant: Chapter 4: Roots, powers, logarithms and modular arithmetic](../numbers/04-roots-powers-logarithms.md) · [:material-book-open-variant: Chapter 6: Factorials, binomial coefficients and triangle inequality](../numbers/06-factorials-binomials.md)
 
 </div>
 

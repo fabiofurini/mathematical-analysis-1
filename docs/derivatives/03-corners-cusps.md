@@ -6,7 +6,7 @@ title: "Corner points, cusps, points with vertical/horizontal tangent"
 
 <div class="info-capitolo" markdown>
 
-**Part 5 · Derivatives · Chapter 3** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-03-corners-cusps.pdf)
+**Part 5 · Derivatives · Chapter 3** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-pencil: Exercises: Cusps, inflection points and tangents](../exercises/es-derivatives-01-cusps-inflections-tangents.md) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-03-corners-cusps.pdf)
 
 </div>
 
@@ -343,3 +343,8 @@ title: "Corner points, cusps, points with vertical/horizontal tangent"
     $$
 
     and the function has a point with horizontal tangent (from the right)  at $x_0=0$.
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Cusps, inflection points and tangents](../exercises/es-derivatives-01-cusps-inflections-tangents.md)
+

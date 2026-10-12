@@ -6,7 +6,7 @@ title: "Limits of real functions of a real variable"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Part 4 · Limits** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf)
+**Exercises · Part 4 · Limits** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-book-open-variant: Chapter 2: Computing limits of functions](../limits/02-computing-limits.md) · [:material-book-open-variant: Chapter 6: Fundamental limits and asymptotic estimates](../limits/06-standard-limits.md) · [:material-book-open-variant: Chapter 7: Asymptotic expansions](../limits/07-asymptotic-expansions.md)
 
 </div>
 

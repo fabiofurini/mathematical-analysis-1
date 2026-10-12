@@ -6,7 +6,7 @@ title: "Roots, powers, logarithms and modular arithmetic"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Numbers · Chapter 4** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-04-roots-powers-logarithms.pdf)
+**Part 2 · Numbers · Chapter 4** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-pencil: Exercises: Equations and inequalities in one real variable](../exercises/es-numbers-02-equations-inequalities.md) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-04-roots-powers-logarithms.pdf)
 
 </div>
 
@@ -665,3 +665,8 @@ Given, in addition, a non-negative real number $p \in \mathbb{R},p \ge 0$, we ha
 - Equivalently, ${a} \equiv {b} \:(\mod {n})$ if ${a}$ and ${b}$ have the same remainder when divided by ${n}$.
 
 - Equivalently, ${a} \equiv {b} \:(\mod {n})$ if and only if ${n}$ is a divisor of $|{b} - {a}|$.
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Equations and inequalities in one real variable](../exercises/es-numbers-02-equations-inequalities.md)
+

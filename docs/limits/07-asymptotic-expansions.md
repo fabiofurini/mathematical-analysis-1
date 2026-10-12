@@ -6,7 +6,7 @@ title: "Asymptotic expansions"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Limits · Chapter 7** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-limits-07-asymptotic-expansions.pdf)
+**Part 4 · Limits · Chapter 7** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-pencil: Exercises: Limits of real functions of a real variable](../exercises/es-limits-01-limits-of-functions.md) · [:material-pencil: Exercises: Limits via asymptotic expansions](../exercises/es-derivatives-10-limits-with-expansions.md) · [:material-presentation: Slides (PDF)](../pdf/slides-limits-07-asymptotic-expansions.pdf)
 
 </div>
 
@@ -357,3 +357,8 @@ Let us now see how to obtain the <strong>asymptotic expansions</strong> starting
           e^{\varepsilon(x)} &= 1 + \varepsilon(x) + o\big(\varepsilon(x)\big)  \\[2ex]
           \big(1+\varepsilon(x)\big)^\alpha &= 1 + \alpha \; \varepsilon(x) + o\big(\varepsilon(x)\big)  {\rm ~~~~~~~~with~~~} \alpha \in \R
     \end{align}
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Limits of real functions of a real variable](../exercises/es-limits-01-limits-of-functions.md) · [:material-pencil: Limits via asymptotic expansions](../exercises/es-derivatives-10-limits-with-expansions.md)
+

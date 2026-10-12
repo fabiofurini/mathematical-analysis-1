@@ -6,7 +6,7 @@ title: "Differentiability"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Part 5 · Derivatives** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf)
+**Exercises · Part 5 · Derivatives** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-book-open-variant: Chapter 6: L'Hôpital's rule and differentiability](../derivatives/06-lhopital.md)
 
 </div>
 

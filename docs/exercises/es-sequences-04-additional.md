@@ -6,7 +6,7 @@ title: "Additional exercises"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Part 4 · Sequences** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf)
+**Exercises · Part 4 · Sequences** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-book-open-variant: Chapter 2: Computing limits of sequences](../sequences/02-computing-limits.md)
 
 </div>
 

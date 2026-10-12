@@ -6,7 +6,7 @@ title: "Mean value theorem, maxima and minima"
 
 <div class="info-capitolo" markdown>
 
-**Part 5 · Derivatives · Chapter 5** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-05-mean-value.pdf) · [:material-gesture-tap: App: Lagrange's mean value theorem](../interactive/lagrange-theorem.md)
+**Part 5 · Derivatives · Chapter 5** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-pencil: Exercises: Finding local and global extrema and extremum points](../exercises/es-derivatives-13-extrema.md) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-05-mean-value.pdf) · [:material-gesture-tap: App: Lagrange's mean value theorem](../interactive/lagrange-theorem.md)
 
 </div>
 
@@ -535,3 +535,8 @@ title: "Mean value theorem, maxima and minima"
     ![Figure 11](../img/derivatives-05-mean-value/fig11.svg){ .fig .ovale loading=lazy style="width:70%" }
 
 - Be careful not to use the passage from the discrete to the continuous indiscriminately. For example, it cannot be done for the sequences $\frac{n!}{2^n}$ or $\frac{n^2+(-1)^n \; n}{n^3+1}$, since they are defined only for natural numbers.
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Finding local and global extrema and extremum points](../exercises/es-derivatives-13-extrema.md)
+

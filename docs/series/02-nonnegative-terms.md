@@ -6,7 +6,7 @@ title: "Series with non-negative terms"
 
 <div class="info-capitolo" markdown>
 
-**Part 6 · Series · Chapter 2** · [:material-file-pdf-box: Lecture notes, volume 6 (PDF)](../pdf/lecture-notes-6-series.pdf) · [:material-pencil-box-multiple: Exercises, volume 6 (PDF)](../pdf/exercises-6-series.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-series-02-nonnegative-terms.pdf) · [:material-gesture-tap: App: Generalized harmonic series](../interactive/harmonic-series.md)
+**Part 6 · Series · Chapter 2** · [:material-file-pdf-box: Lecture notes, volume 6 (PDF)](../pdf/lecture-notes-6-series.pdf) · [:material-pencil-box-multiple: Exercises, volume 6 (PDF)](../pdf/exercises-6-series.pdf) · [:material-pencil: Exercises: Numerical series](../exercises/es-series-01-numerical-series.md) · [:material-presentation: Slides (PDF)](../pdf/slides-series-02-nonnegative-terms.pdf) · [:material-gesture-tap: App: Generalized harmonic series](../interactive/harmonic-series.md)
 
 </div>
 
@@ -620,3 +620,8 @@ title: "Series with non-negative terms"
 !!! chiave ""
 
     In summary, therefore, the tests we have seen apply to series all of whose terms (except for a finite number) have the same sign.
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Numerical series](../exercises/es-series-01-numerical-series.md)
+

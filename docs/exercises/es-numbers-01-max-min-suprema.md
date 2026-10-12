@@ -6,7 +6,7 @@ title: "Maxima, minima, suprema and infima"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Part 2 · Numbers** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf)
+**Exercises · Part 2 · Numbers** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-book-open-variant: Chapter 3: Ordered fields, supremum/infimum and the completeness axiom](../numbers/03-ordered-fields.md)
 
 </div>
 

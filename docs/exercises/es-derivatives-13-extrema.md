@@ -6,7 +6,7 @@ title: "Finding local and global extrema and extremum points"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Part 5 · Derivatives** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf)
+**Exercises · Part 5 · Derivatives** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-book-open-variant: Chapter 5: Mean value theorem, maxima and minima](../derivatives/05-mean-value.md)
 
 </div>
 

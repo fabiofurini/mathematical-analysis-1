@@ -6,7 +6,7 @@ title: "Summations"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Part 2 · Numbers** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf)
+**Exercises · Part 2 · Numbers** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-book-open-variant: Chapter 5: Summations, geometric and arithmetic progressions](../numbers/05-summations.md)
 
 </div>
 

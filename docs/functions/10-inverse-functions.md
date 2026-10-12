@@ -6,7 +6,7 @@ title: "Inverse functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Functions · Chapter 11** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-functions.pdf) · [:material-pencil-box-multiple: Exercises, volume 3 (PDF)](../pdf/exercises-3-functions.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-functions-10-inverse-functions.pdf)
+**Part 3 · Functions · Chapter 11** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-functions.pdf) · [:material-pencil-box-multiple: Exercises, volume 3 (PDF)](../pdf/exercises-3-functions.pdf) · [:material-pencil: Exercises: Inverse functions](../exercises/es-functions-02-inverse-functions.md) · [:material-presentation: Slides (PDF)](../pdf/slides-functions-10-inverse-functions.pdf)
 
 </div>
 
@@ -710,3 +710,8 @@ For the strictly increasing case, graphically we have:
         $$
 
     ![Figure 21](../img/functions-10-inverse-functions/fig21.svg){ .fig .ovale loading=lazy style="width:61%" }
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Inverse functions](../exercises/es-functions-02-inverse-functions.md)
+

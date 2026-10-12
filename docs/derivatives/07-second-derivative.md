@@ -6,7 +6,7 @@ title: "Second derivative"
 
 <div class="info-capitolo" markdown>
 
-**Part 5 · Derivatives · Chapter 7** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-07-second-derivative.pdf) · [:material-gesture-tap: App: First and second derivative](../interactive/concavity.md)
+**Part 5 · Derivatives · Chapter 7** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-pencil: Exercises: Cusps, inflection points and tangents](../exercises/es-derivatives-01-cusps-inflections-tangents.md) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-07-second-derivative.pdf) · [:material-gesture-tap: App: First and second derivative](../interactive/concavity.md)
 
 </div>
 
@@ -645,4 +645,8 @@ title: "Second derivative"
 <p class="gi-invito"><strong>Try it</strong> — the interactive graph below shows what you have just read: move the sliders.</p>
 
 <div class="gi" data-grafico="concavita"></div>
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Cusps, inflection points and tangents](../exercises/es-derivatives-01-cusps-inflections-tangents.md)
 

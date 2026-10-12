@@ -6,7 +6,7 @@ title: "Ordered fields, supremum/infimum and the completeness axiom"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Numbers · Chapter 3** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-03-ordered-fields.pdf)
+**Part 2 · Numbers · Chapter 3** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-numbers.pdf) · [:material-pencil-box-multiple: Exercises, volume 2 (PDF)](../pdf/exercises-2-numbers.pdf) · [:material-pencil: Exercises: Maxima, minima, suprema and infima](../exercises/es-numbers-01-max-min-suprema.md) · [:material-presentation: Slides (PDF)](../pdf/slides-numbers-03-ordered-fields.pdf)
 
 </div>
 
@@ -862,6 +862,10 @@ title: "Ordered fields, supremum/infimum and the completeness axiom"
 !!! chiave ""
 
     Hence the geometric interpretation of property $R_4$ shows us how the set $\mathbb{R}$ is an adequate representation of our intuitive idea of a line, so adequate that <strong>in mathematics the expression “the real line” is often used to denote</strong> $\mathbb{R}$, identifying the number set with its natural geometric representation.
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Maxima, minima, suprema and infima](../exercises/es-numbers-01-max-min-suprema.md)
 
 [^1]: an algebraic structure is a set, called the underlying set (of the structure), equipped with one or more operations
 [^2]: However, we will not present a formal proof.

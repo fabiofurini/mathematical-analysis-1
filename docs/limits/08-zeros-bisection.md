@@ -6,7 +6,7 @@ title: "Intermediate zero theorem and bisection method"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Limits · Chapter 8** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-limits-08-zeros-bisection.pdf) · [:material-gesture-tap: App: Bisection method](../interactive/bisection.md)
+**Part 4 · Limits · Chapter 8** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-pencil: Exercises: Bisection method](../exercises/es-derivatives-12-bisection.md) · [:material-presentation: Slides (PDF)](../pdf/slides-limits-08-zeros-bisection.pdf) · [:material-gesture-tap: App: Bisection method](../interactive/bisection.md)
 
 </div>
 
@@ -486,4 +486,8 @@ title: "Intermediate zero theorem and bisection method"
 <p class="gi-invito"><strong>Try it</strong> — the interactive graph below shows what you have just read: move the sliders.</p>
 
 <div class="gi" data-grafico="bisezione"></div>
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Bisection method](../exercises/es-derivatives-12-bisection.md)
 

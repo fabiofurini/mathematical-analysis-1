@@ -6,7 +6,7 @@ title: "The derivative function"
 
 <div class="info-capitolo" markdown>
 
-**Part 5 · Derivatives · Chapter 1** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-01-the-derivative.pdf) · [:material-gesture-tap: App: From the secant to the tangent line](../interactive/secant-tangent.md)
+**Part 5 · Derivatives · Chapter 1** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-derivatives.pdf) · [:material-pencil-box-multiple: Exercises, volume 5 (PDF)](../pdf/exercises-5-derivatives.pdf) · [:material-pencil: Exercises: Tangent lines](../exercises/es-derivatives-03-tangent-lines.md) · [:material-presentation: Slides (PDF)](../pdf/slides-derivatives-01-the-derivative.pdf) · [:material-gesture-tap: App: From the secant to the tangent line](../interactive/secant-tangent.md)
 
 </div>
 
@@ -472,3 +472,8 @@ title: "The derivative function"
     $$
 
     that is, if a function is discontinuous at $x_0$ it cannot be differentiable at $x_0$.
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Tangent lines](../exercises/es-derivatives-03-tangent-lines.md)
+

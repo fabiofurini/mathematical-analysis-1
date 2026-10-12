@@ -6,7 +6,7 @@ title: "Comparisons and asymptotic estimates"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Sequences · Chapter 4** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-presentation: Slides (PDF)](../pdf/slides-sequences-04-asymptotic-estimates.pdf)
+**Part 4 · Sequences · Chapter 4** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf) · [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf) · [:material-pencil: Exercises: Computing limits of sequences](../exercises/es-sequences-03-computing-limits.md) · [:material-presentation: Slides (PDF)](../pdf/slides-sequences-04-asymptotic-estimates.pdf)
 
 </div>
 
@@ -317,3 +317,8 @@ title: "Comparisons and asymptotic estimates"
     3. <em>Transitive</em>:  if $a_n \thicksim b_n$  and $b_n \thicksim c_n$ then $a_n \thicksim c_n$
 
     means that “<strong>asymptotic</strong>” is an <strong>equivalence relation</strong>.
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Computing limits of sequences](../exercises/es-sequences-03-computing-limits.md)
+

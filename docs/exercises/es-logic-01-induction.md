@@ -6,7 +6,7 @@ title: "Principle of mathematical induction"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Part 1 · Logic** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 1 (PDF)](../pdf/exercises-1-logic.pdf)
+**Exercises · Part 1 · Logic** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 1 (PDF)](../pdf/exercises-1-logic.pdf) · [:material-book-open-variant: Chapter 2: Principle of mathematical induction](../logic/02-induction.md)
 
 </div>
 
