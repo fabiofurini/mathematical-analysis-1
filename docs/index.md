@@ -17,7 +17,7 @@ proofs, examples worked out step by step, exercises and **interactive graphs**
 to watch mathematics move.
 
 [Start with logic :material-arrow-right:](logic/index.md){ .md-button .md-button--primary }
-[Try an interactive graph](interactive/index.md){ .md-button }
+[Go to the interactive lab](interactive/index.md){ .md-button }
 [:material-download: Download the lecture notes (PDF)](downloads.md){ .md-button }
 
 </div>
