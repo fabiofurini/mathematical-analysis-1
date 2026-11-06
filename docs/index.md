@@ -18,6 +18,7 @@ to watch mathematics move.
 
 [Start with logic :material-arrow-right:](logic/index.md){ .md-button .md-button--primary }
 [Go to the interactive lab](interactive/index.md){ .md-button }
+[:material-clipboard-check-outline: Test yourself](self-assessment.md){ .md-button }
 [:material-download: Download the lecture notes (PDF)](downloads.md){ .md-button }
 
 </div>
@@ -148,6 +149,16 @@ colors: on the website and in the PDF you find everything in the same place.
     with a click.
 
     [:octicons-arrow-right-24: The exercises](exercises/index.md)
+
+-   :material-clipboard-check-outline: **Self-assessment**
+
+    ---
+
+    *Mock exam*
+
+    A new mock exam at every start: 13 questions, 33 points, with the solutions and links to the notes.
+
+    [:octicons-arrow-right-24: Test yourself](self-assessment.md)
 
 -   :material-school: **The course**
 
