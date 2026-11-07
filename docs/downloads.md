@@ -193,3 +193,10 @@ The slides of the lectures, chapter by chapter (PDF).
 - Chapter 2 · [Series with non-negative terms](pdf/slides-series-02-nonnegative-terms.pdf)
 - Chapter 3 · [Series with terms of variable sign](pdf/slides-series-03-alternating-series.pdf)
 - Chapter 4 · [Series of functions](pdf/slides-series-04-series-of-functions.pdf)
+
+<!-- banca-domande -->
+## Quiz question bank
+
+All the self-assessment questions, by part and chapter, with the correct answer and the explanation; for the generated questions, whose numbers change at every start, a few examples.
+
+[:material-format-list-checks: Question bank](quiz/question_list.html){ .md-button }
