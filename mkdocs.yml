@@ -259,6 +259,6 @@ nav:
   - Quiz: self-assessment.md
   - Lab: interactive/index.md
   - Downloads: downloads.md
-  - The course:
-      - course.md
+  - Index:
       - Full index: indice.md
+      - How to work with the course: course.md
