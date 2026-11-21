@@ -71,5 +71,9 @@ Exercise sheets with **worked solutions**, organized as the parts of the notes. 
 
     - [Antiderivatives](es-integrals-01-antiderivatives.md) · 6 exercises
     - [Integrals](es-integrals-02-integrals.md) · 20 exercises
+    - [Riemann integral and properties](es-integrals-03-riemann-integral.md) · 7 exercises
+    - [Integral functions and the fundamental theorem](es-integrals-04-integral-functions.md) · 7 exercises
+    - [Definite integrals, areas and mean value](es-integrals-05-definite-integrals-areas.md) · 7 exercises
+    - [Improper integrals](es-integrals-06-improper-integrals.md) · 7 exercises
 
 </div>

@@ -221,6 +221,12 @@ nav:
       - "2. Series with non-negative terms": series/02-nonnegative-terms.md
       - "3. Series with terms of variable sign": series/03-alternating-series.md
       - "4. Series of functions": series/04-series-of-functions.md
+  - Integrals:
+      - integrals/index.md
+      - "1. The Riemann integral": integrals/01-riemann-integral.md
+      - "2. Fundamental theorem of calculus": integrals/02-fundamental-theorem.md
+      - "3. Integration techniques and applications": integrals/03-integration-techniques.md
+      - "4. Improper integrals": integrals/04-improper-integrals.md
   - Exercises:
       - exercises/index.md
       - Logic:
@@ -259,6 +265,10 @@ nav:
       - Integrals:
           - "Antiderivatives": exercises/es-integrals-01-antiderivatives.md
           - "Integrals": exercises/es-integrals-02-integrals.md
+          - "Riemann integral and properties": exercises/es-integrals-03-riemann-integral.md
+          - "Integral functions and the fundamental theorem": exercises/es-integrals-04-integral-functions.md
+          - "Definite integrals and areas": exercises/es-integrals-05-definite-integrals-areas.md
+          - "Improper integrals": exercises/es-integrals-06-improper-integrals.md
   - Quiz: self-assessment.md
   - Lab: interactive/index.md
   - Downloads: downloads.md

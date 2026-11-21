@@ -6,7 +6,7 @@ title: "Antiderivatives"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Part 7 · Integrals** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 6 (PDF)](../pdf/exercises-6-series.pdf)
+**Exercises · Part 7 · Integrals** · with worked solutions · [:material-pencil-box-multiple: Exercises, volume 7 (PDF)](../pdf/exercises-7-integrals.pdf) · [:material-book-open-variant: Chapter 2: Fundamental theorem of calculus](../integrals/02-fundamental-theorem.md) · [:material-book-open-variant: Chapter 3: Integration techniques and applications](../integrals/03-integration-techniques.md)
 
 </div>
 

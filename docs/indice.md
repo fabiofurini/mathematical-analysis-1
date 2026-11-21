@@ -75,3 +75,10 @@
 2. [Series with non-negative terms](series/02-nonnegative-terms.md)
 3. [Series with terms of variable sign](series/03-alternating-series.md)
 4. [Series of functions](series/04-series-of-functions.md)
+
+## [Integrals](integrals/index.md)
+
+1. [The Riemann integral](integrals/01-riemann-integral.md)
+2. [Fundamental theorem of calculus](integrals/02-fundamental-theorem.md)
+3. [Integration techniques and applications](integrals/03-integration-techniques.md)
+4. [Improper integrals](integrals/04-improper-integrals.md)

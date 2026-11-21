@@ -112,6 +112,15 @@ to watch mathematics move.
 
     [:octicons-arrow-right-24: The chapters](series/index.md)
 
+-   :material-chart-areaspline: **7 · Integrals**
+
+    ---
+
+    Riemann integral, fundamental theorem of calculus, integration
+    techniques, areas, improper integrals and the integral test.
+
+    [:octicons-arrow-right-24: The chapters](integrals/index.md)
+
 </div>
 
 <!-- collana-da-non-perdere -->

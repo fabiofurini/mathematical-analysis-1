@@ -26,7 +26,8 @@ with the same numbering and colors as the PDF.
 | 4 · Limits | sequences and limits, Euler's number, asymptotic estimates; limits of functions, continuity, zeros, Weierstrass |
 | 5 · Derivatives | rules of differentiation, Fermat, Lagrange, L'Hôpital, Taylor, curve sketching, Newton |
 | 6 · Series | numerical series, convergence tests, alternating series, series of functions |
-| Exercises | about 300 exercises with worked solutions, including antiderivatives and integrals |
+| 7 · Integrals | Riemann integral, fundamental theorem, integration techniques, areas, improper integrals |
+| Exercises | about 340 exercises with worked solutions |
 
 ## Author
 

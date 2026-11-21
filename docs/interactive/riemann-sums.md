@@ -5,7 +5,7 @@ hide:
 title: "Riemann sums"
 ---
 
-[← Lab](index.md) · Exercises: [Antiderivatives](../exercises/es-integrals-01-antiderivatives.md) · [Integrals](../exercises/es-integrals-02-integrals.md)
+[← Lab](index.md) · Chapter: [The Riemann integral](../integrals/01-riemann-integral.md)
 
 # Riemann sums
 

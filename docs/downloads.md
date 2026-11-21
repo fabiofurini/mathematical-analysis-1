@@ -54,9 +54,17 @@ The lecture notes and the exercise books in PDF, one volume per part of the cour
 
     ---
 
-    The sixth volume: series. Numerical series, series with non-negative terms and convergence tests, series with terms of variable sign, series of functions. Definitions, theorems with proofs and worked examples; the exercises on series and on antiderivatives and integrals, with solutions, are in the volume Exercises 6.
+    The sixth volume: series. Numerical series, series with non-negative terms and convergence tests, series with terms of variable sign, series of functions. Definitions, theorems with proofs and worked examples; the exercises on series, with solutions, are in the volume Exercises 6.
 
     [:octicons-download-24: lecture-notes-6-series.pdf](pdf/lecture-notes-6-series.pdf)
+
+-   :material-book-open-variant: **Volume 7 · Integrals**
+
+    ---
+
+    The seventh volume: integral calculus. The Riemann integral with lower and upper sums, the classes of integrable functions, the properties of the integral and the mean value theorem; antiderivatives and the fundamental theorem of calculus; integration by substitution, by parts and of rational functions, areas and mean values; improper integrals, convergence tests and the integral test for series. Definitions, theorems with proofs, figures and worked examples; the exercises of the part, with solutions, are in the volume Exercises 7.
+
+    [:octicons-download-24: lecture-notes-7-integrals.pdf](pdf/lecture-notes-7-integrals.pdf)
 
 </div>
 
@@ -104,13 +112,21 @@ The lecture notes and the exercise books in PDF, one volume per part of the cour
 
     [:octicons-download-24: exercises-5-derivatives.pdf](pdf/exercises-5-derivatives.pdf)
 
--   :material-pencil-box-multiple: **Exercises, volume 6 · Series and integrals**
+-   :material-pencil-box-multiple: **Exercises, volume 6 · Series**
 
     ---
 
-    The worked exercises on numerical series and, in the second part, on antiderivatives and integrals, one sheet per chapter, with the solution right after each statement. The sheets are by Fabio Furini and Gianluca Priori; many exercises are taken from M. Bramanti, *Esercitazioni di Analisi matematica 1*, Esculapio.
+    The worked exercises on numerical series, with the solution right after each statement: behaviour of a series, convergence tests, series with terms of variable sign. The sheets are by Fabio Furini and Gianluca Priori; many exercises are taken from M. Bramanti, *Esercitazioni di Analisi matematica 1*, Esculapio.
 
     [:octicons-download-24: exercises-6-series.pdf](pdf/exercises-6-series.pdf)
+
+-   :material-pencil-box-multiple: **Exercises, volume 7 · Integrals**
+
+    ---
+
+    The worked exercises on integral calculus, with the solution right after each statement: antiderivatives, definite and improper integrals, Riemann sums and properties of the integral, integral functions and the fundamental theorem, definite integrals and areas, convergence of improper integrals. The sheets are by Fabio Furini and Gianluca Priori; many exercises are taken from M. Bramanti, *Esercitazioni di Analisi matematica 1*, Esculapio.
+
+    [:octicons-download-24: exercises-7-integrals.pdf](pdf/exercises-7-integrals.pdf)
 
 </div>
 
@@ -193,6 +209,13 @@ The slides of the lectures, chapter by chapter (PDF).
 - Chapter 2 · [Series with non-negative terms](pdf/slides-series-02-nonnegative-terms.pdf)
 - Chapter 3 · [Series with terms of variable sign](pdf/slides-series-03-alternating-series.pdf)
 - Chapter 4 · [Series of functions](pdf/slides-series-04-series-of-functions.pdf)
+
+### Integrals
+
+- Chapter 1 · [The Riemann integral](pdf/slides-integrals-01-riemann-integral.pdf)
+- Chapter 2 · [Fundamental theorem of calculus](pdf/slides-integrals-02-fundamental-theorem.pdf)
+- Chapter 3 · [Integration techniques and applications](pdf/slides-integrals-03-integration-techniques.pdf)
+- Chapter 4 · [Improper integrals](pdf/slides-integrals-04-improper-integrals.pdf)
 
 <!-- banca-domande -->
 ## Quiz question bank
