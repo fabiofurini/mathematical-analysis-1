@@ -47,7 +47,8 @@ The whole course is also available in Italian:
 
 ## Same series
 
-- [Operations Research Lab](https://fabiofurini.github.io/operations-research-lab/)
+- [LP Modelling](https://fabiofurini.github.io/lp-modelling/)
+- [NLP Modelling](https://fabiofurini.github.io/nlp-modelling/)
 - [MIP Modelling](https://fabiofurini.github.io/mip-modelling/)
 - [Linear Algebra](https://fabiofurini.github.io/linear-algebra/)
 - [Linear Programming](https://fabiofurini.github.io/linear-programming/)
