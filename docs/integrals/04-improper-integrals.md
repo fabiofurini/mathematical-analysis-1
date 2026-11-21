@@ -10,6 +10,28 @@ title: "Improper integrals"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Fundamental theorem of calculus»](https://fabiofurini.github.io/mathematical-analysis-1/integrals/02-fundamental-theorem/) and [«Integration techniques and applications»](https://fabiofurini.github.io/mathematical-analysis-1/integrals/03-integration-techniques/): computing definite integrals with antiderivatives.
+
+    - From this module, [«Fundamental limits and asymptotic estimates»](https://fabiofurini.github.io/mathematical-analysis-1/limits/06-standard-limits/) and [«Monotone functions on an interval and invertibility»](https://fabiofurini.github.io/mathematical-analysis-1/limits/10-monotone-invertible/): asymptotic equivalences and limits of monotone functions.
+
+    - From this module, [«Series with non-negative terms»](https://fabiofurini.github.io/mathematical-analysis-1/series/02-nonnegative-terms/): comparison tests and the generalized harmonic series.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - define the improper integral on an unbounded interval and of an unbounded function, and compute it with the limit;
+
+    - determine the behaviour of the standard integrals $\int_1^{\ip} \frac{dx}{x^p}$ and $\int_0^1 \frac{dx}{x^p}$;
+
+    - state, prove and use the comparison test, the limit comparison test and absolute convergence;
+
+    - use the integral test to study a series with positive terms.
+
+- The Riemann integral is defined for bounded functions on closed and bounded intervals. In this chapter we extend it, by means of a limit, to unbounded intervals and to unbounded functions.
+
 ## 1. Integrals on unbounded intervals
 
 <a id="box-defImproprioIllimitato-1"></a>
@@ -311,6 +333,8 @@ title: "Improper integrals"
     $$
 
     The partial sums of the harmonic series grow like $\log n$: to exceed $10$ more than $8000$ terms are needed, because $1 + \log n < 10$ as long as $n < e^9 \approx 8103$.
+
+## 5. In summary
 
 !!! chiave "In summary"
 

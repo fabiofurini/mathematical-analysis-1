@@ -16,6 +16,8 @@ title: "Series of functions"
 
     - From this module, [«Differential calculus and approximations»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/08-approximations/): the Taylor formula.
 
+    - From this module, [«Complex numbers»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/09-complex-numbers/): algebraic form and modulus of a complex number.
+
 !!! chiave "Objectives"
 
     At the end of this chapter you will be able to:
@@ -24,7 +26,9 @@ title: "Series of functions"
 
     - write the Taylor series of the elementary transcendental functions;
 
-    - decide on which interval a function is expandable in Taylor series.
+    - decide on which interval a function is expandable in Taylor series;
+
+    - recognise the convergence of a series with complex terms, also through absolute convergence.
 
 ## 1. Series of functions
 
@@ -263,9 +267,84 @@ title: "Series of functions"
 
 ??? dimostrazione "Proof"
 
-    <span class="qed">□</span>
+    The derivatives of $\sin x$ and $\cos x$ are $\pm\sin x$ or $\pm\cos x$, hence for every $c$:
+
+    $$
+    \left|\sin^{(2\;k+2)}(c)\right| \le 1, \qquad \left|\cos^{(2\;k+1)}(c)\right| \le 1
+    $$
+
+    For fixed $x$, the Lagrange errors satisfy:
+
+    $$
+    \left|\frac{\sin^{(2\;k+2)}(c)}{(2\;k+2)!} \;x^{2\;k+2}\right| \le \frac{|x|^{2\;k+2}}{(2\;k+2)!} \rr 0,
+    \qquad \left|\frac{\cos^{(2\;k+1)}(c)}{(2\;k+1)!} \;x^{2\;k+1}\right| \le \frac{|x|^{2\;k+1}}{(2\;k+1)!} \rr 0
+    $$
+
+    as $k \rr \ip$, by the hierarchy of infinities theorem. Hence the series converge to $\sin x$ and $\cos x$ for every $x \in \R$. <span class="qed">□</span>
 
 ## 2. Series in the complex field
+
+- The definitions given for numerical series also hold for sequences of complex numbers: the absolute value is replaced by the <strong>modulus</strong>.
+
+<a id="box-defXX-8"></a>
+
+!!! definizione "Definition 3: of series with complex terms"
+
+    Given a sequence $\{z_k\}$ of complex numbers, the series $\sum_{k=0}^{\infty} z_k$ is <strong>convergent</strong> if the sequence of partial sums $s_n = \sum_{k=0}^{n} z_k$ has a limit $s \in \C$, that is, if $|s_n - s| \rr 0$ as $n \rr \ip$; the number $s$ is the <strong>sum</strong> of the series. The series is <strong>absolutely convergent</strong> if the series with non-negative real terms $\sum_{k=0}^{\infty} |z_k|$ converges.
+
+- We write $z_k = a_k + i\,b_k$ with $a_k, b_k \in \R$. For every $w \in \C$ we have $\max\{|{\rm Re}\,w|, |{\rm Im}\,w|\} \le |w| \le |{\rm Re}\,w| + |{\rm Im}\,w|$, hence:
+
+    $$
+    \sum_{k=0}^{\infty} z_k {\rm ~~converges} \iff \sum_{k=0}^{\infty} a_k {\rm ~~and~~} \sum_{k=0}^{\infty} b_k
+    {\rm ~~converge}
+    $$
+
+    and then $\sum_{k=0}^{\infty} z_k = \sum_{k=0}^{\infty} a_k + i \sum_{k=0}^{\infty} b_k$.
+
+- As in the real case, if the series converges then $z_k = s_k - s_{k-1} \rr 0$.
+
+<a id="box-theoZERI-9"></a>
+
+!!! teorema "Theorem 1"
+
+    If a series $\sum z_k$ of complex numbers converges absolutely, then it converges.
+
+??? dimostrazione "Proof"
+
+    Let $z_k = a_k + i\,b_k$. Since $|z_k| = \sqrt{a_k^2 + b_k^2}$, for every $k$ we have:
+
+    $$
+    |a_k| \le |z_k| {\rm ~~~~~and~~~~~} |b_k| \le |z_k|
+    $$
+
+    By the comparison test for series with non-negative terms, the convergence of $\sum |z_k|$ implies that of $\sum |a_k|$ and of $\sum |b_k|$. The two real series $\sum a_k$ and $\sum b_k$ therefore converge absolutely, and so they converge. By the previous remark, $\sum z_k$ converges as well. <span class="qed">□</span>
+
+<a id="box-texexpbox1-10"></a>
+
+!!! esempio "Example 3: complex geometric series"
+
+    Let $z \in \C$ with $z \neq 1$. The partial sums of the geometric series are:
+
+    $$
+    s_n = \sum_{k=0}^{n} z^k = \frac{1 - z^{n+1}}{1 - z}
+    $$
+
+    - If $|z| < 1$, then $|z^{n+1}| = |z|^{n+1} \rr 0$ and therefore
+
+        $$
+        \sum_{k=0}^{\infty} z^k = \frac{1}{1-z}
+        $$
+
+        The convergence is also absolute, because $\sum |z|^k$ is a real geometric series with ratio $|z| < 1$.
+
+    - If $|z| \ge 1$, then $|z^k| = |z|^k \ge 1$: the general term does not tend to $0$ and the series does not converge.
+
+    For example, with $z = \frac{i}{2}$:
+
+    $$
+    \sum_{k=0}^{\infty} \left(\frac{i}{2}\right)^k = \frac{1}{1 - \frac{i}{2}} = \frac{1 + \frac{i}{2}}{1 + \frac14}
+    = \frac45 + \frac25\, i
+    $$
 
 ## 3. In summary
 
@@ -276,3 +355,5 @@ title: "Series of functions"
     - The Taylor series of $f$ at $x_0$ has the coefficients $f^{(k)}(x_0)/k!$ of the Taylor polynomials.
 
     - A function is expandable in Taylor series on an interval when the series converges to $f(x)$ there, as for the elementary transcendental functions.
+
+    - A series of complex numbers converges if and only if the series of the real and imaginary parts converge; absolute convergence implies convergence, and $\sum z^k = 1/(1-z)$ for $|z| < 1$.

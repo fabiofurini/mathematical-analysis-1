@@ -10,6 +10,28 @@ title: "Integration techniques and applications"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Fundamental theorem of calculus»](https://fabiofurini.github.io/mathematical-analysis-1/integrals/02-fundamental-theorem/): antiderivatives, fundamental formula of integral calculus, basic antiderivatives.
+
+    - From this module, [«Rules for computing derivatives»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/04-differentiation-rules/): derivative of a product and of a composite function.
+
+    - From this module, [«Limits of polynomials and rational functions»](https://fabiofurini.github.io/mathematical-analysis-1/limits/03-polynomials-rational-functions/): polynomials, roots and rational functions.
+
+    - From this module, [«The Riemann integral»](https://fabiofurini.github.io/mathematical-analysis-1/integrals/01-riemann-integral/): area under a graph and integral mean.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - prove and use the formulas of integration by substitution and by parts, for indefinite and definite integrals;
+
+    - integrate a rational function with polynomial division and partial fraction decomposition;
+
+    - compute the area of a region between two graphs;
+
+    - compute the mean value of a function on an interval and interpret it.
+
 ## 1. Integration by substitution
 
 <a id="box-theoSostituzione-1"></a>
@@ -293,6 +315,8 @@ title: "Integration techniques and applications"
     - The mean value of $x^2$ on $[0, 3]$ is $\displaystyle \frac13\left[\frac{x^3}{3}\right]_0^3 = 3$; as the integral mean value theorem predicts, it is taken at $c = \sqrt3 \in [0,3]$.
 
     - If a point moves with velocity $v(t) = 3t^2$ (metres per second) for $t \in [0, 2]$, the distance covered is $\int_0^2 3t^2\,dt = 8$ metres and the mean velocity is $\frac{8}{2} = 4$ metres per second.
+
+## 6. In summary
 
 !!! chiave "In summary"
 

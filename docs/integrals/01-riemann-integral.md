@@ -10,6 +10,28 @@ title: "The Riemann integral"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Ordered fields, supremum/infimum and the completeness axiom»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/03-ordered-fields/): supremum and infimum of a set and their existence in $\R$.
+
+    - From this module, [«Summations, geometric and arithmetic progressions»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/05-summations/): the summation symbol and the sum of the first $n$ natural numbers.
+
+    - From this module, [«Continuous functions»](https://fabiofurini.github.io/mathematical-analysis-1/limits/04-continuous-functions/) and [«Weierstrass theorem and intermediate value theorem»](https://fabiofurini.github.io/mathematical-analysis-1/limits/09-weierstrass/): continuity, maximum and minimum on a closed and bounded interval, intermediate values.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - compute the lower and upper sums of a bounded function with respect to a partition;
+
+    - state the definition of the Riemann integral and interpret it as a signed area;
+
+    - prove that monotone functions and continuous functions on $[a,b]$ are integrable;
+
+    - use linearity, additivity, monotonicity and the inequality $\left|\int_a^b f\right| \le \int_a^b |f|$;
+
+    - state and prove the integral mean value theorem.
+
 ## 1. Partitions and Riemann sums
 
 <a id="box-defPartizione-1"></a>
@@ -587,6 +609,8 @@ title: "The Riemann integral"
 !!! osservazione "Remark 2"
 
     The continuity assumption cannot be dropped. The function $f(x) = 0$ for $x \in [0,1)$ and $f(x) = 1$ for $x \in [1,2]$ is integrable (it is monotone) and, by additivity and the Remark on changes at finitely many points, its integral mean is $\frac12 \int_0^2 f(x)\,dx = \frac12$, a value that $f$ does not take.
+
+## 6. In summary
 
 !!! chiave "In summary"
 

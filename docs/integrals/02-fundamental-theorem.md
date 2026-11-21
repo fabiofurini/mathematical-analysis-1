@@ -10,6 +10,28 @@ title: "Fundamental theorem of calculus"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«The Riemann integral»](https://fabiofurini.github.io/mathematical-analysis-1/integrals/01-riemann-integral/): definition and properties of the integral, integral mean value theorem.
+
+    - From this module, [«The derivative function»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/01-the-derivative/), [«Derivatives of elementary functions»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/02-elementary-derivatives/) and [«Rules for computing derivatives»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/04-differentiation-rules/): derivatives and the chain rule.
+
+    - From this module, [«Mean value theorem, maxima and minima»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/05-mean-value/): a function with zero derivative on an interval is constant.
+
+    - From this module, [«L'Hôpital's rule and differentiability»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/06-lhopital/): L'Hôpital's rule.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - recognize an antiderivative and describe all the antiderivatives of a function on an interval;
+
+    - state and prove the two parts of the fundamental theorem of calculus;
+
+    - compute definite integrals with an antiderivative and the table of basic antiderivatives;
+
+    - differentiate integral functions with variable limits and use them in limits and in the study of functions.
+
 ## 1. Antiderivatives
 
 <a id="box-defPrimitiva-1"></a>
@@ -348,6 +370,8 @@ title: "Fundamental theorem of calculus"
     - <strong>Concavity.</strong> $F''(x) = -2x\,e^{-x^2}$: $F$ is convex on $(\im, 0]$, concave on $[0, \ip)$ and has an inflection point at $x = 0$, with tangent line $y = x$.
 
     - <strong>Symmetry.</strong> The function $H(x) = F(x) + F(-x)$ has derivative $H'(x) = e^{-x^2} - e^{-x^2} = 0$, so it is constant and equals $H(0) = 0$: $F$ is odd.
+
+## 6. In summary
 
 !!! chiave "In summary"
 
