@@ -10,6 +10,22 @@ title: "Principle of mathematical induction"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Basics of logic and proof techniques»](https://fabiofurini.github.io/mathematical-analysis-1/logic/01-logic/): universal implications and proofs.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - state the principle of mathematical induction;
+
+    - write a proof by induction, with base case and inductive step;
+
+    - prove Bernoulli's inequality, the important summations and the sum of a geometric progression;
+
+    - prove the inequality of arithmetic and geometric means and properties of the Fibonacci sequence.
+
 ## 1. The principle of mathematical induction
 
 - We now present a proof technique called proof by induction. This procedure can be applied to theorems with the following structure:
@@ -513,6 +529,16 @@ title: "Principle of mathematical induction"
     <p class="qed-riga"><span class="qed">□</span></p>
 
 - The Fibonacci sequence is studied in more detail in the chapter “[Fibonacci sequence](https://fabiofurini.github.io/mathematical-analysis-1/numbers/07-fibonacci/)” of Part 2.
+
+## 3. In summary
+
+!!! chiave "In summary"
+
+    - If $P(n_0)$ holds and $P(n) \Rightarrow P(n+1)$ for every $n \ge n_0$, then $P(n)$ holds for every $n \ge n_0$.
+
+    - A proof by induction has two steps: the base case and the inductive step, which uses the inductive hypothesis.
+
+    - Induction proves Bernoulli's inequality $(1+x)^n \ge 1 + nx$, the closed forms of the summations and the AM–GM inequality.
 
 ---
 

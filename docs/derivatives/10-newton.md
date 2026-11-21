@@ -10,6 +10,22 @@ title: "Newton's method"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«The derivative function»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/01-the-derivative/): the tangent line.
+
+    - From this module, [«Intermediate zero theorem and bisection method»](https://fabiofurini.github.io/mathematical-analysis-1/limits/08-zeros-bisection/): the bisection method.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - describe Newton's method geometrically with tangent lines;
+
+    - compute its iterations;
+
+    - estimate its error and compare it with the bisection method.
+
 ## 1. Newton's method
 
 - Suppose we want to solve the equation
@@ -410,6 +426,16 @@ title: "Newton's method"
     <td>0.01314…</td>
     </tr>
     </table></div>
+
+## 3. In summary
+
+!!! chiave "In summary"
+
+    - Newton's method: $x_{n+1} = x_n - f(x_n)/f'(x_n)$, the zero of the tangent line at $x_n$.
+
+    - Under suitable hypotheses the error is roughly squared at each step.
+
+    - It is much faster than bisection, but needs a good starting point.
 
 ---
 

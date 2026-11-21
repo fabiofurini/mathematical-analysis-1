@@ -10,6 +10,22 @@ title: "Cardinality of infinite sets"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Sets»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/01-sets/): cardinality of finite sets.
+
+    - From this module, [«Ordered fields, supremum/infimum and the completeness axiom»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/03-ordered-fields/): the real numbers.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - define when two sets have the same cardinality, through a bijection;
+
+    - prove that $\Z$ and $\Q$ are countable;
+
+    - prove that $\R$ is not countable and has the cardinality of the continuum.
+
 ## 1. Countable cardinality
 
 !!! chiave ""
@@ -328,3 +344,13 @@ title: "Cardinality of infinite sets"
 - So far we have encountered only two hierarchical levels of infinity: the cardinality of the countable and that of the continuum. One should not believe that only these two exist! For example, the set of all subsets of $\R$ (its power set) is even more numerous than $\R$; and with this procedure we can always construct a set more numerous than a given set.
 
 - Therefore the hierarchical levels of infinite cardinalities are themselves infinite.
+
+## 3. In summary
+
+!!! chiave "In summary"
+
+    - Two sets have the same cardinality if there is a bijection between them; a set is countable if it has the cardinality of $\N$.
+
+    - $\Z$ and $\Q$ are countable, although they seem larger than $\N$.
+
+    - $\R$ is not countable (diagonal argument): it has the cardinality of the continuum.

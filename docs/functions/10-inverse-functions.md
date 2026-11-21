@@ -10,6 +10,24 @@ title: "Inverse functions"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Functions»](https://fabiofurini.github.io/mathematical-analysis-1/functions/01-functions/): injective functions and the inverse of a bijection.
+
+    - From this module, [«Trigonometric functions»](https://fabiofurini.github.io/mathematical-analysis-1/functions/05-trigonometric-functions/): the trigonometric functions.
+
+    - From this module, [«Hyperbolic functions»](https://fabiofurini.github.io/mathematical-analysis-1/functions/07-hyperbolic-functions/): the hyperbolic functions.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - decide whether a function is invertible and compute its inverse;
+
+    - draw the graph of the inverse by symmetry with respect to the line $y = x$;
+
+    - define the inverse power, trigonometric (arcsine, arccosine, arctangent) and hyperbolic functions.
+
 ## 1. Invertible functions and inverse functions
 
 - Given a real function of a real variable $f : D \rightarrow \mathbb{R}$,  for every input $x$ in the domain $D$ there exists a unique output $y=f(x)$ in the image of the domain $f(D)$.
@@ -710,6 +728,16 @@ For the strictly increasing case, graphically we have:
         $$
 
     ![Figure 21](../img/functions-10-inverse-functions/fig21.svg){ .fig .ovale loading=lazy style="width:61%" }
+
+## 2. In summary
+
+!!! chiave "In summary"
+
+    - A function is invertible on a set where it is injective; the inverse satisfies $f^{-1}(f(x)) = x$.
+
+    - The graph of $f^{-1}$ is the reflection of the graph of $f$ in the line $y = x$.
+
+    - Arcsine, arccosine and arctangent invert sine, cosine and tangent restricted to intervals where they are injective.
 
 ---
 

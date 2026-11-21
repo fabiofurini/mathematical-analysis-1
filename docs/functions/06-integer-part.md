@@ -10,6 +10,22 @@ title: "Integer part and fractional part functions"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Roots, powers, logarithms and modular arithmetic»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/04-roots-powers-logarithms/): integer part and fractional part of a number.
+
+    - From this module, [«Real functions of a real variable»](https://fabiofurini.github.io/mathematical-analysis-1/functions/02-real-functions/): real functions and their graphs.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - draw the graphs of the integer part and of the fractional part functions;
+
+    - work with piecewise-defined functions;
+
+    - draw the absolute-value function and functions defined with it.
+
 ## 1. Integer part and fractional part functions
 
 - Two functions that are typically encountered when writing <em>algorithms</em> are the integer part (floor) function and the fractional part (or decimal part) function.
@@ -154,3 +170,13 @@ title: "Integer part and fractional part functions"
 - The graph consists of the two half-lines $y=-x$ for $x \le 0$ and $y=x$ for $x \ge 0$:
 
 ![Figure 5](../img/functions-06-integer-part/fig05.svg){ .fig .ovale loading=lazy style="width:48%" }
+
+## 4. In summary
+
+!!! chiave "In summary"
+
+    - $\lfloor x \rfloor$ is a step function; the fractional part $x - \lfloor x \rfloor$ is periodic with period $1$.
+
+    - A piecewise-defined function uses different formulas on different intervals.
+
+    - $|x|$ is $x$ for $x \ge 0$ and $-x$ for $x < 0$: its graph is a V.

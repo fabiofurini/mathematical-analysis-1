@@ -10,6 +10,22 @@ title: "Series of functions"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Series with terms of variable sign»](https://fabiofurini.github.io/mathematical-analysis-1/series/03-alternating-series/): absolute convergence.
+
+    - From this module, [«Differential calculus and approximations»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/08-approximations/): the Taylor formula.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - define a series of functions and its set of convergence;
+
+    - write the Taylor series of the elementary transcendental functions;
+
+    - decide on which interval a function is expandable in Taylor series.
+
 ## 1. Series of functions
 
 - <strong>Series of functions</strong> are numerical series depending on a parameter $x$: when these series converge for every value $x$ belonging to a certain interval, they represent <strong>functions of a new kind</strong>
@@ -250,3 +266,13 @@ title: "Series of functions"
     <span class="qed">□</span>
 
 ## 2. Series in the complex field
+
+## 3. In summary
+
+!!! chiave "In summary"
+
+    - A series of functions converges at the points where the numerical series converges.
+
+    - The Taylor series of $f$ at $x_0$ has the coefficients $f^{(k)}(x_0)/k!$ of the Taylor polynomials.
+
+    - A function is expandable in Taylor series on an interval when the series converges to $f(x)$ there, as for the elementary transcendental functions.

@@ -10,6 +10,22 @@ title: "The derivative function"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Limits of functions, asymptotes and continuity»](https://fabiofurini.github.io/mathematical-analysis-1/limits/01-limits-asymptotes/): limits of functions and continuity.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - write the line through two points and the tangent line to a graph;
+
+    - state the definition of derivative at a point and of derivative function;
+
+    - compute derivatives from the definition;
+
+    - prove that a differentiable function is continuous.
+
 ## 1. Line through two points
 
 - Starting from two points
@@ -472,6 +488,16 @@ title: "The derivative function"
     $$
 
     that is, if a function is discontinuous at $x_0$ it cannot be differentiable at $x_0$.
+
+## 4. In summary
+
+!!! chiave "In summary"
+
+    - $f'(x_0) = \lim_{h \to 0} \frac{f(x_0+h) - f(x_0)}{h}$, the limit of the slopes of the secants.
+
+    - The tangent line at $x_0$ is $y = f(x_0) + f'(x_0)(x - x_0)$.
+
+    - Differentiable implies continuous; the converse is false (for instance $|x|$ at $0$).
 
 ---
 

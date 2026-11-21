@@ -10,6 +10,24 @@ title: "Computing limits of functions"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Limits of functions, asymptotes and continuity»](https://fabiofurini.github.io/mathematical-analysis-1/limits/01-limits-asymptotes/): the definition of limit of a function.
+
+    - From this module, [«Computing limits of sequences»](https://fabiofurini.github.io/mathematical-analysis-1/sequences/02-computing-limits/): the theorems on limits of sequences.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - compute limits with the algebra of limits;
+
+    - use the sign-preservation and comparison theorems;
+
+    - use the partial arithmetization of $\pm\infty$;
+
+    - compute limits with a change of variable.
+
 ## 1. Computing limits of functions
 
 - We state the theorems on limits of functions that follow immediately from the corresponding theorems on limits of sequences and from the sequential definition of limit
@@ -574,6 +592,16 @@ title: "Computing limits of functions"
         $$
 
     ![Figure 4](../img/limits-02-computing-limits/fig04.svg){ .fig .ovale loading=lazy style="width:80%" }
+
+## 3. In summary
+
+!!! chiave "In summary"
+
+    - The theorems on limits of sequences carry over to functions: algebra of limits, sign preservation, comparison.
+
+    - Rules such as $\ell + \infty = \infty$ and $\ell / \infty = 0$ hold; the indeterminate forms need other tools.
+
+    - A change of variable reduces a limit to a known one.
 
 ---
 

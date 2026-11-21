@@ -10,6 +10,22 @@ title: "Summations, geometric and arithmetic progressions"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Principle of mathematical induction»](https://fabiofurini.github.io/mathematical-analysis-1/logic/02-induction/): proofs by induction.
+
+    - From this module, [«Roots, powers, logarithms and modular arithmetic»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/04-roots-powers-logarithms/): powers.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - use the summation symbol and its properties;
+
+    - compute the sum of a geometric progression;
+
+    - compute the sum of an arithmetic progression.
+
 ## 1. Summations
 
 <a id="box-defSOMM-1"></a>
@@ -694,6 +710,16 @@ title: "Summations, geometric and arithmetic progressions"
         $$
         \sum_{k=1}^4 \left( 1 - \frac{1}{2} \: (k-1) \right) = 1 \cdot 4 - \frac{1}{2} \: \left( \frac{4 \cdot 3}{2} \right) = 4 - 3 = 1
         $$
+
+## 4. In summary
+
+!!! chiave "In summary"
+
+    - The symbol $\sum_{k=m}^n a_k$ adds the terms from $k=m$ to $k=n$; it is linear and its index can be shifted.
+
+    - Geometric progression: $\sum_{k=0}^{n} q^k = \frac{1-q^{n+1}}{1-q}$ for $q \ne 1$.
+
+    - Arithmetic progression: the sum is the number of terms times the mean of the first and the last term.
 
 ---
 

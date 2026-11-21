@@ -10,6 +10,20 @@ title: "Hyperbolic functions"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Exponential and logarithmic functions»](https://fabiofurini.github.io/mathematical-analysis-1/functions/04-exponentials-logarithms/): the exponential function $e^x$.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - define the hyperbolic sine and cosine through $e^x$ and draw their graphs;
+
+    - define the hyperbolic tangent;
+
+    - use the main hyperbolic formulas, starting from $\cosh^2 x - \sinh^2 x = 1$.
+
 ## 1. Hyperbolic functions
 
 <a id="box-defXX-1"></a>
@@ -101,3 +115,13 @@ title: "Hyperbolic functions"
     \sinH ( 2 \: x)  &= 2 \: \sinH x \: \cosH x\\[2ex]
     \cosH ( 2 \: x)  &= \cosH^2 x + \sinH^2 x
     \end{align}
+
+## 3. In summary
+
+!!! chiave "In summary"
+
+    - $\sinh x = \frac{e^x - e^{-x}}{2}$ is odd, $\cosh x = \frac{e^x + e^{-x}}{2}$ is even and at least $1$.
+
+    - $\cosh^2 x - \sinh^2 x = 1$: the point $(\cosh t, \sinh t)$ runs on a hyperbola.
+
+    - The hyperbolic formulas resemble the trigonometric ones, with some changes of sign.

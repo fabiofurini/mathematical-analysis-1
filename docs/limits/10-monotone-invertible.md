@@ -10,6 +10,22 @@ title: "Monotone functions on an interval and invertibility"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Weierstrass theorem and intermediate value theorem»](https://fabiofurini.github.io/mathematical-analysis-1/limits/09-weierstrass/): the intermediate value theorem.
+
+    - From this module, [«Inverse functions»](https://fabiofurini.github.io/mathematical-analysis-1/functions/10-inverse-functions/): inverse functions.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - compute the one-sided limits of a monotone function on an interval;
+
+    - prove that a continuous and strictly monotone function on an interval is invertible;
+
+    - deduce the continuity of the inverse functions.
+
 ## 1. Monotone functions on an interval
 
 - We now deal with monotone functions on an interval (and <strong>not necessarily continuous</strong>), and the next theorem (based on the completeness axiom of $\R$) can be seen as an extension to functions of the monotonicity theorem for sequences.
@@ -245,3 +261,13 @@ title: "Monotone functions on an interval and invertibility"
     1. the continuity of the function $a^x$ implies the continuity of the function $\log_a x.$
 
     2. the continuity of the functions $\sin x$, $\cos x$ and $\tan x$ implies the continuity of the functions $\arcsin x$, $\arccos x$ and $\arctan x.$
+
+## 3. In summary
+
+!!! chiave "In summary"
+
+    - A monotone function on an interval has one-sided limits at every point (monotonicity theorem).
+
+    - A strictly monotone function is invertible, and its inverse is strictly monotone.
+
+    - The inverse of a continuous strictly monotone function on an interval is continuous.

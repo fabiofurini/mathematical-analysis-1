@@ -10,6 +10,22 @@ title: "Recursively defined sequences"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Sequences and limits of sequences»](https://fabiofurini.github.io/mathematical-analysis-1/sequences/01-limits-of-sequences/): monotone sequences and their limits.
+
+    - From this module, [«Principle of mathematical induction»](https://fabiofurini.github.io/mathematical-analysis-1/logic/02-induction/): proofs by induction.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - define a sequence by recurrence and compute its terms;
+
+    - study its monotonicity and boundedness by induction, and compute its limit;
+
+    - approximate square roots with Heron's algorithm and estimate its error.
+
 ## 1. Recursively defined sequences
 
 - We begin with the following problem:
@@ -534,3 +550,12 @@ title: "Recursively defined sequences"
 
 <div class="gi" data-grafico="erone"></div>
 
+## 3. In summary
+
+!!! chiave "In summary"
+
+    - A recursive sequence gives $a_{n+1}$ as a function of $a_n$.
+
+    - Monotone and bounded means convergent; the limit solves the fixed-point equation.
+
+    - Heron's algorithm $a_{n+1} = \frac12 (a_n + c/a_n)$ converges to $\sqrt c$, and the error decreases very fast.

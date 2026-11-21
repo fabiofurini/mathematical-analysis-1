@@ -10,6 +10,22 @@ title: "Euler's number"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Sequences and limits of sequences»](https://fabiofurini.github.io/mathematical-analysis-1/sequences/01-limits-of-sequences/): monotone sequences.
+
+    - From this module, [«Factorials, binomial coefficients and triangle inequality»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/06-factorials-binomials/): Newton's binomial formula.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - prove that $(1 + 1/n)^n$ is increasing and bounded, and define $e$ as its limit;
+
+    - compute limits related to $e$;
+
+    - use $e$ in compound interest problems.
+
 ## 1. Euler's number $e$ (Napier's constant)
 
 <a id="box-theoNEPERO-1"></a>
@@ -370,6 +386,16 @@ title: "Euler's number"
         $$
         \lim_{n \rr \ip } \left( 1 + \frac{1}{n}\right)^n= e
         $$
+
+## 3. In summary
+
+!!! chiave "In summary"
+
+    - $(1 + 1/n)^n$ is increasing and bounded, so it converges: its limit is $e \approx 2.718$.
+
+    - $e$ is the base of the natural exponential and logarithm.
+
+    - Interest paid $n$ times a year at rate $t$ gives the factor $(1 + t/n)^n$, which tends to $e^t$.
 
 ---
 

@@ -10,6 +10,20 @@ title: "Corner points, cusps, points with vertical/horizontal tangent"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«The derivative function»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/01-the-derivative/): the derivative and the tangent line.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - compute right and left derivatives;
+
+    - recognize corner points and cusps;
+
+    - recognize points with vertical and horizontal tangent.
+
 ## 1. Right derivative and left derivative
 
 <a id="box-defXX-1"></a>
@@ -343,6 +357,16 @@ title: "Corner points, cusps, points with vertical/horizontal tangent"
     $$
 
     and the function has a point with horizontal tangent (from the right)  at $x_0=0$.
+
+## 5. In summary
+
+!!! chiave "In summary"
+
+    - A function is differentiable at $x_0$ when right and left derivatives exist, are finite and equal.
+
+    - Corner point: one-sided derivatives different, at least one finite; cusp: infinite one-sided derivatives with opposite signs.
+
+    - Vertical tangent: both one-sided derivatives $+\infty$ or both $-\infty$; horizontal tangent: $f'(x_0) = 0$.
 
 ---
 

@@ -10,6 +10,20 @@ title: "Composite functions"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Functions»](https://fabiofurini.github.io/mathematical-analysis-1/functions/01-functions/): functions, domain and image.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - state the definition of composite function and compute $g \circ f$;
+
+    - find the domain of a composite function;
+
+    - write a given function as a composition of simpler functions.
+
 ## 1. Composite functions
 
 <a id="box-defXX-1"></a>
@@ -125,3 +139,13 @@ title: "Composite functions"
     $$
 
     $f^2$ is called the <strong>second iterate</strong> of $f$. Similarly, $f^n$ is called the <strong>$n$-th iterate function</strong> of $f$.
+
+## 2. In summary
+
+!!! chiave "In summary"
+
+    - $(g \circ f)(x) = g(f(x))$: first $f$, then $g$.
+
+    - The domain of $g \circ f$ is the set of the $x$ in the domain of $f$ with $f(x)$ in the domain of $g$.
+
+    - In general $g \circ f \ne f \circ g$.

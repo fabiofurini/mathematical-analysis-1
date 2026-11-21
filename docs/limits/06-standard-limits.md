@@ -10,6 +10,22 @@ title: "Fundamental limits and asymptotic estimates"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Continuous functions»](https://fabiofurini.github.io/mathematical-analysis-1/limits/04-continuous-functions/): continuous functions.
+
+    - From this module, [«Trigonometric functions»](https://fabiofurini.github.io/mathematical-analysis-1/functions/05-trigonometric-functions/): the trigonometric functions.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - use the fundamental limits of $\sin x / x$, $(1 - \cos x)/x^2$, $(e^x - 1)/x$, $\ln(1+x)/x$;
+
+    - extend a function by continuity;
+
+    - write asymptotic estimates and use them to compute limits and to draw graphs.
+
 ## 1. Fundamental limits
 
 - We now look at some common techniques for computing limits that combine the general theorems on limits with the use of some fundamental limits of certain elementary functions.
@@ -621,6 +637,16 @@ title: "Fundamental limits and asymptotic estimates"
     $$
 
     ![Figure 15](../img/limits-06-standard-limits/fig15.svg){ .fig .ovale loading=lazy style="width:85%" }
+
+## 4. In summary
+
+!!! chiave "In summary"
+
+    - $\frac{\sin x}{x} \to 1$, $\frac{1 - \cos x}{x^2} \to \frac12$, $\frac{e^x - 1}{x} \to 1$, $\frac{\ln(1+x)}{x} \to 1$ as $x \to 0$.
+
+    - So, as $x \to 0$: $\sin x \sim x$, $1 - \cos x \sim x^2/2$, $e^x - 1 \sim x$, $\ln(1+x) \sim x$.
+
+    - Asymptotic functions can replace each other in products and quotients.
 
 ---
 

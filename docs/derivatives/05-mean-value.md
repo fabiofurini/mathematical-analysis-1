@@ -10,6 +10,24 @@ title: "Mean value theorem, maxima and minima"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Rules for computing derivatives»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/04-differentiation-rules/): the rules for computing derivatives.
+
+    - From this module, [«Weierstrass theorem and intermediate value theorem»](https://fabiofurini.github.io/mathematical-analysis-1/limits/09-weierstrass/): the Weierstrass theorem.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - define local and global maxima and minima;
+
+    - use Fermat's theorem to find stationary points;
+
+    - state the mean value theorem and the differential monotonicity test;
+
+    - find the maxima and minima of a function on an interval.
+
 ## 1. Local and global maxima/minima
 
 - One of the uses  of differential calculus is the <strong>search for maxima and minima</strong>, that is, the <strong>optimization</strong> of a function defined on an interval $I$ (closed/open, bounded/unbounded).
@@ -535,6 +553,18 @@ title: "Mean value theorem, maxima and minima"
     ![Figure 11](../img/derivatives-05-mean-value/fig11.svg){ .fig .ovale loading=lazy style="width:70%" }
 
 - Be careful not to use the passage from the discrete to the continuous indiscriminately. For example, it cannot be done for the sequences $\frac{n!}{2^n}$ or $\frac{n^2+(-1)^n \; n}{n^3+1}$, since they are defined only for natural numbers.
+
+## 6. In summary
+
+!!! chiave "In summary"
+
+    - At an interior local extremum of a differentiable function $f'(x_0) = 0$ (Fermat).
+
+    - Mean value theorem: $f(b) - f(a) = f'(c)(b - a)$ for some $c \in (a,b)$.
+
+    - $f' \ge 0$ on an interval means increasing, $f' \le 0$ decreasing.
+
+    - The extrema on $[a,b]$ are among stationary points, points of non-differentiability and endpoints.
 
 ---
 

@@ -10,6 +10,22 @@ title: "Second derivative"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Mean value theorem, maxima and minima»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/05-mean-value/): the monotonicity test.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - compute second derivatives and derivatives of order $n$;
+
+    - define convex sets and convex and concave functions;
+
+    - decide convexity from the second derivative and from the tangent lines;
+
+    - find inflection points.
+
 ## 1. Second derivative and second derivative function
 
 - We can now ask whether the function $f' (x)$ is in turn differentiable (at a point or on an interval).
@@ -645,6 +661,18 @@ title: "Second derivative"
 <p class="gi-invito"><strong>Try it</strong> — the interactive graph below shows what you have just read: move the sliders.</p>
 
 <div class="gi" data-grafico="concavita"></div>
+
+## 6. In summary
+
+!!! chiave "In summary"
+
+    - A function is convex when its epigraph is a convex set.
+
+    - $f'' \ge 0$ on an interval means convex, $f'' \le 0$ concave.
+
+    - A differentiable convex function lies above its tangent lines.
+
+    - At an inflection point the function changes concavity.
 
 ---
 

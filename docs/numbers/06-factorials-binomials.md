@@ -10,6 +10,22 @@ title: "Factorials, binomial coefficients and triangle inequality"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Summations, geometric and arithmetic progressions»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/05-summations/): summations.
+
+    - From this module, [«Principle of mathematical induction»](https://fabiofurini.github.io/mathematical-analysis-1/logic/02-induction/): proofs by induction.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - compute factorials and binomial coefficients, and use Newton's binomial formula;
+
+    - compute absolute values and use the triangle inequality;
+
+    - compute the Euclidean norm of a vector.
+
 ## 1. Factorials
 
 <a id="box-notationA-1"></a>
@@ -502,6 +518,16 @@ The $n$-th power of a binomial $(a + b)$ can be computed with the following form
     \end{aligned}
     \label{ass_7}
     \end{equation}
+
+## 4. In summary
+
+!!! chiave "In summary"
+
+    - $n! = 1 \cdot 2 \cdots n$ with $0! = 1$; $\binom{n}{k} = \frac{n!}{k!\,(n-k)!}$ gives the coefficients of Newton's binomial formula.
+
+    - The triangle inequality $|a+b| \le |a| + |b|$ holds for real numbers and, with the Euclidean norm, for vectors.
+
+    - The Euclidean norm of ${\boldsymbol x} \in \R^n$ is $\sqrt{x_1^2 + \dots + x_n^2}$.
 
 ---
 

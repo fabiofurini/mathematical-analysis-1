@@ -10,6 +10,22 @@ title: "Sets"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Basics of logic and proof techniques»](https://fabiofurini.github.io/mathematical-analysis-1/logic/01-logic/): logical symbols and the link between logic and sets.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - describe sets by listing and by property, and recognize the number sets;
+
+    - decide inclusion and equality of sets, and compute power sets and cardinalities;
+
+    - compute intersections, unions, differences and complements, and recognize partitions;
+
+    - work with ordered pairs and Cartesian products.
+
 ## 1. Informal introduction to set theory
 
 - Set theory is based on the following three key concepts:
@@ -1682,3 +1698,13 @@ Let us call this set $S$; two hypotheses can be made:
     $$
 
     <p class="qed-riga"><span class="qed">□</span></p>
+
+## 6. In summary
+
+!!! chiave "In summary"
+
+    - Two sets are equal when each is a subset of the other; the empty set is a subset of every set.
+
+    - A finite set with $n$ elements has $2^n$ subsets, which form its power set.
+
+    - Intersection, union, difference and complement obey the laws of the logical connectives; a partition splits a set into disjoint non-empty parts.

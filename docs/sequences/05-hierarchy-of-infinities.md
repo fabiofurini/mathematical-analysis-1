@@ -10,6 +10,20 @@ title: "Hierarchies of infinities and the ratio test"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Comparisons and asymptotic estimates»](https://fabiofurini.github.io/mathematical-analysis-1/sequences/04-asymptotic-estimates/): comparisons between sequences.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - order the infinities $\log n$, $n^\alpha$, $a^n$, $n!$, $n^n$;
+
+    - apply the ratio test to sequences;
+
+    - compute limits with the hierarchy of infinities.
+
 ## 1. Hierarchies of infinities for sequences, part 1 and part 2
 
 <a id="box-theoXXX-1"></a>
@@ -345,6 +359,14 @@ title: "Hierarchies of infinities and the ratio test"
     $$
 
     Using the ratio test theorem, we obtain the claim. <span class="qed">□</span>
+
+## 4. In summary
+
+!!! chiave "In summary"
+
+    - Hierarchy: $\log_b n \ll n^\alpha \ll a^n \ll n! \ll n^n$ (with $\alpha > 0$, $a > 1$).
+
+    - Ratio test: if $a_{n+1}/a_n \to \ell < 1$ the positive sequence tends to $0$, if $\ell > 1$ it tends to $+\infty$.
 
 ---
 

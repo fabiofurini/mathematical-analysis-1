@@ -10,6 +10,20 @@ title: "Asymptotic expansions"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Fundamental limits and asymptotic estimates»](https://fabiofurini.github.io/mathematical-analysis-1/limits/06-standard-limits/): fundamental limits and asymptotic estimates.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - state the definition of the little $o$ symbol and compute with it;
+
+    - write asymptotic expansions derived from the fundamental limits;
+
+    - compute limits with asymptotic expansions, also in sums.
+
 ## 1. The “little $o$” symbol and asymptotic expansions
 
 <a id="box-defXX-1"></a>
@@ -357,6 +371,16 @@ Let us now see how to obtain the <strong>asymptotic expansions</strong> starting
           e^{\varepsilon(x)} &= 1 + \varepsilon(x) + o\big(\varepsilon(x)\big)  \\[2ex]
           \big(1+\varepsilon(x)\big)^\alpha &= 1 + \alpha \; \varepsilon(x) + o\big(\varepsilon(x)\big)  {\rm ~~~~~~~~with~~~} \alpha \in \R
     \end{align}
+
+## 3. In summary
+
+!!! chiave "In summary"
+
+    - $f = o(g)$ as $x \to x_0$ when $f/g \to 0$; $o(1)$ is an infinitesimal.
+
+    - From the fundamental limits: $\sin x = x + o(x)$, $e^x = 1 + x + o(x)$, $\ln(1+x) = x + o(x)$.
+
+    - Unlike asymptotic estimates, expansions with $o$ can be added.
 
 ---
 

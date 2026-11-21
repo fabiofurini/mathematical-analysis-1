@@ -10,6 +10,22 @@ title: "Real functions of a real variable"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Functions»](https://fabiofurini.github.io/mathematical-analysis-1/functions/01-functions/): functions, domain and image.
+
+    - From this module, [«Number sets and intervals»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/02-number-sets/): intervals.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - find the natural domain of a real function and study its sign;
+
+    - decide whether a function is bounded, even or odd;
+
+    - recognize monotonic and periodic functions.
+
 ## 1. Real function of a real variable
 
 <a id="box-defImmagine-1"></a>
@@ -358,6 +374,16 @@ title: "Real functions of a real variable"
     $$
     y = k \qquad k \in \mathbb{R}
     $$
+
+## 7. In summary
+
+!!! chiave "In summary"
+
+    - A real function of a real variable has domain and codomain in $\R$, and is drawn by its graph.
+
+    - Even functions have a graph symmetric with respect to the $y$-axis, odd functions with respect to the origin.
+
+    - Monotonic functions preserve or reverse the order; periodic functions repeat their values with period $T$.
 
 ---
 

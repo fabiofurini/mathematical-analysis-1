@@ -10,6 +10,22 @@ title: "Operations on graphs"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Real functions of a real variable»](https://fabiofurini.github.io/mathematical-analysis-1/functions/02-real-functions/): graphs of real functions.
+
+    - From this module, [«Integer part and fractional part functions»](https://fabiofurini.github.io/mathematical-analysis-1/functions/06-integer-part/): the absolute-value function.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - obtain the graph of $f(x) + a$ and $f(x+a)$ by translations;
+
+    - obtain the graph of $k f(x)$ and $f(kx)$ by stretching, compressing and reflecting;
+
+    - obtain the graphs of $|f(x)|$ and $f(|x|)$.
+
 ## 1. Operations on graphs
 
 - Knowing the graph of a function $y = f (x)$, by means of simple geometric transformations it is possible to draw the graph of the following functions:
@@ -173,3 +189,12 @@ title: "Operations on graphs"
 
 <div class="gi" data-grafico="operazioni"></div>
 
+## 2. In summary
+
+!!! chiave "In summary"
+
+    - $f(x) + a$ translates the graph vertically, $f(x + a)$ horizontally (to the left for $a > 0$).
+
+    - $k f(x)$ stretches the graph vertically, $f(kx)$ compresses it horizontally; a negative $k$ also reflects it.
+
+    - $|f(x)|$ reflects the negative part above the axis; $f(|x|)$ repeats the right part symmetrically on the left.

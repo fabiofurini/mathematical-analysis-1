@@ -10,6 +10,22 @@ title: "Basics of logic and proof techniques"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    None: this is the first chapter of the series.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - use the logical symbols, the connectives and the quantifiers;
+
+    - prove a universal implication, and disprove it with a counterexample;
+
+    - use the law of contraposition and recognize sufficient and necessary conditions;
+
+    - write a proof by contradiction, and translate logical operations into operations on sets.
+
 ## 1. Logical symbols
 
 !!! chiave ""
@@ -732,3 +748,15 @@ There is a relation between operations on sets and logical operations. Precisely
     $$
     \neg \big({\blue{q(x)} \vee \orange{r(x)}} \big)= \neg {\blue{q(x)}} \wedge \neg {\orange{r(x)}}
     $$
+
+## 7. In summary
+
+!!! chiave "In summary"
+
+    - A universal implication is proved for every element; one counterexample is enough to disprove it.
+
+    - $P \Rightarrow Q$ is equivalent to $\neg Q \Rightarrow \neg P$ (contraposition): $P$ is a sufficient condition for $Q$, and $Q$ a necessary condition for $P$.
+
+    - A proof by contradiction assumes the negation of the thesis and reaches an absurdity.
+
+    - Conjunction, disjunction and negation correspond to intersection, union and complement of sets.

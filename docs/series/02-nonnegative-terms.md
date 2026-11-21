@@ -10,6 +10,22 @@ title: "Series with non-negative terms"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Numerical series»](https://fabiofurini.github.io/mathematical-analysis-1/series/01-numerical-series/): numerical series.
+
+    - From this module, [«Comparisons and asymptotic estimates»](https://fabiofurini.github.io/mathematical-analysis-1/sequences/04-asymptotic-estimates/): asymptotic estimates.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - apply the comparison and limit comparison tests;
+
+    - apply the condensation test and study the generalized harmonic series;
+
+    - apply the root and ratio tests.
+
 ## 1. Series with non-negative terms
 
 !!! chiave ""
@@ -620,6 +636,18 @@ title: "Series with non-negative terms"
 !!! chiave ""
 
     In summary, therefore, the tests we have seen apply to series all of whose terms (except for a finite number) have the same sign.
+
+## 2. In summary
+
+!!! chiave "In summary"
+
+    - A series with non-negative terms converges or diverges to $+\infty$.
+
+    - Comparison: a smaller series of a convergent one converges; asymptotic series behave in the same way.
+
+    - $\sum 1/n^\alpha$ converges if and only if $\alpha > 1$.
+
+    - Root and ratio tests: limit $< 1$ converges, $> 1$ diverges, $= 1$ no conclusion.
 
 ---
 

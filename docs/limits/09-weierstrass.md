@@ -10,6 +10,22 @@ title: "Weierstrass theorem and intermediate value theorem"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Intermediate zero theorem and bisection method»](https://fabiofurini.github.io/mathematical-analysis-1/limits/08-zeros-bisection/): the intermediate zero theorem.
+
+    - From this module, [«Ordered fields, supremum/infimum and the completeness axiom»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/03-ordered-fields/): supremum and infimum.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - state the Weierstrass theorem and check its hypotheses;
+
+    - state and use the intermediate value theorem;
+
+    - prove the existence of the $n$-th root of a positive number.
+
 ## 1. Weierstrass theorem
 
 - The following theorem establishes <strong>sufficient but not necessary</strong> conditions for a function to have a maximum and a minimum.
@@ -371,3 +387,13 @@ title: "Weierstrass theorem and intermediate value theorem"
     $$
 
     Uniqueness follows from the fact that the function is strictly increasing. <span class="qed">□</span>
+
+## 4. In summary
+
+!!! chiave "In summary"
+
+    - A continuous function on a closed and bounded interval has a maximum and a minimum (Weierstrass).
+
+    - A continuous function on an interval takes every value between two of its values.
+
+    - So $x^n = c$ has a solution for every $c > 0$.

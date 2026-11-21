@@ -10,6 +10,20 @@ title: "Number sets and intervals"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Sets»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/01-sets/): sets, subsets and operations on sets.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - describe the five main number sets $\N \subset \Z \subset \Q \subset \R \subset \C$;
+
+    - write bounded and unbounded intervals with their notation;
+
+    - represent intervals on the real line.
+
 ## 1. The five main number sets
 
 ### 1.1 The natural numbers
@@ -201,3 +215,13 @@ $\C$ is the set of <strong>complex numbers</strong>, that is, numbers of the for
     ![Figure 6](../img/numbers-02-number-sets/fig06.svg){ .fig .ovale loading=lazy style="width:25%" }
 
     illustrates the sets $A \times B$ , $B \times A$ , $A \times A$, also denoted by $A^2$. In general, $A \times B$ is different from $B \times A$.
+
+## 3. In summary
+
+!!! chiave "In summary"
+
+    - The main number sets are $\N \subset \Z \subset \Q \subset \R \subset \C$; each one extends the previous one.
+
+    - A bounded interval has two finite endpoints, which can belong to it or not ($[a,b]$, $(a,b)$, $[a,b)$, $(a,b]$).
+
+    - An unbounded interval has $-\infty$ or $+\infty$ as an endpoint, which never belongs to it.

@@ -10,6 +10,24 @@ title: "Curve sketching"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Mean value theorem, maxima and minima»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/05-mean-value/): maxima, minima and monotonicity.
+
+    - From this module, [«Second derivative»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/07-second-derivative/): convexity and inflection points.
+
+    - From this module, [«Limits of functions, asymptotes and continuity»](https://fabiofurini.github.io/mathematical-analysis-1/limits/01-limits-asymptotes/): limits and asymptotes.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - follow the scheme for sketching the graph of a function;
+
+    - find domain, symmetries, sign, limits and asymptotes;
+
+    - find monotonicity, extrema, convexity and inflection points from the derivatives.
+
 ## 1. Graphs of real functions of a real variable
 
 - The infinitesimal and differential calculus developed so far allows us to tackle completely the problem of drawing the graph of a function $f$, that is, to carry out <strong>curve sketching</strong> (function analysis).
@@ -290,6 +308,16 @@ title: "Curve sketching"
     $$
 
     by the theorem on the hierarchy of infinities.
+
+## 3. In summary
+
+!!! chiave "In summary"
+
+    - The study of a function collects domain, symmetries, sign, limits and asymptotes, first and second derivative.
+
+    - The first derivative gives monotonicity and extrema, the second derivative convexity and inflection points.
+
+    - Every piece of information must be consistent with the final graph.
 
 ---
 

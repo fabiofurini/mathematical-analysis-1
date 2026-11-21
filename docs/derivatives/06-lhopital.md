@@ -10,6 +10,22 @@ title: "L'Hôpital's rule and differentiability"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Mean value theorem, maxima and minima»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/05-mean-value/): the mean value theorem.
+
+    - From this module, [«Computing limits of functions»](https://fabiofurini.github.io/mathematical-analysis-1/limits/02-computing-limits/): the indeterminate forms.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - compute limits of indeterminate forms $0/0$ and $\infty/\infty$ with L'Hôpital's rule;
+
+    - check the hypotheses of the rule;
+
+    - use the limit of the derivative to decide differentiability at a point.
+
 ## 1. L'Hôpital's rule
 
 - A remarkable application of differential calculus is the computation of limits that appear in the indeterminate forms:
@@ -421,6 +437,16 @@ title: "L'Hôpital's rule and differentiability"
     $$
 
     ![Figure 4](../img/derivatives-06-lhopital/fig04.svg){ .fig .ovale loading=lazy style="width:55%" }
+
+## 3. In summary
+
+!!! chiave "In summary"
+
+    - L'Hôpital: in the forms $0/0$ and $\infty/\infty$, if $f'/g'$ has a limit, $f/g$ has the same limit.
+
+    - If $f'/g'$ has no limit, nothing can be said about $f/g$.
+
+    - If $f$ is continuous at $x_0$ and $f'(x) \to \ell$ as $x \to x_0$, then $f'(x_0) = \ell$.
 
 ---
 

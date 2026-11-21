@@ -10,6 +10,20 @@ title: "Computing limits of sequences"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Sequences and limits of sequences»](https://fabiofurini.github.io/mathematical-analysis-1/sequences/01-limits-of-sequences/): the definition of limit of a sequence.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - compute limits with the algebra of limits, and recognize the indeterminate forms;
+
+    - use the sign-preservation theorems;
+
+    - compute limits with the comparison theorem.
+
 ## 1. Computing limits of sequences
 
 - The proofs of the <strong>basic theorems</strong> on computing limits are based on the <strong>definition of limit</strong>, on the <strong>use of inequalities</strong>, and on the use of <strong>properties that are eventually true</strong>.
@@ -844,6 +858,16 @@ title: "Computing limits of sequences"
         $$
         \lim_{n \rr \ip } \left( \frac{1}{n}\right)^{-\log n} = \lim_{n \rr \ip } e^{ \overbrace{-\log n}^{\rr \im} \: \overbrace{\log \frac{1}{n}}^{\rr \im} } = e^{\ip} = \ip.
         $$
+
+## 2. In summary
+
+!!! chiave "In summary"
+
+    - The limit of a sum, product or quotient is the sum, product or quotient of the limits, except in the indeterminate forms.
+
+    - If $a_n \to \ell > 0$, then $a_n > 0$ eventually (sign preservation).
+
+    - If $a_n \le b_n \le c_n$ and $a_n, c_n \to \ell$, then $b_n \to \ell$ (comparison theorem).
 
 ---
 

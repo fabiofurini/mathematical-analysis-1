@@ -10,6 +10,22 @@ title: "Continuous functions"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Limits of functions, asymptotes and continuity»](https://fabiofurini.github.io/mathematical-analysis-1/limits/01-limits-asymptotes/): the definition of continuity.
+
+    - From this module, [«Computing limits of functions»](https://fabiofurini.github.io/mathematical-analysis-1/limits/02-computing-limits/): the algebra of limits.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - prove that sums, products and quotients of continuous functions are continuous;
+
+    - use the continuity of the elementary functions;
+
+    - use the continuity of composite functions to compute limits.
+
 ## 1. Algebra of continuous functions theorem
 
 <a id="box-theoXXX-1"></a>
@@ -243,6 +259,16 @@ title: "Continuous functions"
     For example, with $a=e$ we have:
 
     ![Figure 4](../img/limits-04-continuous-functions/fig04.svg){ .fig .ovale loading=lazy style="width:75%" }
+
+## 4. In summary
+
+!!! chiave "In summary"
+
+    - Sums, products and quotients (where defined) of continuous functions are continuous.
+
+    - The elementary functions are continuous in their domains.
+
+    - A composition of continuous functions is continuous: the limit passes inside a continuous function.
 
 ---
 

@@ -10,6 +10,24 @@ title: "Limits of functions, asymptotes and continuity"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Sequences and limits of sequences»](https://fabiofurini.github.io/mathematical-analysis-1/sequences/01-limits-of-sequences/): limits of sequences.
+
+    - From this module, [«Real functions of a real variable»](https://fabiofurini.github.io/mathematical-analysis-1/functions/02-real-functions/): real functions and their graphs.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - state the definition of limit of a function, with sequences and with neighborhoods;
+
+    - compute finite and infinite limits at infinity and at a point, and find the asymptotes;
+
+    - state the definition of continuity at a point;
+
+    - prove that a limit does not exist.
+
 ## 1. Sequential definition of limit
 
 The limit operation can be extended from sequences to real functions of a real variable.  
@@ -874,6 +892,18 @@ which is read: the limit of $f(x)$, as $x$ tends to $c$, is $\ell$.
     The function has infinitely many oscillations in a finite space, so it is not possible to draw its graph on an interval $(0, b]$ with $b\in \R_+$.
 
     ![Figure 10](../img/limits-01-limits-asymptotes/fig10.svg){ .fig .ovale loading=lazy style="width:80%" }
+
+## 2. In summary
+
+!!! chiave "In summary"
+
+    - $\lim_{x \to x_0} f(x) = \ell$ if $f(x_n) \to \ell$ for every sequence $x_n \to x_0$ with $x_n \ne x_0$; equivalently, with neighborhoods.
+
+    - Horizontal and vertical asymptotes come from finite limits at infinity and infinite limits at a point.
+
+    - $f$ is continuous at $x_0$ if $\lim_{x \to x_0} f(x) = f(x_0)$.
+
+    - Two sequences giving different limits prove that the limit does not exist.
 
 ---
 

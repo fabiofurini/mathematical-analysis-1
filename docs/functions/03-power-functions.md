@@ -10,6 +10,22 @@ title: "Power functions"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Real functions of a real variable»](https://fabiofurini.github.io/mathematical-analysis-1/functions/02-real-functions/): domain, sign, symmetry and monotonicity of real functions.
+
+    - From this module, [«Roots, powers, logarithms and modular arithmetic»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/04-roots-powers-logarithms/): powers with rational and real exponents.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - draw the graphs of the power functions with natural, integer, rational and real exponent;
+
+    - recognize polynomials and their degree;
+
+    - recognize direct and inverse proportionality functions.
+
 ## 1. Power functions
 
 <a id="box-defXX-1"></a>
@@ -275,3 +291,13 @@ title: "Power functions"
 ![Figure 22](../img/functions-03-power-functions/fig22.svg){ .fig .ovale loading=lazy style="width:61%" }
 
 ![Figure 23](../img/functions-03-power-functions/fig23.svg){ .fig .ovale loading=lazy style="width:61%" }
+
+## 3. In summary
+
+!!! chiave "In summary"
+
+    - The graph of $x^\alpha$ depends on the exponent: even or odd natural powers, negative powers, roots, real exponents.
+
+    - A polynomial is a sum of power functions with natural exponents; its degree is the largest exponent.
+
+    - Direct proportionality is $y = kx$, inverse proportionality is $y = k/x$.

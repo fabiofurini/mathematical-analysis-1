@@ -10,6 +10,24 @@ title: "Sequences and limits of sequences"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Ordered fields, supremum/infimum and the completeness axiom»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/03-ordered-fields/): supremum, infimum and the completeness axiom.
+
+    - From this module, [«Real functions of a real variable»](https://fabiofurini.github.io/mathematical-analysis-1/functions/02-real-functions/): bounded and monotonic functions.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - define a sequence and the properties that hold eventually;
+
+    - state the definition of convergent sequence and of limit, and prove the uniqueness of the limit;
+
+    - recognize divergent and irregular sequences, infinitesimal and infinite ones;
+
+    - use the limits of monotone sequences and of geometric progressions.
+
 ## 1. Definition of sequence and properties
 
 - Consider the set $\mathbb{N}$ of non-negative integers, ordered according to the natural order
@@ -1210,6 +1228,18 @@ Summarizing, we have:
 !!! esempio "Example 24: Geometric progression that is neither convergent nor divergent"
 
     ![Figure 19](../img/sequences-01-limits-of-sequences/fig19.svg){ .fig loading=lazy style="width:75%" }
+
+## 6. In summary
+
+!!! chiave "In summary"
+
+    - $a_n \to \ell$ if for every $\varepsilon > 0$ eventually $|a_n - \ell| < \varepsilon$; the limit is unique.
+
+    - A sequence converges, diverges to $\pm\infty$ or is irregular.
+
+    - A monotone sequence always has a limit, its supremum or its infimum.
+
+    - $q^n \to 0$ for $|q| < 1$, $q^n \to +\infty$ for $q > 1$, and $q^n$ is irregular for $q \le -1$.
 
 ---
 

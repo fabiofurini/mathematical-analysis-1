@@ -10,6 +10,22 @@ title: "Trigonometric functions"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Real functions of a real variable»](https://fabiofurini.github.io/mathematical-analysis-1/functions/02-real-functions/): periodic, even and odd functions.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - convert angles between degrees and radians;
+
+    - define sine, cosine and tangent on the unit circle and draw their graphs;
+
+    - compute their values at the notable angles and use the main trigonometric formulas;
+
+    - describe an oscillation with trigonometric functions.
+
 ## 1. Trigonometric functions
 
 <a id="box-defXX-1"></a>
@@ -620,3 +636,13 @@ In summary:
 ![Figure 13](../img/functions-05-trigonometric-functions/fig13.svg){ .fig .ovale loading=lazy style="width:80%" }
 
 ![Figure 14](../img/functions-05-trigonometric-functions/fig14.svg){ .fig .ovale loading=lazy style="width:80%" }
+
+## 5. In summary
+
+!!! chiave "In summary"
+
+    - An angle of $180^\circ$ is $\pi$ radians.
+
+    - $\sin x$ and $\cos x$ are the coordinates of a point of the unit circle, periodic with period $2\pi$; $\tan x = \sin x / \cos x$ has period $\pi$.
+
+    - $\sin^2 x + \cos^2 x = 1$, together with the addition and duplication formulas, gives all the others.

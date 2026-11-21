@@ -10,6 +10,26 @@ title: "Rules for computing derivatives"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Derivatives of elementary functions»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/02-elementary-derivatives/): the derivatives of the elementary functions.
+
+    - From this module, [«Composite functions»](https://fabiofurini.github.io/mathematical-analysis-1/functions/09-composite-functions/): composite functions.
+
+    - From this module, [«Inverse functions»](https://fabiofurini.github.io/mathematical-analysis-1/functions/10-inverse-functions/): inverse functions.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - compute derivatives of sums, products and quotients;
+
+    - compute derivatives of composite functions with the chain rule;
+
+    - compute the derivative of an inverse function;
+
+    - compute logarithmic derivatives and elasticities.
+
 ## 1. Rules for computing derivatives
 
 - We now look at the relation between the derivative operation and the main operations on functions that we already know; in particular we will show the relation between:
@@ -957,6 +977,18 @@ title: "Rules for computing derivatives"
     $$
     E(x)=x \cdot \frac{\alpha\; x^{\alpha-1}}{x^\alpha}=\alpha \qquad {\rm ~~(constant~ elasticity)}
     $$
+
+## 2. In summary
+
+!!! chiave "In summary"
+
+    - $(fg)' = f'g + fg'$ and $(f/g)' = (f'g - fg')/g^2$.
+
+    - Chain rule: $(g \circ f)'(x) = g'(f(x))\, f'(x)$.
+
+    - $(f^{-1})'(y) = 1/f'(x)$ with $y = f(x)$, when $f'(x) \ne 0$.
+
+    - The logarithmic derivative is $f'/f$; the elasticity is $x f'(x)/f(x)$.
 
 ---
 

@@ -10,6 +10,22 @@ title: "Ordered fields, supremum/infimum and the completeness axiom"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Number sets and intervals»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/02-number-sets/): the number sets and the intervals.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - explain why $\Q$ is not enough to measure all magnitudes, with incommensurable magnitudes;
+
+    - state the properties of an ordered field and of a total order relation;
+
+    - find maximum, minimum, upper and lower bounds, supremum and infimum of a set;
+
+    - state the completeness axiom and use it to define the real numbers.
+
 ## 1. Properties $R_1$ and $R_2$
 
 - We now begin to study more closely the <strong>structure of the number sets</strong> that we introduced earlier, and in particular: the set $\mathbb{Q}$ of <strong>rational numbers</strong> and the set $\mathbb{R}$ of <strong>real numbers</strong>.
@@ -862,6 +878,16 @@ title: "Ordered fields, supremum/infimum and the completeness axiom"
 !!! chiave ""
 
     Hence the geometric interpretation of property $R_4$ shows us how the set $\mathbb{R}$ is an adequate representation of our intuitive idea of a line, so adequate that <strong>in mathematics the expression “the real line” is often used to denote</strong> $\mathbb{R}$, identifying the number set with its natural geometric representation.
+
+## 11. In summary
+
+!!! chiave "In summary"
+
+    - There are incommensurable magnitudes, such as the side and the diagonal of a square: $\Q$ has gaps.
+
+    - $\Q$ and $\R$ are ordered fields; $\R$ also satisfies the completeness axiom.
+
+    - The supremum is the least upper bound; every non-empty set of reals bounded above has a supremum in $\R$, which is a maximum when it belongs to the set.
 
 ---
 

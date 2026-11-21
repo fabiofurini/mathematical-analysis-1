@@ -10,6 +10,20 @@ title: "The Fibonacci sequence"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Principle of mathematical induction»](https://fabiofurini.github.io/mathematical-analysis-1/logic/02-induction/): proofs by induction.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - define the Fibonacci sequence by recurrence and compute its terms;
+
+    - define the golden ratio and link it to the Fibonacci numbers;
+
+    - prove properties of the Fibonacci numbers by induction.
+
 ## 1. The Fibonacci sequence
 
 <a id="box-fibonacci-1"></a>
@@ -154,3 +168,13 @@ $$
 - The values of $F_i$, with $i=0,1,\dots,10$, are:
 
     ![Figure 4](../img/numbers-07-fibonacci/fig04.svg){ .fig .ovale loading=lazy style="width:60%" }
+
+## 2. In summary
+
+!!! chiave "In summary"
+
+    - The Fibonacci sequence starts with two ones and each term is the sum of the two previous ones.
+
+    - The golden ratio $\phi = \frac{1+\sqrt5}{2}$ and its conjugate $\hat\phi$ are the roots of $x^2 = x + 1$, and the Fibonacci numbers are expressed through them.
+
+    - Properties of the Fibonacci numbers are proved by induction.

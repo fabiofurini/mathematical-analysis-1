@@ -10,6 +10,22 @@ title: "Numerical series"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Sequences and limits of sequences»](https://fabiofurini.github.io/mathematical-analysis-1/sequences/01-limits-of-sequences/): limits of sequences and geometric progressions.
+
+    - From this module, [«Summations, geometric and arithmetic progressions»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/05-summations/): summations and geometric progressions.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - define a series as the limit of its partial sums;
+
+    - use the properties of series and of their tails;
+
+    - study the harmonic, geometric, arithmetic and telescoping series.
+
 ## 1. Numerical series
 
 - We now introduce numerical series, which extend the operation of addition to an infinite number of terms.
@@ -687,6 +703,16 @@ title: "Numerical series"
     \end{align*}
 
     Hence it is a convergent telescoping series and its sum $s$ is $\frac{1}{15}$.
+
+## 2. In summary
+
+!!! chiave "In summary"
+
+    - The sum of a series is the limit of its partial sums: it converges, diverges or is irregular.
+
+    - If the series converges, its terms tend to $0$; the converse is false (harmonic series).
+
+    - $\sum q^n$ converges to $\frac{1}{1-q}$ for $|q| < 1$; telescoping series are summed directly.
 
 ---
 

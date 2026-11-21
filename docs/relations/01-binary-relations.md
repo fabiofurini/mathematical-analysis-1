@@ -10,6 +10,22 @@ title: "Binary relations"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Sets»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/01-sets/): sets, ordered pairs and Cartesian products.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - define a binary relation and check reflexivity, symmetry, antisymmetry and transitivity;
+
+    - represent a relation with a directed graph;
+
+    - recognize equivalence relations and their classes, and partial and total order relations;
+
+    - see a function as a particular relation.
+
 ## 1. Binary relations
 
 <a id="box-notationA-1"></a>
@@ -1820,3 +1836,15 @@ Let us now see in detail, for each property, how to prove that a relation has it
     $$
 
 - The next chapter, “[Functions](https://fabiofurini.github.io/mathematical-analysis-1/functions/01-functions/)”, starts again from this definition: a function $f: A \rightarrow B$ is a binary relation on $A$ and $B$ with the <strong>functional property</strong> (each $a \in A$ corresponds to one and only one $b \in B$). There we study domain, codomain and image, and injective, surjective and bijective functions.
+
+## 8. In summary
+
+!!! chiave "In summary"
+
+    - A binary relation on $A$ is a subset of $A \times A$, and can be drawn as a directed graph.
+
+    - An equivalence relation is reflexive, symmetric and transitive; its classes form a partition.
+
+    - An order relation is reflexive, antisymmetric and transitive; it is total if any two elements are comparable.
+
+    - A function is a relation that associates exactly one image with each element of the domain.

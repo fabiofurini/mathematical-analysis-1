@@ -10,6 +10,22 @@ title: "Comparison of infinities"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Hierarchies of infinities and the ratio test»](https://fabiofurini.github.io/mathematical-analysis-1/sequences/05-hierarchy-of-infinities/): the hierarchy of infinities for sequences.
+
+    - From this module, [«Computing limits of functions»](https://fabiofurini.github.io/mathematical-analysis-1/limits/02-computing-limits/): limits of functions.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - compare logarithms, powers and exponentials as $x \to +\infty$;
+
+    - compare infinities as $x \to 0^+$;
+
+    - compute limits of indeterminate forms with the comparison of infinities.
+
 ## 1. Comparison of infinities for functions
 
 <a id="box-theoXXX-1"></a>
@@ -246,3 +262,13 @@ title: "Comparison of infinities"
     since we have $\alpha=2, \lambda=1$ and $b=e>1$.
 
     ![Figure 8](../img/limits-05-comparing-infinities/fig08.svg){ .fig .ovale loading=lazy style="width:70%" }
+
+## 2. In summary
+
+!!! chiave "In summary"
+
+    - For $x \to +\infty$: $\log_b x \ll x^\alpha \ll a^x$ (with $\alpha > 0$, $a > 1$).
+
+    - For $x \to 0^+$: $|\log x| \ll x^{-\alpha}$, so $x^\alpha \log x \to 0$.
+
+    - In a sum the dominant infinity decides the limit.

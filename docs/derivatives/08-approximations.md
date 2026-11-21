@@ -10,6 +10,24 @@ title: "Differential calculus and approximations"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Second derivative»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/07-second-derivative/): derivatives of order $n$.
+
+    - From this module, [«Asymptotic expansions»](https://fabiofurini.github.io/mathematical-analysis-1/limits/07-asymptotic-expansions/): the little $o$ symbol.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - write the differential and the first-order expansion of a function;
+
+    - write Taylor and Maclaurin polynomials;
+
+    - use the Taylor formula with Peano remainder to compute limits;
+
+    - estimate errors with the Lagrange remainder.
+
 ## 1. First-order asymptotic expansions
 
 - A very frequent operation, both in mathematics and in its applications, is the linear approximation of a given differentiable function (an operation also called first-order asymptotic expansion).
@@ -1064,6 +1082,16 @@ f(x)   = f(0) + f'(0)\; x + o(x) {\rm ~~~as~~~} x \rr 0
     !!! chiave ""
 
         We have therefore proved that if a (twice differentiable) function is concave, it is also “concave with respect to tangents”
+
+## 5. In summary
+
+!!! chiave "In summary"
+
+    - $f(x_0 + h) = f(x_0) + f'(x_0) h + o(h)$: the differential is the best linear approximation.
+
+    - The Taylor polynomial of order $n$ has the same derivatives as $f$ at $x_0$ up to order $n$.
+
+    - Peano remainder: the error is $o((x - x_0)^n)$; Lagrange remainder: it is $\frac{f^{(n+1)}(c)}{(n+1)!}(x - x_0)^{n+1}$.
 
 ---
 

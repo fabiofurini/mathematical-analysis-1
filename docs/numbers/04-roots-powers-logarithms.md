@@ -10,6 +10,20 @@ title: "Roots, powers, logarithms and modular arithmetic"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Ordered fields, supremum/infimum and the completeness axiom»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/03-ordered-fields/): the real numbers and their order.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - compute with roots, powers with rational and real exponent and logarithms, using their properties;
+
+    - compute the integer part, the fractional part and the upper integer part of a real number;
+
+    - compute quotient and remainder of a division and work with congruences modulo $n$.
+
 ## 1. Roots, powers, logarithms
 
 - As a consequence of property $R_4$ we can perform, in the real field, operations that are only occasionally possible in the rational field, such as extracting roots or raising to a power.
@@ -665,6 +679,16 @@ Given, in addition, a non-negative real number $p \in \mathbb{R},p \ge 0$, we ha
 - Equivalently, ${a} \equiv {b} \:(\mod {n})$ if ${a}$ and ${b}$ have the same remainder when divided by ${n}$.
 
 - Equivalently, ${a} \equiv {b} \:(\mod {n})$ if and only if ${n}$ is a divisor of $|{b} - {a}|$.
+
+## 3. In summary
+
+!!! chiave "In summary"
+
+    - Powers, roots and logarithms follow the rules $a^{x+y} = a^x a^y$, $(a^x)^y = a^{xy}$, $\log_a(xy) = \log_a x + \log_a y$.
+
+    - $\lfloor x \rfloor$ is the largest integer not larger than $x$; the fractional part is $x - \lfloor x \rfloor \in [0,1)$.
+
+    - The remainder $n \bmod m$ is the rest of the division with remainder; modular arithmetic computes with remainders.
 
 ---
 

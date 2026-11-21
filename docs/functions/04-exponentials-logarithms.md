@@ -10,6 +10,22 @@ title: "Exponential and logarithmic functions"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Roots, powers, logarithms and modular arithmetic»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/04-roots-powers-logarithms/): powers and logarithms.
+
+    - From this module, [«Real functions of a real variable»](https://fabiofurini.github.io/mathematical-analysis-1/functions/02-real-functions/): monotonic functions.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - draw the graphs of the exponential functions $a^x$ for $a > 1$ and $0 < a < 1$;
+
+    - draw the graphs of the logarithmic functions as their inverses;
+
+    - change the base of exponentials and logarithms.
+
 ## 1. Exponential functions
 
 <a id="box-defXX-1"></a>
@@ -112,3 +128,13 @@ title: "Exponential and logarithmic functions"
     Logarithmic functions:
 
     ![Figure 6](../img/functions-04-exponentials-logarithms/fig06.svg){ .fig .ovale loading=lazy style="width:58%" }
+
+## 4. In summary
+
+!!! chiave "In summary"
+
+    - $a^x$ is positive, increasing if $a > 1$ and decreasing if $0 < a < 1$.
+
+    - $\log_a x$ is the inverse of $a^x$ and is defined for $x > 0$.
+
+    - Change of base: $c^x = d^{\lambda x}$ with $\lambda = \log_d c$, and $\log_c x = \frac{\log_d x}{\log_d c}$.

@@ -10,6 +10,22 @@ title: "Derivatives of elementary functions"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«The derivative function»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/01-the-derivative/): the definition of derivative.
+
+    - From this module, [«Fundamental limits and asymptotic estimates»](https://fabiofurini.github.io/mathematical-analysis-1/limits/06-standard-limits/): the fundamental limits.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - compute the derivatives of the power functions;
+
+    - compute the derivatives of sine and cosine;
+
+    - compute the derivatives of $e^x$ and $\ln x$.
+
 ## 1. Derivatives of elementary functions
 
 - In what follows we derive the derivative functions of some of the main elementary functions.
@@ -311,6 +327,16 @@ title: "Derivatives of elementary functions"
     $$
 
     ![Figure 2](../img/derivatives-02-elementary-derivatives/fig02.svg){ .fig .ovale loading=lazy style="width:82%" }
+
+## 2. In summary
+
+!!! chiave "In summary"
+
+    - $(x^\alpha)' = \alpha x^{\alpha - 1}$.
+
+    - $(\sin x)' = \cos x$ and $(\cos x)' = -\sin x$, from the fundamental limits.
+
+    - $(e^x)' = e^x$ and $(\ln x)' = 1/x$.
 
 ---
 

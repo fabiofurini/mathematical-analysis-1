@@ -10,6 +10,20 @@ title: "Series with terms of variable sign"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Series with non-negative terms»](https://fabiofurini.github.io/mathematical-analysis-1/series/02-nonnegative-terms/): the tests for series with non-negative terms.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - define absolute convergence and prove that it implies convergence;
+
+    - apply the Leibniz test to alternating series;
+
+    - estimate the error of a partial sum of an alternating series.
+
 ## 1. Series with terms of variable sign
 
 <a id="box-defXX-1"></a>
@@ -389,6 +403,16 @@ title: "Series with terms of variable sign"
 <p class="gi-invito"><strong>Try it</strong> — the interactive graph below shows what you have just read: move the sliders.</p>
 
 <div class="gi" data-grafico="seriep" data-funzione="alt"></div>
+
+## 2. In summary
+
+!!! chiave "In summary"
+
+    - An absolutely convergent series converges.
+
+    - Leibniz: if $a_n$ decreases to $0$, $\sum (-1)^n a_n$ converges.
+
+    - The error of the partial sum is at most the first neglected term.
 
 ---
 

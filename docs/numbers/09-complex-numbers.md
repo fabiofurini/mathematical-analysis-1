@@ -10,6 +10,24 @@ title: "Complex numbers"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Number sets and intervals»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/02-number-sets/): the number sets.
+
+    - From this module, [«Roots, powers, logarithms and modular arithmetic»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/04-roots-powers-logarithms/): powers and roots.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - compute with complex numbers in algebraic form: sum, product, conjugate, modulus, quotient;
+
+    - pass to the trigonometric form and multiply and divide in it;
+
+    - compute the $n$-th roots of a complex number;
+
+    - solve quadratic equations in $\C$ and state the fundamental theorem of algebra.
+
 ## 1. Definition of $\C$ and field structure
 
 - We have denoted by $\R^2$ (short for $\R \times \R$) the set of ordered pairs $(a, b)$ of real numbers.
@@ -907,6 +925,16 @@ title: "Complex numbers"
 <strong>Cosines and sines of the main angles</strong>
 
 ![Figure 9](../img/numbers-09-complex-numbers/fig09.svg){ .fig .ovale loading=lazy style="width:69%" }
+
+## 5. In summary
+
+!!! chiave "In summary"
+
+    - $\C$ is a field; every complex number is $a + ib$ with $i^2 = -1$, and $z\bar z = |z|^2$.
+
+    - In trigonometric form moduli multiply and arguments add.
+
+    - A nonzero complex number has exactly $n$ distinct $n$-th roots; every polynomial of degree $n \ge 1$ has $n$ complex roots (fundamental theorem of algebra).
 
 ---
 

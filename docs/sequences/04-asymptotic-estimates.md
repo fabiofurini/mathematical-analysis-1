@@ -10,6 +10,20 @@ title: "Comparisons and asymptotic estimates"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Computing limits of sequences»](https://fabiofurini.github.io/mathematical-analysis-1/sequences/02-computing-limits/): the algebra of limits and the comparison theorem.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - compare two infinitesimal or infinite sequences;
+
+    - recognize asymptotic sequences, $a_n \sim b_n$;
+
+    - compute limits by replacing sequences with simpler asymptotic ones.
+
 ## 1. Comparisons and asymptotic estimates
 
 - We have seen that a sequence tending to $0$ is an <strong>infinitesimal</strong>; a sequence that diverges (to $\ip$, to $\im$) is called an <strong>infinity</strong> (infinite quantity).
@@ -317,6 +331,16 @@ title: "Comparisons and asymptotic estimates"
     3. <em>Transitive</em>:  if $a_n \thicksim b_n$  and $b_n \thicksim c_n$ then $a_n \thicksim c_n$
 
     means that “<strong>asymptotic</strong>” is an <strong>equivalence relation</strong>.
+
+## 2. In summary
+
+!!! chiave "In summary"
+
+    - $a_n \sim b_n$ when $a_n / b_n \to 1$.
+
+    - In products and quotients a sequence can be replaced by an asymptotic one without changing the limit.
+
+    - In sums the replacement is not allowed in general.
 
 ---
 

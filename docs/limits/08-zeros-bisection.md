@@ -10,6 +10,22 @@ title: "Intermediate zero theorem and bisection method"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Continuous functions»](https://fabiofurini.github.io/mathematical-analysis-1/limits/04-continuous-functions/): continuous functions.
+
+    - From this module, [«Sequences and limits of sequences»](https://fabiofurini.github.io/mathematical-analysis-1/sequences/01-limits-of-sequences/): monotone sequences.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - state and use the intermediate zero theorem;
+
+    - find a zero of a continuous function with the bisection method;
+
+    - estimate the error of the bisection method and the number of steps it needs.
+
 ## 1. Zeros of a function
 
 !!! chiave ""
@@ -486,6 +502,16 @@ title: "Intermediate zero theorem and bisection method"
 <p class="gi-invito"><strong>Try it</strong> — the interactive graph below shows what you have just read: move the sliders.</p>
 
 <div class="gi" data-grafico="bisezione"></div>
+
+## 3. In summary
+
+!!! chiave "In summary"
+
+    - A continuous function on $[a,b]$ with $f(a) f(b) < 0$ has a zero in $(a,b)$ (Bolzano).
+
+    - Bisection halves the interval at each step, keeping the half where the sign changes.
+
+    - After $n$ steps the error is at most $(b-a)/2^n$.
 
 ---
 

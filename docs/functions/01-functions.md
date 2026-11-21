@@ -10,6 +10,20 @@ title: "Functions"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Binary relations»](https://fabiofurini.github.io/mathematical-analysis-1/relations/01-binary-relations/): binary relations and functions as relations.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - state the definition of function, domain, codomain and image;
+
+    - decide whether a function is surjective, injective or bijective;
+
+    - compute the inverse of a bijection.
+
 ## 1. The concept of function
 
 !!! chiave ""
@@ -449,3 +463,13 @@ title: "Functions"
     $$
 
     where we used that $-m-\frac{1}{2}$ has ceiling $-m$, since $-m$ is a positive integer.
+
+## 5. In summary
+
+!!! chiave "In summary"
+
+    - A function $f: A \to B$ associates one element of $B$ with each element of $A$; its image is the set of the values taken.
+
+    - $f$ is surjective if the image is $B$, injective if different points have different images, bijective if both.
+
+    - Only a bijection has an inverse, which sends each value back to its preimage.

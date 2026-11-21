@@ -10,6 +10,22 @@ title: "Limits of polynomials and rational functions"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [«Computing limits of functions»](https://fabiofurini.github.io/mathematical-analysis-1/limits/02-computing-limits/): the algebra of limits.
+
+    - From this module, [«Power functions»](https://fabiofurini.github.io/mathematical-analysis-1/functions/03-power-functions/): polynomials and powers.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - compute the limits of polynomials at $\pm\infty$;
+
+    - compute the limits of rational functions at $\pm\infty$;
+
+    - compute limits of quotients of sums of powers with rational exponents.
+
 ## 1. Limits of polynomials at $\pm \infty$
 
 - A polynomial of (maximum) degree $n$ can be written as:
@@ -226,5 +242,15 @@ title: "Limits of polynomials and rational functions"
     $$
     \lim_{x \rr  0}  f(x) =0
     $$
+
+## 4. In summary
+
+!!! chiave "In summary"
+
+    - At $\pm\infty$ a polynomial behaves like its leading term.
+
+    - A rational function at $\pm\infty$ behaves like the quotient of the leading terms: the degrees decide the limit.
+
+    - The same idea works with sums of powers with rational exponents: the largest power dominates.
 
 [^1]: If a monomial of degree $i$ is missing we have $a_i=0$; $a_0$ is the constant term since $x^0=1.$
