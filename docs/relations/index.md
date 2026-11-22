@@ -1,8 +1,12 @@
 # Binary relations
 
-*Part 3 of the course, volume 3 of the lecture notes.* Relations and their properties, directed graphs, equivalence and order relations; functions as special relations.
+<div class="info-capitolo" markdown>
 
-[:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-functions.pdf){ .md-button } [:material-pencil-box-multiple: Exercises, volume 3 (PDF)](../pdf/exercises-3-functions.pdf){ .md-button }
+**Part 3 · Binary relations** · 1 chapter · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-functions.pdf) · [:material-pencil-box-multiple: Exercises, volume 3 (PDF)](../pdf/exercises-3-functions.pdf)
+
+</div>
+
+Binary relations and their properties (reflexive, symmetric, transitive), represented by directed graphs. Equivalence relations with their equivalence classes, order relations, and functions seen as special relations.
 
 <div class="grid cards" markdown>
 
