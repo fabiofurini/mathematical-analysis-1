@@ -1,19 +1,10 @@
 # Limits of functions and continuity
 
-<div class="info-capitolo" markdown>
+*Part 4 of the course, volume 4 of the lecture notes.* Limits, asymptotes, standard limits, continuity, zeros theorem, Weierstrass.
 
-**Part 4 · Limits** · 10 chapters
+[:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf){ .md-button } [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf){ .md-button } [:material-pencil: Worked exercises](../exercises/es-limits-01-limits-of-functions.md){ .md-button }
 
-</div>
-
-Limits, asymptotes, standard limits, continuity, zeros theorem, Weierstrass.
-
-**Downloads**
-
-- [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-limits.pdf)
-- [:material-pencil-box-multiple: Exercises, volume 4 (PDF)](../pdf/exercises-4-limits.pdf)
-- :material-presentation: Slides by chapter: [1](../pdf/slides-limits-01-limits-asymptotes.pdf) · [2](../pdf/slides-limits-02-computing-limits.pdf) · [3](../pdf/slides-limits-03-polynomials-rational-functions.pdf) · [4](../pdf/slides-limits-04-continuous-functions.pdf) · [5](../pdf/slides-limits-05-comparing-infinities.pdf) · [6](../pdf/slides-limits-06-standard-limits.pdf) · [7](../pdf/slides-limits-07-asymptotic-expansions.pdf) · [8](../pdf/slides-limits-08-zeros-bisection.pdf) · [9](../pdf/slides-limits-09-weierstrass.pdf) · [10](../pdf/slides-limits-10-monotone-invertible.pdf)
-- [:material-gesture-tap: App: Bisection method](../interactive/bisection.md)
+[:material-gesture-tap: App: Bisection method](../interactive/bisection.md)
 
 <div class="grid cards" markdown>
 
@@ -23,7 +14,7 @@ Limits, asymptotes, standard limits, continuity, zeros theorem, Weierstrass.
 
     Sequential definition of limit
 
-    [:octicons-arrow-right-24: Read the chapter](01-limits-asymptotes.md)
+    [:octicons-arrow-right-24: Read the chapter](01-limits-asymptotes.md) · [Slides](../pdf/slides-limits-01-limits-asymptotes.pdf)
 
 -   **2. Computing limits of functions**
 
@@ -31,7 +22,7 @@ Limits, asymptotes, standard limits, continuity, zeros theorem, Weierstrass.
 
     Computing limits of functions · Change of variable theorem for limits
 
-    [:octicons-arrow-right-24: Read the chapter](02-computing-limits.md)
+    [:octicons-arrow-right-24: Read the chapter](02-computing-limits.md) · [Slides](../pdf/slides-limits-02-computing-limits.pdf)
 
 -   **3. Limits of polynomials and rational functions**
 
@@ -39,7 +30,7 @@ Limits, asymptotes, standard limits, continuity, zeros theorem, Weierstrass.
 
     Limits of polynomials at … · Limits of rational functions at … · Limits of quotients of sums of powers with rational exponents
 
-    [:octicons-arrow-right-24: Read the chapter](03-polynomials-rational-functions.md)
+    [:octicons-arrow-right-24: Read the chapter](03-polynomials-rational-functions.md) · [Slides](../pdf/slides-limits-03-polynomials-rational-functions.pdf)
 
 -   **4. Continuous functions**
 
@@ -47,7 +38,7 @@ Limits, asymptotes, standard limits, continuity, zeros theorem, Weierstrass.
 
     Algebra of continuous functions theorem · Continuity of elementary functions theorem · Continuity of composite functions theorem
 
-    [:octicons-arrow-right-24: Read the chapter](04-continuous-functions.md)
+    [:octicons-arrow-right-24: Read the chapter](04-continuous-functions.md) · [Slides](../pdf/slides-limits-04-continuous-functions.pdf)
 
 -   **5. Comparison of infinities**
 
@@ -55,7 +46,7 @@ Limits, asymptotes, standard limits, continuity, zeros theorem, Weierstrass.
 
     Comparison of infinities for functions
 
-    [:octicons-arrow-right-24: Read the chapter](05-comparing-infinities.md)
+    [:octicons-arrow-right-24: Read the chapter](05-comparing-infinities.md) · [Slides](../pdf/slides-limits-05-comparing-infinities.pdf)
 
 -   **6. Fundamental limits and asymptotic estimates**
 
@@ -63,7 +54,7 @@ Limits, asymptotes, standard limits, continuity, zeros theorem, Weierstrass.
 
     Fundamental limits · Asymptotic estimates · Asymptotic estimates and graphs
 
-    [:octicons-arrow-right-24: Read the chapter](06-standard-limits.md)
+    [:octicons-arrow-right-24: Read the chapter](06-standard-limits.md) · [Slides](../pdf/slides-limits-06-standard-limits.pdf)
 
 -   **7. Asymptotic expansions**
 
@@ -71,7 +62,7 @@ Limits, asymptotes, standard limits, continuity, zeros theorem, Weierstrass.
 
     The “little …” symbol and asymptotic expansions · Asymptotic expansions derived from the fundamental limits
 
-    [:octicons-arrow-right-24: Read the chapter](07-asymptotic-expansions.md)
+    [:octicons-arrow-right-24: Read the chapter](07-asymptotic-expansions.md) · [Slides](../pdf/slides-limits-07-asymptotic-expansions.pdf)
 
 -   **8. Intermediate zero theorem and bisection method**
 
@@ -79,7 +70,7 @@ Limits, asymptotes, standard limits, continuity, zeros theorem, Weierstrass.
 
     Zeros of a function · Bisection method
 
-    [:octicons-arrow-right-24: Read the chapter](08-zeros-bisection.md)
+    [:octicons-arrow-right-24: Read the chapter](08-zeros-bisection.md) · [Slides](../pdf/slides-limits-08-zeros-bisection.pdf)
 
 -   **9. Weierstrass theorem and intermediate value theorem**
 
@@ -87,7 +78,7 @@ Limits, asymptotes, standard limits, continuity, zeros theorem, Weierstrass.
 
     Weierstrass theorem · Intermediate value theorem · Existence theorem for the …-th root
 
-    [:octicons-arrow-right-24: Read the chapter](09-weierstrass.md)
+    [:octicons-arrow-right-24: Read the chapter](09-weierstrass.md) · [Slides](../pdf/slides-limits-09-weierstrass.pdf)
 
 -   **10. Monotone functions on an interval and invertibility**
 
@@ -95,6 +86,6 @@ Limits, asymptotes, standard limits, continuity, zeros theorem, Weierstrass.
 
     Monotone functions on an interval · Continuity and invertibility
 
-    [:octicons-arrow-right-24: Read the chapter](10-monotone-invertible.md)
+    [:octicons-arrow-right-24: Read the chapter](10-monotone-invertible.md) · [Slides](../pdf/slides-limits-10-monotone-invertible.pdf)
 
 </div>
