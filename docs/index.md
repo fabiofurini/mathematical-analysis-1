@@ -20,9 +20,6 @@ The course presents single-variable calculus: logic and proof techniques, sets a
 and functions, sequences and limits, continuity, derivatives and curve sketching, series and
 integrals.
 
-Every chapter has definitions, theorems with proofs, examples worked out step by step, exercises and
-**interactive graphs** to watch mathematics move.
-
 [Start :material-arrow-right:](logic/index.md){ .md-button .md-button--primary }
 [:material-pencil: Exercises](exercises/index.md){ .md-button }
 [:material-gesture-tap: Lab](interactive/index.md){ .md-button }
